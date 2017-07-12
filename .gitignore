@@ -1,0 +1,15 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+locales/*/LC_MESSAGES/*.mo
+
+# Directories which are used during building
+output/
+plugins/
+
+# Temporary files
+*.swp
+*.pid
+.DS_Store
+venv
