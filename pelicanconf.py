@@ -49,7 +49,7 @@ EXTRA_PATH_METADATA = {
 #THEME           = 'themes/simple'
 THEME           = 'themes/xoxzo'
 PLUGIN_PATHS    = [os.path.join(PROJECT_ROOT, 'plugins'),]
-PLUGINS         = ["i18n_subsites", "subcategory", "tipue_search", ]
+PLUGINS         = ["i18n_subsites", "subcategory", ]
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n',]}
 
 I18N_UNTRANSLATED_ARTICLES  = "remove"
@@ -73,13 +73,17 @@ DATE_FORMATS = {
     'ja': DEFAULT_DATE_FORMAT,
 }
 
-ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
-ARTICLE_LANG_URL = '{lang}/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
-ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
+PATH_METADATA= '(?P<subcategory_path>.*)/.*'
+
+ARTICLE_URL = '{category}/articles/{slug}/'
+ARTICLE_LANG_URL = '{lang}/{category}/articles/{slug}/'
+ARTICLE_SAVE_AS = '{category}/articles/{slug}/index.html'
 PAGE_URL = 'pages/{slug}/'
 PAGE_SAVE_AS = 'pages/{slug}/index.html'
 CATEGORY_URL = '{slug}/'
 CATEGORY_SAVE_AS = '{slug}/index.html'
+SUBCATEGORY_URL = '{savepath}/'
+SUBCATEGORY_SAVE_AS = '{savepath}/index.html'
 TAG_URL = 'tag/{slug}/'
 TAG_SAVE_AS = 'tag/{slug}/index.html'
 

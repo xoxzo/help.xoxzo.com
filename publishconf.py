@@ -14,9 +14,9 @@ SITEURL = 'https://help.xoxzo.com'
 RELATIVE_URLS = False
 
 FEED_DOMAIN = SITEURL
-FEED_ALL_RSS = 'feeds/all.rss.xml'
-CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
-TRANSLATION_FEED_RSS = 'feeds/all-%s.rss.xml'
+FEED_ALL_RSS = None
+CATEGORY_FEED_RSS = None
+TRANSLATION_FEED_RSS = None
 
 DELETE_OUTPUT_DIRECTORY = True
 

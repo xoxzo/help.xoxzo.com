@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block content %}
+<header class="header-sm">
+    <div class="container">
+        <ol class="breadcrumb col-xs-6">
+          <li class="breadcrumb-item"><a href="{{ SITEURL }}/{{ subcategory.parent.url }}">{{ subcategory.parent }}</a></li>
+          <li class="breadcrumb-item active">{{ subcategory.shortname }}</li>
+        </ol>
+        <div class="searchbar col-xs-6">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Type keywords to find answers">
+                <span class="input-group-btn">
+                    <button class="btn btn-secondary" type="button">Go!</button>
+                </span>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="container">
+    <div class="row">
+        <section class="content">
+            <div class="container">
+                <div class="article-list">
+                    <h2>{{ subcategory.shortname }}</h2>
+                    <ul>
+                    {% for article in articles_page.object_list %}
+                        <li><a href="{{ SITEURL }}/{{ article.url }}" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></li>
+                    {% endfor %}
+                    </ul>
+                </div>
+                {% if articles_page.has_other_pages() %}
+                    {% include 'pagination.html' %}
+                {% endif %}
+            </div>
+        </section>
+    </div>
+</main>
+{% endblock content %}

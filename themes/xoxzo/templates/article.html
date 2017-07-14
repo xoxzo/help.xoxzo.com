@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+
+{% block head %}
+  {{ super() }}
+
+  {% for tag in article.tags %}
+  <meta name="tags" content="{{ tag }}">
+  {% endfor %}
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="{{ article.title }}">
+  <meta property="og:description" content="{{ article.summary|striptags }}">
+  <meta property="og:url" content="{{ SITEURL }}/{{ article.url }}">
+  <meta property="og:site_name" content="{{ SITENAME }}">
+  {% if article.thumbnail %}
+  <meta property="og:image" content="{{ article.thumbnail }}">
+  {% else %}
+  <meta property="og:image" content="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/xoxzo_opengraph.jpg">
+  {% endif %}
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@xoxzotelephony">
+  <meta name="twitter:title" content="{{ article.title }}">
+  <meta name="twitter:description" content="{{ article.summary|striptags }}">
+{% endblock %}
+
+{% block title %}{{ article.title }} | {% trans %}Xoxzo Help Center{% endtrans %}{% endblock title %}
+
+{% block content %}
+<header class="header-sm">
+    <div class="container">
+        <ol class="breadcrumb col-xs-6">
+          <li class="breadcrumb-item"><a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a></li>
+          {% for subcategory in article.subcategories %}
+          <li class="breadcrumb-item"><a href="{{ SITEURL }}/{{ subcategory.url }}">{{ subcategory.shortname }}</a></li>
+          {% endfor %}
+        </ol>
+        <div class="searchbar col-xs-6">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Type keywords to find answers">
+                <span class="input-group-btn">
+                    <button class="btn btn-secondary" type="button">Go!</button>
+                </span>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="container">
+    <div class="row">
+        <section class="content">
+            <div class="container">
+                <article>
+                    <h2 class="article-info">
+                        {{ article.locale_date }} /
+                        <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
+                    </h2>
+                    <h1 class="article-title">{{ article.title }}</h1>
+                    <p class="article-author">{% trans %}By{% endtrans %}
+                        {% for author in article.authors %}
+                        <a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
+                        <br>
+                        {% import 'translations.html' as translations with context %}
+                        {{ translations.translations_for(article) }}
+                        {% endfor %}
+                    </p>
+                    <hr>
+                    <div class="article-content">
+                      {{ article.content }}
+                    </div>
+                    {% if article.tags %}
+                    <div class="article-tag">
+                        {% for tag in article.tags %}
+                        <a href="{{ SITEURL }}/{{ tag.url }}">
+                            <span class="btn btn-tag btn-sm">{{ tag }}</span>
+                        </a>
+                        {% endfor %}
+                    {% endif %}
+                    </div>
+                </article>
+            </div>
+        </section>
+    </div>
+</main>
+{% endblock %}
