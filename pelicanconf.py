@@ -49,8 +49,10 @@ EXTRA_PATH_METADATA = {
 #THEME           = 'themes/simple'
 THEME           = 'themes/xoxzo'
 PLUGIN_PATHS    = [os.path.join(PROJECT_ROOT, 'plugins'),]
-PLUGINS         = ["i18n_subsites", "subcategory", ]
+PLUGINS         = ["i18n_subsites", "subcategory", "tipue_search", ]
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n',]}
+
+DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'authors', 'archives', 'search'))
 
 I18N_UNTRANSLATED_ARTICLES  = "remove"
 I18N_UNTRANSLATED_PAGES     = "keep"

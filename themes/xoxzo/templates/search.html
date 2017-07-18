@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Search - {{ SITENAME|striptags }}
+{% endblock title %}
+
+{% block extra_js %}
+<script type="text/javascript" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/tipuesearch/tipuesearch_set.js"></script>
+<script type="text/javascript" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/tipuesearch/tipuesearch.min.js"></script>
+
+<script>
+var $j = jQuery.noConflict();
+$j(document).ready(function() {
+     $j('#tipue_search_input').tipuesearch({
+         'show': 10,
+         'mode': 'json',
+         'contentLocation': '{{ SITEURL }}/tipuesearch_content.json'
+     });
+});
+</script>
+{% endblock %}
+
+{% block content %}
+<header class="header-lg">
+    <div class="container">
+        <h1 class="text-center">{% trans %}How can we help you ?{% endtrans %}</h1>
+        <div class="col-lg-6 offset-lg-3">
+            <form class="input-group" action="{{ SITEURL }}/search" onsubmit="return validateForm(this.elements['q'].value);">
+                <input type="text" id="tipue_search_input" class="form-control" name="q" placeholder="Type keywords to find answers">
+                <span class="input-group-btn">
+                    <button class="btn btn-secondary" type="submit">Go!</button>
+                </span>
+            </form>
+        </div>
+    </div>
+</header>
+
+<section>
+<h1>result</h1>
+<div id="tipue_search_content">
+</div>
+</section>
+{% endblock content %}
