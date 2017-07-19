@@ -2,7 +2,7 @@ Title: パスワードを忘れてしまったら
 Date: 2017-03-13 11:21
 Slug: i-have-forgotten-my-password
 Lang: ja
-Category: Xoxzo Cloud Telephony Platform/General
+Category: Xoxzo Cloud Telephony Platform/Account
 
 パスワードを忘れてしまった場合、[こちらのパスワードリセットページ](https://www.xoxzo.com/ja/accounts/password/reset/)より、 リンクをクリックすると新しいパスワードをご登録のメールアドレスにお送りします。
 

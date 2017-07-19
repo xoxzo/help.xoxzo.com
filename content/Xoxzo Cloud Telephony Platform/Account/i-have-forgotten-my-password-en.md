@@ -2,7 +2,7 @@ Title: I have forgotten my password
 Date: 2017-03-13 11:21
 Slug: i-have-forgotten-my-password
 Lang: en
-Category: Xoxzo Cloud Telephony Platform/General
+Category: Xoxzo Cloud Telephony Platform/Account
 
 In case you forget your password to log in to your account, please visit the [password reset page](https://www.xoxzo.com/en/accounts/password/reset/) to reset your password.
 
