@@ -15,21 +15,23 @@
     </div>
 </header>
 <main class="container">
-    <div class="row">
     <section class="content">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h3>EZSMS:SMS delivery service</h3>
-                    {% include 'ezsms-subcategory.html' %}
+                    <h2 class="content-title">EZSMS:SMS delivery service</h2>
+                    <ul class="content-list">
+                        {% include 'ezsms-subcategory.html' %}
+                    </ul>
                 </div>
                 <div class="col-md-6">
-                    <h3>Xoxzo Cloud Telephony Platform</h3>
-                    {% include 'xoxzo-subcategory.html' %}
+                    <h2 class="content-title">Xoxzo Cloud Telephony Platform</h2>
+                    <ul class="content-list">
+                        {% include 'xoxzo-subcategory.html' %}
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
-    </div>
 </main>
 {% endblock content %}

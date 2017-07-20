@@ -3,10 +3,10 @@
 {% block content %}
 <header class="header-sm">
     <div class="container">
-        <ol class="breadcrumb col-xs-6">
+        <ol class="breadcrumb col-sm-12 col-md-6 col-lg-7">
           <li class="breadcrumb-item active">{{ category }}</li>
         </ol>
-        <div class="searchbar col-xs-6">
+        <div class="searchbar col-sm-12 col-md-6 col-lg-5">
             <form class="input-group" action="{{ SITEURL }}/search" onsubmit="return validateForm(this.elements['q'].value);">
                 <input type="text" id="tipue_search_input" class="form-control" name="q" placeholder="Type keywords to find answers">
                 <span class="input-group-btn">
@@ -17,27 +17,23 @@
     </div>
 </header>
 <main class="container">
-    <div class="row">
-        <section class="content">
-            <div class="container">
-                <div class="article-list">
-                    <h2>{{ category }}</h2>
-                    <ul>
-                    {% for article in articles_page.object_list %}
-                    {% for subcategory in article.subcategories %}
-                        <li>
-                            <a href="{{ SITEURL }}/{{ subcategory.url }}">[{{ subcategory.shortname }}]</a> 
-                            <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
-                        </li>
-                    {% endfor %}
-                    {% endfor %}
-                    </ul>
-                </div>
-                {% if articles_page.has_other_pages() %}
-                    {% include 'pagination.html' %}
-                {% endif %}
-            </div>
-        </section>
-    </div>
+    <section class="content">
+        <div class="container">
+            <h2 class="content-title">{{ category }}</h2>
+            <ul class="content-list">
+            {% for article in articles_page.object_list %}
+            {% for subcategory in article.subcategories %}
+                <li>
+                    <a href="{{ SITEURL }}/{{ subcategory.url }}" class="category-link">{{ subcategory.shortname }}</a> 
+                    <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+                </li>
+            {% endfor %}
+            {% endfor %}
+            </ul>
+            {% if articles_page.has_other_pages() %}
+                {% include 'pagination.html' %}
+            {% endif %}
+        </div>
+    </section>
 </main>
 {% endblock content %}

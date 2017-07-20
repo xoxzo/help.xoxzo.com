@@ -10,6 +10,12 @@ Main blue : #3f7cfc;
 Background gray : #f3f3f3;
 */
 
+@media (min-width: 1200px){
+    .container {
+        width: 960px;
+    }
+}
+
 .text-center {
     text-align: center;
 }
@@ -30,12 +36,8 @@ h1, h2 {
     font-family: 'Roboto', 'Open Sans', 'Helvetica Neue, Helvetica, Arial', sans-serif;
 }
 
-a {
-    color: #3f7cfc;
-}
-
-a:hover {
-    text-decoration: none;
+a, a:hover {
+    color: #505050;
 }
 
 .navbar-brand img {
@@ -73,10 +75,13 @@ a:hover {
     color: #eee;
 }
 
-.header-lg {
+header {
     background: #2334ab;
-    padding: 60px 0;
     margin-top: 57px;
+}
+
+.header-lg {
+    padding: 60px 0;
 }
 
 .header-lg h1 {
@@ -97,9 +102,7 @@ a:hover {
 }
 
 .header-sm {
-    background: #2334ab;
     padding: 10px 0;
-    margin-top: 57px;
 }
 
 .header-sm .breadcrumb {
@@ -111,16 +114,16 @@ a:hover {
 }
 
 .header-sm .breadcrumb a {
-    color: #acb2db;
+    color: #c5cdff;
 }
 
 .header-sm .breadcrumb a:hover {
-    color: #d9dfeb;
+    color: white;
     text-decoration: underline;
 }
 
 .header-sm .breadcrumb-item.active {
-    color: #d9dfeb;
+    color: white;
 }
 
 .header-sm .breadcrumb-item+.breadcrumb-item::before {
@@ -128,11 +131,11 @@ a:hover {
 }
 
 .header-sm .searchbar {
-    padding-right: 0;
+    padding: 0;
 }
 
 main {
-    padding-top: 57px;
+    padding-top: 60px;
     min-height: 100%;
 }
 
@@ -143,22 +146,43 @@ main section {
 .content {
     background-color: white;
     border: 1px solid #ddd;
+    padding: 60px 30px;
 }
 
-.content-title {
-    margin: 65px 20px -10px 20px;
-    padding-bottom: 30px;
+.content h2.content-title {
+    font-size: 2rem;
+    color: #2334ab;
+    margin-bottom: 15px;
+    border-bottom: 2px solid;
+    padding-bottom: 15px;
+}
+
+.content ul.content-list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.content ul.content-list li {
     border-bottom: 1px solid #ddd;
+    padding: 12px 0;
+    font-size: 1.1rem;
 }
 
-.content-title h2 {
-    font-size: 1.2rem;
-    font-weight: normal;
-    color: #3a3a3a;
+.content ul.content-list li:last-child {
+    border-bottom: none;
 }
 
-article, .article-list {
-    padding: 70px 20px;
+.content a.category-link, article a.translation-link {
+    margin-right: 10px;
+    background: #999;
+    color: white;
+    padding: 0 8px;
+}
+
+.content a.category-link:hover {
+    background: #777;
+    text-decoration: none;
 }
 
 article img {
@@ -166,72 +190,25 @@ article img {
     margin: 15px 0;
 }
 
-article p {
-    margin-bottom: 1.5rem;
+article h2.article-title {
+    font-size: 2rem;
+    color: #2334ab;
+    margin-bottom: 15px;
 }
 
-article p:last-child {
-    margin-bottom: 0;
-}
-
-.article-info {
+article h3.article-info {
     font-size: 1.1rem;
-    font-weight: 500;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
 }
 
-.article-title {
-    font-family: 'Roboto', 'Open Sans', 'Helvetica Neue, Helvetica, Arial', sans-serif;
-    font-weight: 700;
-    line-height: 3.4rem;
-    margin-bottom: 15px;
-    color: #35313b;
-}
-
-.article-title a, .article-list a {
-    color: #35313b;
-}
-
-.article-title a:hover, .article-list a:hover {
-    color: #666;
-}
-
-.article-content h1, .article-content h2, .article-content h3 {
-    color: #35313b;
-    margin-top: 40px;
-    margin-bottom: 15px;
-}
-
-.article-tag {
-    padding-top: 20px;
-}
-
-.btn-tag {
-    color: white;
-    background-color: #999;
-    border-color: #999;
-    margin-bottom: 5px;
-}
-
-.btn-tag:hover {
-    color: white;
-    background-color: #bbb;
-    border-color: #bbb;
-}
-
-.continue {
-    color: #4e4e4e;
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-.continue:hover {
-    color: #777;
-    text-decoration: underline;
+article div.article-content {
+    margin-top: 20px;
 }
 
 .pagination {
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0;
 }
 
 .paginator .page-num:hover, .paginator .disabled:hover {
@@ -283,27 +260,15 @@ footer a:hover {
 }
 
 @media (max-width: 767px){
-    .content-title {
-        margin-top: 45px;
+    .header-sm .breadcrumb {
+        margin-bottom: 15px;
     }
 
-    article:last-child {
-        border-bottom: none;
+    .header-sm .searchbar {
+        margin-bottom: 5px;
     }
 }
 
 @media (max-width: 575px){
-    .content-title {
-        margin: 0;
-        padding-top: 45px;
-    }
-
-    article {
-        padding: 50px 0;
-    }
-
-    .article-title {
-        font-size: 2.2rem;
-        line-height: 3rem;
-    }
+    
 }
