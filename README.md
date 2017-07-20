@@ -46,21 +46,25 @@ If everything looks good, commit and push it to GitHub:
 Please follow the format of the filenames that you see, i.e append the language
 at the end of the file name after the filename itself:
 
-    合計 16
-    drwxr-xr-x  2 iqbal iqbal 4096 12月 19 09:23 .
-    drwxrwxr-x 12 iqbal iqbal 4096 12月 28 20:43 ..
-    -rw-rw-r--  1 iqbal iqbal 1221 12月 17 21:17 end-of-kof-en.md
-    -rw-rw-r--  1 iqbal iqbal 1166 12月 17 21:17 end-of-kof-ja.md
+    i-have-forgotten-my-password-en.md
+    i-have-forgotten-my-password-ja.md
 
-### Category
+### Category / Subcategory
 
 Categories are decided by the directory which you have your .md files in. Basically
 this means we'll want only one category for an article, so choose carefully
 which category your article can be in and only create a new directory (category)
 when there are no suitable categories.
 
-If you want to connect your article to different topics, use the Tags metadata
-instead.
+You need to specify metadata for subcategory like this:
+
+    Category: category/subcategory
+
+When you create a new subcategory directory, you have to add it on the list in `ezsms-subcategory.html` or `xoxzo-subcategory.html` file like this:
+
+    <li>
+      <a href="{{ SITEURL }}/xoxzo-cloud-telephony-platform/account/">Account</a>
+    </li>
 
 ### Metadata
 
@@ -68,23 +72,20 @@ These metadata is required for all articles
 
     Title: 
     Date: 
-    Author: 
-    Tags: 
-    Slug: 
+    Slug:
+    Lang:
+    Category:
 
 #### Translations
 
 It is mandatory to specify **Lang** metadata for each article,
 like this:
 
-    Title: Participating KOF-Kansai Open Source Forum
-    Date: 2016-11-14 11:00 
-    Slug: kof-2016-report
+    Title: I have forgotten my password
+    Date: 2017-03-13 11:21
+    Slug: i-have-forgotten-my-password
     Lang: en
-    Modified: 2012-11-14 11:00
-    Tags: kof; osaka; exhibition;
-    Author: Aiko Yokoyama
-    Summary: We participated in the KOF 2016 and this is what we think
+    Category: Xoxzo Cloud Telephony Platform/Account
 
 #### Theme Translations
 To translate string in templates, make the string translatable:
