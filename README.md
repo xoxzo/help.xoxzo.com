@@ -60,12 +60,6 @@ You need to specify metadata for subcategory like this:
 
     Category: category/subcategory
 
-When you create a new subcategory directory, you have to add it on the list in `ezsms-subcategory.html` or `xoxzo-subcategory.html` file like this:
-
-    <li>
-      <a href="{{ SITEURL }}/xoxzo-cloud-telephony-platform/account/">Account</a>
-    </li>
-
 ### Metadata
 
 These metadata is required for all articles
