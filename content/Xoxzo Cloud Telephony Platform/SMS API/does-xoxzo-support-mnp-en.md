@@ -1,6 +1,6 @@
 Title: Does Xoxzo support MNP?
 Date: 2015-11-04 13:21
-Slug: does-xoxzo-support-mnp?
+Slug: does-xoxzo-support-mnp
 Lang: en
 Category: Xoxzo Cloud Telephony Platform/SMS API
 
