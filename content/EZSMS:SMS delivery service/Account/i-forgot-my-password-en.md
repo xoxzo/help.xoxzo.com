@@ -1,4 +1,4 @@
-Title: I forgot my password.
+Title: I forgot my password
 Date: 2016-10-12 15:42
 Slug: i-forgot-my-password
 Lang: en

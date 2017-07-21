@@ -1,4 +1,4 @@
-Title: A same message has been received multiple time at the same time stamp.
+Title: A same message has been received multiple time at the same time stamp
 Date: 2016-10-12 15:50
 Slug: a-same-message-has-been-received-multiple-time-at-the-same-time-stamp
 Lang: en
