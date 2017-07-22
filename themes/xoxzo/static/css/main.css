@@ -230,6 +230,7 @@ article h2.article-title {
     font-size: 2rem;
     color: #2334ab;
     margin-bottom: 15px;
+    line-height: 2.5rem;
 }
 
 article h3.article-info {
@@ -247,6 +248,7 @@ article div.article-content h1 {
     font-size: 2rem;
     margin-top: 2rem;
     line-height: 2.5rem;
+    color: #2334ab;
 }
 
 article div.article-content h2 {
@@ -499,5 +501,72 @@ footer a:hover {
 }
 
 @media (max-width: 575px){
-    
+    main {
+        padding-top: 30px;
+    }
+
+    main section {
+        margin-bottom: 30px;
+    }
+
+    .header-lg h1 {
+        font-size: 2rem;
+    }
+
+    .content {
+        padding: 50px 15px;
+    }
+
+    .content h2.content-title {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+        margin-bottom: 10px;
+    }
+
+    .content ul.content-list li {
+        font-size: 1rem;
+    }
+
+    article h2.article-title {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+    }
+
+    article div.article-content h1 {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+    }
+
+    article div.article-content h2 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    article div.article-content h3 {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+
+    article div.article-content h4 {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+
+    #tipue_search_results_count {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 370px){
+    .navbar {
+        padding: 8px;
+    }
+
+    .navbar-toggler {
+        width: 2em;
+    }
+
+    .header-lg h1 {
+        font-size: 1.7rem;
+    }
 }
