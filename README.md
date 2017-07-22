@@ -89,6 +89,7 @@ To translate string in templates, make the string translatable:
 Then run:
 
     make pot_translation
+    make update_translation
 
 This will create translation file in `locales/ja/LC_MESSAGES/messages.po`. Translate
 the string and then run:
