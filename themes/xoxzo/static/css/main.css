@@ -243,6 +243,47 @@ article div.article-content {
     margin-top: 20px;
 }
 
+article div.article-content h1 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    line-height: 2.5rem;
+}
+
+article div.article-content h2 {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    line-height: 2.5rem;
+}
+
+article div.article-content h3 {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    line-height: 2rem;
+    font-weight: 600;
+}
+
+article div.article-content h4 {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    line-height: 2rem;
+}
+
+article div.article-content a {
+    color: #4683ff;
+}
+
+article div.article-content a:hover {
+    color: #1550ca;
+}
+
+article div.article-content li p {
+    margin-bottom: .5rem;
+}
+
+article div.article-content table {
+    margin-bottom: 1rem;
+}
+
 .pagination {
     margin-top: 2rem;
     margin-bottom: 0;
