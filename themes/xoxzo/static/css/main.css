@@ -562,6 +562,10 @@ footer a:hover {
         padding: 8px;
     }
 
+    .navbar-brand {
+        margin-right: 0;
+    }
+
     .navbar-toggler {
         width: 2em;
     }
