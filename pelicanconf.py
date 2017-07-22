@@ -7,7 +7,6 @@ import os
 HERE = os.path.abspath(os.path.dirname(__file__))
 PROJECT_ROOT = os.path.abspath(os.path.join(HERE, '.'))
 
-AUTHOR = 'Iqbal Abdullah'
 SITENAME = 'Xoxzo Help Center'
 SITEURL = 'http://localhost:8000'
 
@@ -52,7 +51,7 @@ PLUGIN_PATHS    = [os.path.join(PROJECT_ROOT, 'plugins'),]
 PLUGINS         = ["i18n_subsites", "subcategory", "tipue_search", ]
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n',]}
 
-DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'authors', 'archives', 'search'))
+DIRECT_TEMPLATES = (('index', 'search'))
 
 I18N_UNTRANSLATED_ARTICLES  = "remove"
 I18N_UNTRANSLATED_PAGES     = "keep"
