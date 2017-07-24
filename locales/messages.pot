@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-07-20 13:12+0900\n"
+"POT-Creation-Date: 2017-07-23 02:52+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,77 +17,51 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
 
-#: themes/xoxzo/templates/archives.html:5
-msgid "Archives"
-msgstr ""
-
 #: themes/xoxzo/templates/article.html:26
 msgid "Xoxzo Help Center"
 msgstr ""
 
-#: themes/xoxzo/templates/author.html:5
-msgid "Articles by"
-msgstr ""
-
-#: themes/xoxzo/templates/authors.html:3 themes/xoxzo/templates/authors.html:7
-msgid "Authors"
-msgstr ""
-
-#: themes/xoxzo/templates/base.html:36
+#: themes/xoxzo/templates/base.html:35
 msgid "HELP CENTER"
 msgstr ""
 
-#: themes/xoxzo/templates/base.html:46
+#: themes/xoxzo/templates/base.html:45
 msgid "https://info.xoxzo.com/en/"
 msgstr ""
 
-#: themes/xoxzo/templates/base.html:46
+#: themes/xoxzo/templates/base.html:45
 msgid "Who We Are"
 msgstr ""
 
-#: themes/xoxzo/templates/base.html:49
+#: themes/xoxzo/templates/base.html:48
 msgid "Twitter"
 msgstr ""
 
-#: themes/xoxzo/templates/base.html:62
+#: themes/xoxzo/templates/base.html:61
 msgid "https://www.xoxzo.com/en/"
 msgstr ""
 
-#: themes/xoxzo/templates/base.html:62
+#: themes/xoxzo/templates/base.html:61
 msgid "Xoxzo Telephony API"
 msgstr ""
 
-#: themes/xoxzo/templates/base.html:75
+#: themes/xoxzo/templates/base.html:74
 msgid "Xoxzo Inc. All rights reserved."
 msgstr ""
 
-#: themes/xoxzo/templates/base.html:76
+#: themes/xoxzo/templates/base.html:75
 msgid "Powered by <a href=\"http://getpelican.com/\">Pelican</a>"
 msgstr ""
 
-#: themes/xoxzo/templates/categories.html:3
-#: themes/xoxzo/templates/categories.html:7
-msgid "Categories"
-msgstr ""
-
-#: themes/xoxzo/templates/index.html:6 themes/xoxzo/templates/search.html:26
+#: themes/xoxzo/templates/index.html:6 themes/xoxzo/templates/search.html:28
 msgid "How can we help you ?"
 msgstr ""
 
-#: themes/xoxzo/templates/period_archives.html:4
-msgid "Archives for"
+#: themes/xoxzo/templates/index.html:9
+msgid "Start your search"
 msgstr ""
 
-#: themes/xoxzo/templates/tag.html:5
-#, python-format
-msgid "Articles by the <b>%(tag)s</b> tag"
-msgstr ""
-
-#: themes/xoxzo/templates/tags.html:3 themes/xoxzo/templates/tags.html:7
-msgid "Tags"
-msgstr ""
-
-#: themes/xoxzo/templates/translations.html:3
-msgid "Translate to"
+#: themes/xoxzo/templates/index.html:34
+msgid "View all articles"
 msgstr ""
 
