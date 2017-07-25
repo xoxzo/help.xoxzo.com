@@ -63,7 +63,7 @@ I18N_SUBSITES   = {
         'THEME_STATIC_PATHS': STATIC_PATHS + ['static'],
     },
     'ja': {
-        'SITENAME': 'Xoxzoの公式ブログ：「開花、発展、向上させる」',
+        'SITENAME': 'Xoxzoのヘルプセンター',
         'STATIC_PATHS': STATIC_PATHS,
         'THEME_STATIC_PATHS': STATIC_PATHS + ['static'],
     },
