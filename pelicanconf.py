@@ -88,5 +88,7 @@ SUBCATEGORY_SAVE_AS = '{savepath}/index.html'
 TAG_URL = 'tag/{slug}/'
 TAG_SAVE_AS = 'tag/{slug}/index.html'
 
+REVERSE_CATEGORY_ORDER = True
+
 from datetime import date
 CURRENTYEAR = date.today().year
