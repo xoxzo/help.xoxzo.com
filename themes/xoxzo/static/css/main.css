@@ -91,6 +91,7 @@ header {
 
 .header-lg input, .header-lg input:hover, .header-lg input:focus, .header-sm input, .header-sm input:hover, .header-sm input:focus {
     border: none;
+    height: 36px;
 }
 
 .header-lg .btn, .header-sm .btn {
