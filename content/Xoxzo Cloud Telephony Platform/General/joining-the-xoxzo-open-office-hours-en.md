@@ -22,7 +22,7 @@ Please join our Open Office Hours if you would like to:
 
 On the other hand, please contact Help Desk at help@xoxzo.com for:
 
-* Support related issues or escalation (Please do visit our [HELP CENTER](http://help.xoxzo.com/en/) first)
+* Support related issues or escalation (Please do visit our [HELP CENTER](https://help.xoxzo.com/en/) first)
 
 * Sales or pricing related issues
 

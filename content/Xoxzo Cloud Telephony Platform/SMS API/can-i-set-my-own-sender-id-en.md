@@ -6,4 +6,4 @@ Category: Xoxzo Cloud Telephony Platform/SMS API
 
 Yes, it is possible to set your own Sender ID via the *sender* parameter when sending using the API.
 
-There are restrictions to the Sender ID though, so please read through this [FAQ](http://help.xoxzo.com/en/xoxzo-cloud-telephony-platform/articles/what-does-sender-id-do/) too which explains what the Sender ID is in more detail.
+There are restrictions to the Sender ID though, so please read through this [FAQ](https://help.xoxzo.com/en/xoxzo-cloud-telephony-platform/articles/what-does-sender-id-do/) too which explains what the Sender ID is in more detail.

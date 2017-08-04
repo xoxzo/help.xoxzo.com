@@ -10,4 +10,4 @@ Category: EZSMS:SMS delivery service/General
 
 CSVファイルのアップロード機能をお使いになれば、宛先によって違った差し込みデータ（例：宛名や製品名等）を使った、カスタマイズ送信も可能です。
 
-詳しくは、[こちらをクリック](http://help.xoxzo.com/ja/ezsmssms-delivery-service/articles/how-to-send-with-customised-csv/)してください。
+詳しくは、[こちらをクリック](https://help.xoxzo.com/ja/ezsmssms-delivery-service/articles/how-to-send-with-customised-csv/)してください。

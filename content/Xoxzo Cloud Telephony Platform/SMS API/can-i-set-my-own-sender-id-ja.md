@@ -6,4 +6,4 @@ Category: Xoxzo Cloud Telephony Platform/SMS API
 
 はい、送信元ID (Sender ID) を *sender* パラメータによってAPIでSMSを配信する際に設定することは可能です。
 
-しかし、送信元IDに対する規制が多く、設定した文字列をそのまま表示することがない場合があります。こちらの [FAQ](http://help.xoxzo.com/ja/xoxzo-cloud-telephony-platform/articles/what-does-sender-id-do/) もご確認の上、Sender IDの設定を行ってください。
+しかし、送信元IDに対する規制が多く、設定した文字列をそのまま表示することがない場合があります。こちらの [FAQ](https://help.xoxzo.com/ja/xoxzo-cloud-telephony-platform/articles/what-does-sender-id-do/) もご確認の上、Sender IDの設定を行ってください。
