@@ -150,11 +150,19 @@ main section {
     padding: 60px 30px;
 }
 
+.content a.category-title {
+    text-decoration: none;
+}
+
+.content a.category-title h2:hover {
+    color: #1260d9;
+}
+
 .content h2.content-title {
     font-size: 2rem;
     color: #2334ab;
     margin-bottom: 15px;
-    border-bottom: 2px solid;
+    border-bottom: 2px solid #2334ab;
     padding-bottom: 15px;
     line-height: 2.4rem;
 }

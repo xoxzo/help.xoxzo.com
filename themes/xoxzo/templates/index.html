@@ -20,7 +20,9 @@
             <div class="row">
                 {% for category, articles in categories %}
                 <div class="col-md-6 category">
-                    <h2 class="content-title">{{ category }}</h3>
+                    <a class="category-title" href="{{ SITEURL }}/{{ category.url }}">
+                        <h2 class="content-title">{{ category }}</h2>
+                    </a>
                     <ul class="content-list">
                         {% for article in articles %}
                         {% if loop.index <= 5 %}
