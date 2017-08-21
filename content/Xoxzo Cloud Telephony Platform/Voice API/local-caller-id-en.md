@@ -1,6 +1,6 @@
 Title: Local Caller ID for Dial In Numbers
 Date: 2017-08-21 11:00
-Slug: Local Caller ID for Dial In Numbers
+Slug: local-caller-id-for-dial-in-numbers
 Lang: en
 Category:　Xoxzo Cloud Telephony Platform/Voice API
 
