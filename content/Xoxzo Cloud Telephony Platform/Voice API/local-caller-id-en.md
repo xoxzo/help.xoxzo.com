@@ -10,7 +10,7 @@ With Xoxzo’s [Dial-In-Numbers API](https://www.xoxzo.com/en/about/dial-in-api/
 ### More merit with Dial-In-Numbers API
 In addition, with any Japanese number you subscribe, you can use that number even more useful, this is what the [*optional **Local Caller ID**.*](https://www.xoxzo.com/en/about/voice-api/)
 
-*By default, restrictions in Japan does not allow you to use a local number as the caller ID. Our optional local caller ID functionality through our Dial In Numbers allows you to use a local Japan number for your voice calls.*
+**By default, restrictions in Japan does not allow you to use a local number as the caller ID. Our optional local caller ID functionality through our Dial In Numbers allows you to use a local Japan number for your voice calls.**
 
 ### Here is how to:
 1. [Find your favorite prefix number to subscribe](http://docs.xoxzo.com/en/din.html#finding-a-dial-in-number-via-api)
