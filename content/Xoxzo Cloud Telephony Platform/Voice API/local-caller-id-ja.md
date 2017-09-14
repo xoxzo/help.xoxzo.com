@@ -15,9 +15,9 @@ Category:　Xoxzo Cloud Telephony Platform/Voice API
 
 ### 「ローカル発信者番号」オプションご利用までの流れ
 1. [ダイヤルイン番号を探す](http://docs.xoxzo.com/ja/din.html#finding-a-dial-in-number-via-api)
-2. [ダイヤルイン番号を取得する](http://docs.xoxzo.com/ja/din.html#subscribing-to-a-dial-in-number-via-api)
+2. [ダイヤルイン番号を取得する](http://docs.xoxzo.com/ja/din.html#subscribing-to-a-dial-in-number-via-api) <br>
 参照：[音声電話着信料金](https://www.xoxzo.com/ja/about/pricing/#din)
-3. [音声API](http://docs.xoxzo.com/ja/voice.html#simple-playback-api)を[JP向けのオプション・パラメーターを使い](http://docs.xoxzo.com/ja/voice.html#jp-specific-optional-parameters)利用する
+3. [音声API](http://docs.xoxzo.com/ja/voice.html#simple-playback-api)を[JP向けのオプション・パラメーターを使い](http://docs.xoxzo.com/ja/voice.html#jp-specific-optional-parameters)利用する <br>
 参照：[音声電話発信料金（ローカル発信者番号）](https://www.xoxzo.com/ja/about/pricing/#voice)
 
 *複数の国内番号を発信者番号として表示する場合、複数のダイヤルイン番号を取得してください。
