@@ -15,6 +15,6 @@ By default, restrictions in Japan does not allow you to use a local number as th
 ### Here is how to:
 1. [Find your favorite prefix number to subscribe](http://docs.xoxzo.com/en/din.html#finding-a-dial-in-number-via-api)
 2. [Subscribe to the number](http://docs.xoxzo.com/en/din.html#subscribing-to-a-dial-in-number-via-api)</br>
-Ref: [VoiceAPI](https://www.xoxzo.com/en/about/pricing/#din）
+Ref: [VoiceAPI](https://www.xoxzo.com/en/about/pricing/#din)
 3. Enjoy [calling](http://docs.xoxzo.com/ja/voice.html#jp-specific-optional-parameters) with notifying your call receivers who is calling by [using the jp optional parameter.](http://docs.xoxzo.com/en/voice.html#simple-playback-api)</br>
 Ref: [Pricing of Voice API](https://www.xoxzo.com/en/about/pricing/#voice)
