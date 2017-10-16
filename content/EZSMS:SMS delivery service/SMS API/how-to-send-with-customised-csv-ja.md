@@ -34,4 +34,4 @@ _{{name}}には顧客名を、{{product}}には、その顧客が購入した製
 5. EZSMSのログインページより、「CSVでカスタマイズSMS送信」を選び、完成したファイルをアップロードし、送信を行ってください。
 ![image csv-05](/images/csv-05.png)
 
-__上記で使用した、サンプルCSVファイルは、[こちらよりダウンロード](ezsms_csvsample.csv)いただけます。__
+__上記で使用した、サンプルCSVファイルは、<a href="/images/ezsms_csvsample.csv" download target="_blank">こちらよりダウンロード</a>いただけます。__
