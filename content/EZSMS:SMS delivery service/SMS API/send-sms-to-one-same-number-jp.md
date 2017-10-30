@@ -1,19 +1,21 @@
-Title: Is multiple sendings to one same number possible?
+Title: ひとつの電話番号に続けて何度も同じメッセージを送信できますか？
 Date: 2017-10-27 13:20
 Slug: send-mutiple-sms-to-one-number
-Lang: en
-Category: Xoxzo Cloud Telephony Platform/SMS API
+Lang: ja
+Category: EZSMS:SMS delivery service/SMS API
 
-## when we test an API, it can be happening to send multiple SMS to a same phone number. Does this cause any problems?
+## APIのテストを行う際、ひとつの電話番号に、同じメッセージを続けて何度も行うことがあります。これによって、エラーが発生したりするでしょうか。
 
-Yes and No,
+発生することがあります。
 
-Although the detailed specifications varies from carrier to carrier and it is impossible for us to cover them all, carriers have functions to block the continuously flowing messages called 'anti-flooding' to avoid one phone to receive the same messages repeatedly.
+キャリアによって、仕様が違うため、弊社でその詳細全てを把握することは不可能なのですが、キャリアごとに、ひとつの電話番号が繰り返し同じメッセージを受信することが無いよう、継続して送信されるメッセージをブロックする、「アンチ・フラッディング(anti-flooding)」という機能があります。
 
-Taking above in consideration, to keep testing, you may set different body text or interval of sendings at 1 minutes or longer.
+このことから、続けて送信テストを行うときには、送信する本文の内容を変更したり、送信の間隔を一分以上に設定する等の対策を取っていただくとよろしいかと思います。
 
-We may follow up any failed sendings when you find.
-Please contact us with 
-* the number that you send the message to
-* the date and time that the messages were sent 
-* your email address registered to EZSMS
+それでも、送信が失敗になる際には弊社までご連絡ください。その際、
+
+* メッセージの送信先電話番号
+* メッセージの送信された日付と時間 
+* EZSMSにご登録のメールアドレス
+
+をお書き添えいただけますよう、よろしくお願いします。
