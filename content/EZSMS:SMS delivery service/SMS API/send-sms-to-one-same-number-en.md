@@ -13,6 +13,7 @@ Taking above in consideration, to keep testing, you may set different body text 
 
 We may follow up any failed sendings when you find.
 Please contact us with 
+
 * the number that you send the message to
 * the date and time that the messages were sent 
 * your email address registered to EZSMS
