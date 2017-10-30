@@ -7,6 +7,7 @@ Category: Xoxzo Cloud Telephony Platform/SMS API
 ## when we test an API, it can be happening to send multiple SMS to a same phone number. Does this cause any problems?
 
 Yes and No,
+
 Although the detailed specifications varies from carrier to carrier and it is impossible for us to cover them all, carriers have functions to block the continuously flowing messages called 'anti-flooding' to avoid one phone to receive the same messages repeatedly.
 
 Taking above in consideration, to keep testing, you may set different body text or interval of sendings at 1 minutes or longer.
