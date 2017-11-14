@@ -1,4 +1,4 @@
-Title: Does the system retry sending in case of delivery failure？
+Title: Does the system retry sending in case of delivery failure?
 Date: 2017-10-31 14:04
 Slug: sms-sending-retry
 Lang: en
