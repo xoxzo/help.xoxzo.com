@@ -4,6 +4,6 @@ Slug: sms-sending-retry
 Lang: en
 Category: EZSMS:SMS delivery service/SMS API
 
-##When the SMS was failed to reach the destination, does the system retry?
+## When the SMS was failed to reach the destination, does the system retry?
 
 No the system won't retry.

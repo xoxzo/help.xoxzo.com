@@ -4,6 +4,6 @@ Slug: sms-sending-retry
 Lang: ja
 Category: EZSMS:SMS delivery service/SMS API
 
-##なんらかの理由でSMSが受信されなかった場合、EZSMSはリトライを行いますか？
+## なんらかの理由でSMSが受信されなかった場合、EZSMSはリトライを行いますか？
 
 いいえ、リトライは行いません。
