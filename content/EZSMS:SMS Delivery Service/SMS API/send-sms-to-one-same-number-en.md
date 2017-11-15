@@ -1,18 +1,18 @@
 Title: Is multiple sendings to one same number possible?
 Date: 2017-10-27 13:20
-Slug: send-mutiple-sms-to-one-number
+Slug: send-sms-to-one-same-number
 Lang: en
 Category: EZSMS:SMS delivery service/SMS API
 
-## when we test an API, it can be happening to send multiple SMS to a same phone number. Does this cause any problems?
+## When we test an API, it can be happening to send multiple SMS to a same phone number. Does this cause any problems?
 
-Yes and No,
+Yes and no. 
+
 Although the detailed specifications varies from carrier to carrier and it is impossible for us to cover them all, carriers have functions to block the continuously flowing messages called 'anti-flooding' to avoid one phone to receive the same messages repeatedly.
 
 Taking above in consideration, to keep testing, you may set different body text or interval of sendings at 1 minutes or longer.
 
-We may follow up any failed sendings when you find.
-Please contact us with 
+We may follow up any failed sendings when you find. Please contact us with 
 
 * the number that you send the message to
 * the date and time that the messages were sent 

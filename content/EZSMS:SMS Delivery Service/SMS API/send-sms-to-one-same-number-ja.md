@@ -1,6 +1,6 @@
 Title: ひとつの電話番号に続けて何度も同じメッセージを送信できますか？
 Date: 2017-10-27 13:20
-Slug: send-mutiple-sms-to-one-number
+Slug: send-sms-to-one-same-number
 Lang: ja
 Category: EZSMS:SMS delivery service/SMS API
 
