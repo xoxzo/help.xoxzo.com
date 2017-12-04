@@ -33,7 +33,7 @@ __Docomo向け送信__
 
 __Kプレミアムサービスの料金__
 
-Kプレミアムサービスを使った配信は、一通あたり、13クレジットとなります。
+Kプレミアムサービスを使った配信の価格は、[料金ページ](https://www.xoxzo.com/ja/about/pricing/)をご参照ください。
 
 [詳しくは、ドキュメンテーションをご参照ください](http://docs.xoxzo.com/ja/sms.html#jp-specific-optional-parameters)
 
