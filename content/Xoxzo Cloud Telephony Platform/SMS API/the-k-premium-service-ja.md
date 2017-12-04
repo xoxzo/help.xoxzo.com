@@ -1,4 +1,4 @@
-Title: Kプレミアム・サービスについては
+Title: Kプレミアム・サービスについて
 Date: 2015-12-23 13:31
 Modified: 2017-12-04 17:00
 Slug: the-k-premium-service
