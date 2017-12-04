@@ -34,7 +34,7 @@ Sender id that will be shon at the recipients will be __0344057440__ no matter w
 
 __Cost for K-Premium__
 
-The cost of K-premium service delivery is 13 credits per message.
+The cost of K-premium service delivery can be referred in the [price page](https://www.xoxzo.com/en/about/pricing/).
 
 [For more details, please see our documentation.](http://docs.xoxzo.com/en/sms.html#jp-specific-optional-parameters)
 
