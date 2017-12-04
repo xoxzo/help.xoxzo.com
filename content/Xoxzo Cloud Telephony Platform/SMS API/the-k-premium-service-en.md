@@ -9,7 +9,7 @@ Category: Xoxzo Cloud Telephony Platform/SMS API
 
 K-Premium is an optional service tailored for JP's mobile operation subscribers. Due to the restrictions on the operators and frequent MNPs, some JP subscribers cannot receive messages from alphanumeric sender ids or some messages can get blocked. As the messages sent via K-Premium will be directly passed to the JP carriers, better delivery rates are expected, furthermore, as the sender ids on the messages are to be surely set for K-premium sendings, this will increase the user experience for your recipients, as they will know from whom the messages originated.
 
-You will need to be registered in order to use K-Premium, and to prevent abuse of the service your registration details will be shared with [KDDI Corporation](http://www.kddi.com/english/) as well as [Softbank Corporation](https://www.softbank.jp/en/).
+You will need to be registered in order to use K-Premium, and to prevent abuse of the service your registration details will be shared with [KDDI Corporation](http://www.kddi.com/english/) .
 
 Please contact [help@xoxzo.com](mailto:help@xoxzo.com) for more details and registration.
 
