@@ -17,15 +17,19 @@ Please contact [help@xoxzo.com](mailto:help@xoxzo.com) for more details and regi
 ## Details of K-Premium Sending
 
 __How to set K-Premium__
+
 Please add K-Premium option parameter, then all the domestic message delivery will be treated as K-Premium. The messages will take the direct route to the recipients and the K-Premium Credit will be consumed.
 
 __AU（KDDI）recipients__
+
 Please set the sender id that you specify at the registration with the option parameter and it will be shown as you specify at the device of the recipients.
 
 __Softbank/Docomo recipients__
+
 Sender id that will be shon at the recipients will be XXXXX no matter what you set.
 
 __Cost for K-Premium__
+
 The cost of K-premium service delivery is 13 credits per message.
 
 [For more details, please see our documentation.](http://docs.xoxzo.com/en/sms.html#jp-specific-optional-parameters)
