@@ -1,6 +1,6 @@
 Title: The K-Premium service
 Date: 2015-12-23 13:31
-Modified: 2017-12-4 15:00
+Modified: 2017-12-04 17:00
 Slug: the-k-premium-service
 Lang: en
 Category: Xoxzo Cloud Telephony Platform/SMS API
@@ -12,9 +12,6 @@ K-Premium is an optional service tailored for JP's mobile operation subscribers.
 You will need to be registered in order to use K-Premium, and to prevent abuse of the service your registration details will be shared with [KDDI Corporation](http://www.kddi.com/english/) as well as [Softbank Corporation](https://www.softbank.jp/en/).
 
 Please contact [help@xoxzo.com](mailto:help@xoxzo.com) for more details and registration.
-
-
-K-Premium allows you to specify specific numeric sender ids which will be shown as it is to the au subscriber upon sending to au (KDDI) subscribers. Sending towards the subscribers on the other JP operators, which is Softbank and Docomo, always a set numeric sender id will be shown. This will increase the user experience for your recipients, as they will know from whom the messages originated. For au(KDDI) subscribers, if the number you specified is callable (i.e your customer support number) they can also call that number by pressing the call back button on their mobile.
 
 
 ## Details of K-Premium Sending
