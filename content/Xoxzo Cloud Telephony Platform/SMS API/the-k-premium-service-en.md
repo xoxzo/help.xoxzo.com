@@ -7,30 +7,42 @@ Category: Xoxzo Cloud Telephony Platform/SMS API
 
 ## What is the K-Premium Service?
 
-K-Premium is an optional service tailored for JP's mobile operation subscribers. Due to the restrictions on the operators and frequent MNPs, some JP subscribers cannot receive messages from alphanumeric sender ids or some messages can get blocked. As the messages sent via K-Premium will be directly passed to the JP carriers, better delivery rates are expected, furthermore, as the sender ids on the messages are to be surely set for K-premium sendings, this will increase the user experience for your recipients, as they will know from whom the messages originated.
+K-Premium is an optional service tailored for JP's mobile operator subscribers.
+Due to the restrictions on the operators and frequent MNPs, some JP subscribers cannot
+receive messages from alphanumeric sender IDs or some messages can get blocked.
+As the messages sent via K-Premium will be directly passed to the JP operators,
+better delivery rates are expected. Sender IDs for messages through K-Premium
+will be set as below.
 
-You will need to be registered in order to use K-Premium, and to prevent abuse of the service your registration details will be shared with [KDDI Corporation](http://www.kddi.com/english/), [Softbank Group Corp](https://www.softbank.jp/en/) and [NTT Docomo, Inc.](https://www.nttdocomo.co.jp/english/) .
+You will need to be registered in order to use K-Premium, and your registration
+details will be shared with [KDDI Corporation](http://www.kddi.com/english/).
+To prevent abuse of the service your registration details might also be shared with
+[Softbank Group Corp](https://www.softbank.jp/en/) and [NTT Docomo, Inc.](https://www.nttdocomo.co.jp/english/)
+as the need arises.
 
 Please contact [help@xoxzo.com](mailto:help@xoxzo.com) for more details and registration.
-
 
 ## Details of K-Premium Sending
 
 __How to set K-Premium__
 
-Please add K-Premium option parameter, then all the domestic message delivery will be treated as K-Premium. The messages will take the direct route to the recipients and the K-Premium Credit will be consumed.
+Please add [K-Premium optional parameters](http://docs.xoxzo.com/en/sms.html#jp-specific-optional-parameters)
+when you make your request to send to a JP number. The messages will be sent using our K-Preimum direct route
+and you will be charged the [K-Premium price](https://www.xoxzo.com/en/about/pricing/#sms)
+per message sent.
 
 __AU（KDDI）recipients__
 
-Please set the sender id that you specify at the registration with the option parameter and it will be shown as you specify at the device of the recipients.
+Please set the sender ID that you specify at the registration with the option parameter *jp_kddi_sender*
+and it will be shown as you specify at the device of the recipients.
 
-__Softbank recipients__
+__SoftBank recipients__
 
-Sender id that will be shon at the recipients will be __22472__ no matter what you set.
+Sender ID that will be shown at the recipients will be fixed to __22472__.
 
-__Docomo recipients__
+__DOCOMO recipients__
 
-Sender id that will be shon at the recipients will be __0344057440__ no matter what you set.
+Sender ID that will be shown at the recipients will fixed to __0344057440__.
 
 __Cost for K-Premium__
 
