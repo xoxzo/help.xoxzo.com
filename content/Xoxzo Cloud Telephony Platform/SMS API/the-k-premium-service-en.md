@@ -24,9 +24,13 @@ __AU（KDDI）recipients__
 
 Please set the sender id that you specify at the registration with the option parameter and it will be shown as you specify at the device of the recipients.
 
-__Softbank/Docomo recipients__
+__Softbank recipients__
 
-Sender id that will be shon at the recipients will be XXXXX no matter what you set.
+Sender id that will be shon at the recipients will be __22472__ no matter what you set.
+
+__Docomo recipients__
+
+Sender id that will be shon at the recipients will be __0344057440__ no matter what you set.
 
 __Cost for K-Premium__
 
