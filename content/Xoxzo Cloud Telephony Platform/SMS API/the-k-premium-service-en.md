@@ -46,7 +46,7 @@ Sender ID that will be shown at the recipients will fixed to __0344057440__.
 
 __Cost for K-Premium__
 
-The cost of K-premium service delivery can be referred in the [price page](https://www.xoxzo.com/en/about/pricing/).
+The cost of K-premium service delivery can be referred in the [price page](https://www.xoxzo.com/en/about/pricing/#sms).
 
 [For more details, please see our documentation.](http://docs.xoxzo.com/en/sms.html#jp-specific-optional-parameters)
 
