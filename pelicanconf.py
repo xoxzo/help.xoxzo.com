@@ -48,7 +48,7 @@ EXTRA_PATH_METADATA = {
 #THEME           = 'themes/simple'
 THEME           = 'themes/xoxzo'
 PLUGIN_PATHS    = [os.path.join(PROJECT_ROOT, 'plugins'),]
-PLUGINS         = ["i18n_subsites", "subcategory", "tipue_search", ]
+PLUGINS         = ["i18n_subsites", "subcategory", "tipue_search", "sitemap"]
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n',]}
 
 DIRECT_TEMPLATES = (('index', 'search'))
@@ -89,6 +89,18 @@ TAG_URL = 'tag/{slug}/'
 TAG_SAVE_AS = 'tag/{slug}/index.html'
 
 REVERSE_CATEGORY_ORDER = True
+
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 0.5,
+        'indexes': 0.5,
+    },
+    'changefreqs': {
+        'articles': 'monthly',
+        'indexes': 'weekly',
+    }
+}
 
 from datetime import date
 CURRENTYEAR = date.today().year
