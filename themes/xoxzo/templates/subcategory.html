@@ -1,5 +1,10 @@
 {% extends "base.html" %}
 
+{% block hreflang %}
+    <link rel="alternate" href="{{ SITEURL }}/en/{{ subcategory.parent.url }}/{{ subcategory.url }}" hreflang="en"/>
+    <link rel="alternate" href="{{ SITEURL }}/ja/{{ subcategory.parent.url }}/{{ subcategory.url }}" hreflang="ja"/>
+{% endblock %}
+
 {% block content %}
 <header class="header-sm">
     <div class="container">

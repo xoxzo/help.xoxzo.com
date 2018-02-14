@@ -1,26 +1,31 @@
 {% extends "base.html" %}
 
 {% block head %}
-  {{ super() }}
+    {{ super() }}
 
-  {% for tag in article.tags %}
-  <meta name="tags" content="{{ tag }}">
-  {% endfor %}
-  <meta property="og:type" content="article">
-  <meta property="og:title" content="{{ article.title }}">
-  <meta property="og:description" content="{{ article.summary|striptags }}">
-  <meta property="og:url" content="{{ SITEURL }}/{{ article.url }}">
-  <meta property="og:site_name" content="{{ SITENAME }}">
-  {% if article.thumbnail %}
-  <meta property="og:image" content="{{ article.thumbnail }}">
-  {% else %}
-  <meta property="og:image" content="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/xoxzo_opengraph.jpg">
-  {% endif %}
+    {% for tag in article.tags %}
+    <meta name="tags" content="{{ tag }}">
+    {% endfor %}
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{ article.title }}">
+    <meta property="og:description" content="{{ article.summary|striptags }}">
+    <meta property="og:url" content="{{ SITEURL }}/{{ article.url }}">
+    <meta property="og:site_name" content="{{ SITENAME }}">
+    {% if article.thumbnail %}
+    <meta property="og:image" content="{{ article.thumbnail }}">
+    {% else %}
+    <meta property="og:image" content="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/xoxzo_opengraph.jpg">
+    {% endif %}
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@xoxzotelephony">
-  <meta name="twitter:title" content="{{ article.title }}">
-  <meta name="twitter:description" content="{{ article.summary|striptags }}">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@xoxzotelephony">
+    <meta name="twitter:title" content="{{ article.title }}">
+    <meta name="twitter:description" content="{{ article.summary|striptags }}">
+{% endblock %}
+
+{% block hreflang %}
+    <link rel="alternate" href="{{ SITEURL }}/en/{{ article.url }}" hreflang="en"/>
+    <link rel="alternate" href="{{ SITEURL }}/ja/{{ article.url }}" hreflang="ja"/>
 {% endblock %}
 
 {% block title %}{{ article.title }} | {% trans %}Xoxzo Help Center{% endtrans %}{% endblock title %}
@@ -29,10 +34,10 @@
 <header class="header-sm">
     <div class="container">
         <ol class="breadcrumb col-sm-12 col-md-7">
-          <li class="breadcrumb-item"><a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a></li>
-          {% for subcategory in article.subcategories %}
-          <li class="breadcrumb-item"><a href="{{ SITEURL }}/{{ subcategory.url }}">{{ subcategory.shortname }}</a></li>
-          {% endfor %}
+            <li class="breadcrumb-item"><a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a></li>
+            {% for subcategory in article.subcategories %}
+            <li class="breadcrumb-item"><a href="{{ SITEURL }}/{{ subcategory.url }}">{{ subcategory.shortname }}</a></li>
+            {% endfor %}
         </ol>
         <div class="searchbar col-sm-12 col-md-5">
             <form class="input-group" action="{{ SITEURL }}/search" onsubmit="return validateForm(this.elements['q'].value);">
