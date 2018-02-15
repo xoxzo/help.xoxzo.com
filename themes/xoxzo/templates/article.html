@@ -24,6 +24,7 @@
 {% endblock %}
 
 {% block hreflang %}
+    <link rel="alternate" href="{{ SITEURL }}/{{ article.url }}" hreflang="x-default"/>
     <link rel="alternate" href="{{ SITEURL }}/en/{{ article.url }}" hreflang="en"/>
     <link rel="alternate" href="{{ SITEURL }}/ja/{{ article.url }}" hreflang="ja"/>
 {% endblock %}
