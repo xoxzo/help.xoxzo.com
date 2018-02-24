@@ -24,9 +24,18 @@
 {% endblock %}
 
 {% block hreflang %}
-    <link rel="alternate" href="{{ SITEURL }}/{{ article.url }}" hreflang="x-default"/>
-    <link rel="alternate" href="{{ SITEURL }}/en/{{ article.url }}" hreflang="en"/>
-    <link rel="alternate" href="{{ SITEURL }}/ja/{{ article.url }}" hreflang="ja"/>
+    <link rel="alternate" href="https://help.xoxzo.com/{{ article.url }}" hreflang="x-default"/>
+    {% if DEFAULT_LANG == 'ja' %}
+    <link rel="alternate" href="https://help.xoxzo.com/ja/{{ article.url }}" hreflang="ja"/>
+    {% if article.translations %}
+    <link rel="alternate" href="https://help.xoxzo.com/en/{{ article.url }}" hreflang="en"/>
+    {% endif %}
+    {% else %}
+    <link rel="alternate" href="https://help.xoxzo.com/en/{{ article.url }}" hreflang="en"/>
+    {% if article.translations %}
+    <link rel="alternate" href="https://help.xoxzo.com/ja/{{ article.url }}" hreflang="ja"/>
+    {% endif %}
+    {% endif %}
 {% endblock %}
 
 {% block title %}{{ article.title }} | {% trans %}Xoxzo Help Center{% endtrans %}{% endblock title %}
@@ -56,7 +65,9 @@
             <article>
                 <h2 class="article-title">{{ article.title }}</h2>
                 {% import 'translations.html' as translations with context %}
+                {% if article.translations %}
                 <h3 class="article-info">Translate to {{ translations.translations_for(article) }}</h3>
+                {% endif %}
                 <div class="article-content">
                   {{ article.content }}
                 </div>
