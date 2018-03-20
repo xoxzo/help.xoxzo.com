@@ -1,6 +1,6 @@
 Title: MVNOって？ Xoxzoでの取り扱いはどうなっているの？
 Date: 2018-03-20 15:00
-Slug: 504-error-shown-on-sms-sending
+Slug: what-is-mvno
 Lang: ja
 Category: EZSMS:SMS delivery service/SMS API
 
