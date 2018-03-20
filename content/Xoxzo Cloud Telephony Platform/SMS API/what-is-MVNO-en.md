@@ -4,17 +4,12 @@ Slug: what-is-mvno
 Lang: en
 Category: EZSMS:SMS delivery service/SMS API
 
-##MVNOとはなんでしょうか？
+##What is MVNO?
 
-MVNO(= Mobile Virtual Network Operator:仮想移動体通信事業者）のことで、
-[総務省](https://www.soumu.go.jp/)では、「MNOの提供する移動通信サービスを利用して、又はMNOと接続して、
-移動通信サービスを提供する電気通信事業者であって、当該移動通信サービスに係る無線局（基地局）を自ら開設しておらず、かつ、運用をしていない者」 と
-定義されています。
+MVNO = Mobile Virtual Network Operator, they provide wireless communication services without having their own network infrastructure. They have a business agreement with MNO (Mobile Network Operator) for a bulk network access at wholesale rate.
+They set their own retail prices on their wireless communication serives and may have own help centers as well.
 
-つまり、自らは基地局を持っていないが、MNO(携帯電話においては、NTTドコモ、KDDI（au）、ソフトバンク)のサービスを独自ブランドで販売する、
-例えば楽天モバイルや、UQモバイル等の事業者のことです。
+##How does Xoxzo treat them?
 
-##Xoxzoでは、どう取り扱っていますか？
-
-キャリアの表示は、AU(KDDI)/Docomo/Softbankの携帯電話事業者 3社とさせていただいており、
-MVNOについては、回線を保有する携帯電話事業者の設定に沿う形となります。
+While they are independent service providers, the basic rules of wireless communication itself would follow 
+the original carrier, Xoxzo would mention on only the main MNOs that has thei own wireless communication base.
