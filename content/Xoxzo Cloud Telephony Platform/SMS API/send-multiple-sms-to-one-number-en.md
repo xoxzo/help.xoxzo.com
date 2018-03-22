@@ -12,4 +12,4 @@ Although rhe detailed specifications varies from carrier to carrier and it is im
 To keep testing, you may set different body text or interval of sendings at 1 minutes.
 
 We may follow up any failed sendings when you find.
-Please contact us with the number that you send the message to, and the date and time that the messages were sent along with your email address registered to Xoxz.
+Please contact us with the number that you send the message to, and the date and time that the messages were sent along with your email address registered to Xoxzo.
