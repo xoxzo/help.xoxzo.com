@@ -4,10 +4,28 @@ Slug: how-to-use-the-online-banks
 Lang: ja
 Category: EZSMS:SMS delivery service/Account
 
-本サービスにて現在採用している決済代行エプシロンでは、オンラインで銀行の振込支払いに対応しています。
+本サービスにて現在採用している決済代行会社ペイジェントでは、各種クレジットカード決済を始め、
+オンラインで銀行の振込支払いに対応しています。(2018年3月15日より)
 
-詳細な支払い方法は、以下のエプシロンのガイドをご参考ください。
+### クレジットカード
+_クレジットカード決済のご利用には、事前登録の必要がございます。クレジットカード決済をご希望のお客様は、support@ezsms.biz まで、アカウントにご登録のメールアドレスをお知らせください。_
 
-* [楽天銀行](http://www.epsilon.jp/service/netbank_ebank.html)
+* Visa
+* Master
+* Diners Club
+* American Express
+* JCB
+* Disover
 
-* [ジャパンネット銀行](http://www.epsilon.jp/service/netbank_japannet.html)
+### インターネットバンキング
+※あらかじめ各金融機関においてネットバンキングのご契約をされている必要があります。</br>
+※加盟店の契約状況によっては一部金融機関が利用できない場合がございます。<br>
+ご利用いただける金融機関の詳細は、[こちら](https://www.paygent.co.jp/internet_banking/banklist/) よりご確認ください。
+
+* 都市銀行
+* ネットバンク
+* 地方銀行
+* 信用金庫
+* ゆうちょ銀行
+* 労働金庫
+* 農協・漁協
