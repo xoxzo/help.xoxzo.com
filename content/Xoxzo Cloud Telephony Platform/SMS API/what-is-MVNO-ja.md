@@ -7,7 +7,7 @@ Category: EZSMS:SMS delivery service/SMS API
 ##MVNOとはなんでしょうか？
 
 MVNO(= Mobile Virtual Network Operator:仮想移動体通信事業者）のことで、
-[総務省](https://www.soumu.go.jp/)では、「MNOの提供する移動通信サービスを利用して、又はMNOと接続して、
+[総務省](http://www.soumu.go.jp/)では、「MNOの提供する移動通信サービスを利用して、又はMNOと接続して、
 移動通信サービスを提供する電気通信事業者であって、当該移動通信サービスに係る無線局（基地局）を自ら開設しておらず、かつ、運用をしていない者」 と
 定義されています。
 
