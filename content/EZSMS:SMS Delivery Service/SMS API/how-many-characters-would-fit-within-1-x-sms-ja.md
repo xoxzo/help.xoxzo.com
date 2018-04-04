@@ -1,5 +1,5 @@
 Title: SMS1通に含めることのできる最大文字数は？
-Date: 2016-09-13 14:23
+Date: 2018-04-03 14:23
 Slug: how-many-characters-would-fit-within-1-x-sms
 Lang: ja
 Category: EZSMS:SMS delivery service/SMS API
