@@ -16,7 +16,7 @@ to notify your message and information by playing a pre-recorded voice file, or 
 using [Text-to-Speach](https://www.xoxzo.com/en/about/utilities-api/).
 
 Also, [Xoxzo's Dial-in-numbers API](https://www.xoxzo.com/en/about/dial-in-api/) would be more convenient 
-to display your subscribed numbers to get the recipients to call you, to retrieve the information.
+to display your subscribed numbers to get the recipients to call you, to retrieve their information such as phone numbers.
 The call can play recorded messages as well as transfer to the other phone numbers of your own.
 
 [Our blog](https://blog.xoxzo.com/en/) has service notifications, the way we work, as well as the useful 
