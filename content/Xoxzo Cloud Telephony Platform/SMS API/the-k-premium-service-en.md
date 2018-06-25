@@ -30,7 +30,7 @@ Please add [K-Premium optional parameters](http://docs.xoxzo.com/en/sms.html#jp-
 when you make your request to send to a JP number. The messages will be sent using our K-Preimum direct route
 and you will be charged the [K-Premium price](https://www.xoxzo.com/en/about/pricing/#sms)
 per message sent.
-Please use [**K-Premium light**]()when you want to apply this K-premium function **ONLY on the KDDI(au) numbers**, the system will automatically detect the operators of your recipient number belongs to, only KDDI(au) numbers are applied K-premium when being sent, the recipient numbers that belongs to **Docomo and Softbank will be sent as standard sendings**.
+Please use **K-Premium light** when you want to apply this K-premium function **ONLY on the KDDI(au) numbers**, the system will automatically look up the operators of your recipient number belongs to and **only KDDI(au) numbers are applied K-premium** when being sent, the recipient numbers that belongs to **Docomo and Softbank will be sent as standard sendings**.
 
 __AU（KDDI）recipients__
 
