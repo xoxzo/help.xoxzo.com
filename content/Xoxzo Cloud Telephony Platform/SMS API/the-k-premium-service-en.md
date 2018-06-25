@@ -30,12 +30,14 @@ Please add [K-Premium optional parameters](http://docs.xoxzo.com/en/sms.html#jp-
 when you make your request to send to a JP number. The messages will be sent using our K-Preimum direct route
 and you will be charged the [K-Premium price](https://www.xoxzo.com/en/about/pricing/#sms)
 per message sent.
+
 Please use **K-Premium light** when you want to apply this K-premium function **ONLY on the KDDI(au) numbers**, the system will automatically look up the operators of your recipient number belongs to and **only KDDI(au) numbers are applied K-premium** when being sent, the recipient numbers that belongs to **Docomo and Softbank will be sent as standard sendings**.
 
 __AU（KDDI）recipients__
 
 Please set the sender ID that you specify at the registration with the option parameter *jp_kddi_sender*
 and it will be shown as you specify at the device of the recipients.
+
 Both parameter 
 ```jp_kp``` and ```jp_kpl``` 
 will have K-premium cost applied and will act the same.
@@ -44,16 +46,22 @@ will have K-premium cost applied and will act the same.
 __SoftBank recipients__
 
 with parameter ```jp_kp``` (K-premium cost will be applied)
+
 Sender ID that will be shown at the recipients will be fixed to __22472__.
+
 with parameter ```jp_kpl``` (Standard SMS cost will be applied)
+
 Sender ID can be set as you wish but there is no guarantee that the set Sender ID will be delivered as it's set.
 
 
 __DOCOMO recipients__
 
 with parameter ```jp_kp```(K-premium cost will be applied)
+
 Sender ID that will be shown at the recipients will fixed to __0344057440__.
+
 with parameter ```jp_kpl``` (Standard SMS cost will be applied)
+
 Sender ID can be set as you wish but there is no guarantee that the set Sender ID will be delivered as it's set.
 
 __Cost for K-Premium__
