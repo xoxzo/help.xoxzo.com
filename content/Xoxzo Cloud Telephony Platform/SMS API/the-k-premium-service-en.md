@@ -49,7 +49,7 @@ with parameter ```jp_kp``` (K-premium cost will be applied) </br>
 Sender ID that will be shown at the recipients will be fixed to __22472__.
 
 with parameter ```jp_kpl``` (Standard SMS cost will be applied)</br>
-Sender ID can be set as you wish but there is no guarantee that the set Sender ID will be delivered as it's set.
+Sender ID can be set as you wish with *Sender* parameter but there is no guarantee that the set Sender ID will be delivered as it's set.
 
 
 __DOCOMO recipients__
@@ -58,7 +58,7 @@ with parameter ```jp_kp```(K-premium cost will be applied)</br>
 Sender ID that will be shown at the recipients will fixed to __0344057440__.
 
 with parameter ```jp_kpl``` (Standard SMS cost will be applied)</br>
-Sender ID can be set as you wish but there is no guarantee that the set Sender ID will be delivered as it's set.
+Sender ID can be set as you wish  *Sender* parameter but there is no guarantee that the set Sender ID will be delivered as it's set.
 
 __Cost for K-Premium__
 
