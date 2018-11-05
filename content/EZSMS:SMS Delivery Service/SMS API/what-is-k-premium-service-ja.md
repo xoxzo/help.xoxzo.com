@@ -20,4 +20,17 @@ Kプレミアムサービスを利用した送信では、事前登録した[送
 **注意点**
 迷惑メール防止の観点から利用目的、利用する送信元の番号、メッセージの送信元会社の情報などを KDDI株式会社に開示する場合があります。ご了承ください。
 
-お申し込みは、[こちらから](https://docs.google.com/forms/d/e/1FAIpQLScfI6JPRBrrq4olFiVYPkm9FWJ7JWdFzB42fsXMGXSpRgSjiw/viewform?usp=sf_link)お願いいたします。
+**ご利用お申込み**
+
+1. [こちらより](https://docs.google.com/forms/d/e/1FAIpQLScfI6JPRBrrq4olFiVYPkm9FWJ7JWdFzB42fsXMGXSpRgSjiw/viewform?usp=sf_link)ご登録をお願いいたします。
+2. 審査後、ご登録完了の通知をメールにてお送りいたします。
+3. 送信元IDの追加・編集等につきましては、アカウントにログイン後の画面より、下記のようにご利用ください。
+
+  * 画面上部のプルダウンメニュー「ツール」より「Kプレミアム管理」を選んでください。
+  ![self-serve-01](/images/self-serve-01.jpg)
+  * 送信元IDの登録を `追加` する場合は、右下の「追加」ボタンから新規番号の追加を行ってください。
+  ![self-serve02](/images/self-serve-02.jpg)
+  * すでに登録済みの送信元IDを、編集・削除する場合には、それぞれのボタンから、行ってください。
+  ![self-serve03](/images/self-serve-03.jpg)
+  * `メモ`欄には、番号だけではわかりにくい情報を入力して、お使いください。送信時にこの情報が使われることはありません。
+  ![self-serve04](/images/self-serve-04.jpg)
