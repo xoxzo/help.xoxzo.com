@@ -24,5 +24,5 @@ SMSを配信する際に受信者側で表示される送信元IDは、なりす
 
 メッセージの送信前に、使用する予定の配信元IDを実際に指定してテストを行い、配信結果を確認した上でのご使用をお勧めします。
 
-[Kプレミアムサービス]()をご利用になると、日本のau(KDDI)の携帯電話向けに、サービス申し込み時に設定した送信元IDを受信側へ表示させることができます。
-お申込みを含めた詳細は、[Kプレミアムサービス]()のページより、ご確認ください。
+[Kプレミアムサービス](https://help.xoxzo.com/ja/ezsmssms-delivery-service/articles/what-is-k-premium/)をご利用になると、日本のau(KDDI)の携帯電話向けに、サービス申し込み時に設定した送信元IDを受信側へ表示させることができます。
+お申込みを含めた詳細は、[Kプレミアムサービス](https://help.xoxzo.com/ja/ezsmssms-delivery-service/articles/what-is-k-premium/)のページより、ご確認ください。
