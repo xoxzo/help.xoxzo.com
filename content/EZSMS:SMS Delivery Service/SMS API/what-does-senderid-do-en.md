@@ -1,7 +1,7 @@
 Title: What does "Sender ID" do?
-Date: 2018-11-09 14:32
+Date: 2018-11-09
 Slug: what-does-sender-id-do
-Lang: ja
+Lang: en
 Category: ezsmssms-delivery-service/SMS API
 
 Sender ID set during SMS sending using the *sender* parameter will be displayed at the recipients device as a message sender.
