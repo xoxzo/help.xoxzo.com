@@ -20,10 +20,10 @@ Category: EZSMS:SMS delivery service/SMS API
       <td>実際のメッセージ</td>
     </tr>
     <tr>
-      <td><strong>{{mn}}</strong> </td>
+      <td><strong>{{ mn }}</strong> </td>
       <td>発信元番号</td>
       <td>12</td>
-      <td>クーポンはこちらです http://bit.ly/abc?num=<strong>{{mn}}</strong> </td>
+      <td>クーポンはこちらです http://bit.ly/abc?num=<strong>{{ mn }}</strong> </td>
       <td>クーポンはこちらです http://bit.ly/abc?num=819012345678</td>
     </tr>
   </tbody>
