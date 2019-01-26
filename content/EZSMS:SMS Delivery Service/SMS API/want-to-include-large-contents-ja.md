@@ -9,7 +9,7 @@ Category: EZSMS:SMS delivery service/SMS API
 日本語70文字で通知できる内容は、限られています。リマインダーなど、既知の事項確認であれば、70文字でも伝達が可能かもしれません。
 しかしイベントのお知らせや、新製品のご案内等、多くの内容を通知したい場合、通知内容はウェブページに準備しておき、
 SMSではそのURLを（[URL短縮機能](https://goo.gl/)等を使うと便利です）簡単な挨拶文と共に送信するだけで大丈夫です。
-その際、KDDI（au）向けの送信には、[Kプレミアムサービス](https://www.ezsms.biz/ja/faq/kddi-premium/)をご利用下さい。
+その際、KDDI（au）向けの送信には、[Kプレミアムサービス](https://www.ezsms.biz/ja/faq/our-service/#kpremium)をご利用下さい。
 
 [Xoxzoの音声通話用API](https://www.xoxzo.com/ja/about/voice-api/)を使えば、ユーザーの入力した電話番号へ電話をかけて、
 設定しておいた案内内容を音声ファイルを再生して伝えたり、[テキスト読み上げ機能](https://www.xoxzo.com/ja/about/utilities-api/)を使って、
