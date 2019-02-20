@@ -10,35 +10,42 @@ First, please get your DialSMS number ready.
 
 When an incoming call received to the number, the notification below will be sent to the URL you set in real time. 
 
-**Note**
+<div class="alert alert-danger">
+  <b>** Note **</b>
+  <br>
+  This notification WILL NOT be sent again even recipient side had any errors.
+</div>
 
-This notification WILL NOT be sent again even recipient side had any errors.
+<table border="1" cellpadding="10" cellspacing="1">
+  <tbody>
+    <tr>
+      <td>Action type</td>
+      <td>POST</td>
+    </tr>
+    <tr>
+      <td>Parameter</td>
+      <td>results</td>
+    </tr>
+    <tr>
+      <td>Expecting response code</td>
+      <td>200</td>
+    </tr>
+  </tbody>
+</table>
 
-|action type|POST|
 
-|parameter|results|
+### Data sample
 
-|expecting response code|200|
-
-
-Data sample
-`Content-Type: application/json 
-
+```
+Content-Type: application/json
 {
-
-  "caller": "818012345678",  
-  
-  "recipient": "815012345678",  
-  
+  "caller": "818012345678",
+  "recipient": "815012345678",
   "call_time": "1327111224",
-  
- }`
- 
- 
- _caller: Phone number that made the call_
- 
- _recipient: DialSMS number you subscribed_
- 
- _call_time: Time of the call receipt, in unix standard time format_
-   
+}
+```
+
+* caller: Phone number that made the call
+* recipient: DialSMS number you subscribed
+* call_time: Time of the call receipt, in unix standard time format
 
