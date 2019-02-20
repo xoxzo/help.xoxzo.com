@@ -11,7 +11,7 @@ Category: EZSMS:SMS delivery service/SMS API
 <div class="alert alert-danger">
   <b>**ご注意** </b>
   <br>
-  受け取る側がエラーが出てもこの通知は再送されませんので、ご了承ください。
+  受け取る側にエラーが出てもこの通知は再送されませんので、ご了承ください。
 </div>
 
 <table border="1" cellpadding="10" cellspacing="1">
