@@ -13,7 +13,7 @@ When an incoming call received to the number, the notification below will be sen
 <div class="alert alert-danger">
   <b>** Note **</b>
   <br>
-  This notification WILL NOT be sent again even recipient side had any errors.
+  This notification will be sent ONLY ONCE even recipient side had any errors.
 </div>
 
 <table border="1" cellpadding="10" cellspacing="1">
