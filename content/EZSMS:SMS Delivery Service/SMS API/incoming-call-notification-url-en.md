@@ -37,7 +37,7 @@ When an incoming call received to the number, the notification below will be sen
 ### Data sample
 
 ```
-Content-Type: application/json
+Content-Type: application/x-www-form-urlencoded
 {
   "caller": "818012345678",
   "recipient": "815012345678",
