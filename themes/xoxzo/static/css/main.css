@@ -40,6 +40,13 @@ a, a:hover {
     color: #505050;
 }
 
+pre {
+    background: #3b3b3b;
+    padding: 1.5rem;
+    border-radius: .25rem;
+    color: white;
+}
+
 .navbar-brand img {
     width: 100px;
     margin: 2px 0;
