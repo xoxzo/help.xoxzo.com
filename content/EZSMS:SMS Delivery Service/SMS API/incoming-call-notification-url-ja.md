@@ -1,4 +1,4 @@
-Title: Incoming-call notification URL
+Title: 着信通知(CR) URLについて
 Date: 2019-02-18 15:00
 Slug: incoming-call-notification-url
 Lang: ja
