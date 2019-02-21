@@ -34,7 +34,7 @@ Category: EZSMS:SMS delivery service/SMS API
 ### 送信されるデータの例
 
 ```
-Content-Type: application/json
+Content-Type: application/x-www-form-urlencoded
 {
   "caller": "818012345678",
   "recipient": "815012345678",
