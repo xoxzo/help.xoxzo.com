@@ -52,7 +52,7 @@ PLUGINS         = ["i18n_subsites", "subcategory", "tipue_search", "sitemap"]
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n',]}
 
 DIRECT_TEMPLATES = (('index', 'search'))
-PAGINATED_DIRECT_TEMPLATES = (('index', 'search'))
+PAGINATED_DIRECT_TEMPLATES = ('index', 'search')
 
 I18N_UNTRANSLATED_ARTICLES  = "remove"
 I18N_UNTRANSLATED_PAGES     = "keep"
