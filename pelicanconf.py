@@ -51,7 +51,10 @@ PLUGIN_PATHS    = [os.path.join(PROJECT_ROOT, 'plugins'),]
 PLUGINS         = ["i18n_subsites", "subcategory", "tipue_search", "sitemap"]
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n',]}
 
-DIRECT_TEMPLATES = (('index', 'search'))
+DIRECT_TEMPLATES = ['index', 'search']
+PAGINATED_DIRECT_TEMPLATES = ['index', 'search']
+
+SEARCH_SAVE_AS = 'search/index.html'
 
 I18N_UNTRANSLATED_ARTICLES  = "remove"
 I18N_UNTRANSLATED_PAGES     = "keep"
