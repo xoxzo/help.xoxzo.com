@@ -54,6 +54,7 @@ JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n',]}
 DIRECT_TEMPLATES = ['index', 'search']
 PAGINATED_DIRECT_TEMPLATES = ['index', 'search']
 
+INDEX_SAVE_AS = '/index.html'
 SEARCH_SAVE_AS = 'search/index.html'
 
 I18N_UNTRANSLATED_ARTICLES  = "remove"
