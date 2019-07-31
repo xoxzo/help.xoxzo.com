@@ -26,19 +26,21 @@ and follow the instruction in case you would like to use direct connection to al
 
 __Setting jp_kpl__
 
-送信リクエスト時に、送信元IDとして *jp_kddi_sender* のオプションパラメーターに、Kプレミアムサービスのご登録時に指定した数字を設定してください。そのままau(KDDI)の受信者に、SMSの配信元として表示することになります。
-```jp_kpl```のパラメーターと合わせて設定頂くことにより、au(KDDI)の番号への送信にのみ Kプレミアムサービスにて送信を行い、Kプレミアム送信の料金が課されることとなります。
+Please set the sender ID that you specify at the registration with the option parameter *jp_kddi_sender* and it will be shown as you specify at the device of the recipients.
+Setting ```jp_kpl``` parameter, the request to the au(KDDI) recipients will be sent as **K-premium** and will be charged as **K-premium** sending.
 
-__Softbank および Docomo向け送信__
 
-通常送信の料金となります。
+__Sending to Softbank and Docomo recipients__
 
-送信は、```sender```にて設定の送信元IDを使って行われますが、そのまま受信者に届く保証はありません。
+Request to send to Softbank and Docomo recipients will be treated as **standard** sending.
 
-__Kプレミアム Lite の料金__
+```sender``` parameter can be set but it is not guarateed to reach the recipients as you set.
 
-Kプレミアム Lite を使った配信の価格は、[料金ページ](https://www.xoxzo.com/ja/about/pricing/#sms)をご参照ください。
 
-[詳しくは、ドキュメンテーションをご参照ください](http://docs.xoxzo.com/ja/sms.html#jp-specific-optional-parameters)
+__Cost for K-premium Lite__
+
+Please find the cost for K-premium Lite in the [Price Page](https://www.xoxzo.com/en/about/pricing/#sms).
+
+[For more details, please see our documentation](http://docs.xoxzo.com/en/sms.html#jp-specific-optional-parameters)
 
 
