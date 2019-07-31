@@ -24,10 +24,9 @@ sent as standard sendings.
 Please read [**The K-Premium Service**](https://help.xoxzo.com/en/xoxzo-cloud-telephony-platform/articles/the-k-premium-service/)
 and follow the instruction in case you would like to use direct connection to all Japanese carriers.
 
-__Setting jp__
+__Setting jp_kpl__
 
-送信リクエスト時に、送信元IDとして *jp_kddi_sender* のオプションパラメーターにKプレミアムサービスのご登録時に指定した数字を設定してください。
-そのままau(KDDI)の受信者に、SMSの配信元として表示することになります。
+送信リクエスト時に、送信元IDとして *jp_kddi_sender* のオプションパラメーターに、Kプレミアムサービスのご登録時に指定した数字を設定してください。そのままau(KDDI)の受信者に、SMSの配信元として表示することになります。
 ```jp_kpl```のパラメーターと合わせて設定頂くことにより、au(KDDI)の番号への送信にのみ Kプレミアムサービスにて送信を行い、Kプレミアム送信の料金が課されることとなります。
 
 __Softbank および Docomo向け送信__
