@@ -13,13 +13,49 @@ Please refer our blog post how these 2 services were made [here](https://blog.xo
 
 ## Comparison of 2 K-premium services
 
-| | | Kプレミアム | KプレミアムLite |
-|au(KDDI)への送信 | 送信元ID | 事前登録の数字 | 事前登録の数字 |
-| | 料金 | Kプレミアム料金 | Kプレミアム料金 |
-|ソフトバンクへの送信| 送信元ID | | お好みで設定（そのまま届く保証なし） |
-| | 料金 | Kプレミアム料金 | 通常配信料金 |
-|NTTドコモへの送信| 送信元ID | | お好みで設定（そのまま届く保証なし） |
-| | 料金 | Kプレミアム料金 | 通常配信料金 |
+<tabble>
+  <tr>
+    <th></th>
+    <th></th>
+    <th>K-premium</th>
+    <th>K-premium Lite</th>
+  </tr>
+  <tr>
+    <td>au(KDDI)</td>
+    <td>SenderID</td>
+    <td>pre-registered number</td>
+    <td>pre-registered number</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Cost</td>
+    <td>K-premium cost</td>
+    <td>K-premium cost</td>
+  </tr>
+    <tr>
+    <td>Softbank</td>
+    <td>SenderID</td>
+    <td>22472</td>
+    <td>Your own setting (no guaranteed)</td>
+  </tr>
+  <tr>
+　　 <td></td>
+    <td>Cost</td>
+    <td>K-premium cost</td>
+    <td>Standard cost</td>
+  </tr>
+  <tr>
+    <td>Softbank</td>
+    <td>SenderID</td>
+    <td>05052128038</td>
+    <td>Your own setting (no guaranteed)</td>
+  </tr>
+  <tr>
+　　 <td></td>
+    <td>Cost</td>
+    <td>K-premium cost</td>
+    <td>Standard cost</td>
+  </tr>
 
 Please let this help you to test the different patterns.
 
