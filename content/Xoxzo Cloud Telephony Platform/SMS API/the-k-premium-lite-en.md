@@ -43,4 +43,4 @@ Please find the cost for K-premium Lite in the [Price Page](https://www.xoxzo.co
 
 [For more details, please see our documentation](http://docs.xoxzo.com/en/sms.html#jp-specific-optional-parameters)
 
-
+*K-premium Lite service has a sister service called [K-premium]().- [What's the difference]()?*
