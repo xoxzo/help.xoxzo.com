@@ -50,4 +50,4 @@ Kプレミアムサービスを使った配信の価格は、[料金ページ](h
 
 [詳しくは、ドキュメンテーションをご参照ください](http://docs.xoxzo.com/ja/sms.html#jp-specific-optional-parameters)
 
-
+*Kプレミアムサービスには、他にも [Kプレミアム Lite]() があります。[違うところを比べてみて]()ください*
