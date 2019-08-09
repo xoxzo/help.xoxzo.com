@@ -64,7 +64,7 @@ help:
 
 build:
 	rm -rf $(PLUGINDIR)
-	git clone https://github.com/getpelican/pelican-plugins.git $(PLUGINDIR)
+	git clone --single-branch --branch fix-articles_page-undefined https://github.com/xoxzo/pelican-plugins.git $(PLUGINDIR)
 
 html: compile_translation
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
