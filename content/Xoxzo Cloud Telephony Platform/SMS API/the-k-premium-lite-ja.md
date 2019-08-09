@@ -1,5 +1,5 @@
 Title: Kプレミアム Lite について
-Date: 2019−7−12
+Date: 2019-07-12
 Slug: the-k-premium-lite
 Lang: ja
 Category: Xoxzo Cloud Telephony Platform/SMS API

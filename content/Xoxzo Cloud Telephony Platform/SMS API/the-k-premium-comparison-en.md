@@ -13,7 +13,7 @@ Please refer our blog post how these 2 services were made [here](https://blog.xo
 
 ## Comparison of 2 K-premium services
 
-<tabble>
+<table>
   <tr>
     <th></th>
     <th></th>
@@ -39,7 +39,7 @@ Please refer our blog post how these 2 services were made [here](https://blog.xo
     <td>Your own setting (no guaranteed)</td>
   </tr>
   <tr>
-　　 <td></td>
+    <td></td>
     <td>Cost</td>
     <td>K-premium cost</td>
     <td>Standard cost</td>
@@ -51,11 +51,12 @@ Please refer our blog post how these 2 services were made [here](https://blog.xo
     <td>Your own setting (no guaranteed)</td>
   </tr>
   <tr>
-　　 <td></td>
+    <td></td>
     <td>Cost</td>
     <td>K-premium cost</td>
     <td>Standard cost</td>
   </tr>
+</table>
 
 Please let this help you to test the different patterns.
 
