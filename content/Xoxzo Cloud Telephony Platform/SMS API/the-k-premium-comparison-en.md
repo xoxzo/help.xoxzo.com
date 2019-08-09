@@ -13,7 +13,7 @@ Please refer our blog post how these 2 services were made [here](https://blog.xo
 
 ## Comparison of 2 K-premium services
 
-<table>
+<table border="1" cellpadding="10" cellspacing="1">
   <tr>
     <th></th>
     <th></th>
