@@ -8,11 +8,13 @@ Category: EZSMS:SMS delivery service/SMS API
 "I want to contact my customers thanks for purchase message with the product that the customer has purchased"
 With EZSMS, you can upload csv file with the data to insert the various contents to your set message according to the recipient.
 
+*the maximum sending per upload is limited to 1,000*
+
 Let's see more details with how to create a csv file in case you would like to send customised SMS to the phone number lists in spreadsheet like MS excel, by inserting some various data to a set message text. 
 
 1. Please create a message text. Name `variables` with **double curly brackets** `{{ text }}` and put it where you want to change by recipient.
 
-![image csv-01](/images/csv-01e.jpg)
+![image csv-01](/images/csv-01e.png)
 _in the case of inserting customers' name in {{name}}, purchased goods in {{product}}, to send this message to the customers' mobile numbers_
 
 2. Now creating the data file that contains the recipients' mobile phone numbers, names and products. This example shows you to prepare the file in excel. Please type the name of the `variables` on the first row. These name of `variables` are set in instruction number 1. (above). The data in this file will be inserted where you put `variables` in double curly brackets `{{ text }}` to be sent to the phones.
