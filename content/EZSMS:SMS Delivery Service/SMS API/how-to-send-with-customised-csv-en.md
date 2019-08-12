@@ -14,7 +14,7 @@ Let's see more details with how to create a csv file in case you would like to s
 
 1. Please create a message text. Name `variables` with **double curly brackets** `{{ text }}` and put it where you want to change by recipient.
 
-![image csv-01](/images/csv-01e.png)
+![image csv-01](/images/csv-01.png)
 _in the case of inserting customers' name in {{name}}, purchased goods in {{product}}, to send this message to the customers' mobile numbers_
 
 2. Now creating the data file that contains the recipients' mobile phone numbers, names and products. This example shows you to prepare the file in excel. Please type the name of the `variables` on the first row. These name of `variables` are set in instruction number 1. (above). The data in this file will be inserted where you put `variables` in double curly brackets `{{ text }}` to be sent to the phones.
