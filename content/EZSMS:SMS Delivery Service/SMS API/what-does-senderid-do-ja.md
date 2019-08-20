@@ -1,5 +1,5 @@
 Title: 送信元ID (Sender ID) というのは何でしょうか？
-Date: 2016-01-26 14:32
+Date: 2018-11-09
 Slug: what-does-sender-id-do
 Lang: ja
 Category: ezsmssms-delivery-service/SMS API
