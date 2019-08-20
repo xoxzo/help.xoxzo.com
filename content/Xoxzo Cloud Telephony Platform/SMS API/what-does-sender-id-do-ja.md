@@ -1,6 +1,6 @@
 Title: 送信元ID (Sender ID) というのは何でしょうか？
 Date: 2016-01-26 14:32
-Slug: what-does-sender-id-do
+Slug: what-does-sender-id-do-xoxzo
 Lang: ja
 Category: Xoxzo Cloud Telephony Platform/SMS API
 
