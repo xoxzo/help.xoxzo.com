@@ -1,6 +1,6 @@
 Title: What does "Sender ID" do?
 Date: 2016-01-26 14:32
-Slug: what-does-sender-id-do
+Slug: what-does-sender-id-do-xoxzo
 Lang: en
 Category: Xoxzo Cloud Telephony Platform/SMS API
 
