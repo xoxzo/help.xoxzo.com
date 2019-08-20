@@ -4,15 +4,11 @@ Slug: web-log-download
 Lang: ja
 Category: Xoxzo Cloud Telephony Platform/Account
 
-Xoxzoの APIでは、 [SMSの配信](https://www.xoxzo.com/ja/about/sms-api/)や
-[音声通話](https://www.xoxzo.com/ja/about/voice-api/)、そして
-[ダイヤルインナンバーを使った音声通話受信](https://www.xoxzo.com/ja/about/dial-in-api/)などをご利用いただけます。
 
-ユーザーの方々は、SMSや通話の配信・受信後に、もちろんログの確認を行うものですので、 
-Xoxzoでも [**SMSのステータス確認API**](https://docs.xoxzo.com/ja/sms.html#check-sms-status-api) であるとか、
-[**通話発信ステータス確認API**](https://docs.xoxzo.com/ja/voice.html#checking-call-status) などをご用意しております。
+ユーザーの方々は、SMS配信後に、もちろんログの確認を行うものですので、 
+Xoxzoでも [**SMSのステータス確認API**](https://docs.xoxzo.com/ja/sms.html#check-sms-status-api) などをご用意しております。
 
-しかし、**SMSの配信状況ステータス確認が、csv形式ファイルでウェブよりダウンロードすることもできます。** 
+しかし、**SMSの配信状況ステータス確認が、csv形式ファイルでウェブから、とても簡単にダウンロードすることもできます。** 
 
 1. [アカウントへログインする](https://www.xoxzo.com/ja/accounts/login/)
 1. 画面右上の _アカウント_ プルダウンより _ご利用ログをダウンロードする_ を選ぶ
