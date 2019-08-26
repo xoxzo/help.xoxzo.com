@@ -8,7 +8,7 @@ Category: Xoxzo Cloud Telephony Platform/SMS API
 
 Xoxzoには、Kプレミアムサービスが2種類あります。
 [**Kプレミアムサービス**](https://help.xoxzo.com/ja/xoxzo-cloud-telephony-platform/articles/the-k-premium-service/) と 
-[**KプレミアムサービスLite**]() です。
+[**KプレミアムサービスLite**]([filename}/the-k-premium-lite-ja.md) です。
 2種類のオプションサービスが作られた流れについては、[関連ブログ記事](https://blog.xoxzo.com/ja/2018/06/25/kpremium-lite-notice/)をご参照ください。
 
 ## 2つのKプレミアムサービス比較
