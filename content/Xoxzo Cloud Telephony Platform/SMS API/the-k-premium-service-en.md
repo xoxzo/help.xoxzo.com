@@ -1,6 +1,6 @@
 Title: The K-Premium service
 Date: 2015-12-23 13:31
-Modified: 2018-6-25 17:00
+Modified: 2018-06-25 17:00
 Slug: the-k-premium-service
 Lang: en
 Category: Xoxzo Cloud Telephony Platform/SMS API
@@ -66,4 +66,4 @@ The cost of K-premium service delivery can be referred in the [price page](https
 
 [For more details, please see our documentation.](http://docs.xoxzo.com/en/sms.html#jp-specific-optional-parameters)
 
-
+* K-premium service has a sister service called [K-premium Lite](https://help.xoxzo.com/en/xoxzo-cloud-telephony-platform/articles/the-k-premium-lite). [What's the difference](https://help.xoxzo.com/en/xoxzo-cloud-telephony-platform/articles/the-k-premium-service-comparison)?

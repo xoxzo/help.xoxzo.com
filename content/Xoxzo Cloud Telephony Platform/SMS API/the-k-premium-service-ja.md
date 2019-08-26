@@ -1,6 +1,6 @@
 Title: Kプレミアム・サービスについて
 Date: 2015-12-23 13:31
-Modified: 2018-6-25 17:00
+Modified: 2018-06-25 17:00
 Slug: the-k-premium-service
 Lang: ja
 Category: Xoxzo Cloud Telephony Platform/SMS API
@@ -50,4 +50,4 @@ Kプレミアムサービスを使った配信の価格は、[料金ページ](h
 
 [詳しくは、ドキュメンテーションをご参照ください](http://docs.xoxzo.com/ja/sms.html#jp-specific-optional-parameters)
 
-
+* Kプレミアムサービスには、他にも [Kプレミアム Lite](https://help.xoxzo.com/ja/xoxzo-cloud-telephony-platform/articles/the-k-premium-lite) があります。[違うところを比べてみて](https://help.xoxzo.com/ja/xoxzo-cloud-telephony-platform/articles/the-k-premium-service-comparison)ください。
