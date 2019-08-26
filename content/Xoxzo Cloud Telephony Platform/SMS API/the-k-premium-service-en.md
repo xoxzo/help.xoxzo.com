@@ -66,4 +66,4 @@ The cost of K-premium service delivery can be referred in the [price page](https
 
 [For more details, please see our documentation.](http://docs.xoxzo.com/en/sms.html#jp-specific-optional-parameters)
 
-* K-premium service has a sister service called [K-premium Lite](). [What's the difference]()?
+* K-premium service has a sister service called [K-premium Lite](https://help.xoxzo.com/en/xoxzo-cloud-telephony-platform/articles/the-k-premium-lite). [What's the difference](https://help.xoxzo.com/en/xoxzo-cloud-telephony-platform/articles/the-k-premium-service-comparison)?

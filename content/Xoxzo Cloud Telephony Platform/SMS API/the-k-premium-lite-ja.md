@@ -38,4 +38,4 @@ Kプレミアム Lite を使った配信の価格は、[料金ページ](https:/
 
 [詳しくは、ドキュメンテーションをご参照ください](http://docs.xoxzo.com/ja/sms.html#jp-specific-optional-parameters)
 
-* Kプレミアムサービスは、もともと [Kプレミアムサービス]({filename}/the-k-premium-service-ja.md) として生まれました。[違うところを比べてみて]({filename}/the-k-premium-comparison-ja.md)ください。
+* Kプレミアムサービスは、もともと [Kプレミアムサービス](https://help.xoxzo.com/ja/xoxzo-cloud-telephony-platform/articles/the-k-premium-service) として生まれました。[違うところを比べてみて](https://help.xoxzo.com/ja/xoxzo-cloud-telephony-platform/articles/the-k-premium-service-comparison)ください。

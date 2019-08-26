@@ -43,4 +43,4 @@ Please find the cost for K-premium Lite in the [Price Page](https://www.xoxzo.co
 
 [For more details, please see our documentation](http://docs.xoxzo.com/en/sms.html#jp-specific-optional-parameters)
 
-* [K-premium service]({filename}/the-k-premium-service-en.md) is what we originally have. [What's the difference](the-k-premium-comparison-en.md)?
+* [K-premium service](https://help.xoxzo.com/en/xoxzo-cloud-telephony-platform/articles/the-k-premium-service) is what we originally have. [What's the difference](https://help.xoxzo.com/en/xoxzo-cloud-telephony-platform/articles/the-k-premium-service-comparison)?
