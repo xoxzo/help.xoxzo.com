@@ -20,7 +20,7 @@ Xoxzoでも [**SMSのステータス確認API**](https://docs.xoxzo.com/ja/sms.h
 - url
 - msgid
 - tags
-- sent_time
+- sent_time (UTC)
 - recipient
 - status
 - cost
