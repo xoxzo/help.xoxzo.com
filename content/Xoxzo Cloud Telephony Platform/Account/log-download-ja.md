@@ -11,7 +11,7 @@ Xoxzoでも [**SMSのステータス確認API**](https://docs.xoxzo.com/ja/sms.h
 しかし、**SMSの配信状況ステータス確認が、csv形式ファイルでウェブから、とても簡単にダウンロードすることもできます。** 
 
 1. [アカウントへログインする](https://www.xoxzo.com/ja/accounts/login/)
-1. 画面右上の _アカウント_ プルダウンより _ご利用ログをダウンロードする_ を選ぶ
+1. 画面左側メニューの _アカウント_ プルダウンより _ご利用ログをダウンロードする_ を選ぶ
 1. ご希望の期間を選んで _作成する_ をクリック
 
 以上で、csvファイルのダウンロード準備が出来ます。ファイル内の項目は、
@@ -20,7 +20,7 @@ Xoxzoでも [**SMSのステータス確認API**](https://docs.xoxzo.com/ja/sms.h
 - url
 - msgid
 - tags
-- sent_time
+- sent_time (UTC)
 - recipient
 - status
 - cost
