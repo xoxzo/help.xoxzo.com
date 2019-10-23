@@ -1,5 +1,5 @@
 Title: 携帯電話番号認証はどうやりますか？
-Date: 2019-10-09
+Date: 2019-10-23
 Slug: how-to-authenticate-my-account
 Lang: ja
 Category: Xoxzo Cloud Telephony Platform/Account
