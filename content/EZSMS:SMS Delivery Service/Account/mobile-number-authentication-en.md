@@ -4,6 +4,16 @@ Slug: mobile-number-authentication
 Lang: en
 Category: EZSMS:SMS delivery service/Account
 
-Unfortunately EZSMS does not have non Japanese FAQs
+**By default, Japanese mobile phone numbers are to be used for authenticating your account.**
 
-Please check our Japanese FAQ page to see the detailed instructions how to authenticate your mobile phone number [here](https://help.xoxzo.com/ja/ezsmssms-delivery-service/articles/mobile-number-authentication/).
+For Non-Japanese mobile numbers to be used,
+Please contact the help desk at support@ezsms.biz together with:
+
+- Company, organization and personal name
+- Use cases
+- Expected amount of monthly traffic
+
+
+
+
+
