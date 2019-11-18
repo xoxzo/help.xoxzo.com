@@ -17,8 +17,7 @@ The [GSM](https://en.wikipedia.org/wiki/Short_Message_Service) standard specifie
 It is not economical to send overlimit sized messages, while it is also important to consider the message contents to be attractive and easy to understand for the recipients.
 
 MS word can [show the word count](https://support.office.com/en-us/article/show-the-word-count-and-more-3c9e6a11-a04d-43b4-977c-563a0e0d5da3) and you can check the text length before you send it.
-Of course [EZSMS](https://www.ezsms.biz/ja/) has **send from the web** feature and it will count the character you input as well.
-![Send_from_web](images/Send_from_web.png)
+Of course [EZSMS](https://www.ezsms.biz/ja/) has **send from the web** feature and it will count the character you input as well. ![send_from_web](images/send_from_web.png)
 
 But you have to be careful when you send **message text in English**.
 Even if only one non-ASCII character is mixed into the text, the whole message will be regarded as **non-ASCII message** and the 160 ASCII-character limit will now be NON-ASCII character limit of 70, and your one sending will be splitted into 3.

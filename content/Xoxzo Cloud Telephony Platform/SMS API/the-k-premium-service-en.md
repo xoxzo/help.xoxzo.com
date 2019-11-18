@@ -24,7 +24,7 @@ Please contact [help@xoxzo.com](mailto:help@xoxzo.com) for more details and regi
 
 ## Details of K-Premium Sending
 
-__How to set K-Premium__
+### How to set K-Premium
 
 Please add [K-Premium optional parameters](http://docs.xoxzo.com/en/sms.html#jp-specific-optional-parameters)
 when you make your request to send to a JP number. The messages will be sent using our K-Preimum direct route
@@ -33,7 +33,7 @@ per message sent.
 
 Please use **K-Premium lite** when you want to apply this K-premium function **ONLY on the KDDI(au) numbers**, the system will automatically look up the operators of your recipient number belongs to and **only KDDI(au) numbers are applied K-premium** when being sent, the recipient numbers that belongs to **Docomo and Softbank will be sent as standard sendings**.
 
-__AU（KDDI）recipients__
+### AU（KDDI）recipients
 
 Please set the sender ID that you specify at the registration with the option parameter *jp_kddi_sender*
 and it will be shown as you specify at the device of the recipients.
@@ -43,7 +43,7 @@ Both parameter
 will have K-premium cost applied and will act the same.
 
 
-__SoftBank recipients__
+### SoftBank recipients
 
 with parameter ```jp_kp``` (K-premium cost will be applied) </br>
 Sender ID that will be shown at the recipients will be fixed to __22472__.
@@ -52,7 +52,7 @@ with parameter ```jp_kpl``` (Standard SMS cost will be applied)</br>
 Sender ID can be set as you wish with *sender* parameter but there is no guarantee that the set Sender ID will be delivered as it's set.
 
 
-__DOCOMO recipients__
+### DOCOMO recipients
 
 with parameter ```jp_kp```(K-premium cost will be applied)</br>
 Sender ID that will be shown at the recipients will fixed to __05052128038__.
@@ -60,7 +60,7 @@ Sender ID that will be shown at the recipients will fixed to __05052128038__.
 with parameter ```jp_kpl``` (Standard SMS cost will be applied)</br>
 Sender ID can be set as you wish with *sender* parameter but there is no guarantee that the set Sender ID will be delivered as it's set.
 
-__Cost for K-Premium__
+### Cost for K-Premium
 
 The cost of K-premium service delivery can be referred in the [price page](https://www.xoxzo.com/en/about/pricing/#sms).
 

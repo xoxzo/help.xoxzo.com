@@ -14,7 +14,7 @@ For more details and for registration, please contact [help@xoxzo.com](mailto:he
 
 ## Sending with K-Premium Lite
 
-__How to set K-Premium Lite__
+### How to set K-Premium Lite
 
 Please add [Option Parameter](http://docs.xoxzo.com/en/sms.html#jp-specific-optional-parameters)
 when you make request to send to JP numbers. The system will autoatically look up the operators of your recipient number belongs to
@@ -24,20 +24,20 @@ sent as standard sendings.
 Please read [**The K-Premium Service**](https://help.xoxzo.com/en/xoxzo-cloud-telephony-platform/articles/the-k-premium-service/)
 and follow the instruction in case you would like to use direct connection to all Japanese carriers.
 
-__Setting jp_kpl__
+### Setting jp_kpl
 
 Please set the sender ID that you specify at the registration with the option parameter *jp_kddi_sender* and it will be shown as you specify at the device of the recipients.
 Setting ```jp_kpl``` parameter, the request to the au(KDDI) recipients will be sent as **K-premium** and will be charged as **K-premium** sending.
 
 
-__Sending to Softbank and Docomo recipients__
+### Sending to Softbank and Docomo recipients
 
 Request to send to Softbank and Docomo recipients will be treated as **standard** sending.
 
 ```sender``` parameter can be set but it is not guarateed to reach the recipients as you set.
 
 
-__Cost for K-premium Lite__
+### Cost for K-premium Lite
 
 Please find the cost for K-premium Lite in the [Price Page](https://www.xoxzo.com/en/about/pricing/#sms).
 

@@ -17,7 +17,7 @@ Category: EZSMS:SMS delivery service/SMS API
 
 [MSワードでの文字数カウント機能](https://support.office.com/ja-jp/article/word-for-mac-%E3%81%A7%E6%96%87%E5%AD%97%E6%95%B0-%E3%81%8A%E3%82%88%E3%81%B3%E9%96%A2%E9%80%A3%E3%81%99%E3%82%8B%E6%83%85%E5%A0%B1-%E3%82%92%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B-441b6035-17fc-46df-9f6d-9174bd5c3bf1)等を使用すると、送信前の原稿内の文字数が確認できます。
 もちろん、[EZSMS](https://www.ezsms.biz/ja/)でWebから送信をご利用になると、APIを利用した開発を行うことなく、下記のようなWeb画面から簡単にSMS送信ができます。
-![Send_from_web](images/Send_from_web.png)
+![send_from_web](images/send_from_web.png)
 そして、メッセージ本文欄に入力した文字は、自動でカウントが行われます。
 
 ただ、*英文のメッセージ*を準備する時には、注意が必要です。

@@ -10,21 +10,23 @@ By setting this variable in the message, it will be developed when being sent, t
 
 Below is the details of this valiable.
 
-<table align="center" border="1" cellpadding="1" cellspacing="1">
-  <tbody>
-    <tr>
-      <td>Variable</td>
-      <td>Content</td>
-      <td>Actual length</td>
-      <td>Sample message</td>
-      <td>Developed message</td>
-    </tr>
-    <tr>
-      <td><strong>{{ mn }}</strong> </td>
-      <td>SenderID</td>
-      <td>12</td>
-      <td>Get your discount ticket here: http://bit.ly/abc?num=<strong>{{ mn }}</strong> </td>
-      <td>Get your discount ticket here: http://bit.ly/abc?num=819012345678</td>
-    </tr>
-  </tbody>
-</table>
+<div class="table-responsive">
+  <table align="center" border="1" cellpadding="1" cellspacing="1">
+    <tbody>
+      <tr>
+        <td>Variable</td>
+        <td>Content</td>
+        <td>Actual length</td>
+        <td>Sample message</td>
+        <td>Developed message</td>
+      </tr>
+      <tr>
+        <td><strong>{{ mn }}</strong> </td>
+        <td>SenderID</td>
+        <td>12</td>
+        <td>Get your discount ticket here: http://bit.ly/abc?num=<strong>{{ mn }}</strong> </td>
+        <td>Get your discount ticket here: http://bit.ly/abc?num=819012345678</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

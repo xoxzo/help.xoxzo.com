@@ -13,50 +13,52 @@ Xoxzoには、Kプレミアムサービスが2種類あります。
 
 ## 2つのKプレミアムサービス比較
 
-<table border="1" cellpadding="10" cellspacing="1">
-  <tr>
-    <th></th>
-    <th></th>
-    <th>Kプレミアム</th>
-    <th>KプレミアムLite</th>
-  </tr>
-  <tr>
-    <td>au(KDDI)への送信</td>
-    <td>送信元ID</td>
-    <td>事前登録の数字</td>
-    <td>事前登録の数字</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>料金</td>
-    <td>Kプレミアム料金</td>
-    <td>Kプレミアム料金</td>
-  </tr>
+<div class="table-responsive">
+  <table border="1" cellpadding="10" cellspacing="1">
     <tr>
-    <td>ソフトバンクへの送信</td>
-    <td>送信元ID</td>
-    <td>22472</td>
-    <td>お好みで設定（そのまま届く保証なし）</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>料金</td>
-    <td>Kプレミアム料金</td>
-    <td>通常配信料金</td>
-  </tr>
+      <th></th>
+      <th></th>
+      <th>Kプレミアム</th>
+      <th>KプレミアムLite</th>
+    </tr>
+    <tr>
+      <td>au(KDDI)への送信</td>
+      <td>送信元ID</td>
+      <td>事前登録の数字</td>
+      <td>事前登録の数字</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>料金</td>
+      <td>Kプレミアム料金</td>
+      <td>Kプレミアム料金</td>
+    </tr>
       <tr>
-    <td>NTTドコモへの送信</td>
-    <td>送信元ID</td>
-    <td>05052128038</td>
-    <td>お好みで設定（そのまま届く保証なし）</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>料金</td>
-    <td>Kプレミアム料金</td>
-    <td>通常配信料金</td>
-  </tr>
-</table>
+      <td>ソフトバンクへの送信</td>
+      <td>送信元ID</td>
+      <td>22472</td>
+      <td>お好みで設定（そのまま届く保証なし）</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>料金</td>
+      <td>Kプレミアム料金</td>
+      <td>通常配信料金</td>
+    </tr>
+        <tr>
+      <td>NTTドコモへの送信</td>
+      <td>送信元ID</td>
+      <td>05052128038</td>
+      <td>お好みで設定（そのまま届く保証なし）</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>料金</td>
+      <td>Kプレミアム料金</td>
+      <td>通常配信料金</td>
+    </tr>
+  </table>
+</div>
 
 上記を参考に、実装前にお好みのパターンでの送信テストを行ってください。
 
