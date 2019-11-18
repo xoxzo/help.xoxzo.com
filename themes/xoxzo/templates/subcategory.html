@@ -1,43 +1,41 @@
 {% extends "base.html" %}
 
 {% block hreflang %}
-    <link rel="alternate" href="https://help.xoxzo.com/{{ subcategory.parent.url }}/{{ subcategory.url }}" hreflang="x-default"/>
-    <link rel="alternate" href="https://help.xoxzo.com/en/{{ subcategory.parent.url }}/{{ subcategory.url }}" hreflang="en"/>
-    <link rel="alternate" href="https://help.xoxzo.com/ja/{{ subcategory.parent.url }}/{{ subcategory.url }}" hreflang="ja"/>
+  <link rel="alternate" href="https://help.xoxzo.com/{{ subcategory.parent.url }}/{{ subcategory.url }}" hreflang="x-default"/>
+  <link rel="alternate" href="https://help.xoxzo.com/en/{{ subcategory.parent.url }}/{{ subcategory.url }}" hreflang="en"/>
+  <link rel="alternate" href="https://help.xoxzo.com/ja/{{ subcategory.parent.url }}/{{ subcategory.url }}" hreflang="ja"/>
 {% endblock %}
 
 {% block content %}
-<header class="header-sm">
-    <div class="container">
-        <ol class="breadcrumb col-sm-12 col-md-7">
-          <li class="breadcrumb-item"><a href="{{ SITEURL }}/{{ subcategory.parent.url }}">{{ subcategory.parent }}</a></li>
-          <li class="breadcrumb-item active">{{ subcategory.shortname }}</li>
-        </ol>
-        <div class="searchbar col-sm-12 col-md-5">
-            <div class="input-group">
-                <form class="input-group" action="{{ SITEURL }}/search" onsubmit="return validateForm(this.elements['q'].value);">
-                <input type="text" id="tipue_search_input" class="form-control" name="q" placeholder="{% trans %}Start your search{% endtrans %}">
-                <span class="input-group-btn">
-                    <button class="btn btn-secondary" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-                </span>
-            </form>
-            </div>
-        </div>
+<header class="navbar header-sm">
+  <div class="container">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="{{ SITEURL }}/{{ subcategory.parent.url }}">{{ subcategory.parent }}</a></li>
+      <li class="breadcrumb-item active">{{ subcategory.shortname }}</li>
+    </ol>
+    <div class="searchbar ml-md-auto mt-2 mt-md-0">
+      <form class="input-group" action="{{ SITEURL }}/search" onsubmit="return validateForm(this.elements['q'].value);">
+        <input type="text" id="tipue_search_input" class="form-control" name="q" placeholder="{% trans %}Start your search{% endtrans %}">
+        <span class="input-group-btn">
+            <button class="btn btn-white" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </span>
+      </form>
     </div>
+  </div>
 </header>
-<main class="container">
-    <section class="content">
-        <div class="container">
-            <h2 class="content-title">{{ subcategory.shortname }}</h2>
-            <ul class="content-list">
-            {% for article in articles_page.object_list %}
-                <li><a href="{{ SITEURL }}/{{ article.url }}" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></li>
-            {% endfor %}
-            </ul>
-            {% if articles_page.has_other_pages() %}
-                {% include 'pagination.html' %}
-            {% endif %}
-        </div>
-    </section>
+<main>
+  <section class="content">
+    <div class="container">
+      <h2 class="content-title">{{ subcategory.shortname }}</h2>
+      <ul class="content-list">
+        {% for article in articles_page.object_list %}
+        <li><a href="{{ SITEURL }}/{{ article.url }}" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></li>
+        {% endfor %}
+      </ul>
+        {% if articles_page.has_other_pages() %}
+        {% include 'pagination.html' %}
+        {% endif %}
+    </div>
+  </section>
 </main>
 {% endblock content %}

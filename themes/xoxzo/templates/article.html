@@ -1,78 +1,79 @@
 {% extends "base.html" %}
 
 {% block head %}
-    {{ super() }}
+  {{ super() }}
 
-    {% for tag in article.tags %}
-    <meta name="tags" content="{{ tag }}">
-    {% endfor %}
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="{{ article.title }}">
-    <meta property="og:description" content="{{ article.summary|striptags }}">
-    <meta property="og:url" content="{{ SITEURL }}/{{ article.url }}">
-    <meta property="og:site_name" content="{{ SITENAME }}">
-    {% if article.thumbnail %}
-    <meta property="og:image" content="{{ article.thumbnail }}">
-    {% else %}
-    <meta property="og:image" content="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/xoxzo_opengraph.jpg">
-    {% endif %}
+  {% for tag in article.tags %}
+  <meta name="tags" content="{{ tag }}">
+  {% endfor %}
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="{{ article.title }}">
+  <meta property="og:description" content="{{ article.summary|striptags }}">
+  <meta property="og:url" content="{{ SITEURL }}/{{ article.url }}">
+  <meta property="og:site_name" content="{{ SITENAME }}">
+  {% if article.thumbnail %}
+  <meta property="og:image" content="{{ article.thumbnail }}">
+  {% else %}
+  <meta property="og:image" content="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/xoxzo_opengraph.png">
+  {% endif %}
 
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@xoxzocom">
-    <meta name="twitter:title" content="{{ article.title }}">
-    <meta name="twitter:description" content="{{ article.summary|striptags }}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@xoxzocom">
+  <meta name="twitter:title" content="{{ article.title }}">
+  <meta name="twitter:description" content="{{ article.summary|striptags }}">
+  <meta name="twitter:image" content="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/xoxzo_twcard.png">
 {% endblock %}
 
 {% block hreflang %}
-    <link rel="alternate" href="https://help.xoxzo.com/{{ article.url }}" hreflang="x-default"/>
-    {% if DEFAULT_LANG == 'ja' %}
-    <link rel="alternate" href="https://help.xoxzo.com/ja/{{ article.url }}" hreflang="ja"/>
-    {% if article.translations %}
-    <link rel="alternate" href="https://help.xoxzo.com/en/{{ article.url }}" hreflang="en"/>
-    {% endif %}
-    {% else %}
-    <link rel="alternate" href="https://help.xoxzo.com/en/{{ article.url }}" hreflang="en"/>
-    {% if article.translations %}
-    <link rel="alternate" href="https://help.xoxzo.com/ja/{{ article.url }}" hreflang="ja"/>
-    {% endif %}
-    {% endif %}
+  <link rel="alternate" href="https://help.xoxzo.com/{{ article.url }}" hreflang="x-default"/>
+  {% if DEFAULT_LANG == 'ja' %}
+  <link rel="alternate" href="https://help.xoxzo.com/ja/{{ article.url }}" hreflang="ja"/>
+  {% if article.translations %}
+  <link rel="alternate" href="https://help.xoxzo.com/en/{{ article.url }}" hreflang="en"/>
+  {% endif %}
+  {% else %}
+  <link rel="alternate" href="https://help.xoxzo.com/en/{{ article.url }}" hreflang="en"/>
+  {% if article.translations %}
+  <link rel="alternate" href="https://help.xoxzo.com/ja/{{ article.url }}" hreflang="ja"/>
+  {% endif %}
+  {% endif %}
 {% endblock %}
 
 {% block title %}{{ article.title }} | {% trans %}Xoxzo Help Center{% endtrans %}{% endblock title %}
 
 {% block content %}
-<header class="header-sm">
-    <div class="container">
-        <ol class="breadcrumb col-sm-12 col-md-7">
-            <li class="breadcrumb-item"><a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a></li>
-            {% for subcategory in article.subcategories %}
-            <li class="breadcrumb-item"><a href="{{ SITEURL }}/{{ subcategory.url }}">{{ subcategory.shortname }}</a></li>
-            {% endfor %}
-        </ol>
-        <div class="searchbar col-sm-12 col-md-5">
-            <form class="input-group" action="{{ SITEURL }}/search" onsubmit="return validateForm(this.elements['q'].value);">
-                <input type="text" id="tipue_search_input" class="form-control" name="q" placeholder="{% trans %}Start your search{% endtrans %}">
-                <span class="input-group-btn">
-                    <button class="btn btn-secondary" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-                </span>
-            </form>
-        </div>
+<header class="navbar header-sm">
+  <div class="container">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a></li>
+      {% for subcategory in article.subcategories %}
+      <li class="breadcrumb-item"><a href="{{ SITEURL }}/{{ subcategory.url }}">{{ subcategory.shortname }}</a></li>
+      {% endfor %}
+    </ol>
+    <div class="searchbar ml-md-auto mt-2 mt-md-0">
+      <form class="input-group" action="{{ SITEURL }}/search" onsubmit="return validateForm(this.elements['q'].value);">
+        <input type="text" id="tipue_search_input" class="form-control" name="q" placeholder="{% trans %}Start your search{% endtrans %}">
+        <span class="input-group-btn">
+          <button class="btn btn-white" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </span>
+      </form>
     </div>
+  </div>
 </header>
-<main class="container">
-    <section class="content">
-        <div class="container">
-            <article>
-                <h2 class="article-title">{{ article.title }}</h2>
-                {% import 'translations.html' as translations with context %}
-                {% if article.translations %}
-                <h3 class="article-info">Translate to {{ translations.translations_for(article) }}</h3>
-                {% endif %}
-                <div class="article-content">
-                  {{ article.content }}
-                </div>
-            </article>
+<main>
+  <section class="content">
+    <div class="container">
+      <article>
+        <h2 class="article-title">{{ article.title }}</h2>
+        {% import 'translations.html' as translations with context %}
+        {% if article.translations %}
+        <p class="article-info">{{ translations.translations_for(article) }}</p>
+        {% endif %}
+        <div class="article-content">
+          {{ article.content }}
         </div>
-    </section>
+      </article>
+    </div>
+  </section>
 </main>
 {% endblock %}
