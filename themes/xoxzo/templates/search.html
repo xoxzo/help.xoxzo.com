@@ -10,24 +10,6 @@
 Search - {{ SITENAME|striptags }}
 {% endblock title %}
 
-{% block extra_js %}
-<script type="text/javascript" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/tipuesearch/tipuesearch_set.js"></script>
-<script type="text/javascript" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/tipuesearch/tipuesearch.min.js"></script>
-
-<script>
-var $j = jQuery.noConflict();
-$j(document).ready(function() {
-   $j('#tipue_search_input').tipuesearch({
-     'show': 10,
-     'mode': 'json',
-     'contentLocation': '{{ SITEURL }}/tipuesearch_content.json',
-     'wholeWords': false,
-     'showTime': false,
-   });
-});
-</script>
-{% endblock %}
-
 {% block content %}
 <header class="header-lg">
   <div class="container">
@@ -43,12 +25,52 @@ $j(document).ready(function() {
   </div>
 </header>
 
-<main>
+<main class="index">
   <section class="content">
     <div class="container">
       <div id="tipue_search_content">
+        <div class="row">
+          {% for category, articles in categories %}
+          <div class="col-md-6 category mb-5 mb-md-0">
+            <a class="category-title" href="{{ SITEURL }}/{{ category.url }}">
+              <h2 class="content-title">{{ category }}</h2>
+            </a>
+            <ul class="content-list">
+              {% for article in articles %}
+              {% if loop.index <= 7 %}
+              <li>
+                <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+              </li>
+              {% endif %}
+              {% endfor %}
+            </ul>
+            <a class="link-point" href="{{ SITEURL }}/{{ category.url }}">
+              <h5>{% trans %}View all articles{% endtrans %} ></h5>
+            </a>
+          </div>
+          {% endfor %}
+        </div>
       </div>
     </div>
   </section>
 </main>
 {% endblock content %}
+
+{% block extra_js %}
+<script type="text/javascript" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/tipuesearch/tipuesearch_set.js"></script>
+<script type="text/javascript" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/tipuesearch/tipuesearch.min.js"></script>
+<script src="{{ SITEURL }}/tipuesearch_content.js"></script>
+
+<script>
+var $j = jQuery.noConflict();
+$j(document).ready(function() {
+   $j('#tipue_search_input').tipuesearch({
+     'show': 10,
+     'mode': 'json',
+     'contentLocation': '{{ SITEURL }}/tipuesearch_content.js',
+     'wholeWords': false,
+     'showTime': false,
+   });
+});
+</script>
+{% endblock %}

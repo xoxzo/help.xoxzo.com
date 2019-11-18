@@ -14,11 +14,10 @@
   <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/bootstrap.min.css">
   <link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/main.css?v=2">
+  <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery.min.js"></script>
 
   {% block hreflang %}
   {% endblock %}
-
-  {% block extra_js %}{% endblock %}
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
@@ -45,6 +44,9 @@
           <li class="nav-item">
             <a class="nav-link" href="{% trans %}https://hello.xoxzo.com/en/{% endtrans %}" target="_blank"><i class="fa fa-phone" aria-hidden="true"></i> {% trans %}Xoxzo Demo{% endtrans %}</a>
           </li>
+          <li class="nav-item d-md-none">
+            <a class="nav-link" href="{{ SITEURL }}/search"><i class="fa fa-search" aria-hidden="true"></i> {% trans %}Search{% endtrans %}</a>
+          </li>
           <li class="nav-item dropdown mr-1">
             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-globe" aria-hidden="true"></i> Language
             </a>
@@ -70,17 +72,18 @@
         <div class="col-12 col-sm-5 order-sm-last text-sm-right mb-2">
           <a class="mr-3" href="mailto:help@xoxzo.com"><i class="fas fa-envelope" aria-hidden="true"></i></a>
           <a class="ml-1 mr-3" href="https://twitter.com/xoxzocom" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-          <a class="mr-3" href="https://www.linkedin.com/company/xoxzo-inc-/"><i class="fab fa-linkedin-in"></i></a>
-          <a class="ml-1" href="https://www.instagram.com/lifeatxoxzo/"><i class="fab fa-instagram"></i></a>
+          <a class="mr-3" href="https://www.linkedin.com/company/xoxzo-inc-/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a class="ml-1" href="https://www.instagram.com/lifeatxoxzo/" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
         <p class="col-12 col-sm-7 mb-0 text-sm-left">© {{ CURRENTYEAR }} {% trans %}Xoxzo Inc. All rights reserved.<br>Powered by <a href="http://getpelican.com/">Pelican</a>{% endtrans %}</p>
       </div>
     </div>
   </footer>
 
-  <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery.min.js"></script>
   <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/tether.min.js"></script>
   <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/bootstrap.min.js"></script>
+
+  {% block extra_js %}{% endblock %}
 
   <!-- GA -->
   <script>

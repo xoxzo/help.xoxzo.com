@@ -12,7 +12,7 @@
     <ol class="breadcrumb">
       <li class="breadcrumb-item active">{{ category }}</li>
     </ol>
-    <div class="searchbar ml-md-auto mt-2 mt-md-0">
+    <div class="searchbar ml-md-auto d-none d-md-block">
       <form class="input-group" action="{{ SITEURL }}/search" onsubmit="return validateForm(this.elements['q'].value);">
         <input type="text" id="tipue_search_input" class="form-control" name="q" placeholder="{% trans %}Start your search{% endtrans %}">
         <span class="input-group-btn">

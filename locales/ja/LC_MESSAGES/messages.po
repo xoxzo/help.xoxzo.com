@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-06-21 14:39+0900\n"
+"POT-Creation-Date: 2019-11-18 22:17+0900\n"
 "PO-Revision-Date: 2017-07-23 02:40+0900\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ja\n"
@@ -18,62 +18,59 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.1\n"
 
-#: themes/xoxzo/templates/article.html:41
+#: themes/xoxzo/templates/article.html:42
 msgid "Xoxzo Help Center"
 msgstr "Xoxzoのヘルプセンター"
 
-#: themes/xoxzo/templates/article.html:54
+#: themes/xoxzo/templates/article.html:55
 #: themes/xoxzo/templates/category.html:17 themes/xoxzo/templates/index.html:15
-#: themes/xoxzo/templates/search.html:37
-#: themes/xoxzo/templates/subcategory.html:19
+#: themes/xoxzo/templates/search.html:19
+#: themes/xoxzo/templates/subcategory.html:18
 msgid "Start your search"
 msgstr "検索開始"
 
-#: themes/xoxzo/templates/base.html:38
+#: themes/xoxzo/templates/base.html:34
 msgid "HELP CENTER"
 msgstr "ヘルプセンター"
 
-#: themes/xoxzo/templates/base.html:48
+#: themes/xoxzo/templates/base.html:42
 msgid "https://info.xoxzo.com/en/"
 msgstr "https://info.xoxzo.com/ja/"
 
-#: themes/xoxzo/templates/base.html:48
+#: themes/xoxzo/templates/base.html:42
 msgid "Who We Are"
 msgstr "Xoxzoについて"
 
-#: themes/xoxzo/templates/base.html:51
+#: themes/xoxzo/templates/base.html:45
 msgid "https://hello.xoxzo.com/en/"
 msgstr "https://hello.xoxzo.com/ja/"
 
-#: themes/xoxzo/templates/base.html:51
+#: themes/xoxzo/templates/base.html:45
 msgid "Xoxzo Demo"
 msgstr "Xoxzoのデモ"
 
-#: themes/xoxzo/templates/base.html:54
-msgid "Twitter"
-msgstr "ツイッター"
+#: themes/xoxzo/templates/base.html:48
+msgid "Search"
+msgstr "検索"
 
-#: themes/xoxzo/templates/base.html:67
+#: themes/xoxzo/templates/base.html:59
 msgid "https://www.xoxzo.com/en/"
 msgstr "https://www.xoxzo.com/ja/"
 
-#: themes/xoxzo/templates/base.html:67
+#: themes/xoxzo/templates/base.html:59
 msgid "Xoxzo Telephony API"
 msgstr "XoxzoテレフォニーAPI"
 
-#: themes/xoxzo/templates/base.html:80
-msgid "Xoxzo Inc. All rights reserved."
-msgstr "Xoxzo Inc. All rights reserved."
+#: themes/xoxzo/templates/base.html:78
+msgid ""
+"Xoxzo Inc. All rights reserved.<br>Powered by <a "
+"href=\"http://getpelican.com/\">Pelican</a>"
+msgstr ""
 
-#: themes/xoxzo/templates/base.html:81
-msgid "Powered by <a href=\"http://getpelican.com/\">Pelican</a>"
-msgstr "Powered by <a href=\"http://getpelican.com/\">Pelican</a>"
-
-#: themes/xoxzo/templates/index.html:12 themes/xoxzo/templates/search.html:34
+#: themes/xoxzo/templates/index.html:12 themes/xoxzo/templates/search.html:16
 msgid "How can we help you ?"
 msgstr "ご質問は何でしょうか"
 
-#: themes/xoxzo/templates/index.html:42
+#: themes/xoxzo/templates/index.html:42 themes/xoxzo/templates/search.html:48
 msgid "View all articles"
-msgstr "すべてのヘルプを参照する"
-
+msgstr "すべてのヘルプを 参照する"
