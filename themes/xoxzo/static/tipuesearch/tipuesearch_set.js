@@ -16,47 +16,25 @@ var tipuesearch_stop_words = ["a", "above", "after", "again", "against", "all", 
 
 
 // Word replace
-
-var tipuesearch_replace = {'words': [
-     {'word': 'tip', 'replace_with': 'tipue'},
-     {'word': 'javscript', 'replace_with': 'javascript'},
-     {'word': 'jqeury', 'replace_with': 'jquery'}
-]};
+var tipuesearch_replace = {'words': []};
 
 
 // Weighting
-
-var tipuesearch_weight = {'weight': [
-     {'url': 'http://www.tipue.com', 'score': 60},
-     {'url': 'http://www.tipue.com/search', 'score': 60},
-     {'url': 'http://www.tipue.com/tipr', 'score': 30},
-     {'url': 'http://www.tipue.com/support', 'score': 20}
-]};
+var tipuesearch_weight = {'weight': []};
 
 
 // Illogical stemming
-
 var tipuesearch_stem = {'words': [
-     {'word': 'e-mail', 'stem': 'email'},
-     {'word': 'javascript', 'stem': 'jquery'},
-     {'word': 'javascript', 'stem': 'js'}
+  {'word': 'e-mail', 'stem': 'email'},
+  {'word': 'kpremium', 'stem': 'k-premium'}
 ]};
 
 
 // Related
-
-var tipuesearch_related = {'Related': [
-     {'search': 'tipue', 'related': 'Search', 'include': 1},
-     {'search': 'tipue', 'related': 'jQuery'},
-     {'search': 'tipue', 'related': 'Blog'},
-     {'search': 'tipue', 'related': 'Support'},
-     {'search': 'tipue search', 'related': 'Demo', 'include': 1},
-     {'search': 'tipue search', 'related': 'Support'}
-]};
+var tipuesearch_related = {'Related': []};
 
 
 // Internal strings
-
 var tipuesearch_string_1 = 'No title';
 var tipuesearch_string_2 = 'Showing results for';
 var tipuesearch_string_3 = 'Search instead for';
@@ -79,6 +57,4 @@ var tipuesearch_string_16 = 'Goto Page';
 
 
 // Timer for showTime
-
 var startTimer = new Date().getTime();
-
