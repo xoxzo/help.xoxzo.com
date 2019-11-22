@@ -70,6 +70,7 @@ code {
 .navbar .dropdown-menu {
   font-size: .9rem;
   min-width: auto;
+  left: 10px;
 }
 
 .navbar .dropdown-menu a {
