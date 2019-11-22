@@ -50,7 +50,7 @@ var tipuesearch_string_12 = 'Search should be';
 var tipuesearch_string_13 = 'characters or more.';
 var tipuesearch_string_14 = 'seconds';
 var tipuesearch_string_15 = 'Open Image';
-var tipuesearch_string_16 = 'Goto Page';
+var tipuesearch_string_16 = 'Go to Page';
 
 
 // Internals
