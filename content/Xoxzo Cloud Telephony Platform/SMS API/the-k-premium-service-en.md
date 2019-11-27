@@ -55,7 +55,7 @@ Sender ID can be set as you wish with *sender* parameter but there is no guarant
 ### DOCOMO recipients
 
 with parameter ```jp_kp```(K-premium cost will be applied)</br>
-Sender ID that will be shown at the recipients will fixed to __05052128038__.
+Sender ID that will be shown at the recipients will fixed to __0363881815 or 05052128038__.
 
 with parameter ```jp_kpl``` (Standard SMS cost will be applied)</br>
 Sender ID can be set as you wish with *sender* parameter but there is no guarantee that the set Sender ID will be delivered as it's set.
