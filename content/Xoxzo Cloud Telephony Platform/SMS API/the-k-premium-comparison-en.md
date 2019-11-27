@@ -48,7 +48,7 @@ Please refer our blog post how these 2 services were made [here](https://blog.xo
     <tr>
       <td>Softbank</td>
       <td>SenderID</td>
-      <td>05052128038</td>
+      <td>0363881815 or 05052128038</td>
       <td>Your own setting (no guaranteed)</td>
     </tr>
     <tr>
