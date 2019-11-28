@@ -6,4 +6,4 @@ Category: EZSMS:SMS delivery service/Account
 
 Unfortunately EZSMS does not have non Japanese FAQs
 
-Please check our Japanese FAQ page to see the detailed instructions how to authenticate your mobile phone number [here](https://help.xoxzo.com/ja/ezsmssms-delivery-service/articles/mobile-number-authentication/).
+Please check our Japanese FAQ page to see the detailed instructions how to authenticate your mobile phone number [here](https://help.xoxzo.com/ja/ezsms-sms-delivery-service/articles/mobile-number-authentication/).
