@@ -1,7 +1,7 @@
-Title: SMSイン番号(SIN) って？
+Title: What is SIN (SMS-IN-Number)?
 Date: 2019-12-28
 Slug: what-is-sin
-Lang: ja
+Lang: en
 Category: Xoxzo Cloud Telephony Platform/SMS API
 
 ## What is SIN (SMS IN Number) API?
