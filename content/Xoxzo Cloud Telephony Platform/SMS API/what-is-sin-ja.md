@@ -22,8 +22,8 @@ Xoxzoの[SMSウェブAPI](https://www.xoxzo.com/ja/about/sms-api/)には、SMS�
 
 
 ## SMS受信API (SIN）の使い方は？
-[ドキュメンテーション](https://docs.xoxzo.com/ja/sms.html#receive-sms-messages-api)
-および[ヘルプページ](https://help.xoxzo.com/xoxzo-cloud-telephony-platform/)をご参照ください。
+詳しくは、[ドキュメンテーション](https://docs.xoxzo.com/ja/sms.html#receive-sms-messages-api)
+をご参照ください。
 
 概要としては、
 
