@@ -25,8 +25,7 @@ even securer and more convenient.
 
 
 ## How to use SIN (SMS IN Number) API？
-Please refer [Documentation](https://docs.xoxzo.com/en/sms.html#receive-sms-messages-api)
-and [Help page](https://help.xoxzo.com/xoxzo-cloud-telephony-platform/) for details.
+Please refer the details of how to use in [Documentation](https://docs.xoxzo.com/en/sms.html#receive-sms-messages-api).
 
 Here shows the easy steps to start,
 
@@ -39,4 +38,3 @@ Now, you are ready to receive SMS.
 Upon the receipt of incoming SMS, the sender, the number you received the message, 
 the message body and the time & date of the receipt are sent to webhook.
 
-Please visit [Price Page](https://www.xoxzo.com/en/about/pricing/) for the cost details.
