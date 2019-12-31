@@ -1,15 +1,15 @@
-Title: SMSイン番号(SIN) って？
+Title: SMS受信API と SMSイン番号(SIN) って？
 Date: 2019-12-28
 Slug: what-is-sin
 Lang: ja
 Category: Xoxzo Cloud Telephony Platform/SMS API
 
-## SMS受信API (SIN）とは？
-SMS受信API（SIN = SMS-IN-Number)では、APIを使って電話番号を契約することにより、
+## SMS受信API と SMSイン番号(SIN）とは？
+SMS受信APIでは、APIから電話番号(SMSイン番号（SIN = SMS-IN-Number))を契約することにより、
 SMS受信のための携帯電話・スマホ・その他のデバイスがなくてもインターネット上でSMSの受信が可能になります。
 
 
-## SMS受信API (SIN）を使うメリットは？
+## SMS受信API を使うメリットは？
 + SMSの送信者の電話番号を自動でリストに追加したい
 + SMSの送信者に自動で決まった返信を送信できるようにしたい
 + 複数の電話番号に届くSMSを一括して管理したい
@@ -21,7 +21,7 @@ Xoxzoの[SMSウェブAPI](https://www.xoxzo.com/ja/about/sms-api/)には、SMS�
 上手に組み合わせて、あなたのウェブシステムやアプリがより便利に、より安全なものとなるようご活用ください。
 
 
-## SMS受信API (SIN）の使い方は？
+## SMS受信API の使い方は？
 詳しくは、[ドキュメンテーション](https://docs.xoxzo.com/ja/sms.html#receive-sms-messages-api)
 をご参照ください。
 
