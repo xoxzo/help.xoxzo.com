@@ -1,16 +1,16 @@
-Title: What is SIN (SMS-IN-Number)?
+Title: What is Receive SMS Messages API?
 Date: 2019-12-28
 Slug: what-is-sin
 Lang: en
 Category: Xoxzo Cloud Telephony Platform/SMS API
 
-## What is Receiving SMS API?
-Receiving SMS API will enable you to search a mobile phone number（SIN = SMS-IN-Number) available to subscribe 
+## What is Receive SMS Messages API?
+Receive SMS Messages API will enable you to search a mobile phone number（SIN = SMS-IN-Number) available to subscribe 
 and you can receive SMS messages on internet without the device to receive SMS such as Mobile phones, Smart Phones
 or etc., once you subscribed one via our API.
 
 
-## What is the benefit to use Receiving SMS API？
+## What is the benefit to use Receive SMS Messages API？
 There are unlimited things you can do with this API:
 
 + Create the list of SMS Senders
@@ -24,7 +24,7 @@ It depends on your idea how to mix and match them to create your web systems/app
 even securer and more convenient.
 
 
-## How to use Receiving SMS API？
+## How to use Receive SMS Messages API？
 Please refer the details of how to use in [Documentation](https://docs.xoxzo.com/en/sms.html#receive-sms-messages-api).
 
 Here shows the easy steps to start,
@@ -37,4 +37,3 @@ Now, you are ready to receive SMS.
 
 Upon the receipt of incoming SMS, the sender, the number you received the message, 
 the message body and the time & date of the receipt are sent to webhook.
-
