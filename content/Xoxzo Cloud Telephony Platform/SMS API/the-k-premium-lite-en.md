@@ -39,7 +39,7 @@ Request to send to Softbank and Docomo recipients will be treated as **standard*
 
 ### Cost for K-premium Lite
 
-Please find the cost for K-premium Lite in the [Price Page](https://www.xoxzo.com/en/about/pricing/#sms).
+Please find the cost for K-premium Lite in the [Price Page](https://www.xoxzo.com/en/about/pricing/sms#send-sms).
 
 [For more details, please see our documentation](http://docs.xoxzo.com/en/sms.html#jp-specific-optional-parameters)
 

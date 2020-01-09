@@ -28,7 +28,7 @@ Please contact [help@xoxzo.com](mailto:help@xoxzo.com) for more details and regi
 
 Please add [K-Premium optional parameters](http://docs.xoxzo.com/en/sms.html#jp-specific-optional-parameters)
 when you make your request to send to a JP number. The messages will be sent using our K-Preimum direct route
-and you will be charged the [K-Premium price](https://www.xoxzo.com/en/about/pricing/#sms)
+and you will be charged the [K-Premium price](https://www.xoxzo.com/en/about/pricing/sms#send-sms)
 per message sent.
 
 Please use **K-Premium lite** when you want to apply this K-premium function **ONLY on the KDDI(au) numbers**, the system will automatically look up the operators of your recipient number belongs to and **only KDDI(au) numbers are applied K-premium** when being sent, the recipient numbers that belongs to **Docomo and Softbank will be sent as standard sendings**.
@@ -62,7 +62,7 @@ Sender ID can be set as you wish with *sender* parameter but there is no guarant
 
 ### Cost for K-Premium
 
-The cost of K-premium service delivery can be referred in the [price page](https://www.xoxzo.com/en/about/pricing/#sms).
+The cost of K-premium service delivery can be referred in the [price page](https://www.xoxzo.com/en/about/pricing/sms#send-sms).
 
 [For more details, please see our documentation.](http://docs.xoxzo.com/en/sms.html#jp-specific-optional-parameters)
 

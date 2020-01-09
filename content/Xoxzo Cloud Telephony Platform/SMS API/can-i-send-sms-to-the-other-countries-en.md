@@ -6,4 +6,4 @@ Category: Xoxzo Cloud Telephony Platform/SMS API
 
 Yes, it is possible to send to other countries, but support for different countries will be limited as we expand.
 
-You can check the countries that we support from the [SMS API Prices and Coverage](https://www.xoxzo.com/en/about/pricing/) page.
+You can check the countries that we support from the [SMS API Prices and Coverage](https://www.xoxzo.com/en/about/pricing/sms) page.
