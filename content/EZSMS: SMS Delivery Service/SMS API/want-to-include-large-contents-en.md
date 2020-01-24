@@ -15,7 +15,7 @@ Please use url-shortening functions such as [URL shorten](https://goo.gl/) to mi
 to notify your message and information by playing a pre-recorded voice file, or give a customized messages
 using [Text-to-Speach](https://www.xoxzo.com/en/about/utilities-api/).
 
-Also, [Xoxzo's Dial-in-numbers API](https://www.xoxzo.com/en/about/dial-in-api/) would be more convenient 
+Also, [Xoxzo's Dial-in-numbers API](https://www.xoxzo.com/en/about/voice-api/#din) would be more convenient 
 to display your subscribed numbers to get the recipients to call you, to retrieve their information such as phone numbers.
 The call can play recorded messages as well as transfer to the other phone numbers of your own.
 

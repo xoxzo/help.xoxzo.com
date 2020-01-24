@@ -15,7 +15,7 @@ SMSではそのURLを（[URL短縮機能](https://goo.gl/)等を使うと便利�
 設定しておいた案内内容を音声ファイルを再生して伝えたり、[テキスト読み上げ機能](https://www.xoxzo.com/ja/about/utilities-api/)を使って、
 カスタマイズしたメッセージを伝えることも、可能なのです。
 
-さらに、[Xoxzoの音声電話着信API](https://www.xoxzo.com/ja/about/dial-in-api/)を使えば、ユーザー側から電話をかけてもらうことができます。
+さらに、[Xoxzoの音声電話着信API](https://www.xoxzo.com/ja/about/voice-api/#din)を使えば、ユーザー側から電話をかけてもらうことができます。
 かかってきた電話は、案内内容を伝達するだけでなく、別の電話番号へと転送することもできます。
 
 [Xoxzoのブログ](https://blog.xoxzo.com/ja/)には、サービスに関するお知らせから、弊社の普段の顔が垣間見える近況報告の他、

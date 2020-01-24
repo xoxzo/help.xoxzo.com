@@ -16,7 +16,7 @@ Kプレミアム Lite とは、日本の国内キャリア au (KDDI) のエン�
 
 ### 送信時の設定
 
-[オプションパラメーター](http://docs.xoxzo.com/ja/sms.html#jp-specific-optional-parameters)を付けてください。送信リクエストの中から、システムが自動で選定した、au(KDDI)の携帯電話番号への送信にのみ、Kプレミアム Lite 配信が行われます。au(KDDI)向けの送信には、[Kプレミアム送信のクレジット](https://www.xoxzo.com/ja/about/pricing/sms#send-sms)が差し引かれ、その他のキャリア向けの送信には、オプションのない、通常のSMS配信用クレジットが差し引かれます
+[オプションパラメーター](http://docs.xoxzo.com/ja/sms.html#jp-specific-optional-parameters)を付けてください。送信リクエストの中から、システムが自動で選定した、au(KDDI)の携帯電話番号への送信にのみ、Kプレミアム Lite 配信が行われます。au(KDDI)向けの送信には、[Kプレミアム送信のクレジット](https://www.xoxzo.com/ja/about/pricing/sms/#send-sms)が差し引かれ、その他のキャリア向けの送信には、オプションのない、通常のSMS配信用クレジットが差し引かれます
 
 日本国内全てのキャリア（au(KDDI)、Softbank、Docomo）に直収接続サービスを利用したい場合は、[**Kプレミアムサービス**](https://help.xoxzo.com/ja/xoxzo-cloud-telephony-platform/articles/the-k-premium-service/)をご利用ください。
 
@@ -34,7 +34,7 @@ Kプレミアム Lite とは、日本の国内キャリア au (KDDI) のエン�
 
 ### Kプレミアム Lite の料金
 
-Kプレミアム Lite を使った配信の価格は、[料金ページ](https://www.xoxzo.com/ja/about/pricing/sms#send-sms)をご参照ください。
+Kプレミアム Lite を使った配信の価格は、[料金ページ](https://www.xoxzo.com/ja/about/pricing/sms/#send-sms)をご参照ください。
 
 [詳しくは、ドキュメンテーションをご参照ください](http://docs.xoxzo.com/ja/sms.html#jp-specific-optional-parameters)
 
