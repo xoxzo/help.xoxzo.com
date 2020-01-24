@@ -6,7 +6,7 @@ Category: Xoxzo Cloud Telephony Platform/Utilities API
 
 [Carrier Lookup API](https://www.xoxzo.com/en/about/utilities-api/)
 This function will enable you to find out which country and carrier a certain mobile number belongs to. The API supports number portability as long as the end carrier supports it.
-For more technical details on the utilities and related APIs, check our [API documentation](http://docs.xoxzo.com/en/utilsapi). For pricing information, please go to our [Utilities API pricing page](https://www.xoxzo.com/en/about/pricing/).
+For more technical details on the utilities and related APIs, check our [API documentation](http://docs.xoxzo.com/en/utilsapi). For pricing information, please go to our [Utilities API pricing page](https://www.xoxzo.com/en/about/pricing/utils).
 
 The response you would get regarding to the availabilities on SMS receipts and the status of the number you searched for is not assured.
 
