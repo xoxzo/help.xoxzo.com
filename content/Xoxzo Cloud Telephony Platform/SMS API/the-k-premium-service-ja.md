@@ -21,7 +21,7 @@ Kプレミアムサービスのご利用には、ご登録が必要です。ご�
 
 [オプションパラメーター](http://docs.xoxzo.com/ja/sms.html#jp-specific-optional-parameters)を付けてください。全ての日本国内向け配信に対して、Kプレミアム配信が行われます。（[Kプレミアム送信のクレジット](https://www.xoxzo.com/ja/about/pricing/sms/#send-sms)が差し引かれます）
 
-**Kプレミアム Lite**をご利用いただくことで、ご指定の送信元IDにて配信ができるAU(KDDI)およびNTTドコモ向けの背信**のみ**をKプレミアムサービスをご利用になり、配信を行うことができます。
+[**Kプレミアム Lite**](https://help.xoxzo.com/ja/xoxzo-cloud-telephony-platform/articles/the-k-premium-lite/)をご利用いただくことで、ご指定の送信元IDにて配信ができるAU(KDDI)およびNTTドコモ向けの配信**のみ**をKプレミアムサービスをご利用になり、配信を行うことができます。
 システムが送信前に受信者の番号のキャリアを判定し、AU(KDDI)およびNTTドコモ向けの送信はKプレミアムサービスにて、ソフトバンク向けの送信にはKプレミアムサービスを使わずに送信をおこないます。
 
 ### AU（KDDI）および NTTドコモ向け送信
@@ -35,7 +35,7 @@ Kプレミアムサービスのご利用には、ご登録が必要です。ご�
 ```jp_kp```をご指定の場合（Kプレミアムの料金となります）</br>
 送信元IDは、一律　__22472__　となります。
 
-```jp_kpl```をご指定の場合（通常送信の料金となります）</br>
+```jp_kpl```をご指定の場合（[**Kプレミアム Lite**](https://help.xoxzo.com/ja/xoxzo-cloud-telephony-platform/articles/the-k-premium-lite/)・通常送信の料金となります）</br>
 送信は、```sender```にて設定の送信元IDを使って行われますが、そのまま受信者に届く保証はありません。
 
 
@@ -43,6 +43,6 @@ Kプレミアムサービスのご利用には、ご登録が必要です。ご�
 
 Kプレミアムサービスを使った配信の価格は、[料金ページ](https://www.xoxzo.com/ja/about/pricing/sms/#send-sms)をご参照ください。
 
-[詳しくは、ドキュメンテーションをご参照ください](http://docs.xoxzo.com/ja/sms.html#jp-specific-optional-parameters)
+詳しい使い方は、[ドキュメンテーション](http://docs.xoxzo.com/ja/sms.html#jp-specific-optional-parameters)をご参照ください。
 
 * Kプレミアムサービスには、他にも [Kプレミアム Lite](https://help.xoxzo.com/ja/xoxzo-cloud-telephony-platform/articles/the-k-premium-lite) があります。[違うところを比べてみて](https://help.xoxzo.com/ja/xoxzo-cloud-telephony-platform/articles/the-k-premium-service-comparison)ください。
