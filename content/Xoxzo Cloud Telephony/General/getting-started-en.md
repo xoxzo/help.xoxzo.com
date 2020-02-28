@@ -6,7 +6,7 @@ Category: Xoxzo Cloud Telephony/General
 
 ## Getting started with Xoxzo
 
-Xoxzo is a Cloud Telephony, which means it is a building block to help you have telephony capabilities like SMS and voice calls on your own website or in your applications, without having the need for you to have the physical architecture like servers or phone exchange.
+Xoxzo is a building block to help you have telephony capabilities like SMS and voice calls on your own website or in your applications, without having the need for you to have the physical architecture like servers or phone exchange.
 
 Xoxzo is not meant for the general public usage. If you do not know how to write code and build programs, then most probably Xoxzo is not for you. But if you do, then this short guide will help you understand the key concepts and help you get started with Xoxzo.
 
