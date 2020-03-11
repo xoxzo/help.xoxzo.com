@@ -13,7 +13,7 @@ Category: Xoxzo Cloud Telephony/Account
 
 「先月」や「昨日」などは **1クリック** 選択可能、指定の期間でグラフ表示をしたい場合は、期間の **1.開始日** に続いて **2.最後の日付** をクリックしてください。
 
-![dashboard-period](/images/dashboard_period_en.png)
+![dashboard-period](/images/dashboard_period_ja.png)
 
 ## アカウント全体のデータを表示
 APIユーザーを分けて、各タイプの通話APIの利用や、SMSAPIのご利用、またはクライアントごとに
@@ -25,7 +25,7 @@ APIユーザーを分けて、各タイプの通話APIの利用や、SMSAPIの�
 APIユーザーのプルダウンメニューから、グラフ表示したいAPIユーザーを選びます。
 選択したAPIユーザーのデータのみを表示します。
 
-![dashboard-api-user](/images/dashboard_userselect_en.jpg)
+![dashboard-api-user](/images/dashboard_userselect_ja.jpg)
 
 **表示するデータは、過去45日間のみです**
 
