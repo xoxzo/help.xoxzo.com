@@ -23,7 +23,7 @@ Most of us use different API Users for different types of calls or messages or e
 ## See individual API User's usage. 
 Deep dive into specific API Users usage, by choosing them from the pulldown. By doing this, you'll be shown only the usage of that API User
 
-![dashboard-api-user](/images/dashboard_userselect_en.jpg)
+![dashboard-api-user](/images/dashboard_userselect_en.png)
 
 **Up to the past 45 days data can be shown**
 
