@@ -8,7 +8,7 @@ Category: Xoxzo Cloud Telephony/General
 
 Xoxzo Open Office Hours is open for all to join and discuss about using the Xoxzo Telephony. 
 
-The session will be held regular bass, with our evangelist [Akira Nonaka](https://info.xoxzo.com/en/aboutus/) through Google Hangouts.
+The session will be held regular bass, with our evangelist [Akira Nonaka](https://info.xoxzo.com/en/team/) through Google Hangouts.
 
 Please join our Open Office Hours if you would like to:
 
