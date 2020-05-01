@@ -1,6 +1,6 @@
 Title: Kプレミアム Lite について
 Date: 2019-07-12
-Modified: 2020-02-20
+Modified: 2020-05-01
 Slug: the-k-premium-lite
 Lang: ja
 Category: Xoxzo Cloud Telephony/SMS API
@@ -8,7 +8,7 @@ Category: Xoxzo Cloud Telephony/SMS API
 ## Kプレミアム Lite とは？
 
 Kプレミアム Lite は、[Kプレミアムサービス](https://help.xoxzo.com/ja/xoxzo-cloud-telephony/articles/the-k-premium-service/)の一部です。
-Kプレミアムサービスは、日本の国内キャリアのエンドユーザ様にショートメッセージを配信するために特化した、オプションのサービスです。キャリア側の制限により配信したSMSが届きにくかったり、受信したメッセージに設定通りのSender IDが表示されなかったりすることがありますが、Kプレミアムサービスは キャリア直収のため、配信の確実性が上がるのに加え、au(KDDI)と NTTドコモ向けの送信には、事前登録いただいたご指定の送信元IDを、ソフトバンク向けには一定の固定送信元IDを使った送信が可能となります。
+Kプレミアムサービスは、日本の国内キャリアのエンドユーザ様にショートメッセージを配信するために特化した、オプションのサービスです。キャリア側の制限により配信したSMSが届きにくかったり、受信したメッセージに設定通りのSender IDが表示されなかったりすることがありますが、Kプレミアムサービスは キャリア直収のため、配信の確実性が上がるのに加え、au(KDDI)と NTTドコモ向けの送信には、事前登録いただいたご指定の送信元IDを、ソフトバンクと楽天向けには一定の固定送信元IDを使った送信が可能となります。
 
 **Kプレミアム Lite**は、Kプレミアムサービスでは固定の送信元IDとなるソフトバンク向けの送信を通常配信に、指定の送信元IDをご利用頂ける au(KDDI)とNTT
 ドコモへの配信をKプレミアムを使った直収サービスにて行うことのできるサービスです。Kプレミアムサービスにご登録であれば、パラメーターの変更だけでご利用いただけます。登録の送信元IDは、一度の登録でKプレミアムサービスにも、Kプレミアム Liteにもご利用いただけます。
@@ -21,7 +21,7 @@ Kプレミアムサービスは、日本の国内キャリアのエンドユー�
 
 ### 送信時の設定
 
-[オプションパラメーター](http://docs.xoxzo.com/ja/sms.html#jp-specific-optional-parameters)を付けてください。送信リクエストの中から、システムが自動で選定した、au(KDDI)およびNTTドコモの携帯電話番号への送信にのみ、Kプレミアム Lite 配信が行われます。[Kプレミアム送信のクレジット](https://www.xoxzo.com/ja/about/pricing/sms/#send-sms)が差し引かれます。ソフトバンク向けの送信には、通常のSMS配信用クレジットが差し引かれ、通常送信が行われます。
+[オプションパラメーター](http://docs.xoxzo.com/ja/sms.html#jp-specific-optional-parameters)を付けてください。送信リクエストの中から、システムが自動で選定した、au(KDDI)およびNTTドコモの携帯電話番号への送信にのみ、Kプレミアム Lite 配信が行われます。[Kプレミアム送信のクレジット](https://www.xoxzo.com/ja/about/pricing/sms/#send-sms)が差し引かれます。ソフトバンクおよび楽天向けの送信には、通常のSMS配信用クレジットが差し引かれ、通常送信が行われます。
 
 日本国内全てのキャリア（au(KDDI)、Softbank、Docomo）に直収接続サービスを利用したい場合は、[**Kプレミアムサービス**](https://help.xoxzo.com/ja/xoxzo-cloud-telephony/articles/the-k-premium-service/)をご利用ください。
 
@@ -31,7 +31,7 @@ Kプレミアムサービスは、日本の国内キャリアのエンドユー�
 そのままau(KDDI)およびNTTドコモの受信者に、SMSの配信元として表示することになります。
 ```jp_kpl```のパラメーターと合わせて設定頂くことにより、au(KDDI)およびNTTドコモの番号への送信にのみ Kプレミアムサービスにて送信を行い、[Kプレミアム送信のクレジット](https://www.xoxzo.com/ja/about/pricing/sms/#send-sms)が課されることとなります。
 
-### Softbank向け送信
+### Softbank/楽天向け送信
 
 [通常送信の料金](https://www.xoxzo.com/ja/about/pricing/sms/#send-sms)となります。
 
