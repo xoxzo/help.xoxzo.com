@@ -26,7 +26,7 @@ Category: EZSMS:SMS delivery service/SMS API
 
 問題なく設定ができている場合、着信した電話へと、あらかじめ設定した返送メッセージがSMSで配信されます。
 
-![着信](/images/dialsms/dialsms_02ja.png)
+![メッセージ返送](/images/dialsms/dialsms_03ja.png)
 
 イベントの詳細案内ウェブサイトへの誘導や、変化する状勢の通知などを、
 欲しい人が欲しいときに電話一本かけるだけで、24時間いつでも最新の情報をメッセージにして自動で携帯電話やスマホへ送信できます。
