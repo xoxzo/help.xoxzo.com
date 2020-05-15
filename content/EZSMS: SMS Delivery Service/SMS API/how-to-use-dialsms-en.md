@@ -4,66 +4,80 @@ Slug: how-to-use-dialsms
 Lang: ja
 Category: EZSMS:SMS delivery service/SMS API
 
-ダイャルSMSは専用着信番号にショートメッセージに対応している携帯電話から着信すると、その携帯電話に折り返し予め設定したメッセージを返送するサービスです。
+DialSMS is for Japanese based service and the response to any incoming calls are made in Japanese Voice only
 
-[サービス概要は、こちらから。](https://help.xoxzo.com/ja/ezsms-sms-delivery-service/articles/what-is-dialsms/)
+DialSMS is the on-demand SMS sending service, auto-returning pre-set SMS message on every incoming calls to the subscribed phone number.
 
-ご利用の際には、アカウントにログインして、メニューから _ダイヤルSMSを使う_ を選んでください。
+[Please find what DialSMS is from here](https://help.xoxzo.com/en/ezsms-sms-delivery-service/articles/what-is-dialsms/)
 
-###1. ご利用規約に同意して、ダイヤルSMSの利用登録
+Please log in to EZSMS account and select _Manage DialSMS_ from the side Menu.
 
-ダイヤルSMSには、ご利用規約に沿ったご利用をお願いいたします。利用規約をお読みの上、同意される方は、同意ボタンをクリックしてください。
+### 1. Register DialSMS by agreeing the Terms of Service
 
-![ダイヤルSMS登録画面](/images/dialsms/dialsms_howto_01ja.jpg)
+Please use DialSMS along with the DialSMS Terms of Service. Read through the Terms of Service and click _Agree_ if you agree.
 
-###2. 電話番号の取得
+![Registration](/images/dialsms/dialsms_howto_01en.jpg)
 
-ダイヤルSMSの設定は、とてもシンプル。(1)電話番号を取得して、(2)返送用メッセージを設定するだけです。
-まずは、電話番号を取得します。 _着信番号の追加_ ボタンをクリックしてください。
+### 2. Subscribe to a Phone Number
 
-![ダイヤルSMS着信番号追加](/images/dialsms/dialsms_howto_02ja.jpg)
+It is very simple to set DialSMS service for you. 
+(1) Subscribe to a phone number to receive a call
+(2) Set your message to send in return
+First, subscribing a phone number. Please click _Add Number_ button.
 
-#### 電話番号の種類を選ぶ
+![Adding the number](/images/dialsms/dialsms_howto_02en.jpg)
 
-契約する電話番号の種類（プレフィックスの違いにより、着信があったときに請求される料金や、月額料金が変わります）を選んでください。
-参考：[プレフィックスは、`0120` も `0800` もフリーダイヤル](https://blog.xoxzo.com/ja/2017/11/02/freecall-numbers-introduction/)
+#### Select the type of phone number
 
-![ダイヤルSMS番号選択](/images/dialsms/dialsms_howto_03ja.jpg)
+Different prefix of the number has different subscription cost & incoming call receipt charges.
+Please select the number type that you prefer.
+Please refer to our blog: [`0120` and `0800` are toll-free numbers](https://blog.xoxzo.com/en/2017/11/02/freecall-numbers-introduction/)
 
-#### ご利用用途を記載
+![number selection](/images/dialsms/dialsms_howto_03en.jpg)
 
-この番号の、ご利用用途を記載してください。（例えば、イベントの詳細案内や、キャンペーン通知　等）
-必要があれば、_着信通知（CR)URL_ 、_送信元番号_　、_メモ_ を書き込んで、下方の _新規番号取得_ ボタンをクリックしてください。
 
-ご注意：番号を契約することとなりますので、この時点で番号の契約に必要なEZSMSポイントが引き落とされます。
-アカウントに十分なポイント残高があることを確認してください。
+#### Write the purpose of use
 
-![ダイヤルSMS利用目的](/images/dialsms/dialsms_howto_04ja.jpg)
+What do you use this number for?
+Event details notification, campaign notice, for example?
+Please write that in and 
+_Incoming call noticiation（CR)URL_ , _SenderID_　, _Notes_ according to your needs then
+click on _Get New Number_ button.
 
-###3. 返送用メッセージの設定
+Note: At this point, the account needs to have sufficient amount of the EZSMS points to subscribe to a new number.
+Please confirm your account balance before hitting the subscription button.
 
-番号を取得後、返送用のメッセージを設定してください。
+![purpose of use](/images/dialsms/dialsms_howto_04en.jpg)
+![number selection](/images/dialsms/dialsms_howto_05en.jpg)
 
-下記のように _メッセージが設定されていません_ と表示されている番号は、契約されているので月額費用が請求されますが、
-着信があっても、メッセージの返送ができません。
+### 3. Setting the returning message
 
-まず、_メッセージの追加_ ボタンをクリックしてください。
+Please set the message body to send to the caller of this number.
 
-![ダイヤルSMS利用目的](/images/dialsms/dialsms_howto_06ja.jpg)
+Your account will be charged the monthly subscription of this number
+even when no messages were set and _No messages set_ in red is displayed as below.
+and the return message will not be sent to any incoming calls received.
 
-メッセージを設定したい電話番号をクリックし、メッセージにニックネームを付けたら、返送用のメッセージを書き込んで _メッセージ登録_ をクリックしてください。
+Please click _Add Message_ button first.
 
-![ダイヤルSMS利用目的](/images/dialsms/dialsms_howto_07ja.jpg)
+![Message setting](/images/dialsms/dialsms_howto_06en.jpg)
 
-###準備完了！
+Please click-select the phone number from the top list that you want to set this message,
+give a nickname to this message.
 
-電話番号を契約し、その電話番号へ返送用メッセージが設定できたら、準備は完了です。
+Finally you write your message to send to the caller and click _set the message_
+to set your message.
 
-![ダイヤルSMS利用目的](/images/dialsms/dialsms_howto_08ja.jpg)
+![message set](/images/dialsms/dialsms_howto_07ja.jpg)
 
-契約した電話番号へ電話がかかると、[このように応答されます](https://help.xoxzo.com/ja/ezsms-sms-delivery-service/articles/how-will-the-dialsms-call-be-answered/)。
+### Ready for DialSMS now!!
 
-設定が正常で、アカウントに十分な残高があるときには、約2分で、着信のあった番号へ、設定した返送用メッセージがSMSで送られます。
+Now all set, after you subscribe to a phone number and set the returning message to it.
+
+
+Calling this number will be answered like [this (Japanaese only)](https://help.xoxzo.com/en/ezsms-sms-delivery-service/articles/how-will-the-dialsms-call-be-answered/)。
+
+The caller will wait for no more than 2 minutes to receive your SMS message.
 
 
 
