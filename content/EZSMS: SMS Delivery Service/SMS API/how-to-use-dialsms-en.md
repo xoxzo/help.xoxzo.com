@@ -68,7 +68,7 @@ give a nickname to this message.
 Finally you write your message to send to the caller and click _set the message_
 to set your message.
 
-![message set](/images/dialsms/dialsms_howto_07ja.jpg)
+![message set](/images/dialsms/dialsms_howto_07en.jpg)
 
 ### Ready for DialSMS now!!
 
