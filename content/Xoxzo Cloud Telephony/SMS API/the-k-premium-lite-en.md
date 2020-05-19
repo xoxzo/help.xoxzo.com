@@ -19,7 +19,7 @@ For more details and for registration, please contact [help@xoxzo.com](mailto:he
 
 Please add [Option Parameter](http://docs.xoxzo.com/en/sms.html#jp-specific-optional-parameters)
 when you make request to send to JP numbers. The system will autoatically look up the operators of your recipient number belongs to
-and **only au(KDDI) & NTT Docomo numbers are applied K-Premium** when being sent. The recipient numbers that belongs to **Softbank & Rakuten** will be 
+and **only au(KDDI), NTT Docomo and Rakuten numbers are applied K-Premium** when being sent. The recipient numbers that belongs to **Softbank & Rakuten** will be 
 sent as standard sendings.
 
 Please read [**The K-Premium Service**](https://help.xoxzo.com/en/xoxzo-cloud-telephony/articles/the-k-premium-service/)
@@ -31,7 +31,7 @@ Please set the sender ID that you specify at the registration with the option pa
 Setting ```jp_kpl``` parameter, the request to the au(KDDI) & NTT Docomo recipients will be sent as **K-premium** and will be charged as **K-premium** sending.
 
 
-### Sending to Softbank and Rakuten recipients
+### Sending to Softbank recipients
 
 Request to send to Softbank and Docomo recipients will be treated as **standard** sending.
 
