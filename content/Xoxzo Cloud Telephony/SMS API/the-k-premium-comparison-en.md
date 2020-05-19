@@ -61,13 +61,13 @@ Please refer our blog post how these 2 services were made [here](https://blog.xo
       <td>Rakuten</td>
       <td>SenderID</td>
       <td>pre-registered number</td>
-      <td>Your own setting (no guaranteed)</td>
+      <td>pre-registered number</td>
     </tr>
     <tr>
       <td></td>
       <td>Cost</td>
       <td>K-premium cost</td>
-      <td>Standard cost</td>
+      <td>K-premium cost</td>
     </tr>
   </table>
 </div>
