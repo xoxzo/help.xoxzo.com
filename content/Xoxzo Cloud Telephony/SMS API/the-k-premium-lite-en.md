@@ -27,7 +27,7 @@ and follow the instruction in case you would like to use direct connection to al
 
 ### Setting jp_kpl
 
-Please set the sender ID that you specify at the registration with the option parameter *jp_kddi_sender* and it will be shown as you specify at the device of the recipients.
+Please set the sender ID that you specify at the registration with the option parameter *jp_kp_sender* and it will be shown as you specify at the device of the recipients.
 Setting ```jp_kpl``` parameter, the request to the au(KDDI) & NTT Docomo recipients will be sent as **K-premium** and will be charged as **K-premium** sending.
 
 
