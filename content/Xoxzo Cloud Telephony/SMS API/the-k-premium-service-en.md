@@ -36,7 +36,7 @@ Please use **K-Premium lite** when you want to apply this K-premium function **O
 
 ### AU（KDDI）, NTT Docomo & Rakuten recipients
 
-Please set the sender ID that you specify at the registration with the option parameter *jp_kddi_sender*
+Please set the sender ID that you specify at the registration with the option parameter *jp_kp_sender*
 and it will be shown as you specify at the device of the recipients.
 
 Both parameter 
