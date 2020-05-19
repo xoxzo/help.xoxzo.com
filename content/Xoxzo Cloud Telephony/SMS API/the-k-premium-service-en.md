@@ -1,6 +1,6 @@
 Title: The K-Premium service
 Date: 2015-12-23 13:31
-Modified: 2018-06-25 17:00
+Modified: 2020-05-01
 Slug: the-k-premium-service
 Lang: en
 Category: Xoxzo Cloud Telephony/SMS API
@@ -17,7 +17,8 @@ will be set as below.
 You will need to be registered in order to use K-Premium, and your registration
 details will be shared with [KDDI Corporation](http://www.kddi.com/english/).
 To prevent abuse of the service your registration details might also be shared with
-[Softbank Group Corp](https://www.softbank.jp/en/) and [NTT Docomo, Inc.](https://www.nttdocomo.co.jp/english/)
+[Softbank Group Corp](https://www.softbank.jp/en/), [NTT Docomo, Inc.](https://www.nttdocomo.co.jp/english/)
+and [Rakuten Mobile (Japanese only)](https://network.mobile.rakuten.co.jp/)
 as the need arises.
 
 Please contact [help@xoxzo.com](mailto:help@xoxzo.com) for more details and registration.
@@ -31,11 +32,11 @@ when you make your request to send to a JP number. The messages will be sent usi
 and you will be charged the [K-Premium price](https://www.xoxzo.com/en/about/pricing/sms/#send-sms)
 per message sent.
 
-Please use **K-Premium lite** when you want to apply this K-premium function **ONLY on the KDDI(au) numbers**, the system will automatically look up the operators of your recipient number belongs to and **only KDDI(au) numbers are applied K-premium** when being sent, the recipient numbers that belongs to **Docomo and Softbank will be sent as standard sendings**.
+Please use **K-Premium lite** when you want to apply this K-premium function **ONLY on the KDDI(au) & NTT Docomo numbers**, the system will automatically look up the operators of your recipient number belongs to and **only KDDI(au) & NTT Docomo numbers are applied K-premium** when being sent, the recipient numbers that belongs to **Softbank & Rakuten will be sent as standard sendings**.
 
-### AU（KDDI）recipients
+### AU（KDDI）, NTT Docomo & Rakuten recipients
 
-Please set the sender ID that you specify at the registration with the option parameter *jp_kddi_sender*
+Please set the sender ID that you specify at the registration with the option parameter *jp_kp_sender*
 and it will be shown as you specify at the device of the recipients.
 
 Both parameter 
@@ -51,14 +52,6 @@ Sender ID that will be shown at the recipients will be fixed to __22472__.
 with parameter ```jp_kpl``` (Standard SMS cost will be applied)</br>
 Sender ID can be set as you wish with *sender* parameter but there is no guarantee that the set Sender ID will be delivered as it's set.
 
-
-### DOCOMO recipients
-
-with parameter ```jp_kp```(K-premium cost will be applied)</br>
-Sender ID that will be shown at the recipients will fixed to __0363881815 or 05052128038__.
-
-with parameter ```jp_kpl``` (Standard SMS cost will be applied)</br>
-Sender ID can be set as you wish with *sender* parameter but there is no guarantee that the set Sender ID will be delivered as it's set.
 
 ### Cost for K-Premium
 

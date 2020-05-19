@@ -33,7 +33,19 @@ Please refer our blog post how these 2 services were made [here](https://blog.xo
       <td>K-premium cost</td>
       <td>K-premium cost</td>
     </tr>
-      <tr>
+    <tr>
+      <td>NTT Docomo</td>
+      <td>SenderID</td>
+      <td>pre-registered number</td>
+      <td>pre-registered number</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Cost</td>
+      <td>K-premium cost</td>
+      <td>K-premium cost</td>
+    </tr>
+    <tr>
       <td>Softbank</td>
       <td>SenderID</td>
       <td>22472</td>
@@ -46,16 +58,16 @@ Please refer our blog post how these 2 services were made [here](https://blog.xo
       <td>Standard cost</td>
     </tr>
     <tr>
-      <td>NTT Docomo</td>
+      <td>Rakuten</td>
       <td>SenderID</td>
-      <td>0363881815 or 05052128038</td>
-      <td>Your own setting (no guaranteed)</td>
+      <td>pre-registered number</td>
+      <td>pre-registered number</td>
     </tr>
     <tr>
       <td></td>
       <td>Cost</td>
       <td>K-premium cost</td>
-      <td>Standard cost</td>
+      <td>K-premium cost</td>
     </tr>
   </table>
 </div>
