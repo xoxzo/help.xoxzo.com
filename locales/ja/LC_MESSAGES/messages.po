@@ -29,6 +29,10 @@ msgstr "Xoxzoのヘルプセンター"
 msgid "Start your search"
 msgstr "検索開始"
 
+#: themes/xoxzo/templates/base.html:36
+msgid "Xoxzo Logo"
+msgstr "Xoxzoのロゴ"
+
 #: themes/xoxzo/templates/base.html:34
 msgid "HELP CENTER"
 msgstr "ヘルプセンター"
