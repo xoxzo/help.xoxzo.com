@@ -1,8 +1,6 @@
 {% extends "base.html" %}
 
 {% block head %}
-  {{ super() }}
-
   {% for tag in article.tags %}
   <meta name="tags" content="{{ tag }}">
   {% endfor %}

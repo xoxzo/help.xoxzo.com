@@ -9,7 +9,21 @@
   <meta name="google-site-verification" content="t4rlWAOKliFFgziLhYYxEpNtIh_W-794Po7iuYIL__Q" />
 
   {% block head %}
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ SITENAME }}">
+    <meta property="og:description" content="{% trans %}-{% endtrans %}">
+    <meta property="og:url" content="{{ SITEURL }}">
+    <meta property="og:site_name" content="{{ SITENAME }}">
+    <meta property="og:image" content="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/xoxzo_opengraph.png">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@xoxzocom">
+    <meta name="twitter:title" content="{{ SITENAME }}">
+    <meta name="twitter:description" content="{% trans %}-{% endtrans %}">
+    <meta name="twitter:image" content="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/xoxzo_twcard.png">
   {% endblock %}
+
+   <meta name="description" content="{% trans %}-{% endtrans %}">
 
   <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
   <link rel="icon" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/xoxzo_16x16_favicon.png">
