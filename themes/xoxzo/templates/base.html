@@ -9,9 +9,23 @@
   <meta name="google-site-verification" content="t4rlWAOKliFFgziLhYYxEpNtIh_W-794Po7iuYIL__Q" />
 
   {% block head %}
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ SITENAME }}">
+    <meta property="og:description" content="{% trans %}FAQs to answer your questions regarding the details of service and how to use both Xoxzo APIs and EZSMS{% endtrans %}">
+    <meta property="og:url" content="{{ SITEURL }}">
+    <meta property="og:site_name" content="{{ SITENAME }}">
+    <meta property="og:image" content="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/xoxzo_opengraph.png">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@xoxzocom">
+    <meta name="twitter:title" content="{{ SITENAME }}">
+    <meta name="twitter:description" content="{% trans %}FAQs to answer your questions regarding the details of service and how to use both Xoxzo APIs and EZSMS{% endtrans %}">
+    <meta name="twitter:image" content="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/xoxzo_twcard.png">
   {% endblock %}
 
-  <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+  <meta name="description" content="{% trans %}FAQs to answer your questions regarding the details of service and how to use both Xoxzo APIs and EZSMS{% endtrans %}">
+
+  <title>{% block title %}{% trans %}Xoxzo FAQ Help Center for Xoxzo APIs and EZSMS{% endtrans %}{% endblock title %}</title>
   <link rel="icon" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/xoxzo_16x16_favicon.png">
 
   <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/bootstrap.min.css">
@@ -33,7 +47,7 @@
   <nav class="navbar fixed-top navbar-expand-lg main-nav navbar-dark">
     <div class="container">
       <a class="navbar-brand brand-name" href="{{ SITEURL }}">
-        <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/xoxzo_navbar_logo_w_trans.png">
+        <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/xoxzo_navbar_logo_w_trans.png" alt="{% trans %}Xoxzo Logo{% endtrans %}">
         <span>{% trans %}HELP CENTER{% endtrans %}</span>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -85,6 +99,21 @@
 
   <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/tether.min.js"></script>
   <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/bootstrap.min.js"></script>
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "DigitalDocument",
+      "name": "Xoxzo Help Center”,
+      "url": "https://help.xoxzo.com/",
+      "sameAs": [
+        "https://twitter.com/xoxzocom",
+        "https://www.instagram.com/lifeatxoxzo/",
+        "https://www.linkedin.com/company/xoxzo-inc-/",
+        "https://www.facebook.com/xoxzotelephony"
+      ]
+    }
+  </script>
 
   {% block extra_js %}{% endblock %}
 

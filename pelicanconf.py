@@ -39,9 +39,10 @@ DEFAULT_PAGINATION = 10
 RELATIVE_URLS = True
 
 DEFAULT_DATE_FORMAT = "%Y-%m-%d"
-STATIC_PATHS = ['images', 'pdfs', 'extra/CNAME', '_redirects']
+STATIC_PATHS = ['images', 'pdfs', 'extra/CNAME', '_redirects', 'extra/robots.txt']
 EXTRA_PATH_METADATA = {
         'extra/CNAME': {'path': 'CNAME'},
+        'extra/robots.txt': {'path': 'robots.txt'},
         '_redirects': {'path': '_redirects'},
     }
 
