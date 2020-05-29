@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-05-28 00:34+0900\n"
+"POT-Creation-Date: 2020-05-29 18:18+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,54 +17,65 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.1\n"
 
-#: themes/xoxzo/templates/article.html:42
+#: themes/xoxzo/templates/article.html:40
 msgid "Xoxzo Help Center"
 msgstr ""
 
-#: themes/xoxzo/templates/article.html:55
+#: themes/xoxzo/templates/article.html:53
 #: themes/xoxzo/templates/category.html:17 themes/xoxzo/templates/index.html:15
 #: themes/xoxzo/templates/search.html:19
 #: themes/xoxzo/templates/subcategory.html:18
 msgid "Start your search"
 msgstr ""
 
-#: themes/xoxzo/templates/base.html:36
+#: themes/xoxzo/templates/base.html:14 themes/xoxzo/templates/base.html:22
+#: themes/xoxzo/templates/base.html:26
+msgid ""
+"FAQs to answer your questions regarding the details of service and how to"
+" use both Xoxzo APIs and EZSMS"
+msgstr ""
+
+#: themes/xoxzo/templates/base.html:28
+msgid "Xoxzo FAQ Help Center for Xoxzo APIs and EZSMS"
+msgstr ""
+
+#: themes/xoxzo/templates/base.html:50
 msgid "Xoxzo Logo"
 msgstr ""
 
-#: themes/xoxzo/templates/base.html:37
+#: themes/xoxzo/templates/base.html:51
 msgid "HELP CENTER"
 msgstr ""
 
-#: themes/xoxzo/templates/base.html:45
+#: themes/xoxzo/templates/base.html:59
 msgid "https://info.xoxzo.com/en/"
 msgstr ""
 
-#: themes/xoxzo/templates/base.html:45
+#: themes/xoxzo/templates/base.html:59
 msgid "Who We Are"
 msgstr ""
 
-#: themes/xoxzo/templates/base.html:48
+#: themes/xoxzo/templates/base.html:62
 msgid "https://hello.xoxzo.com/en/"
 msgstr ""
 
-#: themes/xoxzo/templates/base.html:48
+#: themes/xoxzo/templates/base.html:62
 msgid "Xoxzo Demo"
 msgstr ""
 
-#: themes/xoxzo/templates/base.html:51
+#: themes/xoxzo/templates/base.html:65
 msgid "Search"
 msgstr ""
 
-#: themes/xoxzo/templates/base.html:62
+#: themes/xoxzo/templates/base.html:76
 msgid "https://www.xoxzo.com/en/"
 msgstr ""
 
-#: themes/xoxzo/templates/base.html:62
+#: themes/xoxzo/templates/base.html:76
 msgid "Xoxzo Telephony API"
 msgstr ""
 
-#: themes/xoxzo/templates/base.html:81
+#: themes/xoxzo/templates/base.html:95
 msgid ""
 "Xoxzo Inc. All rights reserved.<br>Powered by <a "
 "href=\"http://getpelican.com/\">Pelican</a>"
