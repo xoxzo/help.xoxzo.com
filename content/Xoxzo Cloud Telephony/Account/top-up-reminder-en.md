@@ -29,6 +29,7 @@ The default setting is that the reminder is disabled. Please click the slide but
 ![balance setting](/images/top_up_reminder-en-03.jpg)
 
 Type in the credit amount you wish to trigger the reminder.
+
 Ex) If you want to receive an alert to be sent when the account balance comes 1,000 credits, 
 please type _1000_.
 
