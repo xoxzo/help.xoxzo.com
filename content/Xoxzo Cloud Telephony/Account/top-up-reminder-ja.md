@@ -27,6 +27,7 @@ Category: Xoxzo Cloud Telephony/Account
 ![balance setting](/images/top_up_reminder-ja-03.jpg)
 
 通知を発信する残高を入力してください。
+
 例：アカウント残高が1,000クレジットを切ったら通知を送付してほしい場合：1,000 を入力してください。
 
 **保存** ボタンで、設定を保存することも忘れずに。
