@@ -1,44 +1,47 @@
-Title: クレジット残高低下の通知を設定する
+Title: Set a top-up Reminder
 Date: 2020-09-30
 Slug: top-up-reminder
 Lang: en
 Category: Xoxzo Cloud Telephony/Account
 
 
-アカウントに、クレジットをチャージしていても、集中して利用があった時には残高が底をついてしまったらどうしよう？
-せっかく構築した機能も、クレジット残高不足で利用できなくては、どうしようもありません。
+It is no use to have insufficient credit amount in your account even the system is built
+well to send out SMS and/or make calls.
 
-クレジット残高不足を避けるために、残高がある数値以下になったら通知するように、設定しましょう。
-
-### 1. 設定を始める
-
-![start setting](/images/top_up_reminder-ja-01.jpg)
-
-まず、アカウントページ上部のプルダウンメニューから、**通知設定** を選びます。
-
-### 2. 通知設定を有効にする
-
-![activate setting](/images/top_up_reminder-ja-02.jpg)
-
-設定はデフォルトでは、非設定となっています。クリックして設定を有効にしてください。
-
-### 3. 通知を送る残高数を設定する
-
-![balance setting](/images/top_up_reminder-ja-03.jpg)
-
-通知を発信する残高を入力してください。
-例：アカウント残高が1,000クレジットを切ったら通知を送付してほしい場合：1,000 を入力してください。
-
-**保存** ボタンで、設定を保存することも忘れずに。
-
-### 設定値の確認
-
-「設定した数値は、何だったかな？」確認が必要な際には、_通知を有効化_ のテキストをクリックしてください。
-現在の数値を確認できます。
-
-![set amount comfirmation](/images/top_up_reminder-ja-04.jpg)
+Xoxzo can send you a top-up reminder. By setting a certain amount of credit, an email notification
+will be sent to alert you the possible insufficient credit balance in your account.
 
 
-ご質問は、help@xoxzo.com までお寄せください。
+### 1. Start the setting
 
-_このウェブダウンロード機能は、弊社運営のウェブベースSMS配信サービスであり、Xoxzo APIプラットフォームの前進である [EZSMS](https://www.ezsms.biz/ja/)にて、長年ご愛用いただいておりました。この度、多くのユーザー様からの熱いご要望を受け、それにお応えする形で Xoxzoでもご利用いただけるよう復刻できましたことを、大変嬉しく思っています。_
+![start setting](/images/top_up_reminder-en-01.jpg)
+
+Select **Notification Settings** from the pull down menu at the top in your account page.
+
+### 2. Enable the reminder
+
+![activate setting](/images/top_up_reminder-en-02.jpg)
+
+The default setting is that the reminder is disabled. Please click the slide button to enable the reminder setting.
+
+### 3. Set the amount of credit
+
+![balance setting](/images/top_up_reminder-en-03.jpg)
+
+Type in the credit amount you wish to trigger the reminder.
+Ex) If you want to receive an alert to be sent when the account balance comes 1,000 credits, 
+please type _1000_.
+
+Do not forget to click **SAVE** button to save this setting.
+
+### Confirm your setting
+
+"What was the credit amount I set to receive this reminder?"
+Do not worry, please click the text _Enable Notification_ to check the set amount.
+
+![set amount comfirmation](/images/top_up_reminder-en-04.jpg)
+
+
+Please send us any inquiries you may have to help@xoxzo.com 
+
+_We are pleased to announce that this function is created to a request from our users. There are increasing number of the features we develop to respond to our users, do you have anything in your mind? Please talk to us!!_
