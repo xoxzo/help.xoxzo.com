@@ -1,8 +1,11 @@
-Title: Any daily limits on SMS sending?
-Date: 2015-11-04 13:20
-Slug: any-daily-limits-on-sms-sending
+Title: 送信本文が、置き換えられてしまいました
+Date: 2020-10-09
+Slug: my-message-was-replaced
 Lang: ja
 Category: Xoxzo Cloud Telephony/SMS API
 
-There are no daily limits on SMS sending using Xoxzo, but in order for us to maintain the quality of our service, we do limit the amount of connections you can make through your account at any one time.
- 
+
+EZSMSでは、アカウントを作成すると、お試しポイントが付与されます。 そのポイントを使って、SMSの送信をテストすることができますが、その際、本文の内容は、何を設定しても弊社のデフォルトのメッセージに置き換えられて配信されます。
+
+最初のポイント購入後に、ユーザー設定の本文にて、SMS配信ができるようになりますので、ご安心ください。
+万が一、ポイント購入後にも、送信本文が置き換えられることがありましたら、ヘルプデスク help@xoxzo.com までご連絡ください。
