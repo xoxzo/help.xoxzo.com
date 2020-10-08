@@ -1,4 +1,4 @@
-Title: 送信本文が、置き換えられてしまいました
+Title: My message was replaced 
 Date: 2020-10-09
 Slug: my-message-was-replaced
 Lang: en
