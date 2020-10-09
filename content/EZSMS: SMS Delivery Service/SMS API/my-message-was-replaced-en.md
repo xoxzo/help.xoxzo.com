@@ -1,11 +1,12 @@
-Title: 送信本文が、置き換えられてしまいました
+Title: My message was replaced 
 Date: 2020-10-09
 Slug: my-message-was-replaced
 Lang: en
 Category: EZSMS:SMS delivery service/SMS API
 
-EZSMSでは、アカウントを作成すると、お試しポイントが付与されます。
-そのポイントを使って、SMSの送信をテストすることができますが、その際、本文の内容は、何を設定しても弊社のデフォルトのメッセージに置き換えられて配信されます。
+After making an EZSMS account you will be given test points, which can be used for sending test SMS messages. 
+However, please be aware that the content of this test message is set and you're therefore not able to send your own message. 
+This means that even when you try to send your customized message, it will automatically be reverted to our Xoxzo default test message. 
 
-最初のポイント購入後に、ユーザー設定の本文にて、SMS配信ができるようになりますので、ご安心ください。
-万が一、ポイントの購入後にも本文が置き換えられることがありましたら、ヘルプデスク support@ezsms.biz までご連絡ください。
+After purchasing points, you will be able to compose and customize your messages. 
+If you still experience problems with your message being replaced by a default message after your purchase, please contact our helpdesk at support@ezsms.biz 
