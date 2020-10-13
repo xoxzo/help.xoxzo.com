@@ -57,3 +57,4 @@ Via [Check SMS status API](), you will find:<br>
       }
  
 
+**Please note that the private shortened links will be expired after 90 days**
