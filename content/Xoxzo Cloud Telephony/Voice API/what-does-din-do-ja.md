@@ -1,38 +1,43 @@
-Title: What does Dial-In-Number (DIN) do?
+Title: ダイヤルインナンバー(DIN)って、どうやって使うの？
 Date: 2020-10-14
 Slug: what-does-din-do
 Lang: ja
 Category:　Xoxzo Cloud Telephony/Voice API
 
-### Dial-In-Numbers API
-Dial In Numbers (DIN) are local numbers (DID) which you can subscribe and receive calls with. 
-By setting the parameter with any subscription of a DIN, 
-you can either answer an incoming call with your specified .mp3 file, 
-original message specified with our TTS,  
-transfer the call to the other number as you like or
-store messages in the Voicemail.
+### ダイヤルインナンバー API
+ダイヤルインナンバー (DIN) は、着信用の地域番号で、オンライン契約いただける番号です。 
+契約した番号に、パラメーターを設定することで、
+着信した電話に、.mp3ファイルに準備した音声で応答したり、
+テキスト読み上げ機能（TTS）を使ってカスタマイズメッセージで応答したり、
+実際に着信を受け取りたい番号へ転送したり、
+ボイスメールに伝言を受け取って保存したりできます。
 
-### How to use the Dial-In-Numbers API
-1. [Search for an available number](https://docs.xoxzo.com/en/din.html#finding-a-dial-in-number-via-api)
-   The DIN numbers that you can subscribe to will be shown by your search. Please note the `din_uid` of your favorite number for the later use.
-   The types of the prefix for each country that are available to subscribe from Xoxzo API can be found in the [price page](https://www.xoxzo.com/en/about/pricing/voice/#din).
-2. [Subscribe to a DIN](https://docs.xoxzo.com/en/din.html#subscribing-to-a-dial-in-number-via-api)
-   Use the `din_uid` you noted in No.1, subscribe to a DIN. 
-   In case you are just trying this and do not wish to pay the full cost, please unsubscribe this number within the next 24 hours.
-   [Discounted 24 hours](https://www.xoxzo.com/en/about/pricing/voice/#din) price will be applied to this subscription.
-   Now, you own a phone number.
-3. [Attach an action to the DIN](https://docs.xoxzo.com/en/din.html#attach-an-action-to-the-dial-in-number-via-api)
-   Please set `action_url` to the DIn you subscribed. 
-   The url specified for `action_url` will be called via `GET` when there is incoming call to your subscribed DialIN number to get a command that will be used to handle the call.
-4. [Make the commands available via the action URL](https://docs.xoxzo.com/en/din.html#sample)
-   The command that `action_url` must return can be selected from below.
-   <table>
+
+### ダイヤルインナンバー API の使い方
+1. [取得可能な番号を探す](https://docs.xoxzo.com/ja/din.html#finding-a-dial-in-number-via-api)
+   検索すると、取得可能な番号が表示されます。気に入った番号が見つかったら、 `din_uid` を控えておいてください。
+   XoxzoのAPIにてご契約可能な、各国のプレフィックスは [料金ページ](https://www.xoxzo.com/en/about/pricing/voice/#din)よりご確認いただけます。
+   
+2. [番号を契約する](https://docs.xoxzo.com/ja/din.html#subscribing-to-a-dial-in-number-via-api)
+   控えておいた `din_uid` を使って、ダイヤルインナンバーを取得しましょう。 
+   「ちょっとお試しで使ってみたいけど、一ヶ月分の料金を払うのは・・・」という場合には、番号契約後24時間以内にその番号を解約してください。料金ページに表示の
+   [24時間以内の費用](https://www.xoxzo.com/ja/about/pricing/voice/#din) が適用されます。
+   
+   これで、ご自分の電話番号を取得できました。
+   
+3. [ダイヤルインナンバーにアクションを関連付ける](https://docs.xoxzo.com/ja/din.html#attach-an-action-to-the-dial-in-number-via-api)
+   契約した番号に、`action_url` を設定してください。 
+   番号へ着信があると、`action_url` にて指定したURLに、`GET` リクエストが送られて、どのように応答するかのコマンドを受け取ります。
+   
+4. [アクション URLにアクションコマンドを設定する](https://docs.xoxzo.com/ja/din.html#sample)
+    `action_url` から、下記のアクションコマンドを返してください。
+   <table frame-"box">
       <tr>
          <td>
-         Action
+         アクション
          </td>
          <td>
-         Description
+         動作
          </td>
       </tr>
       <tr>
@@ -40,7 +45,7 @@ store messages in the Voicemail.
          playback
          </td>
          <td>
-         Plays back an mp3 file to the caller
+         mp3 を再生する
          </td>
       </tr>
       <tr>
@@ -48,7 +53,7 @@ store messages in the Voicemail.
          transfer
          </td>
          <td>
-         Transfers the incoming call to another number
+         別の電話番号へ転送する
          </td>
       </tr>
       <tr>
@@ -56,7 +61,7 @@ store messages in the Voicemail.
          say
          </td>
          <td>
-         Takes text and reads it out loud (Text-to-Speech)
+         指定したテキストを読み上げる (Text-to-Speech)
          </td>
       </tr>      
       <tr>
@@ -64,12 +69,12 @@ store messages in the Voicemail.
          voicemail
          </td>
          <td>
-         save voicemail recordings in the account
+         アカウントにボイスメールを保存する
          </td>
       </tr>
    </table>
 
-5. Now you are ready to receive calls on the DIN and process them!!
+5. これで、契約したダイヤルインナンバーで、着信を受ける準備ができました！
 
 
 ### More merit with Dial-In-Numbers API
