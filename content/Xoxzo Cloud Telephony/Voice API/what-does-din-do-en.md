@@ -13,24 +13,21 @@ transfer the call to the other number as you like or
 store messages in the Voicemail.
 
 ### How to use the Dial-In-Numbers API
-1. [Search for an available number](https://docs.xoxzo.com/en/din.html#finding-a-dial-in-number-via-api)
-
+1. [Search for an available number](https://docs.xoxzo.com/en/din.html#finding-a-dial-in-number-via-api)<br>
    The DIN numbers that you can subscribe to will be shown by your search. Please note the `din_uid` of your favorite number for the later use.
-   The types of the prefix for each country that are available to subscribe from Xoxzo API can be found in the [price page](https://www.xoxzo.com/en/about/pricing/voice/#din).
-2. [Subscribe to a DIN](https://docs.xoxzo.com/en/din.html#subscribing-to-a-dial-in-number-via-api)
-
+   The types of the prefix for each country that are available to subscribe from Xoxzo API can be found in the [price page](https://www.xoxzo.com/en/about/pricing/voice/#din). <br>
+2. [Subscribe to a DIN](https://docs.xoxzo.com/en/din.html#subscribing-to-a-dial-in-number-via-api)<br>
    Use the `din_uid` you noted in No.1, subscribe to a DIN. 
    In case you are just trying this and do not wish to pay the full cost, please unsubscribe this number within the next 24 hours.
-   [Discounted 24 hours](https://www.xoxzo.com/en/about/pricing/voice/#din) price will be applied to this subscription.
-   Now, you own a phone number.
-3. [Attach an action to the DIN](https://docs.xoxzo.com/en/din.html#attach-an-action-to-the-dial-in-number-via-api)
-
-   Please set `action_url` to the DIn you subscribed. 
-   The url specified for `action_url` will be called via `GET` when there is incoming call to your subscribed DialIN number to get a command that will be used to handle the call.
-4. [Make the commands available via the action URL](https://docs.xoxzo.com/en/din.html#sample)
-
-   The command that `action_url` must return can be selected from below.
-   <table frame="box">
+   [Discounted 24 hours](https://www.xoxzo.com/en/about/pricing/voice/#din) price will be applied to this subscription.<br>
+   Now, you own a phone number.<br>
+3. [Attach an action to the DIN](https://docs.xoxzo.com/en/din.html#attach-an-action-to-the-dial-in-number-via-api)<br>
+   Please set `action_url` to the DIn you subscribed. <br>
+   The url specified for `action_url` will be called via `GET` when there is incoming call to your subscribed DialIN number to get a command that will be used to handle the call.<br>
+4. [Make the commands available via the action URL](https://docs.xoxzo.com/en/din.html#sample)<br>
+   The command that `action_url` must return can be selected from below.<br>
+<div class="table-responsive">
+  <table border="1" cellpadding="10" cellspacing="1">
       <tr>
          <td>
          Action
@@ -72,7 +69,7 @@ store messages in the Voicemail.
          </td>
       </tr>
    </table>
-
+</div> <br>
 5. Now you are ready to receive calls on the DIN and process them!!
 
 
