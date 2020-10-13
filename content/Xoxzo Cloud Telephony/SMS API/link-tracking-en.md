@@ -15,14 +15,14 @@ Please use our [Check SMS status API](https://docs.xoxzo.com/en/sms.html#check-s
 ### Send an SMS of _track_link_ enabled
 
 Please provide the optional parameter _track_link_ within the request.
-
+```
 {
     "sender": "Sender",
     "message": "test link tracking https://www.xoxzo.com/en/",
     "recipient": "(recipient phone number)",
     "track_link": "true"
 }
-
+```
 
 When the request is successfully received, a msgid will be returned.
 
