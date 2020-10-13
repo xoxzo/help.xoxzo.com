@@ -16,14 +16,13 @@ Please use our [Check SMS status API](https://docs.xoxzo.com/en/sms.html#check-s
 
 Please provide the optional parameter _track_link_ within the request.
 
-```
 {
     "sender": "Sender",
     "message": "test link tracking https://www.xoxzo.com/en/",
     "recipient": "(recipient phone number)",
     "track_link": "true"
 }
-```
+
 
 When the request is successfully received, a msgid will be returned.
 
@@ -37,12 +36,10 @@ Please check the recipient device. Click on the link (it should be shortened) in
 
 ### Check the status
 
-Via [Check SMS status API](), you will find:
-* whether the link was clicked or not
-* if being clicked, when was it
+Via [Check SMS status API](), you will find:<br>
+1. whether the link was clicked or not
+2. if being clicked, when was it
 
-
-```
     {
         "status": "DELIVERED",
         "sender": "(Sender)",
@@ -57,6 +54,6 @@ Via [Check SMS status API](), you will find:
             "shortlink": "https://(shortened private url)",
             "accessed": true,
             "accessed_on": "YYYY-MM-DD HH:MM:SS"
-        }
- ```
+      }
+ 
 
