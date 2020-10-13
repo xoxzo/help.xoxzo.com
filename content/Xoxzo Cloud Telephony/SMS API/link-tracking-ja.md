@@ -6,9 +6,9 @@ Category: Xoxzo Cloud Telephony/SMS API
 
 オプションパラメーターの、_track_link_ は、SMS APIで使用されます。
 
-このオプションパラメーターが使われると、リンクトラッキング機能が作動します。
-SMSのメッセージ本文中、最初に出てくる URLやドメイン名を自動で、個別短縮URLに変換してリクエストを出します。
-受信者が受信したメッセージ中のリンクをクリックすると、その日時が記録されます。
+このオプションパラメーターが使われると、リンクトラッキング機能が作動します。<br>
+SMSのメッセージ本文中、最初に出てくる URLやドメイン名を自動で、個別短縮URLに変換してリクエストを出します。<br>
+受信者が受信したメッセージ中のリンクをクリックすると、その日時が記録されます。<br>
 
 [SMSの配信状態を確認するAPI](https://docs.xoxzo.com/ja/sms.html#check-sms-status-api) を使って、この情報を取得してください。
 
@@ -38,13 +38,12 @@ SMSのメッセージ本文中、最初に出てくる URLやドメイン名を�
 
 ### ステータスの確認
 
-[SMSの配信状態を確認するAPI](https://docs.xoxzo.com/ja/sms.html#check-sms-status-api)を使います。
-次の情報が返されます。
-* リンクがクリックされたか否か
-* クリックされていれば、その日時
+[SMSの配信状態を確認するAPI](https://docs.xoxzo.com/ja/sms.html#check-sms-status-api)を使います。<br>
+次の情報が返されます。<br>
+1. リンクがクリックされたか否か
+2. クリックされていれば、その日時<br>
 
 
-```
     {
         "status": "DELIVERED",
         "sender": "(送信者)",
@@ -60,4 +59,4 @@ SMSのメッセージ本文中、最初に出てくる URLやドメイン名を�
             "accessed": true,
             "accessed_on": "YYYY-MM-DD HH:MM:SS"
         }
- ```
+
