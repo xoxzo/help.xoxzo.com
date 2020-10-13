@@ -38,8 +38,9 @@ Please check the recipient device. Click on the link (it should be shortened) in
 ### Check the status
 
 Via [Check SMS status API](), you will find:
-- whether the link was clicked or not
-- if being clicked, when was it
+* whether the link was clicked or not
+* if being clicked, when was it
+
 
 ```
     {
@@ -58,3 +59,4 @@ Via [Check SMS status API](), you will find:
             "accessed_on": "YYYY-MM-DD HH:MM:SS"
         }
  ```
+
