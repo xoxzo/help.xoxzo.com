@@ -12,7 +12,7 @@ transfer the call to the other number as you like or store messages in the Voice
 
 
 ### Setting Voicemail
-Please subscribe a Dial In Number to receive calls.
+Please subscribe a Dial In Number to receive calls.<br>
 1. [Search for an available number](https://docs.xoxzo.com/en/din.html#finding-a-dial-in-number-via-api)<br>
    The DIN numbers that you can subscribe to will be shown by your search. Please note the `din_uid` of your favorite number for the later use.
    The types of the prefix for each country that are available to subscribe from Xoxzo API can be found in the [price page](https://www.xoxzo.com/en/about/pricing/voice/#din). <br>
@@ -30,11 +30,17 @@ Please subscribe a Dial In Number to receive calls.
 ### When the number is called
 With sufficient amount of credit in your account, which can be checked from [the pricing page](https://www.xoxzo.com/en/about/pricing/voice/#din),
 the voicemail will be recorded and stored.
+
 1. An email notification will be sent to you at every voicemail arrival.
+
 2. Please select **Voicemail** from the left side menu in [Account page](https://www.xoxzo.com/en/you/profile/).
+
 3. The list of voicemail stored is shown. Please click to play the new voicemail recording.
+
 4. The unwanted record can be deleted after you play.
+
 5. Without deleting the Voicemail records, the storage cost will be applied at every 30 days. 
+
 Please check your inbox for the pre-notice of the next storage cycle reminder.
 You may delete the record to avoid the next storage cycle start.
 
