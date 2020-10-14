@@ -62,7 +62,7 @@ store messages in the Voicemail.
       </tr>      
       <tr>
          <td>
-         voicemail
+         [voicemail](https://help.xoxzo.com/ja/xoxzo-cloud-telephony/articles/how-to-use-voicemail-en.md)
          </td>
          <td>
          save voicemail recordings in the account
