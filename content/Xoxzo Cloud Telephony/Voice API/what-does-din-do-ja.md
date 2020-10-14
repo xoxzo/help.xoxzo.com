@@ -63,7 +63,7 @@ Category:　Xoxzo Cloud Telephony/Voice API
       </tr>      
       <tr>
          <td>
-         voicemail
+          [voicemail](https://help.xoxzo.com/ja/xoxzo-cloud-telephony/articles/how-to-use-voicemail/)
          </td>
          <td>
          アカウントにボイスメールを保存する
