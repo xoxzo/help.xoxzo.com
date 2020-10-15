@@ -7,7 +7,7 @@ Category: Xoxzo Cloud Telephony/SMS API
 オプションパラメーターの、_track_link_ は、SMS APIで使用されます。
 
 このオプションパラメーターが使われると、リンクトラッキング機能が作動します。<br>
-SMSのメッセージ本文中、最初に出てくる URLやドメイン名を自動で、個別短縮URLに変換してリクエストを出します。<br>
+SMSのメッセージ本文中、最初に出てくる URLやドメイン名を自動で、独自の短縮URLに変換してリクエストを出します。<br>
 受信者が受信したメッセージ中のリンクをクリックすると、その日時が記録されます。<br>
 
 [SMSの配信状態を確認するAPI](https://docs.xoxzo.com/ja/sms.html#check-sms-status-api) を使って、この情報を取得してください。
@@ -55,9 +55,9 @@ SMSのメッセージ本文中、最初に出てくる URLやドメイン名を�
         "recipient": "(受信者の電話番号)",
         "link_tracking": {
             "link": "https://www.xoxzo.com/en/",
-            "shortlink": "https://(個別短縮URL)",
+            "shortlink": "https://(独自の短縮URL)",
             "accessed": true,
             "accessed_on": "YYYY-MM-DD HH:MM:SS"
         }
 
-**個別短縮URLは、送信後90日にて無効となりますので、ご注意ください**
+**独自の短縮URLは、送信後90日にて無効となりますので、ご注意ください**
