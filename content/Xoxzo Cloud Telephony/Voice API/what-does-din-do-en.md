@@ -83,5 +83,5 @@ In addition, with any Japanese number you subscribe, you can use that number eve
 1. [Find your favorite prefix number to subscribe](http://docs.xoxzo.com/en/din.html#finding-a-dial-in-number-via-api)
 2. [Subscribe to the number](http://docs.xoxzo.com/en/din.html#subscribing-to-a-dial-in-number-via-api)</br>
 Ref: [Dial-In-Numbers API](https://www.xoxzo.com/en/about/pricing/voice/#din)
-3. Enjoy [calling](http://docs.xoxzo.com/en/voice.html#simple-playback-api) with notifying your call receivers who is calling by [using the jp optional parameter.](http://docs.xoxzo.com/ja/voice.html#jp-specific-optional-parameters)</br>
+3. Enjoy [calling](http://docs.xoxzo.com/en/voice.html#simple-playback-api) with notifying your call receivers who is calling by [using the jp optional parameter.](http://docs.xoxzo.com/en/voice.html#jp-specific-optional-parameters)</br>
 Ref: [Pricing of Voice API](https://www.xoxzo.com/en/about/pricing/voice/#outbound-call)
