@@ -20,7 +20,7 @@ Category:　Xoxzo Cloud Telephony/Voice API
 
 1. [取得可能な番号を探す](https://docs.xoxzo.com/ja/din.html#finding-a-dial-in-number-via-api)<br>
    検索すると、取得可能な番号が表示されます。気に入った番号が見つかったら、 `din_uid` を控えておいてください。<br>
-   XoxzoのAPIにてご契約可能な、各国のプレフィックスは [料金ページ](https://www.xoxzo.com/en/about/pricing/voice/#din)よりご確認いただけます。<br>
+   XoxzoのAPIにてご契約可能な、各国のプレフィックスは [料金ページ](https://www.xoxzo.com/ja/about/pricing/voice/#din)よりご確認いただけます。<br>
 2. [番号を契約する](https://docs.xoxzo.com/ja/din.html#subscribing-to-a-dial-in-number-via-api)<br>
    控えておいた `din_uid` を使って、ダイヤルイン番号を取得しましょう。 <br>
    「ちょっとお試しで使ってみたいけど、一ヶ月分の料金を払うのは・・・」という場合には、番号契約後24時間以内にその番号を解約してください。料金ページに表示の
