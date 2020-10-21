@@ -45,4 +45,4 @@ Please check your inbox for the pre-notice of the next storage cycle reminder.
 You may delete the record to avoid the next storage cycle start.
 
   
-Please refer [Pricing page](https://www.xoxzo.com/ja/about/pricing/voice/#din) for the cost of this feature.
+Please refer [Pricing page](https://www.xoxzo.com/en/about/pricing/voice/#din) for the cost of this feature.
