@@ -1,6 +1,6 @@
 Title: 送信本文が、置き換えられてしまいました
 Date: 2020-10-09
-Slug: my-message-was-replaced
+Slug: my-ezsms-message-was-replaced
 Lang: ja
 Category: EZSMS:SMS delivery service/SMS API
 
