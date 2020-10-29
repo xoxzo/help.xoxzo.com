@@ -1,6 +1,6 @@
 Title: My message was replaced
 Date: 2020-10-09
-Slug: my-message-was-replaced
+Slug: my-ezsms-message-was-replaced
 Lang: en
 Category: EZSMS:SMS delivery service/SMS API
 
