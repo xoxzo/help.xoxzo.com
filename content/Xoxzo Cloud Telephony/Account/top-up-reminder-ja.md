@@ -1,5 +1,5 @@
 Title: クレジット残高低下の通知を設定する
-Date: 2020-09-30
+Date: 2020-11-12
 Slug: top-up-reminder
 Lang: ja
 Category: Xoxzo Cloud Telephony/Account
@@ -29,6 +29,7 @@ Category: Xoxzo Cloud Telephony/Account
 通知を発信する残高を入力してください。
 
 例：アカウント残高が1,000クレジットを切ったら通知を送付してほしい場合：1,000 を入力してください。
+（実際の通知は、毎朝9時に送信されます。通知する数値は、余裕を持って設定してください。）
 
 **保存** ボタンで、設定を保存することも忘れずに。
 
