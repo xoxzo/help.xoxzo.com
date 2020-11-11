@@ -1,5 +1,5 @@
 Title: Set a top-up Reminder
-Date: 2020-09-30
+Date: 2020-11-12
 Slug: top-up-reminder
 Lang: en
 Category: Xoxzo Cloud Telephony/Account
@@ -31,7 +31,8 @@ The default setting is that the reminder is disabled. Please click the slide but
 Type in the credit amount you wish to trigger the reminder.
 
 Ex) If you want to receive an alert to be sent when the account balance comes 1,000 credits, 
-please type _1000_.
+please type _1000_. Please put an extra amount for this setting, as the notification email will be sent 
+at 9AM (JST) daily, not the moment of credit balance gets to the limit.
 
 Do not forget to click **SAVE** button to save this setting.
 
