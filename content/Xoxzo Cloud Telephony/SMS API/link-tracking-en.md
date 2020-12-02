@@ -6,11 +6,11 @@ Category: Xoxzo Cloud Telephony/SMS API
 
 _track_link_ is an optional parameter for SMS API.
 
-When this optional parameter is provided, the link tracking function is enabled. 
-The first URL/domain name in the message will be replaced with our private short-url before being sent.
-In the event of that the recipient clicks the link on their device, the date & time of the access to the url will be recorded.
-
-Please use our [Check SMS status API](https://docs.xoxzo.com/en/sms.html#check-sms-status-api) to get this information.
+- When this optional parameter is provided, the link tracking function is enabled. <br>
+- The first URL/domain name in the message will be replaced with our private short-url before being sent. Please include at least one ASCII space (0x20) before & after the URL. <br>
+- In the event of that the recipient clicks the link on their device, the date & time of the access to the url will be recorded.
+- By providing a callback URL with the parameter _lt_callbackur_, the URL will be called by POST method.<br> 
+- Please use our [Check SMS status API](https://docs.xoxzo.com/en/sms.html#check-sms-status-api) to get this information.<br>
 
 ### Send an SMS of _track_link_ enabled
 
@@ -33,6 +33,13 @@ When the request is successfully received, a msgid will be returned.
 ### Check the SMS received and click on the url
 
 Please check the recipient device. Click on the link (it should be shortened) in the message.
+
+### Call the callback URL provided with _lt_callbackur_ parameter
+
+- When this link tracking short url is clicked, the URL provided with _lt_callbackurl_ will be called. <br>
+- XOXZO cloud call the URL with http POST method. <br>
+- Callback URL must return http status 200. Until then, we will retry up to a maximum of ten times.<br>
+- The URL will be called only once when the user clicked the short URL for the first time.
 
 ### Check the status
 
@@ -58,3 +65,5 @@ Via [Check SMS status API](), you will find:<br>
  
 
 **Please note that the private shortened links will be expired after 90 days**
+
+Please refer [Documentation](https://docs.xoxzo.com/en/sms.html#send-sms-messages-api)for further details.
