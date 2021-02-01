@@ -4,7 +4,18 @@ Slug: link-tracking-feature
 Lang: en
 Category: EZSMS:SMS delivery service/SMS API
 
-リンクトラッキングは、SMS送信時に選択できるオプション機能です。
 
 
-リンクトラッキングオプションをオンにすることで、
+### How to use Link-tracking?
+The only thing you have to do is ticking the Link-tracking option checkbox when you use web-sending.
+![EZSMS Link Tracking Help](/images/ez-link-tracking-help.png)
+
+### How does it work?
+The first URL in your message will be replaced by our private URL when you send link-tracking option SMS.<br>
+When a recipient clicks on the URL in your message, the date and time is recorded.<br>
+You will find the record in the log file downloadable from the account page together with the sending status.
+
+### Price
+There are additional costs when using link-tracking on top of the standard SMS sending fee.
+
+Please refer to the [Pricing Page](https://www.ezsms.biz/en/faq/price/) to find the current pricing.
