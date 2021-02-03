@@ -70,8 +70,8 @@ Category: EZSMS:SMS delivery service/Account
       <tr>
         <td>SHORTLINK STATUS</td>
         <td>リンクトラッキングを使った送信時に、リンク（URL）がアクセスされたかどうかを示します。<br>
-        <strong>0 の場合</strong> リンクはアクセスされていません<br>
-        <strong>1 の場合</strong>　リンクはアクセスされています</td>
+        &nbsp;&nbsp;<strong>0 の場合</strong> リンクはアクセスされていません<br>
+        &nbsp;&nbsp;<strong>1 の場合</strong>　リンクはアクセスされています</td>
       </tr>
       <tr>
         <td>SHORTLINK URL</td>
