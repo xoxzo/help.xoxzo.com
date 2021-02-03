@@ -60,26 +60,26 @@ The relation of LOCAL TIME and set Time-zone is explained below the table.
         &nbsp;&nbsp;<strong>MESSAGE_EXPIRED</strong><br>
         &nbsp;&nbsp;The delivery was failed due to the number of retry was more than what the carrier set<br>
         &nbsp;&nbsp;<strong>MESSAGE_DELIVERY_FAILED</strong><br>
-        &nbsp;&nbsp;The delivery was failed, please refer [here](https://help.xoxzo.com/en/ezsms-sms-delivery-service/articles/what-would-cause-the-sending-failure/)for the conceivable causes</td>
+        &nbsp;&nbsp;The delivery was failed, please refer [here](https://help.xoxzo.com/en/ezsms-sms-delivery-service/articles/what-would-cause-the-sending-failure/) for the conceivable causes</td>
       </tr>
       <tr>
         <td>USED_POINTS</td>
-        <td>このメッセージの送信が消費したポイント数 参照：[料金ページ](https://www.ezsms.biz/ja/faq/price/)</td>
+        <td>The number of the point that this message consumed:[Pricing Page](https://www.ezsms.biz/en/faq/price/)</td>
       </tr>
       <tr>
         <td>SHORTLINK STATUS</td>
-        <td>リンクトラッキングを使った送信時に、リンク（URL）がアクセスされたかどうかを示します。<br>
-        <strong>0 の場合</strong> リンクはアクセスされていません<br>
-        <strong>1 の場合</strong>　リンクはアクセスされています</td>
+        <td>This shows whether the link is accessed or not, when the message is sent with Link-tracking option<br>
+        <strong>0 means</strong> The link hasn NOT been accessed<br>
+        <strong>1 means</strong>　The link has been accessed</td>
       </tr>
       <tr>
         <td>SHORTLINK URL</td>
-        <td>リンクトラッキングに使われた、ショートURL</td>
+        <td>The shortened URL used for the link-tracking</td>
       </tr>
     </tbody>
   </table>
 </div>
 
-※ LOCAL TIME については、アカウントにご登録の「タイムゾーン」での表示となります。
+※ Please note that **LOCAL TIME** shows the date & time of the time zone that your account is set.
 
 ![Screenshot]({filename}/images/how-to-read-your-log-file/02.png)
