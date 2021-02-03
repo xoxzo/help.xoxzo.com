@@ -69,8 +69,8 @@ The relation of LOCAL TIME and set Time-zone is explained below the table.
       <tr>
         <td>SHORTLINK STATUS</td>
         <td>This shows whether the link is accessed or not, when the message is sent with Link-tracking option<br>
-        <strong>0 means</strong> The link hasn NOT been accessed<br>
-        <strong>1 means</strong>　The link has been accessed</td>
+        &nbsp;&nbsp;<strong>0 means</strong> The link hasn NOT been accessed<br>
+        &nbsp;&nbsp;<strong>1 means</strong>　The link has been accessed</td>
       </tr>
       <tr>
         <td>SHORTLINK URL</td>
