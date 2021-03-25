@@ -12,7 +12,7 @@ The only thing you have to do is ticking the Link-tracking option checkbox when 
 
 ### How does it work?
 The first URL in your message will be replaced by our private URL when you send link-tracking option SMS.<br>
-When a recipient clicks on the URL in your message, the date and time is recorded.<br>
+When a recipient clicks on the URL in your message the action is recorded.<br>
 You will find the record in the log file downloadable from the account page together with the sending status.
 Please refer [this page](https://help.xoxzo.com/en/ezsms-sms-delivery-service/articles/how-to-read-your-log-file/) for how to read the log-file.
 
