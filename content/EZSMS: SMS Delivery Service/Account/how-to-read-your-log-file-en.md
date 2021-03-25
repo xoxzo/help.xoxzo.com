@@ -82,4 +82,4 @@ The relation of LOCAL TIME and set Time-zone is explained below the table.
 
 ※ Please note that **LOCAL TIME** shows the date & time of the time zone that your account is set.
 
-![Screenshot]({filename}/images/how-to-read-your-log-file/02.png)
+![Screenshot]({filename}/images/how-to-read-your-log-file/02e.png)
