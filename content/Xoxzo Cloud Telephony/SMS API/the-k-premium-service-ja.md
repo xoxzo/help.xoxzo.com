@@ -33,7 +33,7 @@ Kプレミアムサービスのご利用には、ご登録が必要です。ご�
 ### Softbank向け送信
 
 ```jp_kp```をご指定の場合（Kプレミアムの料金となります）</br>
-送信元IDは、一律　__22472__　となります。
+送信元IDは、一律　__249200__　となります。
 
 ```jp_kpl```をご指定の場合（[**Kプレミアム Lite**](https://help.xoxzo.com/ja/xoxzo-cloud-telephony/articles/the-k-premium-lite/)・通常送信の料金となります）</br>
 送信は、```sender```にて設定の送信元IDを使って行われますが、そのまま受信者に届く保証はありません。
