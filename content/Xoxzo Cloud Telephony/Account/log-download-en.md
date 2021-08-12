@@ -11,7 +11,7 @@ you can web-download the log in csv!!
 
 Please [Log in to your account](https://www.xoxzo.com/en/accounts/login/) and let us guide you the 1-2-3 here.
 
-1. Find _Download Usage Logs_ from the left side menu
+1. Find `Download Usage Logs` from the left side menu
 
 2. Select desired dates and types of the API
 
@@ -68,6 +68,7 @@ Your .csv file will be ready for downloading in a while.
 - actionurl
 
 **Please note**
+
 * the downloadable log is for up to 42 days.
 * the generated file will be expired in 3 weeks
 * the maximum number of storage for generated files is 5
