@@ -17,9 +17,10 @@ APIご利用後のログの確認には、[**SMSのステータス確認API**](h
 下部に表示されるログファイルのリストからファイル名をクリックしてダウンロードしてください。
 
 **ファイル名の読み方**
-SMS配信ログ： outgoing_sms-logs_YYYY-MM-DD（期間始め）_to_YYYY-MM-DD（期間終わり）_ファイルID.csv
-音声通話ログ： outgoing_call-logs_YYYY-MM-DD（期間始め）_to_YYYY-MM-DD（期間終わり）_ファイルID.csv
-ダイヤル・イン・ナンバーログ： din-logs_YYYY-MM-DD（期間始め）_to_YYYY-MM-DD（期間終わり）_ファイルID.csv
+
+SMS配信ログ： outgoing_sms-logs_YYYY-MM-DD（期間始め）_to_YYYY-MM-DD（期間終わり）_ファイルID.csv <br>
+音声通話ログ： outgoing_call-logs_YYYY-MM-DD（期間始め）_to_YYYY-MM-DD（期間終わり）_ファイルID.csv <br>
+ダイヤル・イン・ナンバーログ： din-logs_YYYY-MM-DD（期間始め）_to_YYYY-MM-DD（期間終わり）_ファイルID.csv <br>
 
 ## 　ログファイルで確認できる項目は？
 
@@ -67,6 +68,7 @@ SMS配信ログ： outgoing_sms-logs_YYYY-MM-DD（期間始め）_to_YYYY-MM-DD�
 - actionurl (アクションURL)
 
 **ご注意**
+
 1. ダウンロードできるのは、過去42日分のログデータとなります。
 2. 生成されたファイルの保管期限は、3週間です。
 3. 生成ファイルは最大5つまで保管できます。
