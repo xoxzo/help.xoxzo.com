@@ -70,7 +70,7 @@ Your .csv file will be ready for downloading in a while.
 **Please note**
 
 * the downloadable log is for up to 42 days.
-* the generated file will be expired in 3 months
+* the generated file will be expired in 90 days
 * the maximum number of storage for generated files is 5
 
 Would you have any questions, please contact help@xoxzo.com
