@@ -1,23 +1,28 @@
 Title: Web-download usage log
 Date: 2019-8-20
 Slug: web-log-download
+modified: 2021-08-12
 Lang: en
 Category: Xoxzo Cloud Telephony/Account
 
 Users of course would want to check the status of their sending and at Xoxzo,
 you can web-download the log in csv!!
-**Checking the account usage for SMS sending** is as easy as 1-2-3.
+**Downloading the log data** is as easy as 1-2-3.
 
-Please let us guide you the 1-2-3 here.
+Please [Log in to your account](https://www.xoxzo.com/en/accounts/login/) and let us guide you the 1-2-3 here.
 
-1. [Log in to your account](https://www.xoxzo.com/en/accounts/login/)
+1. Find `Download Usage Logs` from the left side menu
 
-2. Find _Download Usage Logs_ from the top-right pulldown labeled _Account_
+2. Select desired dates and types of the API
 
-3. Select desired dates before clicking `GENERATE` button
+3. Click `GENERATE` button
 
-Your .csv file will be ready for downloading in a while. In the file, you will find:
+Your .csv file will be ready for downloading in a while. 
 
+
+## What items will you find in the log-download?
+
+### type of API: Outgoing SMS
 - sender
 - url
 - msgid
@@ -27,8 +32,46 @@ Your .csv file will be ready for downloading in a while. In the file, you will f
 - status
 - cost
 - apiuser
+- link
+- shortlink
+- accessed
+- accessed_on
 
-**Please note that the downloadable log is for up to 42 days.**
+
+### type of API: Outgoing call
+- call_type
+- caller
+- callid
+- cost
+- direction
+- start_time(UTC)
+- end_time(UTC)
+- duration(secs)
+- recipient
+- status
+- tags
+- url
+- apiuser
+
+
+### type of API: Dial-in-Numbers (DIN)
+- caller
+- cost
+- direction
+- recipient
+- start_time(UTC)
+- end_time(UTC)
+- duration(secs)
+- status
+- apiuser
+- uuid
+- actionurl
+
+**Please note**
+
+* the downloadable log is for up to 42 days.
+* the generated file will be expired in 90 days
+* the maximum number of storage for generated files is 5
 
 Would you have any questions, please contact help@xoxzo.com
 
