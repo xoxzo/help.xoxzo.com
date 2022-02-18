@@ -32,4 +32,8 @@ SMSを配信する際に受信者側で表示される送信元IDは、なりす
 EZSMSでは、ウェブから送信するSMSサービスのパイオニアとしての経験、知識、技術を駆使した、質の良い海外ルートを使った送信を行っています。
 
 2021年9月に、EZSMSを運営する株式会社Xoxzoが傘下に入った [株式会社アクリート](https://www.accrete-inc.com/)では、国内ルートを取り扱っています。
-[SMSコネクト](https://www.accrete-inc.com/service/onewaysms/index.html)のウェブ管理画面による
+[SMSコネクト](https://www.accrete-inc.com/service/onewaysms/index.html)のウェブ管理画面による送信は、EZSMS同様、直感的に操作してSMSを送信できるため、使いやすい上、
+国内キャリアに事前登録を行うことで、送信時に設定する送信元IDが置き換えられることなく、受信者へメッセージを届けることができます。
+
+詳しくは
+
