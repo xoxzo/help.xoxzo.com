@@ -23,11 +23,12 @@ There are no guarantees to usable Sender IDs, but the list below may give you gu
 **We suggest you do some test sending with your desired Sender ID and check the results to make sure you can show your desired Sender ID to your recipients.**
 
 
-## キャリアに事前登録を行うことで、登録した送信元IDを置き換えられることなく送信することができます
+## Set custom sender IDs for your messages without problems when you pre-register with the carrier
 
-EZSMSでは、ウェブから送信するSMSサービスのパイオニアとしての経験、知識、技術を駆使した、質の良い海外ルートを使った送信を行っています。
+At EZSMS, we make full use of our experience, knowledge, and technology as a pioneer of online SMS services, by using high-quality overseas routes.
 
-2021年9月に、EZSMSを運営する株式会社Xoxzoが傘下に入った[株式会社アクリート](https://www.accrete-inc.com/)では、国内ルートによる送信を取り扱っています。 
-[SMSコネクト](https://www.accrete-inc.com/service/onewaysms/index.html)のウェブ管理画面による送信は、EZSMS同様、直感的に操作してSMSを送信できるため、使いやすい上、 国内キャリアに事前登録を行うことで、送信時に設定する送信元IDが置き換えられることなく、受信者へメッセージを届けることができます。
+[Accrete Co., Ltd.](https://www.accrete-inc.com/), which became a subsidiary of Xoxzo Inc., and started operating EZSMS in September 2021, uses domestic routes in Japan.
 
-詳しくは EZSMSヘルプデスク support@ezsms.biz までお気軽にお問い合わせください。
+Accrete is similar to EZSMS and you can easily send messages via the [SMS Connect web management screen](https://www.accrete-inc.com/service/onewaysms/index.html), which can be operated intuitively. By pre-registering with a domestic carrier you can set a custom sender ID, the recipient will then receive the message with the sender ID of your choice.
+
+Feel free to contact the EZSMS help desk support@ezsms.biz for more information.
