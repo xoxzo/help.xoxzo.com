@@ -35,5 +35,5 @@ EZSMSでは、ウェブから送信するSMSサービスのパイオニアとし
 [SMSコネクト](https://www.accrete-inc.com/service/onewaysms/index.html)のウェブ管理画面による送信は、EZSMS同様、直感的に操作してSMSを送信できるため、使いやすい上、
 国内キャリアに事前登録を行うことで、送信時に設定する送信元IDが置き換えられることなく、受信者へメッセージを届けることができます。
 
-詳しくは
+詳しくは EZSMSヘルプデスク support@ezsms.biz までお気軽にお問い合わせください。 
 
