@@ -1,5 +1,5 @@
-Title: 送信したSMSの履歴確認するには？
-Date: 2016-10-12 16:07
+Title: 送信したSMSの履歴を確認するには？
+Date: 2022-03-10
 Slug: how-can-i-check-the-sending-history
 Lang: ja
 Category: EZSMS:SMS delivery service/SMS API
