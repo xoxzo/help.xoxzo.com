@@ -1,0 +1,35 @@
+Title: How can I check the sending history?
+Date: 2016-10-12 16:07
+Slug: how-can-i-check-the-sending-history
+Lang: en
+Category: EZSMS:SMS delivery service/SMS API
+
+Title: 送信したSMSの履歴を確認するには？
+Date: 2022-03-10
+Slug: how-can-i-check-the-sending-history
+Lang: ja
+Category: EZSMS:SMS delivery service/SMS API
+
+メンバーページログイン後、「ご利用ログ」のページからcsv形式でダウンロード可能です。 
+
+## 1.メンバーページ右上のプルダウンメニューから「ご利用ログ」を選ぶ
+ログダウンロード専用画面が表示されます
+![ログダウンロード01][/images/log-ja-01.png]
+
+## 2.ログを取得したい期間の初めと終わりの日付を選択する
+入力項目をクリックすると、カレンダーが表示されます。
+
+ログが必要な期間の開始日、終了日をそれぞれ選んで、下の「ログ取得」ボタンをクリックしてください。
+
+![ログダウンロード02][/images/log-ja-02.png]
+
+## 3.ログファイルをダウンロードする
+選択した期間中に行った利用内容に応じて、概要とダウンロード可能なログファイルへのリンクが表示されます。
+SMS送信のログをダウンロードする場合：「送信ログダウンロードする」をクリック <br>
+ダイヤルSMSの着信ログをダウンロードする場合：「ダイヤルSMSログダウンロードする」をクリック <br>
+※ダイヤルSMSをご利用でない場合や、ダイヤルSMSをご利用中でも選択した期間にダイヤルSMSに着信がない場合、表示されません。
+
+![ログダウンロード03][/images/log-ja-03.png]
+
+## 送信ログの読み方
+送信ログの読み方は、[こちら](https://help.xoxzo.com/ja/ezsms-sms-delivery-service/articles/how-to-read-your-log-file/)をご参照ください。
