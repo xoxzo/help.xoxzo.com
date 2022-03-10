@@ -12,8 +12,11 @@ This error was caused by time-out, it took longer than usual for EZSMS system to
 
 1. Wait for 3 min.
 2. Download your log
-3. Check if the sending request details are in the log
-If yes, please relax.
-If no, please re-send.
+3. Check if the sending request details are in the log (The log file can be downloaded from the top right pull down menu)
 
+If you find your sending in the log, please relax.
 
+If the log shows nothing, please re-send.
+
+For any results, we will be happy to hear as a reference of our future system improvement.
+Please write us the details of your error and contact support@ezsms.biz.
