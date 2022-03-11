@@ -15,11 +15,11 @@ With this standard E.164 number, phone calls and SMS text messages can be routed
 The format of E.164 contains the following:
 + country code area code local phone number <br>
 
-+ - plus sign country code <br>
-International country code area code/national destination code <br>
-Code without leading 0 phone number <br>
-Local phone number <br>
-- and spaces are omitted <br>
+- + - plus sign country code <br>
+- International country code area code/national destination code <br>
+- Code without leading 0 phone number <br>
+- Local phone number <br>
+- Minus '-' and spaces are omitted <br>
 
 *There is a limit of 15 digits excluding the [international call prefix](https://en.wikipedia.org/wiki/List_of_international_call_prefixes)
 
