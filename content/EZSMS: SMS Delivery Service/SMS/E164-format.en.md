@@ -26,21 +26,22 @@ The format of E.164 contains the following:
 ## Examples of E.164 numbers
 Here are some examples of how to format phone numbers from different countries.
 
+
 #### How to format a US phone number
 Formatting the US phone number 415 123 1234 <br>
-
 US country code: +1 <br>
 National destination code: 415 <br>
 Subscriber number: 1231234 <br>
 Your E.164 number would be: +14155552671 <br>
 
+
 #### How to format a UK phone number <br>
 Formatting the UK phone number 07911 123456: <br>
-
 UK country code: +44 <br>
 National destination code: 7911 <br>
 Subscriber number: 123456 <br>
 Your E.164 number would be: +447911123456 <br>
+
 
 #### How to format a Japanese phone number <br>
 Formatting the Japanese phone number 070 2768 9858 <br>
@@ -48,6 +49,7 @@ Japan country code: +81 <br>
 National destination code: 70 <br>
 Subscriber number: 2768 9858 <br>
 Your E.164 number would be: +817027689858 <br>
+
 
 ## Tools for phone number formatting
 The SMS sending service for web EZSMS, has a new tool “Phone Number Formatter” that automatically <br>
