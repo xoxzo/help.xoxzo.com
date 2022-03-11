@@ -15,7 +15,7 @@ With this standard E.164 number, phone calls and SMS text messages can be routed
 The format of E.164 contains the following:
 + country code area code local phone number <br>
 
-- + - plus sign country code <br>
+- Plus sign country code <br>
 - International country code area code/national destination code <br>
 - Code without leading 0 phone number <br>
 - Local phone number <br>
