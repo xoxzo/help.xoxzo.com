@@ -35,7 +35,7 @@ Subscriber number: 1231234 <br>
 Your E.164 number would be: +14155552671 <br>
 
 
-#### How to format a UK phone number <br>
+#### How to format a UK phone number 
 Formatting the UK phone number 07911 123456: <br>
 UK country code: +44 <br>
 National destination code: 7911 <br>
@@ -43,7 +43,7 @@ Subscriber number: 123456 <br>
 Your E.164 number would be: +447911123456 <br>
 
 
-#### How to format a Japanese phone number <br>
+#### How to format a Japanese phone number 
 Formatting the Japanese phone number 070 2768 9858 <br>
 Japan country code: +81 <br>
 National destination code: 70 <br>
