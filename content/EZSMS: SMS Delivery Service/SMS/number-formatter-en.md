@@ -6,35 +6,42 @@ Category: EZSMS:SMS delivery service/SMS API
 
 番号自動修正ツールは、携帯電話番号をウェブ送信用のフォーマットに自動で修正するツールです。
 
-「ウェブから送信」で入力する受信者番号は、[E.164]() と呼ばれる基準に基づいた形で表記する必要があります。しかし、この形は、普段国内で使っているものとは異なります。<br>
-例) <br>
-|番号の種類|国内表記|E.164表記|
-|---------|-----------|-----------|
-|固定電話|(0111) 000-9999|+8111110009999|
-|携帯電話|080-0000-9999|+818000009999|
-|フリーダイヤル|0120-000-999|+81120000999|
+The new phone number formatter, is a tool which automatically corrects mobile phone numbers to the right format for web sending.
 
-そのため、ウェブから国内電話網へSMS配信を行うEZSMSでは、使い慣れない番号表記の形をあっという間に修正できる　_番号自動修正ツール_ をご用意しております。
+The recipient number you enter at "Send from the Web" must be written in a format based on a standard called [E.164] (). However, in Japan, a different format is used usually. <br>
+Example) <br>
 
+| Number type | Domestic notation | E.164 notation |
+| --------- | ------------ | ----------- |
+Landline | (0111) 000-9999 | +8111110009999 |
+| Mobile Phones | 080-0000-9999 | +818000009999 |
+Toll-free number | 0120-000-999 | +81120000999 |
 
-## 番号自動修正ツールの使い方
+Therefore, EZSMS, which is an online SMS sending service, and sends to domestic telephone networks, has an _phone number formatter_ that can quickly correct numbers that weren't written in the standard way, so that they can be recognized by the system.
 
-ご利用の際には、アカウントにログインして、左側のメニューから _ウェブから送信_ を選んでください。
+## How to use the phone number formatter
 
-### 1. 送信に必要な項目を入力する
+To use this tool, log in to your account and select _Send from Web_ from the menu on the left.
 
-①送信者　②受信者　③メッセージ　が必須項目です。 <br>
-④リンクトラッキング　⑤予約送信　については、必要な場合に選択してください。<br>
-⑥「SMSを送信」ボタンをクリックしてください。
+### 1. Enter the required information for sending
+
+The following are required:
+(1) Sender (2) Recipient (3) Message <br>
+
+These are optional:
+(4) Link tracking (5) Scheduled sending <br>
+
+(6) Click "send SMS"
+
 
 ![ウェブから送信画面](/images/number_formatter_howto_01ja.png)
 
-### 2. 番号自動修正ツールの開始
-#### 送信用フォーマットで送信に使用する番号リストを確認
-②受信者の入力に何らかの誤りがある場合、番号自動修正ツールが表示されます。<br>
-（入力された受信者番号が全て正しい表記の場合には、番号自動修正ツールは表示されず、送信が開始されます）<br>
-「送信用フォーマット」画面内に、E.164の形式に合うよう自動的に修正された受信者番号が表示されます。<br>
-修正不可能な番号である場合、このリストからは除外して表示します。
+### 2. Start using the phone number formatter
+#### Check the number list that you want to use for the formatter tool.
+(2) If there are any errors in the recipient's input, the formatter tool will be displayed. <br>
+(If all the received recipient numbers entered are correct, you won't see the tool and the messages will be send) <br>
+The recipient numbers will be automatically modified to match the E.164 format, which will be displayed. <br>
+If the number can't be modified, it will be excluded from this list and displayed.
 
 ![送信用フォーマット](/images/number_formatter_howto_02ja.png)
 
