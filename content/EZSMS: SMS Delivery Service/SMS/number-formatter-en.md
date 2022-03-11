@@ -4,8 +4,6 @@ Slug: how-to-use-number-formatter
 Lang: en
 Category: EZSMS:SMS delivery service/SMS API
 
-番号自動修正ツールは、携帯電話番号をウェブ送信用のフォーマットに自動で修正するツールです。
-
 The new phone number formatter, is a tool which automatically corrects mobile phone numbers to the right format for web sending.
 
 The recipient number you enter at "Send from the Web" must be written in a format based on a standard called [E.164] (). However, in Japan, a different format is used usually. <br>
@@ -45,32 +43,34 @@ If the number can't be modified, it will be excluded from this list and displaye
 
 ![送信用フォーマット](/images/number_formatter_howto_02ja.png)
 
-#### 「国内表示フォーマット」をオンにして国内表示を確認
-「国内表示フォーマット」のスライドボタンをオンにすると、受信者番号のリストは、国内標準フォーマットで表示されます。<br>
-※除外された番号を覗いた、正しい番号のリストをお手元に残したい場合、このリストをコピー＆ペーストしてご自分のファイルに貼り付けて保存することができます。
+
+#### Check the (Japanese) domestic format by turning on "Domestic display format"
+
+If you click on the "Domestic Display Format" button, the list of recipient numbers will be displayed in the national standard format of Japan. <br>
+* If you want to keep a list of correct numbers and/or look at the excluded numbers, you can copy and paste the list, paste it into your own file, and save it.
 
 ![国内表示フォーマット](/images/number_formatter_howto_03ja.png)
 
-#### 自動修正の内容、除外番号と除外要因を確認
-番号自動修正ツール画面左側の「修正内容」を選択すると、もともと入力された番号がどのように[E.164]()フォーマットへ変換されているか、や、リストから削除されている場合その理由が表示されます。<br>
-この自動修正ツールの修正内容を、実際の送信画面の「受信者」に使いたい場合、右下の「番号を自動修正する」ボタンをクリックしてください。<br>
-自動修正ツールの修正を反映させずに、ご自分で受信者番号のフォーマットを修正される場合は、「修正せずに閉じる」をクリックして、元の送信画面へ戻ってください。
+#### View the revised and deleted numbers
+
+If you select "Correction" on the left side of the screen inside the tool, you can see how the originally entered number was converted to the [E.164] () format. Or if it was deleted from the list, you can find out the reason. <br>
+If you want to use the corrected content of this tool for the "recipient" at the actual sending screen, click the "format number" button at the bottom right. <br>
+If you want to manually modify the format of the recipient number, click "Close without modification" to return to the original sending screen.
 
 ![修正内容](/images/number_formatter_howto_04ja.png)
 
-### 3. 修正内容を再度確認し、送信する
+### 3. Review the corrections and send
 
-「ウェブから送信」画面に戻り、修正後の受信者番号が反映されていることを確認してください。<br>
-よろしければ、画面右下の「SMSを送信」ボタンを再度クリックし、送信を行ってください。
+Return to the "Send from Web" screen and double-check that the modified recipient numbers are there. <br>
+After reviewing, click the "Send SMS" button at the bottom right of the screen again to send.
 
 ![ダイヤルSMS利用目的](/images/number_formatter_howto_05ja.png)
 
+### Exta: When you want to use the tool for a country other than Japan
 
-### 補足:修正基準国を日本以外にする場合
-
-番号自動修正ツールは、受信者番号がすべて日本国内であるということを前提に修正を行います。<br>
-受信者番号が、日本国外の番号である場合、受信者入力エリア下にある国名を選択することで、変更できます。<br>
-※受信者番号が、複数の国を含む場合は、自動番号修正ツールをお使いいただけません。手動で E.164フォーマットに修正いただくか、受信者番号を国ごとに分けて送信をお試しください。
+The phone number formatter executes its corrections based on recipient numbers in Japan.
+If the recipient number is not Japanese, you can change it by selecting the country name under the recipient input area. <br>
+* If the recipient number includes multiple countries, the phone number formatter unfortunately can't be used. Please manually modify the numbers to the E.164 format or try sending by country.
 
 ![受信者国名選択](/images/number_formatter_howto_06ja.png)
 
