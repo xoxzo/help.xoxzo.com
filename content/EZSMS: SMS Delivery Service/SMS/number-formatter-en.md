@@ -6,7 +6,7 @@ Category: EZSMS:SMS delivery service/SMS API
 
 The new phone number formatter, is a tool which automatically corrects mobile phone numbers to the right format for web sending.
 
-The recipient number you enter at "Send from the Web" must be written in a format based on a standard called [E.164] (). However, in Japan, a different format is used usually. <br>
+The recipient number you enter at "Send from the Web" must be written in a format based on a standard called [E.164] (https://help.xoxzo.com/ezsms-sms-delivery-service/articles/E164-format/). However, in Japan, a different format is used usually. <br>
 Example) <br>
 
 | Number type | Domestic notation | E.164 notation |
