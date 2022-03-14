@@ -32,7 +32,7 @@ Formatting the US phone number 415 123 1234 <br>
 US country code: +1 <br>
 National destination code: 415 <br>
 Subscriber number: 1231234 <br>
-Your E.164 number would be: +14155552671 <br>
+Your E.164 number would be: +14151231234 <br>
 
 
 ### How to format a UK phone number 
