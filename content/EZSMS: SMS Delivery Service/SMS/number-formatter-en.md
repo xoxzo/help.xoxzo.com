@@ -15,7 +15,7 @@ Landline | (0111) 000-9999 | +8111110009999 |
 | Mobile Phones | 080-0000-9999 | +818000009999 |
 Toll-free number | 0120-000-999 | +81120000999 |
 
-Therefore, EZSMS, which is an online SMS sending service, and sends to domestic telephone networks, has an _phone number formatter_ that can quickly correct numbers that weren't written in the standard way, so that they can be recognized by the system.
+Therefore, EZSMS, which is an online SMS sending service, and sends to domestic telephone networks, has a _phone number formatter_ that can quickly correct numbers that weren't written in the standard way, so that they can be recognized by the system.
 
 ## How to use the phone number formatter
 
@@ -32,7 +32,7 @@ These are optional:
 (6) Click "send SMS"
 
 
-![ウェブから送信画面](/images/number_formatter_howto_01ja.png)
+![Send from web](/images/number_formatter_howto_01en.png)
 
 ### 2. Start using the phone number formatter
 #### Check the number list that you want to use for the formatter tool.
@@ -41,7 +41,7 @@ These are optional:
 The recipient numbers will be automatically modified to match the E.164 format, which will be displayed. <br>
 If the number can't be modified, it will be excluded from this list and displayed.
 
-![送信用フォーマット](/images/number_formatter_howto_02ja.png)
+![Sending Format](/images/number_formatter_howto_02en.png)
 
 
 #### Check the (Japanese) domestic format by turning on "Domestic display format"
@@ -49,7 +49,7 @@ If the number can't be modified, it will be excluded from this list and displaye
 If you click on the "Domestic Display Format" button, the list of recipient numbers will be displayed in the national standard format of Japan. <br>
 * If you want to keep a list of correct numbers and/or look at the excluded numbers, you can copy and paste the list, paste it into your own file, and save it.
 
-![国内表示フォーマット](/images/number_formatter_howto_03ja.png)
+![Domestic Format](/images/number_formatter_howto_03en.png)
 
 #### View the revised and deleted numbers
 
@@ -57,14 +57,14 @@ If you select "Correction" on the left side of the screen inside the tool, you c
 If you want to use the corrected content of this tool for the "recipient" at the actual sending screen, click the "format number" button at the bottom right. <br>
 If you want to manually modify the format of the recipient number, click "Close without modification" to return to the original sending screen.
 
-![修正内容](/images/number_formatter_howto_04ja.png)
+![Corrections](/images/number_formatter_howto_04en.png)
 
 ### 3. Review the corrections and send
 
 Return to the "Send from Web" screen and double-check that the modified recipient numbers are there. <br>
 After reviewing, click the "Send SMS" button at the bottom right of the screen again to send.
 
-![ダイヤルSMS利用目的](/images/number_formatter_howto_05ja.png)
+![Review](/images/number_formatter_howto_05en.png)
 
 ### Exta: When you want to use the tool for a country other than Japan
 
@@ -72,6 +72,6 @@ The phone number formatter executes its corrections based on recipient numbers i
 If the recipient number is not Japanese, you can change it by selecting the country name under the recipient input area. <br>
 * If the recipient number includes multiple countries, the phone number formatter unfortunately can't be used. Please manually modify the numbers to the E.164 format or try sending by country.
 
-![受信者国名選択](/images/number_formatter_howto_06ja.png)
+![Country Selection](/images/number_formatter_howto_06en.png)
 
 
