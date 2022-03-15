@@ -53,9 +53,9 @@ E.164 形式では +447911123456 <br>
 
 
 ## 番号自動修正ツール
-[EZSMS](https://www.ezsms.biz/ja/)の _ウェブから送信_ には、この E.164形式に番号を自動的に修正して、メッセージが問題なく送信されるようにする新しいツール[番号自動修正ツール](https://help.xoxzo.com/ja/how-to-use-number-formatter/)があります。
+[EZSMS](https://www.ezsms.biz/ja/)の _ウェブから送信_ には、この E.164形式に番号を自動的に修正して、メッセージが問題なく送信されるようにする新しいツール[番号自動修正ツール](https://help.xoxzo.com/ja/ezsms-sms-delivery-service/articles/how-to-use-number-formatter/)があります。
 
-詳しくは、[こちらから](https://help.xoxzo.com/ja/how-to-use-number-formatter/)どうぞ。
+詳しくは、[こちらから](https://help.xoxzo.com/ja/ezsms-sms-delivery-service/articles/how-to-use-number-formatter/)どうぞ。
 
 
 
