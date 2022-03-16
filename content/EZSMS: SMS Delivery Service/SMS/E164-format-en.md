@@ -55,7 +55,7 @@ Your E.164 number would be: +817027689858 <br>
 The SMS sending service for web EZSMS, has a new tool “Phone Number Formatter” that automatically <br>
 corrects numbers to the internationally recognized E.164 format to ensure that your messages are sent without problems. <br>
 
-Read more about the Phone Number Formatter [here](https://help.xoxzo.com/how-to-use-number-formatter/).
+Read more about the Phone Number Formatter [here](https://help.xoxzo.com/en/ezsms-sms-delivery-service/articles/how-to-use-number-formatter/).
 
 
 

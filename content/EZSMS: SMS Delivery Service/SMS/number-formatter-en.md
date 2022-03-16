@@ -6,14 +6,14 @@ Category: EZSMS:SMS delivery service/SMS API
 
 The new phone number formatter, is a tool which automatically corrects mobile phone numbers to the right format for web sending.
 
-The recipient number you enter at "Send from the Web" must be written in a format based on a standard called [E.164] (https://help.xoxzo.com/ezsms-sms-delivery-service/articles/E164-format/). However, in Japan, a different format is used usually. <br>
+The recipient number you enter at "Send from the Web" must be written in a format based on a standard called [E.164](https://help.xoxzo.com/ezsms-sms-delivery-service/articles/E164-format/). However, in Japan, a different format is used usually. <br>
 Example) <br>
 
 | Number type | Domestic notation | E.164 notation |
-| --------- | ------------ | ----------- |
-Landline | (0111) 000-9999 | +8111110009999 |
+| --------------- | ------------------ | ----------------- |
+|Landline | (0111) 000-9999 | +8111110009999 |
 | Mobile Phones | 080-0000-9999 | +818000009999 |
-Toll-free number | 0120-000-999 | +81120000999 |
+|Toll-free number | 0120-000-999 | +81120000999 |
 
 Therefore, EZSMS, which is an online SMS sending service, and sends to domestic telephone networks, has a _phone number formatter_ that can quickly correct numbers that weren't written in the standard way, so that they can be recognized by the system.
 
