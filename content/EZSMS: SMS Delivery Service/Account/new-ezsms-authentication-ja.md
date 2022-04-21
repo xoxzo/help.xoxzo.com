@@ -15,7 +15,14 @@ EZSMSでは、外部の認証サービスを導入し、認証のプロセスを
 - 携帯電話番号
 を一度に認証します。
 
-認証方法については、下記をご参照ください。
+**標準では日本国内の携帯電話番号をご使用いただく仕様となっております。**
+国外でのご利用をご希望の場合は、
+- 企業、団体及び個人名
+- ご利用用途
+- 予想月間通信量</br>
+をヘルプデスク (support@ezsms.biz) までご連絡ください。
+
+認証方法詳細については、下記をご参照ください。
 
 ### 1. 登録情報を入力
 アカウント作成に必要な情報を入力してください。
@@ -25,14 +32,38 @@ EZSMSでは、外部の認証サービスを導入し、認証のプロセスを
 
 ### 2. 内容を確認する
 入力内容に誤りがないか、ご確認ください。
-入力された内容
+入力された内容に基づいて、認証が行われます。
+修正が必要な場合は、修正ボタンより登録画面に戻ってください。
+
 ![EZSMSLogin]({filename}/images/new-mobile-number-authentication/02.png)
 
-### 3. 携帯電話番号の頭の0の代わりに+81を付けたものを入力し「認証を始める」
+### 3. 複合認証を開始する
+メールアドレス、携帯電話番号のどちらを先に認証いただいても結構です。
 
-ご利用いただける番号は、070/080/090 で始まる、SMSを受信できる番号となります。
+#### メールアドレスの認証
+1. 「メールアドレス認証」のテキストをクリックしてください。
+![EZSMSLogin]({filename}/images/new-mobile-number-authentication/03.png)
 
-![EZSMSLogin]({filename}/images/mobile-number-authentication/03.png)
+2. 届いたメールに記載のパスワードを入力し、OTP（ワンタイムパスワード）を認証してください。
+![EZSMSLogin]({filename}/images/new-mobile-number-authentication/04.png)
+
+3. 正しいOTP（ワンタイムパスワード）が入力されると、メールアドレス認証は完了です。
+![EZSMSLogin]({filename}/images/new-mobile-number-authentication/05.png)
+
+#### 携帯電話番号の認証
+1. 「SMSで電話番号を確認する」のテキストをクリックしてください。
+![EZSMSLogin]({filename}/images/new-mobile-number-authentication/06.png)
+
+2. 届いたSMSに記載のパスワードを入力し、OTP（ワンタイムパスワード）を認証してください。
+![EZSMSLogin]({filename}/images/new-mobile-number-authentication/07.png)
+
+3. 正しいOTP（ワンタイムパスワード）が入力されると、携帯電話認証は完了です。
+![EZSMSLogin]({filename}/images/new-mobile-number-authentication/08.png)
+
+両方の認証完了後「認証を完了する」ボタンをクリックしてください。
+![EZSMSLogin]({filename}/images/new-mobile-number-authentication/0９.png)
+
+
 
 ### 4. 届いたSMSに記載されているメールアドレスへ、ご登録の携帯電話から空メールを送信（件名、本文は必要ありません）
 
