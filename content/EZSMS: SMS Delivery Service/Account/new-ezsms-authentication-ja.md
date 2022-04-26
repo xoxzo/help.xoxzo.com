@@ -55,13 +55,11 @@ EZSMSでは、外部の認証サービスを導入し、認証のプロセスを
 ![EZSMSLogin]({filename}/images/new-mobile-number-authentication/06.png)
 
 2. 届いたSMSに記載のパスワードを入力し、OTP（ワンタイムパスワード）を認証してください。
-![EZSMSLogin]({filename}/images/new-mobile-number-authentication/07.png)
-
-3. 正しいOTP（ワンタイムパスワード）が入力されると、携帯電話認証は完了です。
+正しいOTP（ワンタイムパスワード）が入力されると、携帯電話認証は完了です。
 ![EZSMSLogin]({filename}/images/new-mobile-number-authentication/08.png)
 
 両方の認証完了後「認証を完了する」ボタンをクリックしてください。
-![EZSMSLogin]({filename}/images/new-mobile-number-authentication/0９.png)
+![EZSMSLogin]({filename}/images/new-mobile-number-authentication/09.png)
 
 完了のメッセージが表示されると、認証は完了となります。「ログイン」ボタンをクリックして、ログインしてください。
 ![EZSMSLogin]({filename}/images/new-mobile-number-authentication/0９.png)
