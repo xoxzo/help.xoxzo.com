@@ -55,9 +55,7 @@ It doesn't matter whether you authenticate your email address or mobile phone nu
 ![EZSMSLogin]({filename}/images/new-mobile-number-authentication/06.png)
 
 2. Enter the password that you got in the SMS to authenticate the OTP (one-time password). <br>
-![EZSMSLogin]({filename}/images/new-mobile-number-authentication/07.png)
-
-3. If you entered the correct OTP (one-time password), the mobile phone authentication is complete. <br>
+ If you entered the correct OTP (one-time password), the mobile phone authentication is complete. <br>
 ![EZSMSLogin]({filename}/images/new-mobile-number-authentication/08.png)
 
 After completing both authentications, click the "complete authentication" button. <br>
