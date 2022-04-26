@@ -28,41 +28,41 @@ EZSMSでは、外部の認証サービスを導入し、認証のプロセスを
 アカウント作成に必要な情報を入力してください。
 その際、メールアドレスと携帯電話番号は、認証に使用しますので、手元にあるアクセスの良いものをご登録ください。
 
-![account creation01]({filename}/images/new-mobile-number-authentication/01.png)
+![account creation01]({filename}/images/new-mobile-number-authentication-ja-01.png)
 
 ### 2. 内容を確認する
 入力内容に誤りがないか、ご確認ください。
 入力された内容に基づいて、認証が行われます。
 修正が必要な場合は、修正ボタンより登録画面に戻ってください。
 
-![EZSMSLogin]({filename}/images/new-mobile-number-authentication/02.png)
+![EZSMSLogin]({filename}/images/new-mobile-number-authentication-ja-02.png)
 
 ### 3. 複合認証を開始する
 メールアドレス、携帯電話番号のどちらを先に認証いただいても結構です。
 
 #### メールアドレスの認証
 1. 「メールアドレス認証」のテキストをクリックしてください。
-![EZSMSLogin]({filename}/images/new-mobile-number-authentication/03.png)
+![EZSMSLogin]({filename}/images/new-mobile-number-authentication-ja-03.png)
 
 2. 届いたメールに記載のパスワードを入力し、OTP（ワンタイムパスワード）を認証してください。
-![EZSMSLogin]({filename}/images/new-mobile-number-authentication/04.png)
+![EZSMSLogin]({filename}/images/new-mobile-number-authentication-ja-04.png)
 
 3. 正しいOTP（ワンタイムパスワード）が入力されると、メールアドレス認証は完了です。
-![EZSMSLogin]({filename}/images/new-mobile-number-authentication/05.png)
+![EZSMSLogin]({filename}/images/new-mobile-number-authentication-ja-05.png)
 
 #### 携帯電話番号の認証
 1. 「SMSで電話番号を確認する」のテキストをクリックしてください。
-![EZSMSLogin]({filename}/images/new-mobile-number-authentication/06.png)
+![EZSMSLogin]({filename}/images/new-mobile-number-authentication-ja-06.png)
 
 2. 届いたSMSに記載のパスワードを入力し、OTP（ワンタイムパスワード）を認証してください。
 正しいOTP（ワンタイムパスワード）が入力されると、携帯電話認証は完了です。
-![EZSMSLogin]({filename}/images/new-mobile-number-authentication/08.png)
+![EZSMSLogin]({filename}/images/new-mobile-number-authentication-ja-08.png)
 
 両方の認証完了後「認証を完了する」ボタンをクリックしてください。
-![EZSMSLogin]({filename}/images/new-mobile-number-authentication/09.png)
+![EZSMSLogin]({filename}/images/new-mobile-number-authentication-ja-09.png)
 
 完了のメッセージが表示されると、認証は完了となります。「ログイン」ボタンをクリックして、ログインしてください。
-![EZSMSLogin]({filename}/images/new-mobile-number-authentication/0９.png)
+![EZSMSLogin]({filename}/images/new-mobile-number-authentication-ja-10.png)
 
 
 
