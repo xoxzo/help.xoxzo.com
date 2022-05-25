@@ -4,11 +4,10 @@ Slug: i-forgot-my-password
 Lang: en
 Category: EZSMS:SMS delivery service/Account
 
-パスワードを忘れてしまった場合、アカウントにご登録のメールアドレスを使ってリセットできます。
-（外部認証サイト(GetOTP)を使用しています）
+Please reset your password in case you forgot it.
+You will need to provide the email address that you registered on EZSMS.
+The password reset will be done by the external authentication site (GetOTP).
 
-[パスワードリセット申請するにはこちら](https://www.ezsms.biz/ja/reset-password/)
+[Visit here to reset your password](https://www.ezsms.biz/en/reset-password/)
 
-但し、**ご登録メールアドレス**がわからない場合、または登録メールアドレスに、アクセスできなくなった場合は、[ご利用規約](https://www.ezsms.biz/ja/faq/tos/)に基づいて本人確認ができないためパスワードリセットはできません。
-
-お手数ですが、再度新規アカウントを登録になり、そのメールアドレスをお忘れにならないよう、ご利用ください。
+In case you forgot your **email address**, or you lost the access to the email address, the password reset will not be available, because this falls into a case of clause 2-3 in our [TOS](https://www.ezsms.biz/en/faq/tos/). You can create another account to use EZSMS too, please retain your registered email address.
