@@ -2,7 +2,7 @@ Title: CSVファイルでカスタマイズできるショートメッセージ�
 Date: 2016-10-12 16:13
 Slug: how-to-send-with-customised-csv
 Lang: ja
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS:SMS delivery service/SMS
 
 「文章構成自体は同じなのだけど、送信先ごとに、部分的に別のデータを使ったメッセージを送信したい」
 EZSMSでは、CSVファイルにデータを記入してアップロードすることで、SMSの本文にCSVのデータを差し込むことができます。 この機能によって宛先に合わせてカスタマイズできるメッセージを送ることができます。
