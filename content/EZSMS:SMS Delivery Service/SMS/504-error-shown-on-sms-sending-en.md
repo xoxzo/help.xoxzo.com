@@ -2,7 +2,7 @@ Title: 504 error shown at SMS sending
 Date: 2018-03-20 15:00
 Slug: 504-error-shown-on-sms-sending
 Lang: en
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS:SMS delivery service/SMS
 
 ##There showed 504 error when SMS sending was made via Web
 
