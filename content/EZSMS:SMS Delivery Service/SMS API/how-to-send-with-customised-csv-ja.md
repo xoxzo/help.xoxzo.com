@@ -50,8 +50,10 @@ EZSMSでは、SMSの本文をカスタマイズできます。
  
 #### 作成2
 **【テキストファイルとして作成する場合】**
-
-  ![csv_screen](/images/csv_screen04.png)
+テキスト編集用のソフトで、各項目をコンマで区切って入力してください。
+  ![csv_screen](/images/csv_screen05.png)
+ 
+ 
  
 ### ⑤ 送信のタイミング設定
 
