@@ -5,9 +5,9 @@ Lang: ja
 Category: EZSMS:SMS delivery service/SMS
 
 EZSMSでは、SMSの本文をカスタマイズできます。
-リストをアップロードして、受信者それぞれに「ある部分」だけ入れ替えた「同じ文章」のSMSを送信することができるのです。
+リストをアップロードして、受信者それぞれに「**ある部分**だけ入れ替えた**同じ文章**」のSMSを送信することができるのです。
 
-![csv_screen](/images/csv_screen.png)
+![csv_screen](/images/csv_screen01.png)
 
 ### ① メニューエリアから _CSVアップロード_ を選択
 ### ② _送信者_ を入力 
@@ -32,6 +32,26 @@ EZSMSでは、SMSの本文をカスタマイズできます。
 </details>
 
 ### ④ csvファイルの準備・アップロード
+#### 作成1
+**【MSエクセルなどの表計算ソフトで作成する場合】**
+③で{{二重波括弧}} で囲った変数名を一行目に、二行目以降に該当データを入力してください。
+<details>
+  <summary>ファイル入力の例/セミナー参加へのお礼</summary>
+  ![csv_screen](/images/csv_screen02.png)
+ </details>
+ 
+ <details>
+  <summary>ファイル入力の例/地域ごとの避難指示の場合</summary>
+  ![csv_screen](/images/csv_screen03.png)
+ </details>
+ 
+**ファイル保存時に、必ず _ファイル形式_ を _CSV UTF-8 (コンマ区切り)(.csv)_ として保存してください。**
+  ![csv_screen](/images/csv_screen04.png)
+ 
+#### 作成2
+**【テキストファイルとして作成する場合】**
 
+  ![csv_screen](/images/csv_screen04.png)
+ 
 ### ⑤ 送信のタイミング設定
 
