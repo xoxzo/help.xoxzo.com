@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-07-23 02:52+0900\n"
+"POT-Creation-Date: 2020-05-29 18:18+0900\n"
 "PO-Revision-Date: 2017-07-23 02:40+0900\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ja\n"
@@ -16,52 +16,77 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+"Generated-By: Babel 2.5.1\n"
 
-#: themes/xoxzo/templates/article.html:26
+#: themes/xoxzo/templates/article.html:40
 msgid "Xoxzo Help Center"
 msgstr "Xoxzoのヘルプセンター"
 
-#: themes/xoxzo/templates/base.html:35
-msgid "HELP CENTER"
-msgstr "ヘルプセンター"
-
-#: themes/xoxzo/templates/base.html:45
-msgid "https://info.xoxzo.com/en/"
-msgstr "https://info.xoxzo.com/ja/"
-
-#: themes/xoxzo/templates/base.html:45
-msgid "Who We Are"
-msgstr "Xoxzoについて"
-
-#: themes/xoxzo/templates/base.html:48
-msgid "Twitter"
-msgstr "ツイッター"
-
-#: themes/xoxzo/templates/base.html:61
-msgid "https://www.xoxzo.com/en/"
-msgstr "https://www.xoxzo.com/ja/"
-
-#: themes/xoxzo/templates/base.html:61
-msgid "Xoxzo Telephony API"
-msgstr "XoxzoテレフォニーAPI"
-
-#: themes/xoxzo/templates/base.html:74
-msgid "Xoxzo Inc. All rights reserved."
-msgstr "Xoxzo Inc. All rights reserved."
-
-#: themes/xoxzo/templates/base.html:75
-msgid "Powered by <a href=\"http://getpelican.com/\">Pelican</a>"
-msgstr "Powered by <a href=\"http://getpelican.com/\">Pelican</a>"
-
-#: themes/xoxzo/templates/index.html:6 themes/xoxzo/templates/search.html:28
-msgid "How can we help you ?"
-msgstr "ご質問は何でしょうか"
-
-#: themes/xoxzo/templates/index.html:9
+#: themes/xoxzo/templates/article.html:53
+#: themes/xoxzo/templates/category.html:17 themes/xoxzo/templates/index.html:15
+#: themes/xoxzo/templates/search.html:19
+#: themes/xoxzo/templates/subcategory.html:18
 msgid "Start your search"
 msgstr "検索開始"
 
-#: themes/xoxzo/templates/index.html:34
+#: themes/xoxzo/templates/base.html:14 themes/xoxzo/templates/base.html:22
+#: themes/xoxzo/templates/base.html:26
+msgid ""
+"FAQs to answer your questions regarding the details of service and how to"
+" use both Xoxzo APIs and EZSMS"
+msgstr "XoxzoのAPIやEZSMSのサービス詳細、使い方に関する疑問を解決するFAQをご用意しています。"
+
+#: themes/xoxzo/templates/base.html:28
+msgid "Xoxzo FAQ Help Center for Xoxzo APIs and EZSMS"
+msgstr "XoxzoのAPIやEZSMSについてのFAQ - Xoxzo ヘルプセンター"
+
+#: themes/xoxzo/templates/base.html:50
+msgid "Xoxzo Logo"
+msgstr "Xoxzoのロゴ"
+
+#: themes/xoxzo/templates/base.html:51
+msgid "HELP CENTER"
+msgstr "ヘルプセンター"
+
+#: themes/xoxzo/templates/base.html:59
+msgid "https://info.xoxzo.com/en/"
+msgstr "https://info.xoxzo.com/ja/"
+
+#: themes/xoxzo/templates/base.html:59
+msgid "Who We Are"
+msgstr "Xoxzoについて"
+
+#: themes/xoxzo/templates/base.html:62
+msgid "https://hello.xoxzo.com/en/"
+msgstr "https://hello.xoxzo.com/ja/"
+
+#: themes/xoxzo/templates/base.html:62
+msgid "Xoxzo Demo"
+msgstr "Xoxzoのデモ"
+
+#: themes/xoxzo/templates/base.html:65
+msgid "Search"
+msgstr "検索"
+
+#: themes/xoxzo/templates/base.html:76
+msgid "https://www.xoxzo.com/en/"
+msgstr "https://www.xoxzo.com/ja/"
+
+#: themes/xoxzo/templates/base.html:76
+msgid "Xoxzo Telephony API"
+msgstr "XoxzoテレフォニーAPI"
+
+#: themes/xoxzo/templates/base.html:95
+msgid ""
+"Xoxzo Inc. All rights reserved.<br>Powered by <a "
+"href=\"http://getpelican.com/\">Pelican</a>"
+msgstr ""
+
+#: themes/xoxzo/templates/index.html:12 themes/xoxzo/templates/search.html:16
+msgid "How can we help you ?"
+msgstr "ご質問は何でしょうか"
+
+#: themes/xoxzo/templates/index.html:42 themes/xoxzo/templates/search.html:48
 msgid "View all articles"
-msgstr "すべてのヘルプを参照する"
+msgstr "すべてのヘルプを 参照する"
+

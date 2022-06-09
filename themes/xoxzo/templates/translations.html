@@ -2,9 +2,9 @@
 {% if article.translations %}
 {% for translation in article.translations %}
 {% if DEFAULT_LANG == 'ja' %}
-<a class="translation-link" href="{{ SITEURL }}/{{ translation.url }}">English</a>
+<a class="badge badge-blue" href="{{ SITEURL }}/{{ translation.url }}">Translate to English</a>
 {% else %}
-<a class="translation-link" href="{{ SITEURL }}/{{ translation.url }}">Japanese</a>
+<a class="badge badge-blue" href="{{ SITEURL }}/{{ translation.url }}">Translate to 日本語</a>
 {% endif %}
 {% endfor %}
 {% endif %}
