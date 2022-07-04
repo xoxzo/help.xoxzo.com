@@ -11,15 +11,18 @@ In order to do that, we now require mobile phone number verification of new acco
 If you  are a user who registered before April 26, 2022 and need help with the mobile phone authentication, please contact the help desk (support@ezsms.biz)
 
 EZSMS aims to improve security while simplifying the authentication process by introducing an external authentication service. <br>
-For users who want to create a new account after April 26, 2022, please complete the authenticatication for the following:
-- E-mail address
+For users who want to create a new account after April 26, 2022, please complete the authenticatication for the following:<br>
+- E-mail address<br>
 - Mobile phone number <br>
 
-** By default we have set the phone numbers to numbers in Japan. ** **
-<br> If you wish to use an overseas number, please let us know the following:
-– Your company, organization, name
-– Usage
-– Expected monthly traffic </ strong>
+**In case you did not complete the authentication process**<br>
+Please [register](https://www.ezsms.biz/en/register/)again.<br>
+
+**By default we have set the phone numbers to numbers in Japan.**
+<br> If you wish to use an overseas number, please let us know the following: <br>
+– Your company, organization, name<br>
+– Usage<br>
+– Expected monthly traffic <br>
 Please contact the help desk (support@ezsms.biz).
 
 Please refer to the following for details on the authentication method.
