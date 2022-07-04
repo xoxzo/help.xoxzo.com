@@ -15,11 +15,14 @@ For users who want to create a new account after April 26, 2022, please complete
 - E-mail address
 - Mobile phone number <br>
 
-** By default we have set the phone numbers to numbers in Japan. ** **
-<br> If you wish to use an overseas number, please let us know the following:
-– Your company, organization, name
-– Usage
-– Expected monthly traffic </ strong>
+**In case you did not complete the authentication process**
+Please [register](https://www.ezsms.biz/en/register/)again.
+
+**By default we have set the phone numbers to numbers in Japan.**
+<br> If you wish to use an overseas number, please let us know the following: <br>
+– Your company, organization, name<br>
+– Usage<br>
+– Expected monthly traffic <br>
 Please contact the help desk (support@ezsms.biz).
 
 Please refer to the following for details on the authentication method.
