@@ -2,7 +2,7 @@ Title: どのようなSenderIDを使用できますか？
 Date: 2022-07-14
 Slug: what-senderid-can-i-use
 Lang: ja
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS:SMS delivery service/SMS
 
 SMSを配信する際に受信者側に表示される、配信元番号（または配信元IDといいます）は、なりすまし防止の観点から原則としてキャリアにより規制対象になるケースが多くあります。EZSMSのご利用にあたって、**配信する際に配信元IDを指定できます** が、**受信者がメッセージを受け取る時には送信キャリアにより、別のものに置き換えられてある可能性がある** ということを、ご承知ください。<br>
 
