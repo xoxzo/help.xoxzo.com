@@ -4,13 +4,19 @@ Slug: what-senderid-can-i-use
 Lang: en
 Category: EZSMS:SMS delivery service/SMS
 
-SMSを配信する際に受信者側に表示される、配信元番号（または配信元IDといいます）は、なりすまし防止の観点から原則としてキャリアにより規制対象になるケースが多くあります。EZSMSのご利用にあたって、**配信する際に配信元IDを指定できます** が、**受信者がメッセージを受け取る時には送信キャリアにより、別のものに置き換えられてある可能性がある** ということを、ご承知ください。<br>
+The senderID of SMS is subject to the regulation or restrictions of the carriers in many cases for the purpose of prevent spoofing.
+**The EZSMS users can specify the senderID as their own**, but please be aware that **the senderID can be replaced** by something else 
+by the carriers for the reason.<br>
 
-そのため、受信者にメッセージの配信元を明確に知ってもらうために、メッセージ本文の中に配信元の情報を記載することを強くお勧めします。（送り主の社名、氏名をメッセージ内で名乗る）<br>
-> こんにちは、◯◯クリニックです<br>
-> xxクラブより緊急ミーティングのお知らせです<br>
-など
+We strongly recommend the users to include their names or their business names in the bodytext
+so that the recipients will well-recognize who is the sender of the message.<br>
+For example:
+> Hi, this is an ordinary clinic, .....<br>
+> A message from the club Ribbon about the emergency meeting.....<br>
+etc.,
 <br>
+
+### What SenderID is available to use?
 使用可能な配信元IDの情報は、各キャリアによって基準の違いもあり、内部機密情報のため開示されていませんが、以下の注意すべき点を挙げられます。<br>
 なお、以下のリストが常時有効であるとも、保証できませんので、ご了承ください。
 
