@@ -1,5 +1,5 @@
 Title: どのようなSenderIDを使用できますか？
-Date: 2016-10-13
+Date: 2022-07-14
 Slug: what-senderid-can-i-use
 Lang: ja
 Category: EZSMS:SMS delivery service/SMS API
