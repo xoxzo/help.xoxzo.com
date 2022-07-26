@@ -27,10 +27,11 @@ Please refer to [this article](https://help.xoxzo.com/en/ezsms-sms-delivery-serv
 Also, [this article](https://help.xoxzo.com/en/ezsms-sms-delivery-service/articles/what-does-sender-id-do/)may help you to understand SenderIDs better.<br>
 
 ### Step 2 CSV Upload
-送信先ごとに、本文の一部をカスタマイズして、複数の宛先へメッセージを送信したい場合、CSVファイルをそのままアップロードしていただくと便利です。<br>
-本文のカスタマイズが不要でも、送信先が複数ありリスト化されている場合、CSV形式にてアップロードしていただくと、受信者番号が自動で取り込まれます。その際、リストのヘッダーを _to_ にしてください。<br>
-詳しくは[こちら](https://help.xoxzo.com/ja/ezsms-sms-delivery-service/articles/how-to-send-with-customised-csv/)をご参照ください。<br>
-アップロードするファイルがなければ、何も行わず、「次へ」ボタンで進んでください。<br>
+If you want to insert customize data into the mssages, it will be convenient to upload your csv file to send.<br>
+If you have a list of recipients' phone number, although no need of customizing the message, you can upload the list in .csv file to auto-feed the numbers, do not forget to set the header of the number as _to_ .<br>
+Please visit [here](https://help.xoxzo.com/en/ezsms-sms-delivery-service/articles/how-to-send-with-customised-csv/) for more about CSV Upload process.<br>
+
+Please just click _Next_ button if you do not have any files to upload.<br>
 
 ### Step 3 受信者電話番号
 送信先の電話番号を入力します。<br>
