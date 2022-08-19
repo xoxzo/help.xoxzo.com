@@ -33,9 +33,10 @@ Please visit [here](https://help.xoxzo.com/en/ezsms-sms-delivery-service/article
 
 Please just click _Next_ button if you do not have any files to upload.<br>
 
-### Step 3 受信者電話番号
-送信先の電話番号を入力します。<br>
-まず、送信先の国名を選択してください。複数国へ一度に送信する場合には、主な国名を選択してください。ここで選択した国名は、後ほど確認画面で送信先の電話番号が正しく入力されているかを判断するために使用します。入力フォーマットが間違っている場合、一括修正ボタンで一度に自動修正することができます。複数国へ一度に送信する場合には、一括修正がご利用いただけません。修正が必要な送信先が示されますので、送信先ごとに個別に修正できます。<br>
+### Step 3 Recipients Phone numbers
+Input the mobile phone numbers of the recipients.<br>
+Please select the country name of the recipient first.<br>
+複数国へ一度に送信する場合には、主な国名を選択してください。ここで選択した国名は、後ほど確認画面で送信先の電話番号が正しく入力されているかを判断するために使用します。入力フォーマットが間違っている場合、一括修正ボタンで一度に自動修正することができます。複数国へ一度に送信する場合には、一括修正がご利用いただけません。修正が必要な送信先が示されますので、送信先ごとに個別に修正できます。<br>
 複数の送信先が載ったリストがある場合、コピー＆ペーストにて貼り付けていただいても結構です。<br>
 一度の送信で1,000件までの送信先を登録できます。<br>
 送信処理にかかる時間については、[こちら](https://help.xoxzo.com/ja/ezsms-sms-delivery-service/articles/what-is-the-max-number-of-request-and-how-quick-the-process/)から詳細をご確認ください。<br>
