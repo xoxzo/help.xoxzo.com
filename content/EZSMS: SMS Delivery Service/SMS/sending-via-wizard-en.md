@@ -36,10 +36,10 @@ Please just click _Next_ button if you do not have any files to upload.<br>
 ### Step 3 Recipients Phone numbers
 Input the mobile phone numbers of the recipients.<br>
 Please select the country name of the recipient first.<br>
-複数国へ一度に送信する場合には、主な国名を選択してください。ここで選択した国名は、後ほど確認画面で送信先の電話番号が正しく入力されているかを判断するために使用します。入力フォーマットが間違っている場合、一括修正ボタンで一度に自動修正することができます。複数国へ一度に送信する場合には、一括修正がご利用いただけません。修正が必要な送信先が示されますので、送信先ごとに個別に修正できます。<br>
-複数の送信先が載ったリストがある場合、コピー＆ペーストにて貼り付けていただいても結構です。<br>
-一度の送信で1,000件までの送信先を登録できます。<br>
-送信処理にかかる時間については、[こちら](https://help.xoxzo.com/ja/ezsms-sms-delivery-service/articles/what-is-the-max-number-of-request-and-how-quick-the-process/)から詳細をご確認ください。<br>
+In case you are sending the message to multiple countries, please select the main country. This selection will be used for the auto number correction functionality, which will correct all the wrong format numbers in a list by one click, to judge the recipient numbers are correct. Unfortunately, auto-correction will not be available for the list of recipients including multiple countries. The correction will be still suggested and you can check each of them.<br>
+The list can not only be uploaded but also be copy & pasted.<br>
+Up to 1,000 recipients can be set for one batch of sending.<br>
+Please find the duration necessary to send SMS [here](https://help.xoxzo.com/en/ezsms-sms-delivery-service/articles/what-is-the-max-number-of-request-and-how-quick-the-process/)<br>
 
 ### Step 4 メッセージ本文
 メッセージを入力します。<br>
