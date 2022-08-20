@@ -39,29 +39,29 @@ Please select the country name of the recipient first.<br>
 In case you are sending the message to multiple countries, please select the main country. This selection will be used for the auto number correction functionality, which will correct all the wrong format numbers in a list by one click, to judge the recipient numbers are correct. Unfortunately, auto-correction will not be available for the list of recipients including multiple countries. The correction will be still suggested and you can check each of them.<br>
 The list can not only be uploaded but also be copy & pasted.<br>
 Up to 1,000 recipients can be set for one batch of sending.<br>
-Please find the duration necessary to send SMS [here](https://help.xoxzo.com/en/ezsms-sms-delivery-service/articles/what-is-the-max-number-of-request-and-how-quick-the-process/)<br>
+Please find the duration necessary to send SMS [here](https://help.xoxzo.com/en/ezsms-sms-delivery-service/articles/what-is-the-max-number-of-request-and-how-quick-the-process/).<br>
 
-### Step 4 メッセージ本文
-メッセージを入力します。<br>
-GSMの仕様により１通のSMSには最大の文字数が決められています。最終的に受信側のキャリアや受信する機器によって若干の異なるところがありますが、一般的には<br>
-1. ASCII の文字のみ含まれているメッセージでは最大 160 文字数までです。これ以上になると、分割されます。<br>
-2. 日本語など(半角文字含む)ASCII 以外の文字が含まれる場合、最大 70 文字数までです。これ以上になると分割されます。<br>
-3. 一度の送信にて、180文字までのメッセージが設定できますが、そのように送信されますと、分割されて3送信となる（３通分の料金がかかります）、ということをご了承ください。<br>
-ASCII の文字のみ含まれているメッセージでは最大 160 文字数までです。これ以上になると、分割されます。<br>
-詳しくは、[こちら](https://help.xoxzo.com/ja/ezsms-sms-delivery-service/articles/how-many-characters-would-fit-within-1-x-sms/)をご参照ください。<br>
-#### メッセージ本文をカスタマイズする場合
-**Step 2** でCSVファイルをアップロードし、送信先ごとにメッセージをカスタマイズした送信を行いたい場合、本文の中に、変更したい部分を _変数_ として入力する必要があります。変数は、CSVファイル内のヘッダーにつけた名前(半角アルファベット)を {{二重波括弧}} で囲うことで入力できます。<br>
-変数について、詳しくは[こちら]()をご参照ください。<br>
+### Step 4 Message body
+Please write your message here.<br>
+The maximum number of character to be fit in one SMS message is set by the GSM regulation. Although there may be a little difference by the recipient carriers or the devices, in general:<br>
+1. The maximum number of character in one message being consisted with ASCII is 160. The longer messages will be split.<br>
+2. The maximum number of character in one message with other than ASCII is 70. The longer messages will be split.<br>
+3. Please note that EZSMS will accept the message length up to 180 characters. You will be charged for the split sending if you send the maximum length.<br>
+<br>
+Please see [this article](https://help.xoxzo.com/en/ezsms-sms-delivery-service/articles/how-many-characters-would-fit-within-1-x-sms/) for more details about the message length restriction.<br>
+#### Message customization
+If you set variables to customize the message in your csv file uploaded at **Step 2**, your message needs to have the _valiable_ within. The header of the variable column in your csv file will be the name of the _valiable_, please insert the name with {{double wavy brackets}} in your message.<br>
+Please see more details about _valiable_ [here]().<br>
 
-### Step 5 送信内容を確認・編集
-送信先と本文の内容をご確認ください。修正や編集が必要な場合は、ここで行うことができます。<br>
-#### 自動修正を行う
+### Step 5 Confirm your sending details
+Please check and confirm the details of your sending. Any necessary editions can be done here.<br>
+#### Use auto-correction tool
 ![個別修正と一括修正](/images/wizard-01-ja.png)
-送信先番号のうち、灰色のものは自動修正が可能です。<br>
-上部の「一括自動修正ボタン」または個々の送信先にある「個別自動修正ボタン」をクリックすると自動修正が行われます。<br>
-※この際、 **Step 3** で選択した送信先国を基準として自動修正が行われますのでご了承ください。<br>
+The gray numbers in the recipient numbers need auto-correction.<br>
+The auto-correction will work when you click the individual correction button at each listed number or the auto-correction button at the top.<br>
+※The auto-correction will be made based on the country of the recipients you selected at **Step 3**.<br>
 
-#### 手動で修正を行う
+#### Manual correction
 ![手動編集](images/wizard-04-ja.png)
 送信先番号が赤色のものは、自動修正が不可となります。各送信先の右側にある「編集」もしくは「削除」ボタンにて手動で修正もしくは削除を行ってください。
 
