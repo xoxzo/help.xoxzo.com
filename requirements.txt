@@ -2,3 +2,4 @@ pelican==4.8.0
 markdown
 babel
 beautifulsoup4
+pelican-more-categories

@@ -49,7 +49,7 @@ EXTRA_PATH_METADATA = {
 #THEME           = 'themes/simple'
 THEME           = 'themes/xoxzo'
 PLUGIN_PATHS    = [os.path.join(PROJECT_ROOT, 'plugins'),]
-PLUGINS         = ["i18n_subsites", "subcategory", "tipue_search", "sitemap"]
+PLUGINS         = ["i18n_subsites", "subcategory", "more_categories", "tipue_search", "sitemap"]
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n',]}
 
 DIRECT_TEMPLATES = (('index', 'search'))
