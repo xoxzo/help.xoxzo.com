@@ -2,7 +2,7 @@ Title: カスタマーサポートについて
 Date: 2016-10-12 15:34
 Slug: i-need-help
 Lang: ja
-Category: EZSMS:SMS delivery service/General
+Category: EZSMS: SMS delivery service/General
 
 お問い合わせの前に、お手数ですが、ヘルプセンターをご活用いただき、ご質問が回答されていないか、ご確認をお願いします。
 

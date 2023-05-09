@@ -2,7 +2,7 @@ Title: 開発前にAPIを試すことはできますか？
 Date: 2016-10-12 16:16
 Slug: can-i-test-api-connection-first
 Lang: ja
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 はい、可能です。
 

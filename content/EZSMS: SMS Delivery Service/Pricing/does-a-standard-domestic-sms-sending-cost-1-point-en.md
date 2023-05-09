@@ -2,7 +2,7 @@ Title: How much my 1-point costs?
 Date: 2016-10-12 15:36
 Slug: how-much-my-1-point-costs
 Lang: en
-Category: EZSMS:SMS delivery service/Pricing
+Category: EZSMS: SMS delivery service/Pricing
 
 Our price list shows different unit costs for EZSMS points depending on the amount you purchase at a time.
 

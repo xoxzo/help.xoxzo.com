@@ -2,7 +2,7 @@ Title: What does the delivery status mean?
 Date: 2016-09-14 14:39
 Slug: ezsms-what-does-the-delivery-status-mean
 Lang: en
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 There are **3 main types of SMS delivery reports** which you can find. This is an explanation of what they mean:
 

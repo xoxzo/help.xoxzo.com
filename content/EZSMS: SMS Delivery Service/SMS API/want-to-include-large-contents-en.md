@@ -2,7 +2,7 @@ Title: I want to include a lot of info in 1 SMS
 Date: 2018-03-23 13:20
 Slug: want-to-include-large-contents
 Lang: en
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 ##The message body text limit is not enough to contain my message.
 

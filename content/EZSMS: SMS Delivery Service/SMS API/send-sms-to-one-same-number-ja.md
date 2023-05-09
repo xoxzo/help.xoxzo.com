@@ -2,7 +2,7 @@ Title: ひとつの電話番号に続けて何度も同じメッセージを送�
 Date: 2017-10-27 13:20
 Slug: send-sms-to-one-same-number
 Lang: ja
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 ## APIのテストを行う際、ひとつの電話番号に、同じメッセージを続けて何度も行うことがあります。これによって、エラーが発生したりするでしょうか。
 

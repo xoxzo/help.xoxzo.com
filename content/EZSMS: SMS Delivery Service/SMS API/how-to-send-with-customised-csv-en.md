@@ -2,7 +2,7 @@ Title: How to send with customised .csv?
 Date: 2016-10-12 16:13
 Slug: how-to-send-with-customised-csv
 Lang: en
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 "I want to send the same structured messages with various contents according to the recipient"
 "I want to contact my customers thanks for purchase message with the product that the customer has purchased"

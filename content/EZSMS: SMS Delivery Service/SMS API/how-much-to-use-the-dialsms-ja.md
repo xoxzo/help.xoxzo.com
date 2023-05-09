@@ -2,7 +2,7 @@ Title: ダイヤルSMSの利用料金は？
 Date: 2016-10-14 14:03
 Slug: how-much-to-use-the-dialsms
 Lang: ja
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 ダイヤルSMSのご利用料金は以下になります。
 

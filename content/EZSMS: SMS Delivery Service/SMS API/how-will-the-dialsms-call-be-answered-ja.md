@@ -2,7 +2,7 @@ Title: ダイヤルSMSの着信電話は、どのように応答されますか�
 Date: 2016-10-14 14:02
 Slug: how-will-the-dialsms-call-be-answered
 Lang: ja
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 着信に対して、固定の録音音声が、発信者に再生されます。
 再生される音声は、以下のようになります。

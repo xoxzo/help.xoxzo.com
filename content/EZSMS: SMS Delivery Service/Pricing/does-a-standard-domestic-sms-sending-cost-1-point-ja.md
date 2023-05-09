@@ -2,7 +2,7 @@ Title: 1ポイントはいくらになりますか？
 Date: 2016-10-12 15:36
 Slug: how-much-my-1-point-costs
 Lang: ja
-Category: EZSMS:SMS delivery service/Pricing
+Category: EZSMS: SMS delivery service/Pricing
 
 ポイント購入に際しまして、[料金表](https://www.ezsms.biz/ja/faq/price/)を参照いただきますと、一度に購入されるポイント数により、1ポイント当たりの購入額に差がございます。
 ご利用料に応じて、ご購入いただけますようよろしくお願いします。

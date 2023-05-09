@@ -2,7 +2,7 @@ Title: How to use SMS sending Wizard
 Date: 2022-07-14
 Slug: how-to-use-wizard
 Lang: en
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 Sending SMS from Wizard is a step-by-step wizarding function to input the information that you need for a sending.
 

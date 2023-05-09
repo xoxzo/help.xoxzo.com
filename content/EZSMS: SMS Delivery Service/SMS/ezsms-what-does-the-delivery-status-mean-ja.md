@@ -2,7 +2,7 @@ Title: 送信ステータスの表している内容は、どのようなもの�
 Date: 2016-09-14 14:39
 Slug: ezsms-what-does-the-delivery-status-mean
 Lang: ja
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 送信ステータスには、大きく３種類のものがあります。
 

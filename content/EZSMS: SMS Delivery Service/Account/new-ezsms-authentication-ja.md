@@ -2,7 +2,7 @@ Title: 新規アカウント登録時の認証について（2022年4月以降�
 Date: 2022-04-21
 Slug: mobile-number-authentication-2022
 Lang: ja
-Category: EZSMS:SMS delivery service/Account
+Category: EZSMS: SMS delivery service/Account
 
 ご利用のユーザー様のご本人確認を行うことで、サービスのセキュリティと安全性を
 向上させるため、ご利用のアカウントの「携帯電話番号認証」が義務化されています。

@@ -2,7 +2,7 @@ Title: メッセージの送信元IDが「非通知」や「Reject」となる�
 Date: 2016-10-13 15:19
 Slug: senderid-is-not-displayed-as-i-set-for-the-sending
 Lang: ja
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 送信元のデータは、ベストエフォート形でキャリア側にリクエストを出しますが、必ずしもリクエストどおりに表示される保証はありません。各キャリアの規制やポリシー、または受信端末の機種によっても、表示される送信元が変更となるケースがあります。
 

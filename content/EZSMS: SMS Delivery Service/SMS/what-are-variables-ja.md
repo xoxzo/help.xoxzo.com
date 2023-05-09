@@ -2,7 +2,7 @@ Title: 変数って、何でしょうか？
 Date: 2022-07-14
 Slug: what-are-vailables
 Lang: ja
-Category: EZSMS:SMS delivery service/SMS
+Category: EZSMS: SMS delivery service/SMS
 
 **変数** とは、プログラミングをするときに使う **「値を入れておく箱」** のことです。<br>
 EZSMSでは、プログラミングは行いませんが、やはりある値を入れておくのに使う箱の役割を担います。<br>

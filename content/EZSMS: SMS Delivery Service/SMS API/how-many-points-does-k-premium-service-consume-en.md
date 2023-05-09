@@ -2,7 +2,7 @@ Title: How many points does K-premium service consume?
 Date: 2016-10-12 15:37
 Slug: how-many-points-does-k-premium-service-consume
 Lang: en
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 To send SMS using K-premium service will deducts 1.2 times of points of the standard sending.
 

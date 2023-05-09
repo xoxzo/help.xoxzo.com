@@ -2,7 +2,7 @@ Title: 一通のSMSに含めたい情報が多すぎる時は？
 Date: 2018-03-23 13:20
 Slug: want-to-include-large-contents
 Lang: ja
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 ##新製品の案内や、イベントのお知らせ等、一通のSMSに含めたい情報が多すぎる場合、本文に入り切りません。
 

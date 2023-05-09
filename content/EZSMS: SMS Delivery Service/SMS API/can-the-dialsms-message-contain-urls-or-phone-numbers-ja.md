@@ -2,7 +2,7 @@ Title: auユーザ宛の返送するSMSにURLや電話番号記載しても大�
 Date: 2016-10-13 16:10
 Slug: can-the-dialsms-message-contain-urls-or-phone-numbers
 Lang: ja
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 はい、大丈夫です。
 

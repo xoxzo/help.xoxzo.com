@@ -2,7 +2,7 @@ Title: 返送SMSに利用可能な変数は？
 Date: 2016-10-14 14:06
 Slug: what-are-the-variables-that-i-can-use-for-return-sms-with-dialsms
 Lang: ja
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 返送ショートメッセージに変数を設定することが可能です。
 

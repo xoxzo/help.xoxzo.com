@@ -2,7 +2,7 @@ Title: 日本の携帯電話に、このサービスを使ってSMS送信でき�
 Date: 2016-10-13 15:16
 Slug: which-network-we-can-send-the-sms-to-with-ezsms
 Lang: ja
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 できます。
 

@@ -2,7 +2,7 @@ Title: When does the message status change to DELIVERING?
 Date: 2017-10-30 15:50
 Slug: timing-of-status-changes-to-delivering
 Lang: en
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 ## Although the recipient phone is in the condition of not available to receive any SMS, EZSMS shows the status of the message is *delivering*. When does the message status becomes *DELIVERING* ?
 

@@ -2,7 +2,7 @@ Title: 日本のKDDI(au)へのSMS(Cメール)送信は対応していますか�
 Date: 2016-10-07 12:15
 Slug: can-i-send-sms-to-au-phones-via-c-mail
 Lang: ja
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 はい、auへのCメール送信に、対応しています。
 

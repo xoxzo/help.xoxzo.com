@@ -2,7 +2,7 @@ Title: ダイヤルSMSって、どうやって使うの？
 Date: 2020-05-14
 Slug: how-to-use-dialsms
 Lang: ja
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 ダイャルSMSは専用着信番号にショートメッセージに対応している携帯電話から着信すると、その携帯電話に折り返し予め設定したメッセージを返送するサービスです。
 

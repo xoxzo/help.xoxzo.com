@@ -2,7 +2,7 @@ Title: SMS送信ウィザードの使い方
 Date: 2022-07-14
 Slug: how-to-use-wizard
 Lang: ja
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 SMS送信ウィザードは、SMS送信のために必要な入力項目を、一問一答式で画面を切り替えて入力する機能です。
 初めてEZSMSからSMSを送信する場合でも、必要なことは質問に答える形で入力ができるため、わかりやすいのが特徴です。

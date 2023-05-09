@@ -2,7 +2,7 @@ Title: I forgot my password
 Date: 2016-10-12 15:42
 Slug: i-forgot-my-password
 Lang: en
-Category: EZSMS:SMS delivery service/Account
+Category: EZSMS: SMS delivery service/Account
 
 Please reset your password in case you forgot it.
 You will need to provide the email address that you registered on EZSMS.

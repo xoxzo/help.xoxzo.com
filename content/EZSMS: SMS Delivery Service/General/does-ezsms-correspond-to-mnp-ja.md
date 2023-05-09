@@ -2,7 +2,7 @@ Title: MNPには対応していますか？
 Date: 2022-03-10
 Slug: does-ezsms-correspond-to-mnp
 Lang: ja
-Category: EZSMS:SMS delivery service/General
+Category: EZSMS: SMS delivery service/General
 
 はい、対応しています。
 

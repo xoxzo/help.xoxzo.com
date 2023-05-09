@@ -2,7 +2,7 @@ Title: I need help!
 Date: 2016-10-12 15:34
 Slug: i-need-help
 Lang: en
-Category: EZSMS:SMS delivery service/General
+Category: EZSMS: SMS delivery service/General
 
 Please make the most of this help centre full of FAQs to solve your problem first.
 This will save your own precious time.
