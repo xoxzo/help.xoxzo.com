@@ -2,7 +2,7 @@ Title: Kプレミアムサービスを使った送信には、何ポイント消
 Date: 2016-10-12 15:37
 Slug: how-many-points-does-k-premium-service-consume
 Lang: ja
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 Kプレミアムサービスを使った送信には、通常の送信の1.2倍のポイントが消費されます。
 

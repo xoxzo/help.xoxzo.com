@@ -2,7 +2,7 @@ Title: How many characters would fit within 1 x SMS?
 Date: 2022-03-10 14:23
 Slug: how-many-characters-would-fit-within-1-x-sms
 Lang: en
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 The [GSM](https://en.wikipedia.org/wiki/Short_Message_Service) standard specifies a maximum character length for each SMS message. These are ultimately determined by the carrier and the receiving mobile, but generally as a guideline
 

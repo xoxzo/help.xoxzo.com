@@ -2,7 +2,7 @@ Title: How can I check the sending history?
 Date: 2016-10-12 16:07
 Slug: how-can-i-check-the-sending-history
 Lang: en
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 After logging in to the member page, go to the "usage log page" to download the csv file.
 

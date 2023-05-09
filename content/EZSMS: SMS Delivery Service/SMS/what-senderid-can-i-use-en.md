@@ -2,7 +2,7 @@ Title: What SenderID can I use?
 Date: 2022-07-14
 Slug: what-senderid-can-i-use
 Lang: en
-Category: EZSMS:SMS delivery service/SMS
+Category: EZSMS: SMS delivery service/SMS
 
 The senderID of SMS is subject to the regulation or restrictions of the carriers in many cases for the purpose of prevent spoofing.
 **The EZSMS users can specify the senderID as their own**, but please be aware that **the senderID can be replaced** by something else 

@@ -3,7 +3,7 @@ Date: 2016-10-12 16:14
 Modified: 2021-02-03
 Slug: how-to-read-your-log-file
 Lang: ja
-Category: EZSMS:SMS delivery service/Account
+Category: EZSMS: SMS delivery service/Account
 
 送信したSMSの結果のログをダウンロードすることができます。
 

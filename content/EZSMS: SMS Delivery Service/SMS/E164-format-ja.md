@@ -2,7 +2,7 @@ Title: E.164 って、何？
 Date: 2022-3-11
 Slug: E164-format
 Lang: ja
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 ## E.164 とは?
 

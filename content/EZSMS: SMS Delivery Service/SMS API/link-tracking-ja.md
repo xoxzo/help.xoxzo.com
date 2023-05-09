@@ -2,7 +2,7 @@ Title: リンクトラッキング機能
 Date: 2021-02-02
 Slug: link-tracking-feature
 Lang: ja
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 
 ### 使い方

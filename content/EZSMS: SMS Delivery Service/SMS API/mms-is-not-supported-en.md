@@ -2,7 +2,7 @@ Title: MMS is not supported
 Date: 2020-03-10
 Slug: mms-is-not-supported
 Lang: en
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 ##Does EZSMS support MMS messages?
 

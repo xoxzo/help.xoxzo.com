@@ -2,7 +2,7 @@ Title: How to use the Online Banks?
 Date: 2016-10-12 15:44
 Slug: how-to-use-the-online-banks
 Lang: en
-Category: EZSMS:SMS delivery service/Account
+Category: EZSMS: SMS delivery service/Account
 
 EZSMS accepts online payments 24/7 via the Credit Cards and the online banking.
 

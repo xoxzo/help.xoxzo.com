@@ -2,7 +2,7 @@ Title: CSVファイルでSMSの本文をカスタマイズする方法
 Date: 2022-05-25
 Slug: how-to-send-with-customised-csv
 Lang: ja
-Category: EZSMS:SMS delivery service/SMS
+Category: EZSMS: SMS delivery service/SMS
 
 EZSMSでは、SMSの本文をカスタマイズできます。
 リストをアップロードして、受信者それぞれに「**ある部分**だけ入れ替えた**同じ文章**」のSMSを送信することができるのです。

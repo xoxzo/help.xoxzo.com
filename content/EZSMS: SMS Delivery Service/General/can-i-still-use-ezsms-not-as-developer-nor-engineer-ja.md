@@ -2,7 +2,7 @@ Title: 開発はできないのですが、EZSMSを使ってSMS配信ができ�
 Date: 2016-10-07 16:18
 Slug: can-i-still-use-ezsms-not-as-developer-nor-engineer
 Lang: ja
-Category: EZSMS:SMS delivery service/General
+Category: EZSMS: SMS delivery service/General
 
 はい、できます。
 

@@ -2,7 +2,7 @@ Title: Kプレミアムで同番号に連続送信すると時々エラーにな
 Date: 2016-10-13 15:21
 Slug: continuous-sending-to-the-same-number-through-k-premium-causes-error
 Lang: ja
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 キャリア側の仕様により、連続して同番号にメッセージを送信すると、エラーになることがあります。
 

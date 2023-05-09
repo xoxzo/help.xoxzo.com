@@ -2,7 +2,7 @@ Title: パスワードを忘れてしまったんですが、どうすればい�
 Date: 2016-10-12 15:42
 Slug: i-forgot-my-password
 Lang: ja
-Category: EZSMS:SMS delivery service/Account
+Category: EZSMS: SMS delivery service/Account
 
 パスワードを忘れてしまった場合、アカウントにご登録のメールアドレスを使ってリセットできます。
 （外部認証サイト(GetOTP)を使用しています）

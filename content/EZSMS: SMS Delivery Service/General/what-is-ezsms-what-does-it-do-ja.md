@@ -2,7 +2,7 @@ Title: EZSMSを利用して何ができる？
 Date: 2016-10-23 09:35
 Slug: what-is-ezsms-what-does-it-do
 Lang: ja
-Category: EZSMS:SMS delivery service/General
+Category: EZSMS: SMS delivery service/General
 
 [![EZSMS]({filename}/images/what-is-ezsms-what-does-it-do.png)](https://www.ezsms.biz/ja/)
 

@@ -2,7 +2,7 @@ Title: Incoming-call notification URL
 Date: 2019-02-18 15:00
 Slug: incoming-call-notification-url
 Lang: en
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 ##How to use Incoming call URL on DialSMS?
 

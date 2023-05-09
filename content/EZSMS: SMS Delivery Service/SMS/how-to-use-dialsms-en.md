@@ -2,7 +2,7 @@ Title: How to use DialSMS?
 Date: 2020-05-14
 Slug: how-to-use-dialsms
 Lang: en
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 DialSMS is for Japanese based service and the response to any incoming calls are made in Japanese Voice only
 

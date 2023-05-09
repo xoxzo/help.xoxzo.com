@@ -2,7 +2,7 @@ Title: Does EZSMS correspond to MNP?
 Date: 2022-03-10
 Slug: does-ezsms-correspond-to-mnp
 Lang: en
-Category: EZSMS:SMS delivery service/General
+Category: EZSMS: SMS delivery service/General
 
 Yes! EZSMS correspond to MNP.
 

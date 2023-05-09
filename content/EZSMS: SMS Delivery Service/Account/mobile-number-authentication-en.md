@@ -2,7 +2,7 @@ Title: Mobile Number Authentication
 Date: 2016-01-07 15:10
 Slug: mobile-number-authentication
 Lang: en
-Category: EZSMS:SMS delivery service/Account
+Category: EZSMS: SMS delivery service/Account
 
 **By default, we only support Japanese mobile phone numbers for account authentication.**
 

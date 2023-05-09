@@ -2,7 +2,7 @@ Title: Can I verify a number via the Lookup API?
 Date: 2016-09-14 14:37
 Slug: can-i-verify-a-number-via-the-lookup-api
 Lang: en
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 The Lookup API identifies which carrier a certain number belongs too. It does not guarantee that the number can and will receive SMS messages.
 

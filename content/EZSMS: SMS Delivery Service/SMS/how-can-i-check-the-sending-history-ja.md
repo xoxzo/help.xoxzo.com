@@ -2,7 +2,7 @@ Title: 送信したSMSの履歴を確認するには？
 Date: 2022-03-10
 Slug: how-can-i-check-the-sending-history
 Lang: ja
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 メンバーページログイン後、「ご利用ログ」のページからcsv形式でダウンロード可能です。 
 

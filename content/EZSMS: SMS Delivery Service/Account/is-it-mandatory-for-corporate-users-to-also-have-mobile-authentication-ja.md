@@ -2,7 +2,7 @@ Title: 「携帯電話番号認証」は、法人契約の場合も必要です�
 Date: 2016-01-26 16:29
 Slug: is-it-mandatory-for-corporate-users-to-also-have-mobile-authentication
 Lang: ja
-Category: EZSMS:SMS delivery service/Account
+Category: EZSMS: SMS delivery service/Account
 
 携帯電話番号認証は、ご利用者ご本人の確認となりますので、原則としてすべてのお客様にお願いしております。
 

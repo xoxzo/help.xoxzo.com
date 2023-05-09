@@ -2,7 +2,7 @@ Title: Is multiple sendings to one same number possible?
 Date: 2017-10-27 13:20
 Slug: send-sms-to-one-same-number
 Lang: en
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 ## When we test an API, it can be happening to send multiple SMS to a same phone number. Does this cause any problems?
 

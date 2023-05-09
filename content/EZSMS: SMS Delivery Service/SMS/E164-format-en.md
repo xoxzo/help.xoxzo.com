@@ -2,7 +2,7 @@ Title: What is E.164?
 Date: 2022-3-11
 Slug: E164-format
 Lang: en
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 ## What is E.164?
 

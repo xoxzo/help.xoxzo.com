@@ -2,7 +2,7 @@ Title: About the new account creation authentication system (after April 2022)
 Date: 2022-04-21
 Slug: mobile-number-authentication-2022
 Lang: en
-Category: EZSMS:SMS delivery service/Account
+Category: EZSMS: SMS delivery service/Account
 
 
 We wanted to focus on improving the safety and security of our service, and this can be improved by verifying the identity of our users.

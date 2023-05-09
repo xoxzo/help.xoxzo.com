@@ -2,7 +2,7 @@ Title: 着信通知(CR) URLについて
 Date: 2019-02-18 15:00
 Slug: incoming-call-notification-url
 Lang: ja
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 ##ダイヤルSMS着信通知（CR）の通知サービス
 

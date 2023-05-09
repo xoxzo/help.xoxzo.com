@@ -2,7 +2,7 @@ Title: 携帯電話認証について
 Date: 2016-01-07 15:10
 Slug: mobile-number-authentication
 Lang: ja
-Category: EZSMS:SMS delivery service/Account
+Category: EZSMS: SMS delivery service/Account
 
 2015年12月30日より、ご利用のお客様のご本人確認を行うことで、サービスのセキュリティと安全性を
 向上させるため、ご利用のアカウントの「携帯電話番号認証」が義務化されています。

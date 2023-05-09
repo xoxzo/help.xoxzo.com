@@ -2,7 +2,7 @@ Title: 番号自動修正ツールの使い方
 Date: 2022-3-11
 Slug: how-to-use-number-formatter
 Lang: ja
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 番号自動修正ツールは、携帯電話番号をウェブ送信用のフォーマットに自動で修正するツールです。
 

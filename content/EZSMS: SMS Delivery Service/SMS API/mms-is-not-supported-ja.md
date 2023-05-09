@@ -2,7 +2,7 @@ Title: EZSMS は、MMSに対応していません
 Date: 2020-03-10
 Slug: mms-is-not-supported
 Lang: ja
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 ##EZSMSを使って、MMSを送受信できますか？
 

@@ -2,7 +2,7 @@ Title: メッセージ送信の失敗の原因は、何でしょうか？
 Date: 2016-10-12 16:09
 Slug: what-would-cause-the-sending-failure
 Lang: ja
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 下記のような、不着の原因が考えられます。
 

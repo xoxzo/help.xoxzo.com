@@ -2,7 +2,7 @@ Title: 返送SMSの配信元IDについて
 Date: 2016-10-14 15:35
 Slug: what-will-be-displayed-as-senderid-of-the-dialsms-message
 Lang: ja
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 着信に対して予め設定したメッセージをSMSで発信者に返送しますが、その返送SMSの配信元ID（SMS受信する者からみるとSMSの配信元）の表示基準は受信する側のキャリアによって異なります。
 

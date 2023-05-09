@@ -2,7 +2,7 @@ Title: キャリア検索APIで、番号の有効性が確認できますか？
 Date: 2016-09-14 14:37
 Slug: can-i-verify-a-number-via-the-lookup-api
 Lang: ja
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 キャリア検索APIでは、受信側の携帯電話番号が利用しているキャリアを検索することができます。
 

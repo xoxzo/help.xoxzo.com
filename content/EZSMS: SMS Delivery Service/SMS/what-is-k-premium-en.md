@@ -3,7 +3,7 @@ Date: 2015-12-23 13:31
 Modified: 2020-05-01
 Slug: the-k-premium-service
 Lang: en
-Category: EZSMS:SMS delivery Service/SMS
+Category: EZSMS: SMS delivery Service/SMS
 
 ## Kプレミアムサービスとは？
 

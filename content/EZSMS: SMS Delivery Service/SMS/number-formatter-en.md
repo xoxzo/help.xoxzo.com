@@ -2,7 +2,7 @@ Title: How to use Number Formatter?
 Date: 2022-3-11
 Slug: how-to-use-number-formatter
 Lang: en
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 The new phone number formatter, is a tool which automatically corrects mobile phone numbers to the right format for web sending.
 

@@ -2,7 +2,7 @@ Title: 処理にかかる時間、大量送信に関して、一度に送信で�
 Date: 2016-09-15 13:33
 Slug: what-is-the-max-number-of-request-and-how-quick-the-process
 Lang: ja
-Category: EZSMS:SMS delivery service/SMS API
+Category: EZSMS: SMS delivery service/SMS API
 
 EZSMSをご利用の際、大量のメッセージ送信による、サーバーの遅延は発生しません。
 
