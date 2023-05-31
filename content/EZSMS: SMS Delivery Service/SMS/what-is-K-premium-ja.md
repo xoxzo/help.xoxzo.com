@@ -1,7 +1,7 @@
 Title: Kプレミアム・サービスについて
 Date: 2015-12-23 13:31
 Modified: 2020-05-01
-Slug: the-k-premium-service
+Slug: k-premium-service
 Lang: ja
 Category: EZSMS: SMS delivery Service/SMS
 
