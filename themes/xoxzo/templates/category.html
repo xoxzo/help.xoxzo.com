@@ -25,12 +25,12 @@
 <main>
   <section class="content">
     <div class="container">
-      <h2 class="content-title">{{ category }}</h2>
+      <h2 class="content-title">{{ category }} | {{ category.child }}  </h2>
       <ul class="content-list">
-        {% for article in articles_page.object_list %}
-        {% for subcategory in article.subcategories %}
+        {% for article in articles %}
+        {% for subcategory in article.category.anchestors or [article.category] %}
         <li>
-          <a href="{{ SITEURL }}/{{ subcategory.url }}" class="badge badge-secondary">{{ subcategory.shortname }}</a> 
+          <a href="{{ SITEURL }}/{{ subcategory.url }}" class="badge badge-secondary">{{ subcategory.shortname }}</a>
           <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
         </li>
         {% endfor %}
