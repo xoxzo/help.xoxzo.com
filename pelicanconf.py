@@ -49,7 +49,7 @@ EXTRA_PATH_METADATA = {
 #THEME           = 'themes/simple'
 THEME           = 'themes/xoxzo'
 PLUGIN_PATHS    = [os.path.join(PROJECT_ROOT, 'plugins'),]
-PLUGINS         = ["i18n_subsites", "subcategory", "more_categories", "tipue_search", "sitemap"]
+PLUGINS         = ["i18n_subsites", "subcategory", "more_categories", "tipue_search", "sitemap", "netlify_redirect"]
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n',]}
 
 DIRECT_TEMPLATES = (('index', 'search'))
@@ -105,3 +105,18 @@ SITEMAP = {
 
 from datetime import date
 CURRENTYEAR = date.today().year
+
+NETLIFY_REDIRECTS = [
+    ("/ja/ezsms-sms-delivery-service/articles/what-are-the-variables-that-i-can-use-for-return-sms-with-dialsms/", "https://help.xoxzo.com/ja/ezsms-sms-delivery-service/sms-api/articles/what-are-the-variables-that-i-can-use-for-return-sms-with-dialsms/", 302),
+    ("/ja/ezsms-sms-delivery-service/articles/mobile-number-authentication/", "https://help.xoxzo.com/ja/ezsms-sms-delivery-service/account/articles/mobile-number-authentication/", 302),
+    ("/ja/ezsms-sms-delivery-service/articles/what-will-be-displayed-as-senderid-of-the-dialsms-message/", "https://help.xoxzo.com/ja/ezsms-sms-delivery-service/sms-api/articles/what-will-be-displayed-as-senderid-of-the-dialsms-message/", 302),
+    ("/ja/ezsms-sms-delivery-service/articles/how-to-send-with-customised-csv/", "https://help.xoxzo.com/ja/ezsms-sms-delivery-service/sms/articles/how-to-send-with-customised-csv/", 302),
+    ("/ja/ezsms-sms-delivery-service/articles/how-many-characters-would-fit-within-1-x-sms/", "https://help.xoxzo.com/ja/ezsms-sms-delivery-service/sms-api/articles/how-many-characters-would-fit-within-1-x-sms/", 302),
+    ("/ja/ezsms-sms-delivery-service/articles/can-i-send-sms-to-au-phones-via-c-mail/", "https://help.xoxzo.com/ja/ezsms-sms-delivery-service/sms-api/articles/can-i-send-sms-to-au-phones-via-c-mail/", 302),
+    ("/en/ezsms-sms-delivery-service/articles/what-are-the-variables-that-i-can-use-for-return-sms-with-dialsms/", "https://help.xoxzo.com/en/ezsms-sms-delivery-service/sms-api/articles/what-are-the-variables-that-i-can-use-for-return-sms-with-dialsms/", 302),
+    ("/en/ezsms-sms-delivery-service/articles/mobile-number-authentication/", "https://help.xoxzo.com/en/ezsms-sms-delivery-service/account/articles/mobile-number-authentication/", 302),
+    ("/en/ezsms-sms-delivery-service/articles/what-will-be-displayed-as-senderid-of-the-dialsms-message/", "https://help.xoxzo.com/en/ezsms-sms-delivery-service/sms-api/articles/what-will-be-displayed-as-senderid-of-the-dialsms-message/", 302),
+    ("/en/ezsms-sms-delivery-service/articles/how-to-send-with-customised-csv/", "https://help.xoxzo.com/en/ezsms-sms-delivery-service/sms-api/articles/how-to-send-with-customised-csv/", 302),
+    ("/en/ezsms-sms-delivery-service/articles/how-many-characters-would-fit-within-1-x-sms/", "https://help.xoxzo.com/en/ezsms-sms-delivery-service/sms-api/articles/how-many-characters-would-fit-within-1-x-sms/", 302),
+    ("/en/ezsms-sms-delivery-service/articles/can-i-send-sms-to-au-phones-via-c-mail/", "https://help.xoxzo.com/en/ezsms-sms-delivery-service/sms-api/articles/can-i-send-sms-to-au-phones-via-c-mail/", 302),
+]
