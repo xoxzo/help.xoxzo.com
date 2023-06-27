@@ -28,7 +28,7 @@ MailSMSは、簡単な初期設定を行うと、Eメールを使ってSMSの送
 <tr>
 <td>③</td>
 <td><a href="#dkim">DKIM</a></td>
-<td rowspan="3"><a href="#dkim">DKIM</a>、<a href="#spf">SPF</a>、<a href="#dmarc">DMARC</a>の各基準に対し、送信前にメールのセキュリティが判定されます。ここで設定した基準（PASS/FAIL/GRAY）以上の判定結果の場合にのみ、SMS送信が行われます。詳細は、各基準の記述をご参照ください。</br><a href="">※合否判定と設定による送信可否の例</a></td>
+<td rowspan="3"><a href="#dkim">DKIM</a>、<a href="#spf">SPF</a>、<a href="#dmarc">DMARC</a>の各基準に対し、送信前にメールのセキュリティが判定されます。ここで設定した基準（PASS/FAIL/GRAY）以上の判定結果の場合にのみ、SMS送信が行われます。詳細は、各基準の記述をご参照ください。</br><a href="#sample">※合否判定と設定による送信可否の例</a></td>
 </tr>
 <tr>
 <td>④</td>
@@ -138,7 +138,7 @@ GRAY:PASS に加え、SPF ポリシーが存在しないメールも SMS 送信�
 FAIL: PASS、GRAYに加え、認証不合格のメールもSMS送信する。
 
 
-##合否判定と設定による送信可否の例
+<div id="sample">##合否判定と設定による送信可否の例</div>
 
 
 （この図は、アクリーとのもの。Xoxzoバージョンを作成すること）
