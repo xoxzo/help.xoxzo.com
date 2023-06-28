@@ -7,14 +7,14 @@ Category: Xoxzo Cloud Telephony/SMS API
 MailSMSは、簡単な初期設定を行うと、Eメールを使ってSMSの送信ができるシステムです。
 
 ##初期設定
-1. アカウントにログインし、左側メニューより MailSMSユーザーを選ぶ
-![send_via_mailsms](images/mailsms_ja_01.png)
-2. 画面右上の MailSMSユーザ追加 ボタンをクリック
-![send_via_mailsms](images/mailsms_ja_02.png)
-3. 画面上の各項目を設定し、作成ボタンをクリック
-![send_via_mailsms](images/mailsms_ja_03.png)
+1. アカウントにログインし、左側メニューより MailSMSユーザーを選ぶ<br>
+![send_via_mailsms](images/mailsms/mailsms_ja_01.png)<br>
+2. 画面右上の MailSMSユーザ追加 ボタンをクリック<br>
+![send_via_mailsms](images/mailsms/mailsms_ja_02.png)<br>
+3. 画面上の各項目を設定し、作成ボタンをクリック<br>
+![send_via_mailsms](images/mailsms/mailsms_ja_03.png)<br>
 
-<table>
+<table border="1" cellpadding="3">
 <tr>
 <td>①</td>
 <td>MailSMS ユーザメール</td>
@@ -47,7 +47,7 @@ MailSMSは、簡単な初期設定を行うと、Eメールを使ってSMSの送
 
 上記で設定を済ませたメールアカウントから、新規Eメールを作成します。
 
-<table>
+<table border="1" cellpadding="3">
 <tr>
 <td>差出人</td>
 <td>必ず登録済みのメールアドレスを使ってください</td>
@@ -91,7 +91,9 @@ HTMLモードの場合、テキスト抽出が送信者の意図と異なる結�
 
 ##メールセキュリティの基準について
 
-<div id="dkim">###DKIM</div>
+<div id="dkim">
+###DKIM
+</div>
 
 DKIM(DomainKeys Identified Mail)とは、電子署名を利用してメール送信元が詐称さ
 れていないかどうかを確認する方法です。
@@ -106,7 +108,9 @@ GRAY: PASS に加え、DKIM 署名が無いメールもSMS 送信する。
 FAIL: PASS、GRAYに加え、認証不合格のメールもSMS送信する。
 
 
-<div id="dmarc">###DMARC</div>
+<div id="dmarc">
+###DMARC
+</div>
 
 DMARC(Domain-based Message Authentication、Reporting and Conformance)とは、
 送信側は受信側の認証失敗時の推奨アクションを DNS に DMARC ポリシーとして宣言し
@@ -122,7 +126,9 @@ FAIL: PASS、GRAYに加え、認証不合格のメールもSMS送信する。
 
 
 
-<div id="spf">###SPF</div>
+<div id="spf">
+###SPF
+</div>
 
 SPF(Sender Policy Framework)とは、アドレスを利用して受信したメールの送信元が
 詐称されていないかどうかを確認する方法です。
@@ -137,14 +143,17 @@ SMS 送信を許可する SPF 判定の最低基準となる下記のいずれ�
 GRAY:PASS に加え、SPF ポリシーが存在しないメールも SMS 送信する。
 FAIL: PASS、GRAYに加え、認証不合格のメールもSMS送信する。
 
+<br>
 
-<div id="sample">##合否判定と設定による送信可否の例</div>
+<div id="sample">
+##合否判定と設定による送信可否の例
+</div>
 
 
 （この図は、アクリーとのもの。Xoxzoバージョンを作成すること）
 
 ###合格判定例
-<table>
+<table border="1" cellpadding="3">
 <tr>
 <th>判定種別</th>
 <th>メール判定結果</th>
@@ -173,7 +182,7 @@ FAIL: PASS、GRAYに加え、認証不合格のメールもSMS送信する。
 </br>
 
 ###不合格判定例
-<table>
+<table border="1" cellpadding="3">
 <tr>
 <th>判定種別</th>
 <th>メール判定結果</th>
