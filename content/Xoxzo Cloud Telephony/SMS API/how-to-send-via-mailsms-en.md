@@ -1,15 +1,15 @@
-Title: How to send SMS via MailSMS
+Title: How to send SMS via Mail2SMS
 Date: 2023-07-05
-Slug: how-to-send-via-mailsms
+Slug: how-to-send-via-mail2sms
 Lang: en
 Category: Xoxzo Cloud Telephony/SMS API
 
-MailSMS is the system to send SMS when receiving email messages with simple initial settings.
+Mail2SMS is the system to send SMS when receiving email messages with a simple initial setting.
 
-##Initial Settings
-1. Log in to your account and select MailSMS Users from the left side menu.<br>
+##Initial Setting
+1. Log in to your account and select Mail2SMS Users from the left side menu.<br>
 ![send_via_mailsms](images/mailsms/mailsms_en_01.png)<br>
-2. Click Add MailSMS User button at the top right<br> 
+2. Click Add Mail2SMS User button at the top right<br> 
 ![send_via_mailsms](images/mailsms/mailsms_en_02.png)<br>
 3. Set each item on the screen and click the Create button<br>
 ![send_via_mailsms](images/mailsms/mailsms_en_03.png)<br>
@@ -17,7 +17,7 @@ MailSMS is the system to send SMS when receiving email messages with simple init
 <table border="1" cellpadding="3">
 <tr>
 <td>1</td>
-<td>MailSMS User Email</td>
+<td>Mail2SMS User Email</td>
 <td>The email address that you will send the messages from</td>
 </tr>
 <tr>
@@ -72,7 +72,7 @@ The character limit for the text is the same as when sending standard SMS. See <
 </table>
 
 (1)
-For the recipient's email address, please enter the SMS destination mobile phone number and @mailsms.xoxzo.com without spaces. When entering the recipient's mobile phone number, please keep the following in mind:
+For the recipient's email address, please enter the SMS destination mobile phone number and @mail2sms.xoxzo.com without spaces. When entering the recipient's mobile phone number, please keep the following in mind:
 <br>
 -Please use half-width + for the first character of the destination phone number.
 -For sending within Japan, please continue with the country code 81.
@@ -147,9 +147,6 @@ FAIL: In addition to PASS and GRAY, SMS will also be sent for verification failu
 
 
 <div id="sample">##Sample of judgment and settings</div>
-
-
-（Xoxzoバージョンを作成すること）
 
 ###Sample of PASS the judgment
 <table border="1" cellpadding="3">

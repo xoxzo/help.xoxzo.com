@@ -1,15 +1,15 @@
 Title: MailSMS を使って、SMSを送信するには？
 Date: 2023-07-05
-Slug: how-to-send-via-mailsms
+Slug: how-to-send-via-mail2sms
 Lang: ja
 Category: Xoxzo Cloud Telephony/SMS API
 
-MailSMSは、簡単な初期設定を行うと、Eメールを使ってSMSの送信ができるシステムです。
+Mail2SMSは、簡単な初期設定を行うと、Eメールを使ってSMSの送信ができるシステムです。
 
 ##初期設定
-1. アカウントにログインし、左側メニューより MailSMSユーザーを選ぶ<br>
+1. アカウントにログインし、左側メニューより Mail2SMSユーザーを選ぶ<br>
 ![send_via_mailsms](images/mailsms/mailsms_ja_01.png)<br>
-2. 画面右上の MailSMSユーザ追加 ボタンをクリック<br>
+2. 画面右上の Mail2SMSユーザ追加 ボタンをクリック<br>
 ![send_via_mailsms](images/mailsms/mailsms_ja_02.png)<br>
 3. 画面上の各項目を設定し、作成ボタンをクリック<br>
 ![send_via_mailsms](images/mailsms/mailsms_ja_03.png)<br>
