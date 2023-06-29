@@ -1,23 +1,26 @@
-Title: How to send SMS via MailSMS
+Title: How to send SMS via Mail2SMS
 Date: 2023-07-05
-Slug: how-to-send-via-mailsms
+Slug: how-to-send-via-mail2sms
 Lang: en
 Category: Xoxzo Cloud Telephony/SMS API
 
-MailSMS is the system to send SMS when receiving email messages with simple initial settings.
+Mail2SMS is the system to send SMS when receiving email messages with a simple initial setting.<br>
+<br>
+![send_via_mailsms](images/mailsms/mailsms_en_04.png)<br>
+<br>
 
-##Initial Settings
-1. Log in to your account and select MailSMS Users from the left side menu.
-![send_via_mailsms](images/mailsms_en_01.png)
-2. Click Add MailSMS User button at the top right 
-![send_via_mailsms](images/mailsms_en_02.png)
-3. Set each item on the screen and click the Create button
-![send_via_mailsms](images/mailsms_en_03.png)
+##Initial Setting
+1. Log in to your account and select Mail2SMS Users from the left side menu.<br>
+![send_via_mailsms](images/mailsms/mailsms_en_01.png)<br>
+2. Click Add Mail2SMS User button at the top right<br> 
+![send_via_mailsms](images/mailsms/mailsms_en_02.png)<br>
+3. Set each item on the screen and click the Create button<br>
+![send_via_mailsms](images/mailsms/mailsms_en_03.png)<br>
 
-<table>
+<table border="1" cellpadding="3">
 <tr>
 <td>1</td>
-<td>MailSMS User Email</td>
+<td>Mail2SMS User Email</td>
 <td>The email address that you will send the messages from</td>
 </tr>
 <tr>
@@ -51,7 +54,7 @@ This is the end of the initial settings. Let's send email to send SMS now.
 
 Prepare a new email message from the email account set in above
 
-<table>
+<table border="1" cellpadding="3">
 <tr>
 <td>Sender</td>
 <td>Use the set email address</td>
@@ -72,7 +75,7 @@ The character limit for the text is the same as when sending standard SMS. See <
 </table>
 
 (1)
-For the recipient's email address, please enter the SMS destination mobile phone number and @mailsms.xoxzo.com without spaces. When entering the recipient's mobile phone number, please keep the following in mind:
+For the recipient's email address, please enter the SMS destination mobile phone number and @mail2sms.xoxzo.com without spaces. When entering the recipient's mobile phone number, please keep the following in mind:
 <br>
 -Please use half-width + for the first character of the destination phone number.
 -For sending within Japan, please continue with the country code 81.
@@ -94,9 +97,11 @@ If you send a large number of emails to MailSMS in a short period of time, the n
 Please contact (help@xoxzo.com) for any questions.
 
 
-##メールセキュリティの基準について
+##Mail Security Standard
 
-<div id="dkim">###DKIM</div>
+<div id="dkim">
+###DKIM
+</div>
 <br>
 DKIM (DomainKeys Identified Mail) is a method that uses electronic signatures to check whether the sender of the email has been spoofed.
 By attaching an electronic signature to the email sent by the sender and verifying it when the recipient receives the email, spoofing and falsification of the email can be detected.
@@ -109,7 +114,9 @@ GRAY: In addition to PASS, send SMS without DKIM signature.
 FAIL: In addition to PASS and GRAY, SMS will also be sent for verification failure.
 <br>
 
-<div id="dmarc">###DMARC</div>
+<div id="dmarc">
+###DMARC
+</div>
 <br>
 DMARC (Domain-based Message Authentication, Reporting and Conformance) is used by the sender to declare the recommended action when the receiver fails to authenticate to DNS as a DMARC policy, and to determine whether the receiver is spoofing when the authentication fails.
 <br>
@@ -122,7 +129,9 @@ FAIL: In addition to PASS and GRAY, SMS will also be sent for verification failu
 <br>
 
 
-<div id="spf">###SPF</div>
+<div id="spf">
+###SPF
+</div>
 <br>
 
 SPF (Sender Policy Framework) is a method to check whether the sender of the mail received using the address is spoofed.
@@ -142,11 +151,8 @@ FAIL: In addition to PASS and GRAY, SMS will also be sent for verification failu
 
 <div id="sample">##Sample of judgment and settings</div>
 
-
-（この図は、アクリーとのもの。Xoxzoバージョンを作成すること）
-
 ###Sample of PASS the judgment
-<table>
+<table border="1" cellpadding="3">
 <tr>
 <th>Email Judgment</th>
 <th>Result</th>
@@ -175,7 +181,7 @@ FAIL: In addition to PASS and GRAY, SMS will also be sent for verification failu
 </br>
 
 ###Sample of FAIL the judgement
-<table>
+<table border="1" cellpadding="3">
 <tr>
 <th>Email Judgment</th>
 <th>Result</th>
