@@ -4,7 +4,10 @@ Slug: how-to-send-via-mail2sms
 Lang: ja
 Category: Xoxzo Cloud Telephony/SMS API
 
-Mail2SMSは、簡単な初期設定を行うと、Eメールを使ってSMSの送信ができるシステムです。
+Mail2SMSは、簡単な初期設定を行うと、Eメールを使ってSMSの送信ができるシステムです。<br>
+<br>
+![send_via_mailsms](images/mailsms/mailsms_ja_04.png)<br>
+<br>
 
 ##初期設定
 1. アカウントにログインし、左側メニューより Mail2SMSユーザーを選ぶ<br>

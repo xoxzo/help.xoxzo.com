@@ -4,7 +4,10 @@ Slug: how-to-send-via-mail2sms
 Lang: en
 Category: Xoxzo Cloud Telephony/SMS API
 
-Mail2SMS is the system to send SMS when receiving email messages with a simple initial setting.
+Mail2SMS is the system to send SMS when receiving email messages with a simple initial setting.<br>
+<br>
+![send_via_mailsms](images/mailsms/mailsms_en_04.png)<br>
+<br>
 
 ##Initial Setting
 1. Log in to your account and select Mail2SMS Users from the left side menu.<br>
