@@ -21,7 +21,9 @@ Mail2SMS is the system to send SMS when receiving email messages with a simple i
 <tr>
 <td>1</td>
 <td>Mail2SMS User Email</td>
-<td>The email address that you will send the messages from</td>
+<td>The email address that you will send the messages from<br>
+Contact helpdesk
+</td>
 </tr>
 <tr>
 <td>2</td>
@@ -47,7 +49,7 @@ SMS will be sent only when the judgment result exceeds the criteria (PASS/FAIL/G
 </tr>
 </table>
 </br>
-This is the end of the initial settings. Let's send email to send SMS now.
+This is the end of the initial settings. Let's send an email to send SMS now.
 </br>
 
 ##How to send SMS
@@ -70,37 +72,41 @@ Prepare a new email message from the email account set in above
 <tr>
 <td>Message Body</td>
 <td>Message body of the SMS</br>
-The character limit for the text is the same as when sending standard SMS. See <a href="">here</a> for more detail. 
+The character limit for the text is the same as when sending standard SMS. See <a href="https://help.xoxzo.com/en/xoxzo-cloud-telephony/sms-api/articles/how-many-characters-would-fit-within-1-x-sms/">here</a> for more detail. 
 </tr>
 </table>
 
-(1)
-For the recipient's email address, please enter the SMS destination mobile phone number and @mail2sms.xoxzo.com without spaces. When entering the recipient's mobile phone number, please keep the following in mind:
-<br>
--Please use half-width + for the first character of the destination phone number.
--For sending within Japan, please continue with the country code 81.
--Destination telephone numbers that can be used for domestic transmissions are those beginning with 070, 080, and 090. When entering the above, omit the first 0 (zero) and enter it after the country code.
--The destination phone number will be 13 digits. Please note that an error will occur if the length is longer or shorter.
-<br>
+(1)</br>
+For the recipient's email address, please enter the SMS destination mobile phone number and @mail2sms.xoxzo.com without spaces. When entering the recipient's mobile phone number, please keep the following in mind:</br>
+
+<ul style="list-style-type:circle;">
+  <li>Please use half-width + for the first character of the destination phone number.</li>
+  <li>For sending within Japan, please continue with the country code 81.</li>
+  <li>Destination telephone numbers that can be used for domestic transmissions are those beginning with 070, 080, and 090. When entering the above, omit the first 0 (zero) and enter it after the country code.</li>
+  <li>The destination phone number will be 13 digits. Please note that an error will occur if the length is longer or shorter.</li>
+</ul>  
 Example) If the destination phone number is 080-1234-5678: Enter +818012345678.
 <br>
-If you register the phone book with the mail sending software you use, you can manage it by the name of the recipient and use it conveniently.
+If you register the address-book with the mail sending software you use, you can manage it by the name of the recipient and use it conveniently.
 
-**email mode**
+**email mode** <br>
 In the case of text mode / HTML mixed mode, the text is sent as SMS text.
 In HTML mode, text extraction may result in a different result than intended by the sender. Please be sure to send a test in advance and check the extraction results in the delivered SMS.
 
-**Bulk sending**
+**Bulk sending** <br>
 If you send a large number of emails to MailSMS in a short period of time, the number of emails will be limited and SMS-sending errors may occur. Please consider TPS when sending emails.
-
-
+<br>
+<br>
 Please contact (help@xoxzo.com) for any questions.
-
-
+<br>
+<br>
+<br>
+<br>
+<br>
 ##Mail Security Standard
 
 <div id="dkim">
-###DKIM
+<h3>DKIM</h3>
 </div>
 <br>
 DKIM (DomainKeys Identified Mail) is a method that uses electronic signatures to check whether the sender of the email has been spoofed.
@@ -109,31 +115,28 @@ By attaching an electronic signature to the email sent by the sender and verifyi
 **how to set DKIM security at MailSMS** <br>
 Please set one of the following values as the minimum criteria for DKIM judgment to allow SMS sending.
 <br>
-PASS: Send SMS only for emails that pass DKIM authentication.
-GRAY: In addition to PASS, send SMS without DKIM signature.
-FAIL: In addition to PASS and GRAY, SMS will also be sent for verification failure.
+PASS: Send SMS only for emails that pass DKIM authentication.<br>
+GRAY: In addition to PASS, send SMS without DKIM signature.<br>
+FAIL: In addition to PASS and GRAY, SMS will also be sent for verification failure.<br>
 <br>
 
 <div id="dmarc">
-###DMARC
+<h3>DMARC</h3>
 </div>
-<br>
 DMARC (Domain-based Message Authentication, Reporting and Conformance) is used by the sender to declare the recommended action when the receiver fails to authenticate to DNS as a DMARC policy, and to determine whether the receiver is spoofing when the authentication fails.
 <br>
 **how to set DMARC security at MailSMS**<br>
 Please set one of the following values as the minimum criteria for DMARC judgment to allow SMS sending.
 <br>
-PASS: Send SMS only for emails that pass DMARC authentication.
-GRAY: In addition to PASS, also send SMS messages where at least one SPF or DKIM passed authentication, but the sending domain has no DMARC policy or uses the p=none policy.
-FAIL: In addition to PASS and GRAY, SMS will also be sent for verification failure.
+PASS: Send SMS only for emails that pass DMARC authentication.<br>
+GRAY: In addition to PASS, also send SMS messages where at least one SPF or DKIM passed authentication, but the sending domain has no DMARC policy or uses the p=none policy.<br>
+FAIL: In addition to PASS and GRAY, SMS will also be sent for verification failure.<br>
 <br>
 
 
 <div id="spf">
-###SPF
+<h3>SPF</h3>
 </div>
-<br>
-
 SPF (Sender Policy Framework) is a method to check whether the sender of the mail received using the address is spoofed.
 Pre-register her IP address of the server used when sending mail as her SPF record in the sender's DNS. When the recipient receives the email, it checks it against the sender's SPF record to determine if it's spoofed.
 <br>
@@ -141,17 +144,18 @@ Pre-register her IP address of the server used when sending mail as her SPF reco
 **how to set SPF security at MailSMS**<br>
 Please set one of the following values as the minimum criteria for SPF judgment to allow SMS sending.
 <br>
-PASS: Send SMS only for emails that pass SPF authentication.
-GRAY: In addition to PASS, send SMS even if the SPF policy does not exist.
-FAIL: In addition to PASS and GRAY, SMS will also be sent for verification failure.
+PASS: Send SMS only for emails that pass SPF authentication.<br>
+GRAY: In addition to PASS, send SMS even if the SPF policy does not exist.<br>
+FAIL: In addition to PASS and GRAY, SMS will also be sent for verification failure.<br>
+<br>
+<br>
 <br>
 
+<div id="sample">
+<h3>Sample of judgment and settings</h3>
+</div>
 
-
-
-<div id="sample">##Sample of judgment and settings</div>
-
-###Sample of PASS the judgment
+**Sample of PASS the judgment** <br>
 <table border="1" cellpadding="3">
 <tr>
 <th>Email Judgment</th>
@@ -180,7 +184,7 @@ FAIL: In addition to PASS and GRAY, SMS will also be sent for verification failu
 </table>
 </br>
 
-###Sample of FAIL the judgement
+**Sample of FAIL the judgement**<br>
 <table border="1" cellpadding="3">
 <tr>
 <th>Email Judgment</th>
@@ -208,4 +212,4 @@ FAIL: In addition to PASS and GRAY, SMS will also be sent for verification failu
 </tr>
 </table>
 </br>
-SMS will not be sent if even one of the three criteria for sending SMS fails.
+**SMS will not be sent if even one of the three criteria for sending SMS fails.**
