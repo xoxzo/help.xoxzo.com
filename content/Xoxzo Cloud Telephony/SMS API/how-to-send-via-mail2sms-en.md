@@ -6,16 +6,16 @@ Category: Xoxzo Cloud Telephony/SMS API
 
 Mail2SMS is the system to send SMS when receiving email messages with a simple initial setting.<br>
 <br>
-![send_via_mailsms](images/mailsms/mailsms_en_04.png)<br>
+<img src="images/mailsms/mailsms_en_04.png" width="400"><br>
 <br>
 
 ##Initial Setting
 1. Log in to your account and select Mail2SMS Users from the left side menu.<br>
-![send_via_mailsms](images/mailsms/mailsms_en_01.png)<br>
+<img src="images/mailsms/mailsms_en_01.png" width="400"><br>
 2. Click Add Mail2SMS User button at the top right<br> 
-![send_via_mailsms](images/mailsms/mailsms_en_02.png)<br>
+<img src="images/mailsms/mailsms_en_02.png" width="400"><br>
 3. Set each item on the screen and click the Create button<br>
-![send_via_mailsms](images/mailsms/mailsms_en_03.png)<br>
+<img src="images/mailsms/mailsms_en_03.png" width="400"><br>
 
 <table border="1" cellpadding="3">
 <tr>
@@ -49,7 +49,11 @@ SMS will be sent only when the judgment result exceeds the criteria (PASS/FAIL/G
 </tr>
 </table>
 </br>
-This is the end of the initial settings. Let's send an email to send SMS now.
+This is the end of the initial settings. <br>
+
+The initial setting limits one account to have one Mail2SMS user. Please <a href="mailto:help@xoxzo.com?subject=Request to add Mail2SMS user">contact helpdesk</a>. <br>
+
+Let's send an email to send SMS now.
 </br>
 
 ##How to send SMS
