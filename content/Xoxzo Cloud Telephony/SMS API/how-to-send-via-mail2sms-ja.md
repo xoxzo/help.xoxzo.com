@@ -6,16 +6,16 @@ Category: Xoxzo Cloud Telephony/SMS API
 
 Mail2SMSは、簡単な初期設定を行うと、Eメールを使ってSMSの送信ができるシステムです。<br>
 <br>
-![send_via_mailsms](images/mailsms/mailsms_ja_04.png)<br>
+<img src="images/mailsms/mailsms_ja_04.png" width="400"><br>
 <br>
 
 ##初期設定
 1. アカウントにログインし、左側メニューより Mail2SMSユーザーを選ぶ<br>
-![send_via_mailsms](images/mailsms/mailsms_ja_01.png)<br>
+<img src="images/mailsms/mailsms_ja_01.png" width="400"><br>
 2. 画面右上の Mail2SMSユーザ追加 ボタンをクリック<br>
-![send_via_mailsms](images/mailsms/mailsms_ja_02.png)<br>
+<img src="images/mailsms/mailsms_ja_02.png" width="400"><br>
 3. 画面上の各項目を設定し、作成ボタンをクリック<br>
-![send_via_mailsms](images/mailsms/mailsms_ja_03.png)<br>
+<img src="images/mailsms/mailsms_ja_03.png" width="400"><br>
 
 <table border="1" cellpadding="3">
 <tr>
@@ -43,7 +43,13 @@ Mail2SMSは、簡単な初期設定を行うと、Eメールを使ってSMSの�
 </tr>
 </table>
 </br>
-これで、初期設定は完了です。では、実際にSMS送信のためのeメールを送信してみましょう！
+これで、初期設定は完了です。</br>
+
+※初期設定では、Mail2SMSユーザは1アカウントあたり1ユーザに限定されています。<br>
+登録ユーザ数を増やす場合、<a href="mailto:help@xoxzo.com?subject=Mail2SMSユーザ追加希望">ヘルプデスク</a> へご連絡ください。<br>
+
+では、実際にSMS送信のためのeメールを送信してみましょう！</br>
+
 </br>
 
 ##SMS送信方法
