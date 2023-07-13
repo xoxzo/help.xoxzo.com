@@ -22,7 +22,6 @@ Mail2SMS is the system to send SMS when receiving email messages with a simple i
 <td>1</td>
 <td>Mail2SMS User Email</td>
 <td>The email address that you will send the messages from<br>
-Contact helpdesk
 </td>
 </tr>
 <tr>
@@ -51,7 +50,7 @@ SMS will be sent only when the judgment result exceeds the criteria (PASS/FAIL/G
 </br>
 This is the end of the initial settings. <br>
 
-The initial setting limits one account to have one Mail2SMS user. Please <a href="mailto:help@xoxzo.com?subject=Request to add Mail2SMS user">contact helpdesk</a>. <br>
+The initial setting limits one account to have one Mail2SMS user. Please <a href="mailto:help@xoxzo.com?subject=Request to add Mail2SMS user">contact helpdesk</a> in case you need to create more Mail2SMS users. <br>
 
 Let's send an email to send SMS now.
 </br>
