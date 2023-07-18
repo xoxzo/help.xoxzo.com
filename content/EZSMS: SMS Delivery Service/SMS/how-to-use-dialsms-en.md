@@ -75,7 +75,7 @@ to set your message.
 Now all set, after you subscribe to a phone number and set the returning message to it.
 
 
-Calling this number will be answered like [this (Japanaese only)](https://help.xoxzo.com/en/ezsms-sms-delivery-service/articles/how-will-the-dialsms-call-be-answered/)。
+Calling this number will be answered like [this (Japanaese only)](https://help.xoxzo.com/ezsms-sms-delivery-service/sms-api/articles/how-will-the-dialsms-call-be-answered/)。
 
 The caller will wait for no more than 2 minutes to receive your SMS message.
 
