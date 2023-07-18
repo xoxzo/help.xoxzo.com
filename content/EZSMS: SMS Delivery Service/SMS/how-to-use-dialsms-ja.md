@@ -61,7 +61,7 @@ Category: EZSMS: SMS delivery service/SMS API
 
 ![ダイヤルSMS利用目的](/images/dialsms/dialsms_howto_08ja.jpg)
 
-契約した電話番号へ電話がかかると、[このように応答されます](https://help.xoxzo.com/ja/ezsms-sms-delivery-service/articles/how-will-the-dialsms-call-be-answered/)。
+契約した電話番号へ電話がかかると、[このように応答されます](https://help.xoxzo.com/ja/ezsms-sms-delivery-service/sms-api/articles/how-will-the-dialsms-call-be-answered/)。
 
 設定が正常で、アカウントに十分な残高があるときには、約2分で、着信のあった番号へ、設定した返送用メッセージがSMSで送られます。
 
