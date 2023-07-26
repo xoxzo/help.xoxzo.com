@@ -47,12 +47,15 @@ SMS will be sent only when the judgment result exceeds the criteria (PASS/FAIL/G
 <td><a href="#dmarc">DMARC</a></td>
 </tr>
 </table>
+
+**A Tip**
+You can test your message before doing the actual sends. to know the judgment, please send your message via email to verdict@acrt-mail.jp using your Mail2SMS email address, the result will be returned to the email.<br>
 </br>
 This is the end of the initial settings. <br>
 
-The initial setting limits one account to have one Mail2SMS user. Please <a href="mailto:help@xoxzo.com?subject=Request to add Mail2SMS user">contact helpdesk</a> in case you need to create more Mail2SMS users. <br>
+The initial setting limits one account to having one Mail2SMS user. Please <a href="mailto:help@xoxzo.com?subject=Request to add Mail2SMS user">contact helpdesk</a> in case you need to create more Mail2SMS users. <br>
 
-Let's send an email to send SMS now.
+Let's send an email to send an SMS now.
 </br>
 
 ##How to send SMS
@@ -107,6 +110,10 @@ Please contact (help@xoxzo.com) for any questions.
 <br>
 <br>
 ##Mail Security Standard
+Please refer to the tables below to set the mail security standards.</br>
+Also, you can test your message before doing the actual sends. to know the judgment, please send your message via email to verdict@acrt-mail.jp using your Mail2SMS email address, the result will be returned to the email.<br>
+
+<br>
 
 <div id="dkim">
 <h3>DKIM</h3>
