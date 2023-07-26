@@ -107,6 +107,10 @@ Please contact (help@xoxzo.com) for any questions.
 <br>
 <br>
 ##Mail Security Standard
+Please refer to the tables below to set the mail security standards.</br>
+Also, you can test your message before doing the actual sends. to know the judgement, please send your message via the email to verdict@acrt-mail.jp using your Mail2SMS email address, the result will be returned to the email.<br>
+
+<br>
 
 <div id="dkim">
 <h3>DKIM</h3>
