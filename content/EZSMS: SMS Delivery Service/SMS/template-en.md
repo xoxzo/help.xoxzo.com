@@ -23,7 +23,7 @@ You can create a template, or, send an SMS with a message and save the message a
            Example: EZSMS<br>
 - Recipient Input recipients' mobile phone numbers, for sending to multiple recipients, please specify one number per line. You can send up to 1000 destinations at one sending.<br>
            Example: +819012345678<br>
-- Message For the first time, please specify the message of your own. Please refer to [our help center for how many characters would fit in 1 x SMS](https://help.xoxzo.com/ezsms-sms-delivery-service/sms-api/articles/how-many-characters-would-fit-within-1-x-sms/).  
+-Please specify the message of your own. Please refer to [our help center for how many characters would fit in 1 x SMS](https://help.xoxzo.com/ezsms-sms-delivery-service/sms-api/articles/how-many-characters-would-fit-within-1-x-sms/).  
 <br>
 Please tick `Save message as template` to use the same or similar message at a later time.<br>
 <br>
@@ -34,6 +34,7 @@ Please tick `Save message as template` to use the same or similar message at a l
 2. When you are all set, please click the `Send SMS` button to send the message.<br>
 <br>
 3. The message is sent and it is also saved as a template. <br>
+<br>
 Now, let's see how the message is stored and how you can use it again as a template at the next sending.<br>
 <br>
 
