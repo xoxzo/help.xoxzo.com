@@ -7,17 +7,18 @@ Category: EZSMS: SMS delivery service/SMS API
 Message Template function will make your sending routine easier.<br>
 <br>
 Click `Message Template` in the left side menu on the dashboard when you log in to your account.<br>
+![template-en-01](/images/ezsms-template/template-en-01.png)
 You can create a template, or, send an SMS with a message and save the message as a template.
 <br>
 ## Create a template
-1. Click on the button `Select/Create a Message Template`.<br>
-2. In the sub-window, click on the `Create Template` tub.<br>
-3. Set your message and click `Save`.<br>
-4. The message saving confirmation window appears and the message is saved as a template.<br>
+1. Click on the button `Select/Create a Message Template`.<br>![template-en-02](/images/ezsms-template/template-en-02.png)
+2. In the sub-window, click on the `Create Template` tub.<br>![template-en-03](/images/ezsms-template/template-en-03.png)
+3. Set your message and click `Save`.<br>![template-en-04](/images/ezsms-template/template-en-04.png)
+4. The message saving confirmation window appears and the message is saved as a template.<br>![template-en-05](/images/ezsms-template/template-en-05.png)
 <br>
 
 ## Send an SMS with a message to create a template
-<br>
+<br>![template-en-06](/images/ezsms-template/template-en-06.png)<br>
 1. Input the information necessary for sending.<br> 
  - Sender Input half-size alphanumeric characters (max of 11)<br> 
            Example: EZSMS<br>
@@ -37,7 +38,7 @@ Please tick `Save message as template` to use the same or similar message at a l
 <br>
 Now, let's see how the message is stored and how you can use it again as a template at the next sending.<br>
 <br>
-
+![template-en-08](/images/ezsms-template/template-en-08.png)<br>
 ## View the saved messages
 Click on the button `Select/Create a Message Template`. In the sub-window, you will find the message templates are listed.<br>
 
