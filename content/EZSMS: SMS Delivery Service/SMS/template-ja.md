@@ -7,17 +7,18 @@ Category: EZSMS: SMS delivery service/SMS API
 メッセージテンプレート機能は、繰り返し同じメッセージ、もしくは似通ったメッセージを送信する際に、大変便利です。<br>
 <br>
 ログインしたらダッシュボード画面左側メニューより `メッセージテンプレート` をクリックしてください。<br>
+![template-ja-01](/images/ezsms-template/template-ja-01.png)
 テンプレートを作成したり、送信したメッセージをテンプレート化することができます。<br>
 
 ## テンプレートを作成する
-1. `メッセージテンプレートを選択/作成する` ボタンをクリック<br>
-2. サブウィンドウが開いたら、 `テンプレート作成` タブをクリック<br>
-3. テンプレート用メッセージを入力し、 `保存`ボタンをクリック<br>
-4. メッセージテンプレートの保存を確認するウィンドウが現れ、メッセージの保存が完了です<br>
+1. `メッセージテンプレートを選択/作成する` ボタンをクリック<br>![template-ja-02](/images/ezsms-template/template-ja-02.png)
+2. サブウィンドウが開いたら、 `テンプレート作成` タブをクリック<br>![template-ja-03](/images/ezsms-template/template-ja-03.png)
+3. テンプレート用メッセージを入力し、 `保存`ボタンをクリック<br>![template-ja-04](/images/ezsms-template/template-ja-04.png)
+4. メッセージテンプレートの保存を確認するウィンドウが現れ、メッセージの保存が完了です<br>![template-ja-05](/images/ezsms-template/template-ja-05.png)
 <br>
 
 ## メッセージ送信時に、使用したメッセージをテンプレート保存する
-<br>
+<br>![template-ja-06](/images/ezsms-template/template-ja-06.png)
 1. 送信に必要な情報を入力します。<br> 
 - 送信者 半角英数字で入力してください。(最大11文字まで)<br> 
            例: EZSMS<br>
@@ -37,7 +38,7 @@ Category: EZSMS: SMS delivery service/SMS API
 <br>では、メッセージがどのように保存されているか、確認し、テンプレートとして使用してみましょう。
 <br>
 <br>
-
+![template-ja-08](/images/ezsms-template/template-ja-08.png)
 ## 保存されたテンプレートを確認する
 `メッセージテンプレートを選択/作成する` ボタンをクリック。 サブウィンドウが開いたら、 保存されているテンプレートがリスト表示されます。<br>
 
