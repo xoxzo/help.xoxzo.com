@@ -7,7 +7,7 @@ Category: EZSMS: SMS delivery service/SMS API
 メッセージテンプレート機能は、繰り返し同じメッセージ、もしくは似通ったメッセージを送信する際に、大変便利です。<br>
 <br>
 ログインしたらダッシュボード画面左側メニューより `メッセージテンプレート` をクリックしてください。<br>
-![template-ja-01](/images/ezsms-template/template-ja-01.png)
+<img src="/images/ezsms-template/template-ja-01.png" width="450px"><br>
 テンプレートを作成したり、送信したメッセージをテンプレート化することができます。<br>
 
 ## テンプレートを作成する
