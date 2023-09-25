@@ -60,7 +60,7 @@ The relation of LOCAL TIME and set Time-zone is explained below the table.
         &nbsp;&nbsp;<strong>MESSAGE_EXPIRED</strong><br>
         &nbsp;&nbsp;The delivery was failed due to the number of retry was more than what the carrier set<br>
         &nbsp;&nbsp;<strong>MESSAGE_DELIVERY_FAILED</strong><br>
-        &nbsp;&nbsp;The delivery was failed, please refer [here](https://help.xoxzo.com/en/ezsms-sms-delivery-service/sms-api/articles/ezsms-what-does-the-delivery-status-mean/) for the conceivable causes</td>
+        &nbsp;&nbsp;The delivery was failed, please refer <a href="https://help.xoxzo.com/en/ezsms-sms-delivery-service/sms-api/articles/ezsms-what-does-the-delivery-status-mean/">here</a> for the conceivable causes</td>
       </tr>
       <tr>
         <td>USED_POINTS</td>
