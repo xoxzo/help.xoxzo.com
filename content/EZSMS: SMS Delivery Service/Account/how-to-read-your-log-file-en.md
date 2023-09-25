@@ -64,7 +64,7 @@ The relation of LOCAL TIME and set Time-zone is explained below the table.
       </tr>
       <tr>
         <td>USED_POINTS</td>
-        <td>The number of the point that this message consumed:[Pricing Page](https://www.ezsms.biz/en/faq/price/)</td>
+        <td>The number of the point that this message consumed:<a href="https://www.ezsms.biz/en/faq/price/">Pricing Page</a></td>
       </tr>
       <tr>
         <td>SHORTLINK STATUS</td>

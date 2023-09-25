@@ -61,7 +61,7 @@ Category: EZSMS: SMS delivery service/Account
         &nbsp;&nbsp;<strong>MESSAGE_EXPIRED</strong><br>
         &nbsp;&nbsp;メッセージはキャリアまで渡っていますが、キャリアが決めたリトライ回数に達しても宛先の携帯電話まで着信できなかったため配信できませんでした。<br>
         &nbsp;&nbsp;<strong>MESSAGE_DELIVERY_FAILED</strong><br>
-        &nbsp;&nbsp;配信に失敗しました。考えられる理由として [こちら](https://help.xoxzo.com/ja/ezsms-sms-delivery-service/sms-api/articles/ezsms-what-does-the-delivery-status-mean/) をご覧ください。</td>
+        &nbsp;&nbsp;配信に失敗しました。考えられる理由として <a href="https://www.ezsms.biz/ja/faq/price/">こちら</a>をご覧ください。</td>
       </tr>
       <tr>
         <td>USED_POINTS</td>
