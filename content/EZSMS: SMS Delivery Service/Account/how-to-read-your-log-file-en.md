@@ -9,6 +9,9 @@ The log file is downloadable from the account page in a .csv format.
 
 ![Send log sample]({filename}/images/how-to-read-your-log-file/01.png)
 
+|The log shows the responses from the carriers to the sending request made from our system. The responses will be updated from time to time after the request is made, for the longest couple of days. Please understand that the downloaded log is the latest status of the time of download and may be updated later.|
+|:-|
+
 Please refer to the table below for what each data shows. 
 The relation of LOCAL TIME and set Time-zone is explained below the table.
 
@@ -82,4 +85,4 @@ The relation of LOCAL TIME and set Time-zone is explained below the table.
 
 ※ Please note that **LOCAL TIME** shows the date & time of the time zone that your account is set.
 
-![Screenshot]({filename}/images/how-to-read-your-log-file/02e.png)
+<img src="{filename}/images/how-to-read-your-log-file/02e.png" alt="local time" width="400px">
