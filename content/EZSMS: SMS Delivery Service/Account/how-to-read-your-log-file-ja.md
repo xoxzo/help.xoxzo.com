@@ -11,6 +11,9 @@ Category: EZSMS: SMS delivery service/Account
 
 ![Send log sample]({filename}/images/how-to-read-your-log-file/01.png)
 
+|ログは、システムから送信したリクエストに応答するキャリアからのレスポンスです。送信直後は長ければ数日間に渡り、この応答内容が更新されることがあります。ログの内容は、ダウンロード時点の状態であることをご理解ください。|
+|:-|
+
 各データの説明は以下のとおりです。(LOCAL TIMEについては下部追記をご参照ください。)
 
 <div class="table-responsive">
@@ -83,4 +86,4 @@ Category: EZSMS: SMS delivery service/Account
 
 ※ LOCAL TIME については、アカウントにご登録の「タイムゾーン」での表示となります。
 
-![Screenshot]({filename}/images/how-to-read-your-log-file/02.png)
+<img src="{filename}/images/how-to-read-your-log-file/02.png" alt="local time" width="400px">
