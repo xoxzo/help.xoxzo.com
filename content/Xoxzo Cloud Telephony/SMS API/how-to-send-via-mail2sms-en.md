@@ -69,7 +69,7 @@ Prepare a new email message from the email account set in above
 </tr>
 <tr>
 <td>Recipient</td>
-<td>819012345678@mailsms.xoxzo.com (See (1) below)</td>
+<td>819012345678@mail2sms.xoxzo.com (See (1) below)</td>
 </tr>
 <tr>
 <td>Subject</td>
