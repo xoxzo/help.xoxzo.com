@@ -13,7 +13,7 @@ Category: Xoxzo Cloud Telephony/SMS API
 
 2024年春、Androidスマートフォン向けに 3.14.3 バージョンがリリース予定です。<br>
 
-<table border="1">
+<table border="1" cellpadding="5">
   <tr>
     <th colspan="2">迷惑メッセージ対策強化</th>
   </tr>
