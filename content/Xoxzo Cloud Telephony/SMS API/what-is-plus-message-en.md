@@ -13,7 +13,7 @@ App Details can be found in the Carrier websites (in Japanese):　
 
 Version 3.14.3 will be released for Android smartphones in the spring of 2024.<br>
 
-<table border="1" cellpadding="5">
+<table border="1" cellpadding="8">
    <tr>
      <th colspan="2">Strengthening measures against spam messages</th>
    </tr>
