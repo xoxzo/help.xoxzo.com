@@ -9,7 +9,7 @@ Category: Xoxzo Cloud Telephony/SMS API
 ＋メッセージは、ドコモ、au、ソフトバンクの3社が共同開発した電話番号だけでやり取りができるメッセージアプリです。 写真や動画、スタンプなども送受信できる点が、従来の電話番号をあて先としてショートメッセージを送受信するSMS（ショートメッセージサービス）にはない大きな特徴となっています。
 
 各社案内ページ<br>
-[NTTドコモ](https://www.docomo.ne.jp/service/plus_message/about/)　/  [au (KDDI)](https://www.au.com/mobile/service/plus-message/)　/  [ソフトバンク](https://www.softbank.jp/mobile/service/plus-message/)
+[NTTドコモ](https://www.docomo.ne.jp/service/plus_message/about/)　/ [　au (KDDI)](https://www.au.com/mobile/service/plus-message/)　/  [　ソフトバンク](https://www.softbank.jp/mobile/service/plus-message/)
 
 2024年春、Androidスマートフォン向けに 3.14.3 バージョンがリリース予定です。<br>
 
@@ -20,10 +20,10 @@ Category: Xoxzo Cloud Telephony/SMS API
   <tr>
     <td>
       連絡先登録済みとそれ以外からのメッセージが、標準設定でそれぞれのタブに振り分けられます
-      <img src="/images/tub-separate.png" alt="tub-separate")
+      <img src="/images/tub-separate.png" alt="tub-separate" width="250px")>
     </td>
     <td>
-	URLリンクの誤タップ防止が強化されます <img src="/images/url-tap.png" alt="url-tap")
+	URLリンクの誤タップ防止が強化されます <img src="/images/url-tap.png" alt="url-tap" width="250px")>
     </td>
   </tr>
   <tr>
@@ -43,11 +43,11 @@ Category: Xoxzo Cloud Telephony/SMS API
 ※アップデートは、３月下旬以降、各社/各端末において順次行われる予定です。
 
 
-<small>参考資料（外部リンク）</small><br>
+<small>参考資料（外部リンク）<br>
 [携帯電話契約数](https://www.tca.or.jp/database/index.html)</br>
 [スマートフォン普及率](https://www.soumu.go.jp/johotsusintokei/whitepaper/ja/r04/html/nd238110.html)</br>
 [OSシェア率](https://mmdlabo.jp/investigation/detail_2288.html)</br>
 [+メ゙ッセージ利用者数](https://www.docomo.ne.jp/binary/pdf/info/news_release/topics_240206_00.pdf)
-
+</small>
 
  
