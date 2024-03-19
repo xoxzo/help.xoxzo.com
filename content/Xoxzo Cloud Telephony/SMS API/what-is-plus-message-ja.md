@@ -18,7 +18,7 @@ Category: Xoxzo Cloud Telephony/SMS API
     <th colspan="2">迷惑メッセージ対策強化</th>
   </tr>
   <tr>
-    <td>
+    <td width="50%">
       連絡先登録済みとそれ以外からのメッセージが、標準設定でそれぞれのタブに振り分けられます
       <img src="/images/tub-separate.png" alt="tub-separate" width="250px">
     </td>
@@ -30,7 +30,7 @@ Category: Xoxzo Cloud Telephony/SMS API
     <th colspan="2">その他</th>
   </tr>
   <tr>
-    <td>
+    <td width="50%">
 既読時の表示を「✓✓」から「既読✓✓」に変更します
     </td>
     <td>
