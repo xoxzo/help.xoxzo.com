@@ -18,7 +18,7 @@ Version 3.14.3 will be released for Android smartphones in the spring of 2024.<b
      <th colspan="2">Strengthening measures against spam messages</th>
    </tr>
    <tr>
-     <td>
+     <td width="50%">
        Messages from registered contacts and those from other contacts are sorted into separate tabs by default.
            <img src="/images/tub-separate.png" alt="tub-separate" width="250px">
      </td>
@@ -31,7 +31,7 @@ Enhanced prevention of accidental tapping of URL links
      <th colspan="2">Other</th>
    </tr>
    <tr>
-     <td>
+     <td width="50%">
 　　　　Change the display when read from "✓✓" to "read ✓✓"
      </td>
      <td>
