@@ -20,10 +20,10 @@ Category: Xoxzo Cloud Telephony/SMS API
   <tr>
     <td>
       連絡先登録済みとそれ以外からのメッセージが、標準設定でそれぞれのタブに振り分けられます
-      <img src="/images/tub-separate.png" alt="tub-separate" width="250px")>
+      <img src="/images/tub-separate.png" alt="tub-separate" width="250px">
     </td>
     <td>
-	URLリンクの誤タップ防止が強化されます <img src="/images/url-tap.png" alt="url-tap" width="250px")>
+	URLリンクの誤タップ防止が強化されます <img src="/images/url-tap.png" alt="url-tap" width="250px">
     </td>
   </tr>
   <tr>
