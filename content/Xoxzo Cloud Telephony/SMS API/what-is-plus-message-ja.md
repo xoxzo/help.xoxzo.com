@@ -4,6 +4,8 @@ Slug: what-is-plus-message
 Lang: ja
 Category: Xoxzo Cloud Telephony/SMS API
 
+はい、Xoxzo APIから送信したSMSメッセージを、+メッセージアプリで受信できます。
+
 ## +メッセージアプリって？
 
 ＋メッセージは、ドコモ、au、ソフトバンクの3社が共同開発した電話番号だけでやり取りができるメッセージアプリです。 写真や動画、スタンプなども送受信できる点が、従来の電話番号をあて先としてショートメッセージを送受信するSMS（ショートメッセージサービス）にはない大きな特徴となっています。
@@ -11,6 +13,8 @@ Category: Xoxzo Cloud Telephony/SMS API
 各社案内ページ<br>
 [NTTドコモ](https://www.docomo.ne.jp/service/plus_message/about/)　/ [　au (KDDI)](https://www.au.com/mobile/service/plus-message/)　/  [　ソフトバンク](https://www.softbank.jp/mobile/service/plus-message/)
 
+
+<hr>
 2024年春、Androidスマートフォン向けに 3.14.3 バージョンがリリース予定です。<br>
 
 <table border="1" cellpadding="8">
