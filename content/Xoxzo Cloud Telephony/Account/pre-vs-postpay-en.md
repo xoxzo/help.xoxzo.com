@@ -19,7 +19,7 @@ You may be concerned about not having enough balance in your account while setti
 
 ## How to become a postpay user
 Please contact help@xoxzo.com in case your site or system has more users so you need to use more of our APIs, as we understand that frequent purchases and large amount of prepayment points may cause you inconvenience. We have a postpay contract ready for corporate users.<br>
-Your account will be switched to postpay after the verification and the contract are set. If your account balance reaches zero, an invoice will be issued at the end of the month, which will have to be paid by the last day of the following month. This payment can only be made through bank deposits. <br>
+Your account will be switched to postpay after the verification and the contract are set. In case of postpay users, your account balance can go below zero, and an invoice will be issued at the end of the month, which will have to be paid by the last day of the following month. This payment can only be made through bank deposits. <br>
 <br>
 <hr>
 If your usage is small, it may be easier to pay by credit card as a prepayer, considering that there are bank fees for the postpay bank transfer. Please select the payment method that suits your usage, the table below may help you to find the differences. <br>
