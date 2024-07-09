@@ -28,34 +28,34 @@ Category: Xoxzo Cloud Telephony/Account
 
 <table border="1">
 <tr>
-    <td>　　</td>
-    <td>前払い</td>
-    <td>個別契約</td>
+    <th style="text-align:center; padding:10px">　　</td>
+    <th style="text-align:center; padding:10px">前払い</td>
+    <th style="text-align:center; padding:10px">個別契約</td>
 </tr>
 <tr>
-    <td>SMS送信単価</td>
-    <td>10円/SMS</td>
-    <td>10円/SMS</td>
+    <td style="padding:10px">SMS送信単価</td>
+    <td style="padding:10px">10円/SMS</td>
+    <td style="padding:10px">10円/SMS</td>
 </tr>
 <tr>
-    <td>購入</td>
-    <td>
+    <td style="padding:10px">購入</td>
+    <td style="padding:10px">
     オンラインにてクレジットカードによる前払い<br>
     1回の購入が10万円以上の場合、銀行振込受付
     </td>
-    <td>
+    <td style="padding:10px">
     請求書建て後払い<br>
     月末締め翌月末払い（銀行振込のみ）
     </td>
 </tr>
 <tr>
-    <td>Xoxzoクレジットの扱い</td>
-    <td>
+    <td style="padding:10px">Xoxzoクレジットの扱い</td>
+    <td style="padding:10px">
     - 1,000円単位で購入可<br>
     - 90日の有効期限有り<br>
     - 残高低下通知機能有り<br>
     </td>
-    <td>
+    <td style="padding:10px">
     アカウントの残高はご利用に応じてマイナス表示
     </td>
 </tr>
