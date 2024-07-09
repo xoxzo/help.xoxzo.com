@@ -5,23 +5,24 @@ Lang: en
 Category: Xoxzo Cloud Telephony/Account
 
 ## The default setting for Xoxzo Account is prepay
-The new accounts are set as parepay accounts at default.<br>
+The new accounts are set as prepay accounts at default.<br>
 Some test "Credits" are given to the account, so users can try our APIs with the test credits before paying for the additional "Credits" online with the credit cards 24 hours a day.<br>
 <br>
-<b>The prepay "Credits" have an expiry date. Please estimate your usage to purchase the "Credits" to be used within the 90 days of Credit Validity.</b>
+<b>The prepay "Credits" have a 90 days expiry date. Please estimate your usage to purchase the "Credits" so you can use them within the 90 days.
+Validity.</b>
 <br>
 <hr>
-It may be your concern that the shortage of the account balance, while you set our API in your system. We have a [Top Up Reminder](https://help.xoxzo.com/en/xoxzo-cloud-telephony/account/articles/top-up-reminder/) function that you can set the account balance to receive an alert email.<br>
-By setting a certain amount of credit, an email notification will be sent to alert you the possible insufficient credit balance in your account.
+You may be concerned about not having enough balance in your account while setting up our API in your system. We have a [Top Up Reminder](https://help.xoxzo.com/en/xoxzo-cloud-telephony/account/articles/top-up-reminder/) function so you can set an alert email to go out when your balance reaches a certain limit.<br>
+
 <hr>
 
 
-## How to become a postpayer
-Please contact help@xoxzo.com in case your site or system has more users that creates more usage of our APIs, as frequent purchase and large amount of prepayment may cause you feeling inconvenience. We have a postpay contract ready for the corporate users.<br>
-Your Account will be switched to postpay after the verification and contract are set. The account balance will go under zero as you use, an invoice will be issued at the end of the month to pay by the last day of the following month. This payment will be made only via the bank deposits.<br>
+## How to become a postpay user
+Please contact help@xoxzo.com in case your site or system has more users so you need to use more of our APIs, as we understand that frequent purchases and large amount of prepayment points may cause you inconvenience. We have a postpay contract ready for corporate users.<br>
+Your account will be switched to postpay after the verification and the contract are set. In case of postpay users, your account balance can go below zero, and an invoice will be issued at the end of the month, which will have to be paid by the last day of the following month. This payment can only be made through bank deposits. <br>
 <br>
 <hr>
-While your usage are small, it may be easier to pay by credit card as prepayer, putting bank fees for the postpay bank transfer in consideration. Please select the payment method that suit your usage, the below table may help you to find the differences. <br>
+If your usage is small, it may be easier to pay by credit card as a prepayer, considering that there are bank fees for the postpay bank transfer. Please select the payment method that suits your usage, the table below may help you to find the differences. <br>
 <hr>
 
 ## Prepay vs Postpay
@@ -45,7 +46,7 @@ While your usage are small, it may be easier to pay by credit card as prepayer, 
     </td>
     <td style="padding:10px">
     Invoices to pay later<br>
-    Usage of the month to be paid by the end of the following month (Bank Deposit)
+    Usage of that month to be paid by the end of the following month (Bank Deposit)
     </td>
 </tr>
 <tr>
