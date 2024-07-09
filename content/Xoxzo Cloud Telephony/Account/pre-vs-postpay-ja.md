@@ -11,8 +11,9 @@ Category: Xoxzo Cloud Telephony/Account
 <b>前払い購入できるクレジットには、有効期限があります。ご購入日から90日間で無効となりますので、ご購入の際は、ご利用見込み数をご購入いただけますようお願いいたします。</b>
 <br>
 <hr>
-システムから自動でSMS送信や音声APIをご利用いただいていると、アカウントのクレジット残高不足が心配です。アカウントにログインすると、[クレジット残高低下通知](https://help.xoxzo.com/ja/xoxzo-cloud-telephony/account/articles/top-up-reminder/)を設定できます。<br>
+システムから自動でSMS送信や音声APIをご利用いただいていると、アカウントのクレジット残高不足が心配です。アカウントにログインすると [クレジット残高低下通知を設定](https://help.xoxzo.com/ja/xoxzo-cloud-telephony/account/articles/top-up-reminder/) できます。<br>
 アカウント残高が、設定したクレジット数以下になると、アカウントにご登録のメールアドレス宛へ通知が送信されます。受領次第、トップアップを行うことができます。
+<hr>
 
 
 ## 請求書建て後払いを利用するには？
