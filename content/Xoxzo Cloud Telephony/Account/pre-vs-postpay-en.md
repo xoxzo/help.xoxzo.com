@@ -5,23 +5,23 @@ Lang: en
 Category: Xoxzo Cloud Telephony/Account
 
 ## The default setting for Xoxzo Account is prepay
-新規アカウント登録時、アカウントは前払いの設定になっています。<br>
-お試し送信用のクレジットが付与されていますので、テスト送信等行ったうえで、利用開始されたい場合に、24時間いつでもオンラインでクレジットカードを使って追加クレジットの購入が可能です。<br>
+The new accounts are set as parepay accounts at default.<br>
+Some test "Credits" are given to the account, so users can try our APIs with the test credits before paying for the additional "Credits" online with the credit cards 24 hours a day.<br>
 <br>
-<b>前払い購入できるクレジットには、有効期限があります。ご購入日から90日間で無効となりますので、ご購入の際は、ご利用見込み数をご購入いただけますようお願いいたします。</b>
+<b>The prepay "Credits" have an expiry date. Please estimate your usage to purchase the "Credits" to be used within the 90 days of Credit Validity.</b>
 <br>
 <hr>
-システムから自動でSMS送信や音声APIをご利用いただいていると、アカウントのクレジット残高不足が心配です。アカウントにログインすると、クレジット残高低下通知を設定できます。<br>
-アカウント残高が、設定したクレジット数以下になると、アカウントにご登録のメールアドレス宛へ通知が送信されます。受領次第、トップアップを行うことができます。
+It may be your concern that the shortage of the account balance, while you set our API in your system. We have a [Top Up Reminder](https://help.xoxzo.com/en/xoxzo-cloud-telephony/account/articles/top-up-reminder/) function that you can set the account balance to receive an alert email.<br>
+By setting a certain amount of credit, an email notification will be sent to alert you the possible insufficient credit balance in your account.
 <hr>
 
 
 ## How to become a postpayer
-運営するサイトや開発システムのユーザー増加等により、クレジットカードでの前払いにご不便を感じる場合、法人のユーザー様には個別契約をご用意しておりますので、help@xoxzo.com までご相談ください。<br>
-簡単な社内審査・ご契約の後、アカウントは後払いに切り替えることとなります。アカウント残高はご利用に応じてマイナスとなり、ひと月ごとに請求書が発行されますので、翌月末までに銀行振込にてお支払いください。<br>
+Please contact help@xoxzo.com in case your site or system has more users that creates more usage of our APIs, as frequent purchase and large amount of prepayment may cause you feeling inconvenience. We have a postpay contract ready for the corporate users.<br>
+Your Account will be switched to postpay after the verification and contract are set. The account balance will go under zero as you use, an invoice will be issued at the end of the month to pay by the last day of the following month. This payment will be made only via the bank deposits.<br>
 <br>
 <hr>
-ご利用が少額の場合、月々の銀行振込手数料等を考慮すると、クレジットカードによる前払いがより便利な場合もあります。下記、各支払い方法の違いを記載しておりますので、ご検討ください。
+While your usage are small, it may be easier to pay by credit card as prepayer, putting bank fees for the postpay bank transfer in consideration. Please select the payment method that suit your usage, the below table may help you to find the differences. <br>
 <hr>
 
 ## Prepay vs Postpay
@@ -29,34 +29,34 @@ Category: Xoxzo Cloud Telephony/Account
 <table>
 <th>
     <td>　　</td>
-    <td>前払い</td>
-    <td>個別契約</td>
+    <td>Prepay</td>
+    <td>Postpay</td>
 </th>
 <tr>
-    <td>SMS送信単価</td>
-    <td>10円/SMS</td>
-    <td>10円/SMS</td>
+    <td>SMS Sending Price</td>
+    <td>JPY 10/SMS (to Japan)</td>
+    <td>JPY 10/SMS (to Japan)</td>
 </tr>
 <tr>
-    <td>購入</td>
+    <td>Purchase</td>
     <td>
-    オンラインにてクレジットカードによる前払い<br>
-    1回の購入が10万円以上の場合、銀行振込受付
+    Credit Card Payment ONLINE<br>
+    Invoice for prepayment can be issued for the purchases more than JPY 100,000
     </td>
     <td>
-    請求書建て後払い<br>
-    月末締め翌月末払い（銀行振込のみ）
+    Invoices to pay later<br>
+    Usage of the month to be paid by the end of the following month (Bank Deposit)
     </td>
 </tr>
 <tr>
-    <td>Xoxzoクレジットの扱い</td>
+    <td>Xoxzo "Credits"</td>
     <td>
-    - 1,000円単位で購入可<br>
-    - 90日の有効期限有り<br>
-    - 残高低下通知機能有り<br>
+    - Purchase package of JPY 1,000<br>
+    - 90 days expiry period<br>
+    - Top Up reminder<br>
     </td>
     <td>
-    アカウントの残高はご利用に応じてマイナス表示
+    Account balance will be shown in negative numbers
     </td>
 </tr>
 </table>
