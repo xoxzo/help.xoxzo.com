@@ -26,36 +26,36 @@ While your usage are small, it may be easier to pay by credit card as prepayer, 
 
 ## Prepay vs Postpay
 
-<table>
-<th>
-    <td>　　</td>
-    <td>Prepay</td>
-    <td>Postpay</td>
+<table border="1">
+<tr>
+    <th style="text-align:center; padding:10px">　　</th>
+    <th style="text-align:center; padding:10px">Prepay</th>
+    <th style="text-align:center; padding:10px">Postpay</th>
 </th>
 <tr>
-    <td>SMS Sending Price</td>
-    <td>JPY 10/SMS (to Japan)</td>
-    <td>JPY 10/SMS (to Japan)</td>
+    <td style="padding:10px">SMS Sending Price</td>
+    <td style="padding:10px">JPY 10/SMS (to Japan)</td>
+    <td style="padding:10px">JPY 10/SMS (to Japan)</td>
 </tr>
 <tr>
-    <td>Purchase</td>
-    <td>
+    <td style="padding:10px">Purchase</td>
+    <td style="padding:10px">
     Credit Card Payment ONLINE<br>
     Invoice for prepayment can be issued for the purchases more than JPY 100,000
     </td>
-    <td>
+    <td style="padding:10px">
     Invoices to pay later<br>
     Usage of the month to be paid by the end of the following month (Bank Deposit)
     </td>
 </tr>
 <tr>
-    <td>Xoxzo "Credits"</td>
-    <td>
+    <td style="padding:10px">Xoxzo "Credits"</td>
+    <td style="padding:10px">
     - Purchase package of JPY 1,000<br>
     - 90 days expiry period<br>
     - Top Up reminder<br>
     </td>
-    <td>
+    <td style="padding:10px">
     Account balance will be shown in negative numbers
     </td>
 </tr>
