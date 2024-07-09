@@ -53,7 +53,7 @@ Category: Xoxzo Cloud Telephony/Account
     <td>
     - 1,000円単位で購入可<br>
     - 90日の有効期限有り<br>
-    - [残高低下通知機能](https://help.xoxzo.com/ja/xoxzo-cloud-telephony/account/articles/top-up-reminder/)有り<br>
+    - 残高低下通知機能有り<br>
     </td>
     <td>
     アカウントの残高はご利用に応じてマイナス表示
