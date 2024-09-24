@@ -1,4 +1,4 @@
-Title: ログのウェブダウンロード
+Title: 送信ログのウェブダウンロード
 Date: 2019-8-20
 Slug: web-log-download
 Lang: ja
