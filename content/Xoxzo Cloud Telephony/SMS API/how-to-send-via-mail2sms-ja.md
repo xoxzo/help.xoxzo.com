@@ -6,7 +6,7 @@ Category: Xoxzo Cloud Telephony/SMS API
 
 Mail2SMSは、簡単な初期設定を行うと、Eメールを使ってSMSの送信ができるシステムです。<br>
 <br>
-<img src="../../images/mailsms/mailsms_ja_04.png?ver=1" width="400">
+<img src="/images/mailsms/mailsms_ja_04.png" alt="system image" width="400">
 <br>
 <br>
 
