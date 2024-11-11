@@ -6,16 +6,16 @@ Category: Xoxzo Cloud Telephony/SMS API
 
 Mail2SMS is the system to send SMS when receiving email messages with a simple initial setting.<br>
 <br>
-<img src="../../images/mailsms/mailsms_en_04.png" width="400"><br>
+<img src="/images/mailsms/mailsms_en_04.png" alt="system-image" width="400px"><br>
 <br>
 
 ##Initial Setting
 1. Log in to your account and select Mail2SMS Users from the left side menu.<br>
-<img src="../../images/mailsms/mailsms_en_01.png" width="400"><br>
+<img src="/images/mailsms/mailsms_en_01.png" alt="process01" width="400px"><br>
 2. Click Add Mail2SMS User button at the top right<br> 
-<img src="../../images/mailsms/mailsms_en_02.png" width="400"><br>
+<img src="/images/mailsms/mailsms_en_02.png" alt="process02" width="400px"><br>
 3. Set each item on the screen and click the Create button<br>
-<img src="../../images/mailsms/mailsms_en_03.png" width="400"><br>
+<img src="/images/mailsms/mailsms_en_03.png" alt="process03" width="400px"><br>
 
 <table border="1" cellpadding="3">
 <tr>
