@@ -12,11 +12,11 @@ Mail2SMSは、簡単な初期設定を行うと、Eメールを使ってSMSの�
 
 ##初期設定
 1. アカウントにログインし、左側メニューより Mail2SMSユーザーを選ぶ<br>
-<img src="../../images/mailsms/mailsms_ja_01.png" width="400px"><br>
+<img src="/images/mailsms/mailsms_ja_01.png" alt="process01" width="400px"><br>
 2. 画面右上の Mail2SMSユーザ追加 ボタンをクリック<br>
-<img src="../../images/mailsms/mailsms_ja_02.png" width="400px"><br>
+<img src="/images/mailsms/mailsms_ja_02.png" alt="process02" width="400px"><br>
 3. 画面上の各項目を設定し、作成ボタンをクリック<br>
-<img src="../../images/mailsms/mailsms_ja_03.png" width="400px"><br>
+<img src="/images/mailsms/mailsms_ja_03.png" alt="process03" width="400px"><br>
 
 <table border="1" cellpadding="3">
 <tr>
