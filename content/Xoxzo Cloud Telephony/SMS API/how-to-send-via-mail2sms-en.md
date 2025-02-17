@@ -69,11 +69,11 @@ Prepare a new email message from the email account set in above
 </tr>
 <tr>
 <td>Recipient</td>
-<td>819012345678@mail2sms.xoxzo.com (See (1) below)</td>
+<td>mail2sms@xoxzo.com</td>
 </tr>
 <tr>
 <td>Subject</td>
-<td>Blank or write anything</td>
+<td>Phone number of the SMS recipient in E.164 format<br>ex 080-1234-5678(Japan) will be +818012345678</td>
 </tr>
 <tr>
 <td>Message Body</td>
@@ -82,8 +82,6 @@ The character limit for the text is the same as when sending standard SMS. See <
 </tr>
 </table>
 
-(1)</br>
-For the recipient's email address, please enter the SMS destination mobile phone number and @mail2sms.xoxzo.com without spaces. When entering the recipient's mobile phone number, please keep the following in mind:</br>
 
 <ul style="list-style-type:circle;">
   <li>Please use half-width + for the first character of the destination phone number.</li>

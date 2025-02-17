@@ -67,11 +67,11 @@ Mail2SMSは、簡単な初期設定を行うと、Eメールを使ってSMSの�
 </tr>
 <tr>
 <td>宛先</td>
-<td>819012345678@mail2sms.xoxzo.com (下記※1参照)</td>
+<td>mail2sms@xoxzo.com</td>
 </tr>
 <tr>
 <td>件名</td>
-<td>空白でも何か記入しても結構です</td>
+<td>SMS受信者の電話番号（E.164フォーマット）<br>例) 080-1234-5678(国内) の場合 +818012345678</td>
 </tr>
 <tr>
 <td>本文</td>
