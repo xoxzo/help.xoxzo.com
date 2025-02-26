@@ -6,7 +6,7 @@ Category: Xoxzo Cloud Telephony/SMS API
 
 Mail2SMS is the system to send SMS when receiving email messages with a simple initial setting.<br>
 <br>
-<img src="/images/mailsms/mailsms_en_04.png" alt="system-image" width="400px"><br>
+<img src="/images/mailsms/mailsms_en_042.png" alt="system-image" width="400px"><br>
 <br>
 
 ##Initial Setting
@@ -69,11 +69,11 @@ Prepare a new email message from the email account set in above
 </tr>
 <tr>
 <td>Recipient</td>
-<td>819012345678@mail2sms.xoxzo.com (See (1) below)</td>
+<td>mail2sms@xoxzo.com</td>
 </tr>
 <tr>
 <td>Subject</td>
-<td>Blank or write anything</td>
+<td>SMS recipient's phone number in E.164(See (1) below)</td>
 </tr>
 <tr>
 <td>Message Body</td>
@@ -83,7 +83,7 @@ The character limit for the text is the same as when sending standard SMS. See <
 </table>
 
 (1)</br>
-For the recipient's email address, please enter the SMS destination mobile phone number and @mail2sms.xoxzo.com without spaces. When entering the recipient's mobile phone number, please keep the following in mind:</br>
+When entering the recipient's mobile phone number, please keep the following in mind:</br>
 
 <ul style="list-style-type:circle;">
   <li>Please use half-width + for the first character of the destination phone number.</li>
@@ -93,7 +93,7 @@ For the recipient's email address, please enter the SMS destination mobile phone
 </ul>  
 Example) If the destination phone number is 080-1234-5678: Enter +818012345678.
 <br>
-If you register the address-book with the mail sending software you use, you can manage it by the name of the recipient and use it conveniently.
+
 
 **email mode** <br>
 In the case of text mode / HTML mixed mode, the text is sent as SMS text.
