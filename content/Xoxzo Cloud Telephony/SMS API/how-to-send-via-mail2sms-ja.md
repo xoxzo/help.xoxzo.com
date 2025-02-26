@@ -6,7 +6,7 @@ Category: Xoxzo Cloud Telephony/SMS API
 
 Mail2SMSは、簡単な初期設定を行うと、Eメールを使ってSMSの送信ができるシステムです。<br>
 <br>
-<img src="/images/mailsms/mailsms_ja_04.png" alt="system image" width="400px">
+<img src="/images/mailsms/mailsms_ja_042.png" alt="system image" width="400px">
 <br>
 <br>
 
@@ -67,11 +67,11 @@ Mail2SMSは、簡単な初期設定を行うと、Eメールを使ってSMSの�
 </tr>
 <tr>
 <td>宛先</td>
-<td>819012345678@mail2sms.xoxzo.com (下記※1参照)</td>
+<td>mail2sms@xoxzo.com</td>
 </tr>
 <tr>
 <td>件名</td>
-<td>空白でも何か記入しても結構です</td>
+<td>SMS送信先電話番号（E.164に準拠したフォーマット (下記※1参照)）</td>
 </tr>
 <tr>
 <td>本文</td>
@@ -82,7 +82,7 @@ Mail2SMSは、簡単な初期設定を行うと、Eメールを使ってSMSの�
 </table>
 
 ※1
-宛先のメールアドレスは、SMSの送信先携帯電話番号と @mail2sms.xoxzo.com をスペースを開けずに入力してください。送信先の携帯電話番号を入力する際は、次のことにご留意ください。
+送信先の携帯電話番号を入力する際は、次のことにご留意ください。
 <ul style="list-style-type:circle;">
 <li>宛先電話番号の最初の文字は、半角の + としてください。</li>
 <li>日本国内への送信には、国番号 81 を続けてください。</li>
@@ -90,8 +90,7 @@ Mail2SMSは、簡単な初期設定を行うと、Eメールを使ってSMSの�
 <li>宛先電話番号は、13桁になります。それより長くても短くても、エラーとなりますのでご注意ください。</li>
 </ul>
 例）宛先の電話番号が 080-1234-5678 の場合 : 入力は、+818012345678 としてください。
-<br>
-ご利用のメール送信ソフトにて、宛先を登録しておくと、送信先のお名前で管理が可能となり便利にお使いいただけます。
+
 <br>
 <br>
 **メールのモード** <br>
