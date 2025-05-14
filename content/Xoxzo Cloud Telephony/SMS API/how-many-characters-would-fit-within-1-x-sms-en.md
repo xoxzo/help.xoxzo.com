@@ -14,6 +14,10 @@ The [GSM](https://en.wikipedia.org/wiki/Short_Message_Service) standard specifie
 ## Up to 660 characters on Xoxzo SMS APIs
 Xoxzo's SMSAPI accepts 660 characters per request (since 2025/04)<br>
 
+<img src="/images/longsms-en.png" alt="longsms" width="400px"><br>
+<br>
+Please refer to the table below for the details how your messages will be split while being sent and charged.
+</br>
 <table>
   <tr>
     <th>SMS Part Count</th>
