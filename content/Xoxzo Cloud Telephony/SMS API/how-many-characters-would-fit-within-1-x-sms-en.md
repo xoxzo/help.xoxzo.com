@@ -10,8 +10,54 @@ The [GSM](https://en.wikipedia.org/wiki/Short_Message_Service) standard specifie
 
 * For messages that contain even a single character other than the ASCII character set, such as Japanese kanji, the maximum length is 70 characters.
 
-* Please note that a request with over-limit text will return **Message too long**.
 
+## Up to 660 characters on Xoxzo SMS APIs
+Xoxzo's SMSAPI accepts 660 characters per request (since 2025/04)<br>
+
+<table>
+  <tr>
+    <th>SMS Part Count</th>
+    <th>1</th>
+    <th>2</th>
+    <th>3</th>
+    <th>4</th>
+    <th>5</th>
+    <th>6</th>
+    <th>7</th>
+    <th>8</th>
+    <th>9</th>
+    <th>10</th>
+  </tr>
+  <tr>
+    <td>double byte</td>
+    <td>70</td>
+    <td>132</td>
+    <td>198</td>
+    <td>264</td>
+    <td>330</td>
+    <td>396</td>
+    <td>462</td>
+    <td>528</td>
+    <td>594</td>
+    <td>660</td>
+  </tr>
+  <tr>
+    <td>single byte</td>
+    <td>140</td>
+    <td>264</td>
+    <td>396</td>
+    <td>528</td>
+    <td>660</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+</table>
+<br>
+
+* Please note that a request with over-limit text will return **Message too long**.
 
 ## Manage your message wise
 You have to be careful when you send **message text in English**.
