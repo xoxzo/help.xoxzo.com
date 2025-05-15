@@ -62,6 +62,51 @@ XoxzoのSMS送信APIによる長文SMSの分割送信、課金についての詳
 </table>
 これ以上の長さのテキストを送信されますと、 **Message too long**、というエラーが返されますことをご了承ください。
 
+## SMS通数チェッカー
+
+送信したいメッセージが準備できている場合、下にメッセージを入力してください。<br>
+SMS何通分になるかを、簡易自動計算します。
+<textarea id="smsInput" rows="4" cols="50" placeholder="ここにメッセージを入力..." oninput="calculateSMS()"></textarea>
+
+<p id="smsResult" style="font-weight:bold; margin-top:10px;"></p>
+
+<script>
+  function calculateSMS() {
+    const input = document.getElementById('smsInput').value;
+    const result = document.getElementById('smsResult');
+
+    const isASCII = /^[\x00-\x7F]*$/.test(input); // ASCIIだけかを判定
+    const length = input.length;
+
+    if (length === 0) {
+      result.innerText = '';
+      return;
+    }
+
+    if (isASCII) {
+      if (length <= 140) result.innerText = `SMSは 1 通で送信されます（ASCII文字）`;
+      else if (length <= 264) result.innerText = `SMSは 2 通で送信されます（ASCII文字）`;
+      else if (length <= 396) result.innerText = `SMSは 3 通で送信されます（ASCII文字）`;
+      else if (length <= 528) result.innerText = `SMSは 4 通で送信されます（ASCII文字）`;
+      else if (length <= 660) result.innerText = `SMSは 5 通で送信されます（ASCII文字）`;
+      else result.innerText = `SMSの文字数上限を超えています（ASCIIは最大660文字まで）`;
+    } else {
+      if (length <= 70) result.innerText = `SMSは 1 通で送信されます（日本語）`;
+      else if (length <= 132) result.innerText = `SMSは 2 通で送信されます（日本語）`;
+      else if (length <= 198) result.innerText = `SMSは 3 通で送信されます（日本語）`;
+      else if (length <= 264) result.innerText = `SMSは 4 通で送信されます（日本語）`;
+      else if (length <= 330) result.innerText = `SMSは 5 通で送信されます（日本語）`;
+      else if (length <= 396) result.innerText = `SMSは 6 通で送信されます（日本語）`;
+      else if (length <= 462) result.innerText = `SMSは 7 通で送信されます（日本語）`;
+      else if (length <= 528) result.innerText = `SMSは 8 通で送信されます（日本語）`;
+      else if (length <= 594) result.innerText = `SMSは 9 通で送信されます（日本語）`;
+      else if (length <= 660) result.innerText = `SMSは 10 通で送信されます（日本語）`;
+      else result.innerText = `SMSの文字数上限を超えています（日本語は最大660文字まで）`;
+    }
+  }
+</script>
+
+
 ## 本文の文字数を管理して、SMS送信料金を節約
 送信内容を理解しやすく、しかも魅力的に作るのも大切なことですが、実際の送信には、文字数制限がかかってしまいます。
 
