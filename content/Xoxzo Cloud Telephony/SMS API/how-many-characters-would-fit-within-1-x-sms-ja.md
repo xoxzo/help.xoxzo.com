@@ -62,11 +62,11 @@ XoxzoのSMS送信APIによる長文SMSの分割送信、課金についての詳
 </table>
 これ以上の長さのテキストを送信されますと、 **Message too long**、というエラーが返されますことをご了承ください。
 
-## SMS通数チェッカー
+## <h2 id="sms-checker">SMS通数チェッカー</h2>
 
 送信したいメッセージが準備できている場合、下にメッセージを入力してください。<br>
 SMS何通分になるかを、簡易自動計算します。参考までに、お使いください。
-<textarea id="smsInput" rows="4" cols="50" placeholder="ここにメッセージを入力..." oninput="calculateSMS()" width="600"></textarea>
+<textarea id="smsInput" rows="4" cols="50" placeholder="ここにメッセージを入力..." oninput="calculateSMS()" style="width:600px;"></textarea>
 
 <p id="smsResult" style="font-weight:bold; margin-top:10px;"></p>
 

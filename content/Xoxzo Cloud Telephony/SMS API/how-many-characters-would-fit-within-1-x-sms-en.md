@@ -62,9 +62,9 @@ Please refer to the table below for the details how your messages will be split 
 
 * Please note that a request with over-limit text will return **Message too long**.
 
-## SMS Message Counter
+<h2 id="sms-checker">SMS Message Counter</h2>
 <p>If your message is ready, enter it below to pre-check how many SMS will be sent:</p>
-<textarea id="smsInput" rows="4" cols="50" placeholder="Type your message here..." oninput="calculateSMS()" width="600"></textarea>
+<textarea id="smsInput" rows="4" cols="50" placeholder="Type your message here..." oninput="calculateSMS()" style="width:600px;"></textarea>
 
 <p id="smsResult" style="font-weight:bold; margin-top:10px;"></p>
 
