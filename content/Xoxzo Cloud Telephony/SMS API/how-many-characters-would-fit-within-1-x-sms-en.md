@@ -104,13 +104,4 @@ Please refer to the table below for the details how your messages will be split 
   }
 </script>
 
-
-## Manage your message wise
-You have to be careful when you send **message text in English**.
-Even if only one non-ASCII character is mixed into the text, the whole message will be regarded as **non-ASCII message** and the 160 ASCII-character limit will now be a NON-ASCII character limit of 70, and your request will get an error.
-
-## How do you check if your message is genuine ASCII?
-There are various ways to check, such as [this](https://pteo.paranoiaworks.mobi/diacriticsremover/) to check easily online.
-
-**Do test-sending that will be the best**
-Please do test-sending, before you start the bulk message sendings.
+While crafting clear and compelling messages is important, keep in mind that SMS charges are based on message length. By managing your character count carefully, you can reduce costs and ensure your SMS campaigns deliver the best possible performance.
