@@ -14,12 +14,12 @@ Category: Xoxzo Cloud Telephony/SMS API
 ## Xoxzoでは、一度のリクエストにて660文字まで対応
 XoxzoのSMS送信APIでは、一度に660文字までのメッセージが送信できます（2025年4月より）。<br>
 
-<img src="/images/longsms-ja.png" alt="longsms" width="400px"><br>
+<img src="/images/longsms-ja.png" alt="longsms" width="600px"><br>
 <br>
 XoxzoのSMS送信APIによる長文SMSの分割送信、課金についての詳細は、下記をご参照ください。
 </br>
 
-<table>
+<table width="550px" border="0px" cellspacing="1" cellpadding="0"　style="text-align:center">
   <tr>
     <th>SMSの通数</th>
     <th>1</th>

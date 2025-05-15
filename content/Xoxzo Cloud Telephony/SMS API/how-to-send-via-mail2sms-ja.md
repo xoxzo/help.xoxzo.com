@@ -77,7 +77,7 @@ Mail2SMSは、簡単な初期設定を行うと、Eメールを使ってSMSの�
 <td>本文</td>
 <td>送信するSMSの本文</br>
 ※本文の文字数制限は、通常のSMS送信時と同様です。</br>
-<a href="https://help.xoxzo.com/ja/xoxzo-cloud-telephony/sms-api/articles/how-many-characters-would-fit-within-1-x-sms/">詳しくはこちらをご参照ください</a></td>
+<a href="https://help.xoxzo.com/ja/xoxzo-cloud-telephony/sms-api/articles/how-many-characters-would-fit-within-1-x-sms/"><small>詳しくはこちらをご参照ください</small></a></td>
 </tr>
 </table>
 
