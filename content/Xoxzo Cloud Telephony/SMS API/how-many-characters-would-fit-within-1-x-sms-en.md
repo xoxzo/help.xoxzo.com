@@ -14,11 +14,11 @@ The [GSM](https://en.wikipedia.org/wiki/Short_Message_Service) standard specifie
 ## Up to 660 characters on Xoxzo SMS APIs
 Xoxzo's SMSAPI accepts 660 characters per request (since 2025/04)<br>
 
-<img src="/images/longsms-en.png" alt="longsms" width="400px"><br>
+<img src="/images/longsms-en.png" alt="longsms" width="600px"><br>
 <br>
 Please refer to the table below for the details how your messages will be split while being sent and charged.
 </br>
-<table>
+<table border="1" cellspacing="1" cellpadding="7" style="text-align:center" style="border-collapse:collapse">
   <tr>
     <th>SMS Part Count</th>
     <th>1</th>
@@ -59,9 +59,51 @@ Please refer to the table below for the details how your messages will be split 
     <td>-</td>
   </tr>
 </table>
-<br>
 
 * Please note that a request with over-limit text will return **Message too long**.
+
+## SMS Message Counter
+<p>If your message is ready, enter it below to pre-check how many SMS will be sent:</p>
+<textarea id="smsInput" rows="4" cols="50" placeholder="Type your message here..." oninput="calculateSMS()" width="600"></textarea>
+
+<p id="smsResult" style="font-weight:bold; margin-top:10px;"></p>
+
+<script>
+  function calculateSMS() {
+    const input = document.getElementById('smsInput').value;
+    const result = document.getElementById('smsResult');
+
+    const isASCII = /^[\x00-\x7F]*$/.test(input); // Check if it's only ASCII
+    const length = input.length;
+
+    if (length === 0) {
+      result.innerText = '';
+      return;
+    }
+
+    if (isASCII) {
+      if (length <= 140) result.innerText = `Detected ${length} ASCII characters. This will be sent as 1 SMS.`;
+      else if (length <= 264) result.innerText = `Detected ${length} ASCII characters. This will be sent as 2 SMS.`;
+      else if (length <= 396) result.innerText = `Detected ${length} ASCII characters. This will be sent as 3 SMS.`;
+      else if (length <= 528) result.innerText = `Detected ${length} ASCII characters. This will be sent as 4 SMS.`;
+      else if (length <= 660) result.innerText = `Detected ${length} ASCII characters. This will be sent as 5 SMS.`;
+      else result.innerText = `The message exceeds the SMS character limit (maximum 660 ASCII characters).`;
+    } else {
+      if (length <= 70) result.innerText = `Detected ${length} Japanese (multi-byte) characters. This will be sent as 1 SMS.`;
+      else if (length <= 132) result.innerText = `Detected ${length} Japanese characters. This will be sent as 2 SMS.`;
+      else if (length <= 198) result.innerText = `Detected ${length} Japanese characters. This will be sent as 3 SMS.`;
+      else if (length <= 264) result.innerText = `Detected ${length} Japanese characters. This will be sent as 4 SMS.`;
+      else if (length <= 330) result.innerText = `Detected ${length} Japanese characters. This will be sent as 5 SMS.`;
+      else if (length <= 396) result.innerText = `Detected ${length} Japanese characters. This will be sent as 6 SMS.`;
+      else if (length <= 462) result.innerText = `Detected ${length} Japanese characters. This will be sent as 7 SMS.`;
+      else if (length <= 528) result.innerText = `Detected ${length} Japanese characters. This will be sent as 8 SMS.`;
+      else if (length <= 594) result.innerText = `Detected ${length} Japanese characters. This will be sent as 9 SMS.`;
+      else if (length <= 660) result.innerText = `Detected ${length} Japanese characters. This will be sent as 10 SMS.`;
+      else result.innerText = `The message exceeds the SMS character limit (maximum 660 Japanese characters).`;
+    }
+  }
+</script>
+
 
 ## Manage your message wise
 You have to be careful when you send **message text in English**.
