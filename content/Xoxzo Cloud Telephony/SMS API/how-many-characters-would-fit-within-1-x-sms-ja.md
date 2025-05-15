@@ -19,7 +19,7 @@ XoxzoのSMS送信APIでは、一度に660文字までのメッセージが送信
 XoxzoのSMS送信APIによる長文SMSの分割送信、課金についての詳細は、下記をご参照ください。
 </br>
 
-<table width="550" border="1px" cellspacing="1" cellpadding="5" style="text-align:center" style="border-collapse:collapse">
+<table border="1" cellspacing="1" cellpadding="7" style="text-align:center" style="border-collapse:collapse">
   <tr>
     <th>SMSの通数</th>
     <th>1</th>
@@ -47,7 +47,7 @@ XoxzoのSMS送信APIによる長文SMSの分割送信、課金についての詳
     <td>660</td>
   </tr>
   <tr>
-    <td>ASCII文字（シングルバイト）</td>
+    <td>ASCII文字<br>（シングルバイト）</td>
     <td>140</td>
     <td>264</td>
     <td>396</td>
@@ -60,7 +60,6 @@ XoxzoのSMS送信APIによる長文SMSの分割送信、課金についての詳
     <td>-</td>
   </tr>
 </table>
-<br>
 これ以上の長さのテキストを送信されますと、 **Message too long**、というエラーが返されますことをご了承ください。
 
 ## 本文の文字数を管理して、SMS送信料金を節約
