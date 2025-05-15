@@ -19,9 +19,9 @@ XoxzoのSMS送信APIでは、一度に660文字までのメッセージが送信
 XoxzoのSMS送信APIによる長文SMSの分割送信、課金についての詳細は、下記をご参照ください。
 </br>
 
-<table width="550" border="1" cellspacing="1" cellpadding="5" style="text-align:center" style="border-collapse:collapse">
+<table width="550" border="1px" cellspacing="1" cellpadding="5" style="text-align:center" style="border-collapse:collapse">
   <tr>
-    <th width="30%">SMSの通数</th>
+    <th>SMSの通数</th>
     <th>1</th>
     <th>2</th>
     <th>3</th>
