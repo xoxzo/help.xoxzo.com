@@ -12,12 +12,12 @@ The **Action URL** feature is an intuitive, browser-based interface that allows 
 
 ## Overview
 
-- Log in to your account and access the Action menu
-- Configure actions for the following conditions:
+Log in to your account and access the Action menu
+Configure actions for the following conditions:
   1. During active time
   2. Outside active time
   3. When the caller has a hidden (anonymous) number
-- Action options include:
+Action options include:
   - TTS (Text-to-Speech) playback
   - MP3 file playback
   - Call forwarding
@@ -28,32 +28,32 @@ The **Action URL** feature is an intuitive, browser-based interface that allows 
 ## How to Set Up
 
 1. **Log in to your account**
-   - Visit [Sign in page](https://www.xoxzo.com/en/accounts/login/) and sign in.
+   Visit [Sign in page](https://www.xoxzo.com/en/accounts/login/) and sign in.
 
 2. **Access the Action menu**
-   - From the dashboard, select the menu **Action URL** and click **Add Action** button.
+   From the dashboard, select the menu **Action URL** and click **Add Action** button.
 
 3. **Configure your actions**
-   - Define up to 3 sets of actions:
+   Define up to 3 sets of actions:
      - During active time
      - Outside active time
      - When caller is anonymous
-   - Up to 2 actions can be set to each set of actions.
+   Up to 2 actions can be set to each set of actions.
       - i.e. Answer the call with "say" then "transfer"
 
 4. **Set your active time schedule**
-   - By default, only "outside active time" exists.
-   - Add your business hours or custom time ranges as active times.
+   By default, only "outside active time" exists.
+   Add your business hours or custom time ranges as active times.
      - Example: 9:00–12:00 and 13:00–17:00
      - You can define different active hours for each weekday.
      - You can also specify special dates (e.g., holidays), which will override recurring rules.
 
 5. **Save and get your Action URL**
-   - Once your actions and schedule are configured, copy the URL.
+   Once your actions and schedule are configured, copy the URL.
 
 6. **Attach the Action URL to your DIN**
-   - Use the API to associate the Action URL with your Dial-In Number.
-   - See [this documentation](https://docs.xoxzo.com/en/din#attach-an-action-to-the-dial-in-number-via-api) for details.
+   Use the API to associate the Action URL with your Dial-In Number.
+   See [this documentation](https://docs.xoxzo.com/en/din#attach-an-action-to-the-dial-in-number-via-api) for details.
 
 ---
 
@@ -91,5 +91,5 @@ If you have any questions, feel free to reach out to us:
 
 ## Related Links
 
-- [Overview of Dial-In Numbers and Actions](https://docs.xoxzo.com/ja/din#what-are-actions)
-- [How to Attach Actions to DIN via API](https://docs.xoxzo.com/ja/din#attach-an-action-to-the-dial-in-number-via-api)
+- [Overview of Dial-In Numbers and Actions](https://docs.xoxzo.com/en/din#what-are-actions)
+- [How to Attach Actions to DIN via API](https://docs.xoxzo.com/en/din#attach-an-action-to-the-dial-in-number-via-api)
