@@ -63,7 +63,7 @@ When a call comes in, the system refers to your active schedule and triggers the
 You can also visit the Action URL directly from the dashboard to check the current behavior.
 
 📌 *Example call flow image below:*  
-![Call Flow Diagram](Insert-your-image-URL-here)
+![Call Flow Diagram](/content/images/action-url-flow-en.jpg)
 
 ---
 
