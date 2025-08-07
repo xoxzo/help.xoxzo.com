@@ -40,9 +40,10 @@ Action options include:
      - When caller is anonymous
    Up to 2 actions can be set to each set of actions.
       - i.e. Answer the call with "say" then "transfer"
+      - Add each action in new line
 
 4. **Set your active time schedule**
-   By default, only "outside active time" exists.
+   By default, only "outside active time" exists. For holidays like Saturday or Sunday, users don't have to add active hours, as by default, they will be considered inactive hours. 
    Add your business hours or custom time ranges as active times.
      - Example: 9:00–12:00 and 13:00–17:00
      - You can define different active hours for each weekday.
@@ -60,7 +61,7 @@ Action options include:
 ## How It Works
 
 When a call comes in, the system refers to your active schedule and triggers the corresponding action you’ve set.  
-You can also visit the Action URL directly from the dashboard to check the current behavior.
+You can also visit the Action URL directly from the dashboard to check the current behavior. By default the URL will provide an action for anonymous caller. To check active and inactive hours actions add **caller** query parameter ```<action_url>?caller=<valid_phonenumber>```
 
 📌 *Example call flow image below:*  
 ![Call Flow Diagram](/content/images/action-url-flow-en.jpg)
