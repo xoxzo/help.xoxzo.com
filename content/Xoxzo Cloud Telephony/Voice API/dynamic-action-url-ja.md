@@ -57,7 +57,7 @@ Category:　Xoxzo Cloud Telephony/Voice API
 
 ※ 入電時のフローイメージは以下の図をご覧ください：
 
-![入電時フロー図](画像URLをここに挿入)
+![入電時フロー図](/content/images/action-url-flow-ja.jpg)
 
 ---
 
