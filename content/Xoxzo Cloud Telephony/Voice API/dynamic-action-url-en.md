@@ -61,7 +61,7 @@ Action options include:
 ## How It Works
 
 When a call comes in, the system refers to your active schedule and triggers the corresponding action you’ve set.  
-You can also visit the Action URL directly from the dashboard to check the current behavior. By default the URL will provide a action for anonymous caller to check active and inactive actions attached <action-url>?caller=<valid_phonenumber>
+You can also visit the Action URL directly from the dashboard to check the current behavior. By default the URL will provide an action for anonymous caller. To check active and inactive hours actions add **caller** query parameter ```<action_url>?caller=<valid_phonenumber>```
 
 📌 *Example call flow image below:*  
 ![Call Flow Diagram](Insert-your-image-URL-here)
