@@ -67,14 +67,14 @@ Category:　Xoxzo Cloud Telephony/Voice API
 
 ※ 入電時のフローイメージは以下の図をご覧ください：
 
-![入電時フロー図](/content/images/action-url-flow-ja.jpg)
+![入電時フロー図](/images/action-url-flow-ja.jpg)
 
 ---
 
 ## 主な特徴
 
-- ✅ **ブラウザで簡単に視覚的設定が可能**
-- ✅ **時間帯ごとに最大2つまでのアクション設定が可能**
+- **ブラウザで簡単に視覚的設定が可能**
+- **時間帯ごとに最大2つまでのアクション設定が可能**
   - ※API経由では1つのアクションのみの設定に制限されています
 
 ---
@@ -90,7 +90,7 @@ Category:　Xoxzo Cloud Telephony/Voice API
 
 ご不明な点がございましたら、お気軽に以下までお問い合わせください：
 
-📧 **help@xoxzo.com**
+**help@xoxzo.com**
 
 ---
 
