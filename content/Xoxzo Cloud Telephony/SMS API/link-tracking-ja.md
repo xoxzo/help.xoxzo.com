@@ -70,3 +70,6 @@ Category: Xoxzo Cloud Telephony/SMS API
 **独自の短縮URLは、送信後90日にて無効となりますので、ご注意ください**
 
 詳しくは、[ドキュメンテーション](https://docs.xoxzo.com/ja/sms.html#send-sms-messages-api)を参照してください。
+
+👉 実際に取得したクリックデータを分析する方法については、Googleスプレッドシートを使った解説ページ
+ をご覧ください。

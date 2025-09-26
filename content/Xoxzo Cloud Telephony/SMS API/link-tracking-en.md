@@ -67,3 +67,6 @@ Via [Check SMS status API](), you will find:<br>
 **Please note that the private shortened links will be expired after 90 days**
 
 Please refer [Documentation](https://docs.xoxzo.com/en/sms.html#send-sms-messages-api)for further details.
+
+👉 To learn how to analyze the click data with Google Sheets, see our step-by-step guide here
+.
