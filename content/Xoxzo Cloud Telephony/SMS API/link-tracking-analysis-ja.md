@@ -1,5 +1,5 @@
 Title: track_link 分析方法
-Date: 2025−09−30
+Date: 2025−09−25
 Slug: link-tracking-analysis
 Lang: ja
 Category: Xoxzo Cloud Telephony/SMS API
@@ -155,8 +155,8 @@ fetchSentMessagesNow を実行して直近7日分を取得
 
 グラフ機能を使えばクリック率などを可視化できます
 
-5. 次のステップ
+5. 次のステップ (参考)
 
-グラフの例（棒グラフ・折れ線グラフ）を紹介
+グラフ化する（[Googleのヘルプページ](https://support.google.com/docs/answer/63824?sjid=13852645428122361386-NC)）
 
-必要に応じて毎時自動更新トリガーを追加
+指定した時刻に自動更新トリガーを設定する（「Googleのヘルプページ」(https://developers.google.com/apps-script/guides/triggers/installable?hl=ja)）
