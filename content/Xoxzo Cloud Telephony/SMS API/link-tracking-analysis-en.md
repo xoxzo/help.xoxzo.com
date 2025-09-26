@@ -1,5 +1,5 @@
 Title: How to Analyze track_link Results – Easily with Google Sheets
-Date: 2025−09−30
+Date: 2025−09−25
 Slug: link-tracking-analysis
 Lang: en
 Category: Xoxzo Cloud Telephony/SMS API
