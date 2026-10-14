@@ -30,15 +30,14 @@ jobs:
 
       - name: Build site
         env:
-          CONTEXT: staging
-          DEPLOY_URL: https://xoxzo.github.io/help.xoxzo.com
+          CONTEXT: production
         run: |
           pip install --upgrade pip
           pip install -r requirements.txt
           git clone --single-branch --branch fix-articles_page-undefined --depth 1 https://github.com/xoxzo/pelican-plugins.git plugins
           make compile_translation
           pelican content -o output -s publishconf.py
-          # echo "help.xoxzo.com" > output/CNAME
+          echo "help.xoxzo.com" > output/CNAME
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
