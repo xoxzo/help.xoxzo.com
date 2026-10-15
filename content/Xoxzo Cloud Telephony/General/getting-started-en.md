@@ -12,7 +12,7 @@ Xoxzo is not meant for the general public usage. If you do not know how to write
 
 ### 1.  First, create and API User
 
-You will need to have an API User, which can be created from your Profile Page after logging in. 
+You will need to have an API User, which can be created from your API User Page after logging in. 
 
 ### 2.  Next, user the API User's API SID and Auth Token to access the APIs
 
